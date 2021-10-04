@@ -1,0 +1,65 @@
+eev_is_general_planet = {
+	OR = {
+		habitable_planet = yes
+		eev_is_uninhabitable = yes
+	}
+}
+
+eev_is_desertic = {
+	OR = {
+		is_planet_class = pc_barren
+		is_planet_class = pc_desert
+		# Planetary Diversity
+		is_planet_class = pc_sandsea
+		is_planet_class = pc_oasis
+	}
+}
+
+eev_is_frozen = {
+	OR = {
+		is_planet_class = pc_frozen
+		# Planetary Diversity
+		is_planet_class = pc_antarctic
+		is_planet_class = pc_snow
+		is_planet_class = pc_glacio
+	}
+}
+
+eev_is_gas_giant = {
+	OR = {
+		is_planet_class = pc_gas_giant
+		# Planetary Diversity
+		is_planet_class = pc_hot_gas_giant
+		is_planet_class = pc_cloudless_gas_giant
+		is_planet_class = pc_cold_gas_giant
+	}
+}
+
+eev_is_scientist_cautious = {
+	OR = {
+		has_trait = leader_trait_paranoid
+		has_trait = leader_trait_roamer
+		has_trait = leader_trait_scientist_chosen
+		has_trait = leader_trait_expertise_particles
+		has_trait = leader_trait_curator
+		has_trait = leader_trait_cataloger
+	}
+}
+
+eev_is_heavy_metal = {
+	OR = {
+		is_mechanical_empire = yes
+		is_robot_empire = yes
+	}
+}
+
+eev_is_uninhabitable = {
+	OR = {
+		uninhabitable_regular_planet = yes
+		# Planetary Diversity
+		is_planet_class = pc_rogue
+		is_planet_class = pc_eyeball
+		is_planet_class = pc_diamond
+		is_planet_class = pc_chthonian
+	}
+}

@@ -8,11 +8,6 @@ event = {
 	trigger = { NOT = { has_global_flag = has_extra_events } }
 	
 	immediate = {
-		if = {
-			limit = {
-				NOT =  { has_global_flag = has_extra_events }
-			}
-			set_global_flag = has_extra_events
-		}
+		set_global_flag = has_extra_events
 	}
 }

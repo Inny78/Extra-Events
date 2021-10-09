@@ -499,13 +499,17 @@ frozen_civilization_category = {
 
 # Supernova
 supernova_category = {
-	desc = "supernova_category_desc"		
+	desc = "supernova_category_desc"
 	picture = GFX_evt_ship_in_orbit
-	level = 3				
-	spawn_chance = {			
+	max_once_global = yes
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			is_planet_class = pc_a_star
+			is_binary_star = no
+			is_trinary_star = no
+			eev_is_valid_system = yes
 		}
 	}
 	on_success = {
@@ -545,11 +549,13 @@ boom_asteroid_category = {
 unstable_gas_category = {
 	desc = "unstable_gas_category_desc"		
 	picture = GFX_evt_ship_in_orbit 	
+	max_once_global = yes
 	level = 4				
 	spawn_chance = {			
 		modifier = {
 			add = 1
 			eev_is_gas_giant = yes
+			eev_is_valid_system = yes
 			from.fleet.leader = { eev_is_scientist_cautious = no }
 		}
 	}
@@ -575,4 +581,45 @@ murder_category = {
 		}
 	}
 	on_success = murder_event.1
+}
+
+# Energy Vortex
+eev_houston_category = {
+	desc = eev_houston_category_desc
+	picture = GFX_evt_ship_in_orbit
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_uninhabitable = yes
+			from.fleet.leader = { eev_is_scientist_cautious = no }
+			from.owner = {
+				is_gestalt = no
+			}
+		}	
+	}
+	on_success = eev_houston.1
+}
+
+# Unexpected Tower
+eev_tower_city_category = {
+	desc = eev_tower_city_category_desc
+	picture = GFX_evt_gas_giant
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			solar_system = {
+				any_system_planet = {
+					NOT = { exists = archaeological_site }
+				}
+			}
+			OR = {
+				is_planet_class = pc_gas_giant
+				# Planetary Diversity
+				is_planet_class = pc_cloudless_gas_giant
+			}
+		}
+	}
+	on_success = eev_tower_city.1
 }

@@ -14,7 +14,7 @@ ship_event = {
 	desc = space_knights.1.desc	
 	picture = GFX_evt_medieval_alien_civilization
 	show_sound = event_ship_bridge
-	location = root
+	location = FROM
 
 	is_triggered_only = yes
 

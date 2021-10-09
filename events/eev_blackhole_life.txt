@@ -14,14 +14,11 @@ ship_event = {
 	desc = blackhole_life.1.desc		
 	picture = GFX_evt_black_hole	
 	show_sound = event_ship_bridge	
-	location = root				
+	location = FROM				
 
 	is_triggered_only = yes		
 
 	immediate = {	
-		# from = {	
-			# clear_deposits = yes
-		# }
 	}
 
 	option = {

@@ -14,7 +14,7 @@ ship_event = {
 	desc = bad_fate.1.desc	
 	picture = GFX_evt_satellite_in_orbit	
 	show_sound = event_ship_bridge
-	location = root
+	location = FROM
 
 	is_triggered_only = yes
 

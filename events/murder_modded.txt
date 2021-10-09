@@ -10,7 +10,7 @@ ship_event = {
 	title = "murder_event.1.name"
 	desc = "murder_event.1.desc"
 	picture = GFX_evt_metropolis
-	location = from
+	location = FROM
 	
 	is_triggered_only = yes
 	

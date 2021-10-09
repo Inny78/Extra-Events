@@ -14,7 +14,7 @@ ship_event = {
 	desc = crazy_scientist.1.desc	
 	picture = GFX_evt_interior_battle	
 	show_sound = event_ship_bridge
-	location = root
+	location = FROM
 
 	is_triggered_only = yes
 

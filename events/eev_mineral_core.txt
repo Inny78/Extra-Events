@@ -14,7 +14,7 @@ ship_event = {
 	desc = mineral_core.1.desc
 	picture = GFX_evt_underground_civilization	
 	show_sound = event_ship_bridge
-	location = root
+	location = FROM
 
 	is_triggered_only = yes
 

@@ -4,7 +4,7 @@ special_project = {
 	cost = 0
 	days_to_research = 50
 	tech_department = society_technology
-    timelimit = 180
+	timelimit = 1080
 	picture = GFX_evt_ship_in_orbit
 
 	event_scope = ship_event

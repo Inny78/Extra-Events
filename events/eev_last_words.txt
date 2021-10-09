@@ -14,7 +14,7 @@ ship_event = {
 	desc = last_words.1.desc
 	picture = GFX_evt_ship_in_orbit	
 	show_sound = event_ship_bridge	
-	location = root			
+	location = FROM			
 
 	is_triggered_only = yes		
 

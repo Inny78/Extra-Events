@@ -1,14 +1,4 @@
-﻿l_italian:
-
- AMAZING: "Amazing."
- CURIOUS: "Curious."
- EXCELLENT: "Excellent."
- FASCINATING: "Fascinating."
- INTERESTING: "Interesting."
- OOPS: "Oops..."
- REMARKABLE : "Remarkable."
- UNFORTUNATE : "Unfortunate."
- progress.7.a: "Very well."
+﻿l_english:
 
 ###########################################################################
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
@@ -87,8 +77,7 @@
  crazy_scientist.1.name: "A Crazy Scientist"
  crazy_scientist.1.desc: "While studying the anomaly one of our scientists, accidentally tore his suit and the pheromones started to affect him in a very strange way. \n\nHe screamed about "voices" and being scared of them, after a while he tried to hide in a natural cave. For all, we know he's still in here. \n\nWe, of course, left him to die as he was a threat to the whole crew. §G[Root.GetLeaderName]§! assures us that this will not affect their work."
  crazy_scientist.1.a: "A Tragic Fate."
-
-
+ 
  diamond_core_category: "The Dense Core"
  diamond_core_category_desc: "Investigation upon the planet’s core, suggest it is abnormally dense."
  diamond_core.1.name: "A Diamond Core"

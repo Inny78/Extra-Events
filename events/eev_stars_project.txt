@@ -19,6 +19,7 @@ country_event = {
 			has_country_flag = had_star_denied
 			has_country_flag = paul_star_survey
 			has_global_flag = has_real_space_mod
+			has_global_flag = mem_more_events_mod
 		}
 	}
 
@@ -251,10 +252,18 @@ country_event = {
 		}
 	}
 	option = {
-		name = "star_stuff.1.b"
+		name = NOTIME
 		hidden_effect = {
 			remove_country_flag = had_star
 			set_country_flag = had_star_denied
+		}
+		owner = {
+			add_monthly_resource_mult = {
+				resource = unity
+				value = @tier1unityreward
+				min = @tier1unitymin
+				max = @tier1unitymax
+			}
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿l_english:
+﻿l_simp_chinese:
+
 # Energy Vortex, alias « Houston, we have a problem »
  eev_houston_category: "Energy Vortex"
  eev_houston_category_desc: "§B[Root.GetFleetName]§! has encountered a powerful energetic anomaly in close orbit of §Y[From.GetName]§!. §G[Root.GetLeaderName]§! decided to begin an analysis of this strange energy vortex."

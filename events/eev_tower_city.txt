@@ -55,6 +55,7 @@ fleet_event = {
 	title = eev_tower_city_dig.2.name
 	desc = eev_tower_city_dig.2.desc
 	picture = GFX_evt_city_ruins
+	show_sound = event_structural_collapse_03
 	location = from
 	archaeology = yes
 	is_triggered_only = yes

@@ -70,7 +70,6 @@ eev_is_valid_system = {
 		NOR = {
 			any_system_planet = {
 				OR = {
-					has_anomaly = yes
 					exists = archaeological_site
 					has_planet_flag = hatchling_egg
 					has_planet_flag = suppress_archaeological_sites

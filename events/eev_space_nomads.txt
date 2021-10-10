@@ -1,45 +1,36 @@
 ###########################################################################
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
-
 # root = ship scope
 # from = planet scope
-
 # Space Nomads Anomaly
-namespace = space_nomads		
-
-ship_event = {				
-	id = space_nomads.1				
-	title = space_nomads.1.name			
-	desc = space_nomads.1.desc		
-	picture = GFX_evt_ship_under_attack	
-	show_sound = event_ship_bridge	
-	location = FROM				
-
-	is_triggered_only = yes		
-
-	immediate = {	
+namespace = space_nomads
+ship_event = {
+	id = space_nomads.1
+	title = space_nomads.1.name
+	desc = space_nomads.1.desc
+	picture = GFX_evt_ship_under_attack
+	show_sound = event_ship_bridge
+	location = FROM
+	is_triggered_only = yes
+	immediate = {
 	}
-
 	option = {
-		name = space_nomads.1.a 	
-		leader = {			
+		name = space_nomads.1.a
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = -25
 			}
 		}
 	}
-	
 	option = {
-		name = space_nomads.1.b 	
-		leader = {			
+		name = space_nomads.1.b
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 55
@@ -47,69 +38,73 @@ ship_event = {
 			}
 		}
 	}
-	
 	option = {
-		name = space_nomads.1.c 
-		trigger = { 
+		name = space_nomads.1.c
+		trigger = {
 			owner = {
 				has_ethic = ethic_gestalt_consciousness
-			} 
+			}
 		}
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 25
 			}
 		}
 	}
-	
 	option = {
-		name = space_nomads.1.d 
-		trigger = { owner = {
-		is_xenophobe = yes } }		
-		leader = {			
+		name = space_nomads.1.d
+		trigger = {
+			owner = {
+				is_xenophobe = yes
+			}
+		}
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 25
 			}
 		}
 	}
-	
 	option = {
 		name = space_nomads.1.e
-		trigger = { owner = {
-		is_xenophile = yes } }	
-		leader = {			
+		trigger = {
+			owner = {
+				is_xenophile = yes
+			}
+		}
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 50
 			}
 		}
 	}
-	
 	option = {
-		name = space_nomads.1.f 
-		trigger = { owner = {
-		is_militarist = yes } }
-		leader = {			
+		name = space_nomads.1.f
+		trigger = {
+			owner = {
+				is_militarist = yes
+			}
+		}
+		custom_tooltip = space_nomads.1.t
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 50
 			}
 			save_event_target_as = owner_country
-			create_fleet = { name = "The Wanderers" }
+			create_fleet = {
+				name = "The Wanderers"
+			}
 			last_created_fleet = {
 				set_owner = prev
 				create_ship_design = {
@@ -124,15 +119,16 @@ ship_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = space_nomads.1.g
-		trigger = { owner = {
-		is_materialist = yes } }
-		leader = {			
+		trigger = {
+			owner = {
+				is_materialist = yes
+			}
+		}
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_monthly_resource_mult = {
 				resource = engineering_research
@@ -154,30 +150,32 @@ ship_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = space_nomads.1.h
-		trigger = { owner = {
-		is_spiritualist = yes } }
-		leader = {			
+		trigger = {
+			owner = {
+				is_spiritualist = yes
+			}
+		}
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 50
 			}
 		}
 	}
-	
 	option = {
 		name = space_nomads.1.i
-		trigger = { owner = {
-		is_authoritarian = yes } }
-		leader = {			
+		trigger = {
+			owner = {
+				is_authoritarian = yes
+			}
+		}
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				influence = 50
@@ -186,15 +184,14 @@ ship_event = {
 	}
 	option = {
 		name = space_nomads.1.j
-		trigger = { 
-			owner = { 
+		trigger = {
+			owner = {
 				has_civic = civic_machine_terminator
-			} 
+			}
 		}
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			add_resource = {
 				energy = 400
@@ -203,15 +200,14 @@ ship_event = {
 	}
 	option = {
 		name = space_nomads.1.k
-		trigger = { 
-			owner = { 
+		trigger = {
+			owner = {
 				has_civic = civic_machine_servitor
-			} 
+			}
 		}
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
 			hidden_effect = {
 				create_species = {

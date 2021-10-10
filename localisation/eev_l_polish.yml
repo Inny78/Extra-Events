@@ -163,6 +163,7 @@
  space_nomads.1.g: "Spytajcie się co wiedzą o wszechświecie."
  space_nomads.1.h: "Czy znają naszego Pana i Zbawcę?"
  space_nomads.1.i: "Złapcie ich i zniewólcie!"
+ space_nomads.1.t: "Obcy statek dołącza do naszych sił."
 
  space_minerals_category: "Statek Transportowy na Orbicie"
  space_minerals_category_desc: "Nasi naukowcy odkryli statek transportowy na orbicie [Root.GetName]."

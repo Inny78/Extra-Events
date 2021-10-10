@@ -163,6 +163,7 @@
  space_nomads.1.g: "Interrogez-les sur l’univers."
  space_nomads.1.h: "Connaissent-ils notre Dieu tout puissant?"
  space_nomads.1.i: "Capturez-les comme esclaves !"
+ space_nomads.1.t: "Un vaisseau extraterrestre rejoint nos forces."
  
  space_minerals_category: "Navire cargo en orbite"
  space_minerals_category_desc: "Nos savants ont découvert un navire-cargo en orbite autour de Â§Y[Root.GetName]Â§! "

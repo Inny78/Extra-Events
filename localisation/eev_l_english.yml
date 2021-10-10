@@ -13,7 +13,7 @@
  space_grave_category: "The Outer Space Skeletal Remains"
  space_grave_category_desc: "The crew and its leader have spotted something very odd, about a dozen skeletal remains in orbit around §Y[Root.GetName]§!. \n\nThe crew hasn't been this excited about something in a very long time, they are begging to study the anomaly."
  space_grave.1.name: "Space Grave"
- space_grave.1.desc: "Not only did the crew just find skeletal remains on orbit but have also found Hundreds of Thousands of skeletal remains on the surface of §Y[Root.GetName]§! as well. It appears that the remains on the surface were a result of a cataclysmic event that occurred a few thousand years ago. Some tried to escape whatever occurred on the surface, but their ship somehow exploded while attempting to escape the gravity wells of §Y[Root.GetName]§!. \n\nThe cataclysmic event that happened on the surface remains a mystery, as many theories such as an asteroid impact or volcanic eruption are ruled out."
+ space_grave.1.desc: "Not only did the crew just find skeletal remains on orbit but have also found hundreds of thousands of skeletal remains on the surface of §Y[Root.GetName]§! as well. It appears that the remains on the surface were a result of a cataclysmic event that occurred a few thousand years ago. Some tried to escape whatever occurred on the surface, but their ship somehow exploded while attempting to escape the gravity wells of §Y[Root.GetName]§!. \n\nThe cataclysmic event that happened on the surface remains a mystery, as many theories such as an asteroid impact or volcanic eruption are ruled out."
  
  
  mineral_monolith_category: "A Valuable Rock"
@@ -81,7 +81,7 @@
  diamond_core_category: "The Dense Core"
  diamond_core_category_desc: "Investigation upon the planet’s core, suggest it is abnormally dense."
  diamond_core.1.name: "A Diamond Core"
- diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and it's lead scientist §G[Root.GetLeaderName]§! have discovered that the planet's core is made of part diamond! \n\nMining this planet will prove very beneficial for our industry."
+ diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that the planet's core is made of part diamond! \n\nMining this planet will prove very beneficial for our industry."
  diamond_core.1.a: "Get to mining!"
  
  #1.3
@@ -165,6 +165,7 @@
  space_nomads.1.j: "Make them foods."
  space_nomads.1.j: "Make them batteries."
  space_nomads.1.k: "A new master."
+ space_nomads.1.t: "An alien vessel joins our forces."
  
  space_minerals_category: "Cargo Ship in Orbit"
  space_minerals_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."

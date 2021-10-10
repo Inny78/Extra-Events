@@ -166,6 +166,7 @@
  space_nomads.1.j: "Make them foods."
  space_nomads.1.j: "Make them batteries."
  space_nomads.1.k: "A new master."
+ space_nomads.1.t: "An alien vessel joins our forces."
  
  space_minerals_category: "Cargo Ship in Orbit"
  space_minerals_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."

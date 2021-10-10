@@ -1,7 +1,7 @@
 # root = ship scope
 # from = planet scope
 
-# Storms Anomaly
+# Unexpected Tower
 namespace = eev_tower_city
 
 ship_event = {
@@ -30,6 +30,12 @@ fleet_event = {
 	location = from
 	archaeology = yes
 	is_triggered_only = yes
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+	after = {
+		from = { set_site_progress_locked = no }
+	}
 	option = {
 		name = INTERESTING
 		small_artifact_reward = yes
@@ -52,6 +58,12 @@ fleet_event = {
 	location = from
 	archaeology = yes
 	is_triggered_only = yes
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+	after = {
+		from = { set_site_progress_locked = no }
+	}
 	option = {
 		name = CURIOUS
 		small_artifact_reward = yes
@@ -74,6 +86,12 @@ fleet_event = {
 	location = from
 	archaeology = yes
 	is_triggered_only = yes
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+	after = {
+		from = { set_site_progress_locked = no }
+	}
 	option = {
 		name = anomaly.4170.a
 		small_artifact_reward = yes
@@ -96,6 +114,12 @@ fleet_event = {
 	location = from
 	archaeology = yes
 	is_triggered_only = yes
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+	after = {
+		from = { set_site_progress_locked = no }
+	}
 	option = {
 		name = eev_tower_city_dig.4a
 		custom_tooltip = eev_tower_city_dig.4t

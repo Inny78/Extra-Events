@@ -4,8 +4,8 @@ on_game_start = {
 	}
 }
 
-#on_entering_system_first_time = {
-#	events = {
-#		star_stuff.1000
-#	}
-#}
+on_entering_system_first_time = {
+	events = {
+		star_stuff.1000
+	}
+}

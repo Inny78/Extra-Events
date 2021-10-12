@@ -82,11 +82,9 @@
  eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimentional rift above §Y[From.GetName]§!. §G[Root.GetLeaderName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
  eev_ancient_echoes.1.name: "Battle from the past"
  eev_ancient_echoes.1.desc: "Our probe recorded a frightening scene beyond the rift: two great alien fleets are engaged in a ferocious battle, using weapons of incredible strength. Flashes of energy illuminate the whole system like a thousand suns as they disperses on seemingly impenetrable shields. Then, a concentrated fire tore through the defenses of a capital ship, hitting its reactor. The following explosion blinds our probe, and when the instruments recover, the rift has disappeared. Later analysis of the star positions and the tachyon's energy place the battle over a million years ago."
- # AMAZING
 
 # Mysterious Cache
  eev_mysterious_cache_category: "Mysterious Cache"
  eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, <science ship> discovered that it's emanating from an old building that stands alone on this desolate world."
  eev_mysterious_cache.1.name: "A gift from the past"
  eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did he know we would come?"
- # INTRIGING

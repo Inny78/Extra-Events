@@ -197,7 +197,8 @@
  space_nomads.1.g: "그들이 우주에 관해 뭘 알고 있는지 물어봐라."
  space_nomads.1.h: "그들이 우리 지배자이자 구세주를 알고 있는가?"
  space_nomads.1.i: "그들을 붙잡고 노예로 삼아라!"
- 
+ space_nomads.1.t: "An alien vessel joins our forces."
+
  space_minerals_category: "궤도의 화물선"
  space_minerals_category_desc: "우리의 과학자들은 §Y[Root.GetName]§! 주위의 궤도에 있는 화물선을 발견했습니다."
  space_minerals.1.name: "궤도의 광물들"

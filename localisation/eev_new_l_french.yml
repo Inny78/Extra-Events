@@ -11,8 +11,8 @@
  eev_houston.2a : "Qu'un vaisseau militaire les remorque en lieu sûr."
  eev_houston.2b : "On ne peut pas prendre le risque."
 
- eev_houston.3.name : Laissé sans réparations
- eev_houston.3.desc : L'équipage du §B[Root.GetFleetName]§! a pris acte de la mauvaise nouvelle et utilise le temps qui lui reste pour rassembler le plus de données possible. Ils étaient sur le point d'envoyer un rapport lorsque l'anomalie s'est à nouveau déclenchée. Nous aurions perdu notre vaisseau de construction si nous en avions envoyé un. Nos vaisseaux militaires ont des systèmes renforcés et de meilleurs boucliers, ils devraient être capables de gérer cela, mais dans le cas contraire, nous le perdrons.
+ eev_houston.3.name : "Laissé sans réparations"
+ eev_houston.3.desc : "L'équipage du §B[Root.GetFleetName]§! a pris acte de la mauvaise nouvelle et utilise le temps qui lui reste pour rassembler le plus de données possible. Ils étaient sur le point d'envoyer un rapport lorsque l'anomalie s'est à nouveau déclenchée. Nous aurions perdu notre vaisseau de construction si nous en avions envoyé un. Nos vaisseaux militaires ont des systèmes renforcés et de meilleurs boucliers, ils devraient être capables de gérer cela, mais dans le cas contraire, nous le perdrons."
 
  eev_houston.4.name : "Les militaires à la rescousse"
  eev_houston.4.desc : "Nos vaisseaux militaires ont rencontré §B[eev_vortex_sci.GetFleetName]§! et notre constructeur et ont commencé à les remorquer loin de l'orbite de §Y[eev_vortex_pla.GetName]§! Le vortex a de nouveau explosé, mais nous avions raison : notre flotte n'a souffert que de quelques dysfonctionnements mineurs, et ses systèmes redondants se sont immédiatement mis en marche. Mais quelques minutes plus tard, §G[Root.GetLeaderName]§! a averti que l'instabilité de l'anomalie était désormais critique et a exhorté la flotte à accélérer, mais avant qu'ils ne puissent s'échapper, le vortex a finalement implosé, et une énorme explosion d'énergie a été la dernière information que nous avons obtenue avant de perdre toutes les communications avec [From.System.GetName]."

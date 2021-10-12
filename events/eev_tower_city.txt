@@ -14,6 +14,7 @@ ship_event = {
 
 	is_triggered_only = yes
 	immediate = {
+		from = { clear_deposits = yes }
 	}
 	option = {
 		name = INTERESTING
@@ -134,7 +135,6 @@ fleet_event = {
 			}
 		}
 		FROM = {
-			clear_deposits = yes
 			add_deposit = d_engineering_6
 			add_deposit = d_physics_4
 			add_deposit = d_society_4
@@ -152,7 +152,6 @@ fleet_event = {
 			}
 		}
 		FROM = {
-			clear_deposits = yes
 			add_deposit = d_alloys_5
 		}
 	}

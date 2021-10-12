@@ -22,6 +22,7 @@ eev_is_frozen = {
 		is_planet_class = pc_antarctic
 		is_planet_class = pc_snow
 		is_planet_class = pc_glacio
+		is_planet_class = pc_eyeball
 	}
 }
 

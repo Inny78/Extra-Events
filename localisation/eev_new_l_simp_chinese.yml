@@ -12,8 +12,8 @@
  eev_houston.2a: "Have a military ship haul them to safety."
  eev_houston.2b: "We can't take the risk."
 
- eev_houston.3.name: Left without repairs
- eev_houston.3.desc: The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would have lost our construction ship if had sent one. Our military ships have reinforced systems and better shields, they should be able to handle this, but if they don't, we will lose it.
+ eev_houston.3.name: "Left without repairs"
+ eev_houston.3.desc: "The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would have lost our construction ship if had sent one. Our military ships have reinforced systems and better shields, they should be able to handle this, but if they don't, we will lose it."
 
  eev_houston.4.name: "Military to the rescue"
  eev_houston.4.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started hauling them far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[Root.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finaly imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."

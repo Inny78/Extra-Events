@@ -2,17 +2,17 @@
 # from = planet scope
 
 # Energy Vortex Anomaly
-namespace = eev_houston		
+namespace = eev_houston
 
-ship_event = {				
-	id = eev_houston.1				
-	title = eev_houston.1.name			
-	desc = eev_houston.1.desc		
-	picture = GFX_evt_ship_in_orbit	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = eev_houston.1
+	title = eev_houston.1.name
+	desc = eev_houston.1.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		root = { save_event_target_as = eev_vortex_sci }
@@ -47,15 +47,15 @@ ship_event = {
 }
 
 # constructor repairs science ship
-ship_event = {				
-	id = eev_houston.2				
-	title = eev_houston.2.name			
-	desc = eev_houston.2.desc		
-	picture = GFX_evt_face_off_in_space	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = eev_houston.2
+	title = eev_houston.2.name
+	desc = eev_houston.2.desc
+	picture = GFX_evt_face_off_in_space
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		root = { save_event_target_as = eev_vortex_con }
@@ -81,15 +81,15 @@ ship_event = {
 }
 
 # science ship not repaired
-ship_event = {				
-	id = eev_houston.3				
-	title = eev_houston.3.name			
-	desc = eev_houston.3.desc		
-	picture = GFX_evt_ship_in_orbit_2	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = eev_houston.3
+	title = eev_houston.3.name
+	desc = eev_houston.3.desc
+	picture = GFX_evt_ship_in_orbit_2
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 	}
@@ -113,12 +113,12 @@ ship_event = {
 }
 
 # fleet hauls both ships to safety
-ship_event = {				
-	id = eev_houston.4				
-	title = eev_houston.4.name			
-	desc = eev_houston.4.desc		
-	picture = GFX_evt_large_explosion	
-	show_sound = event_ship_bridge	
+ship_event = {
+	id = eev_houston.4
+	title = eev_houston.4.name
+	desc = eev_houston.4.desc
+	picture = GFX_evt_large_explosion
+	show_sound = event_ship_bridge
 	location = root
 
 	is_triggered_only = yes
@@ -139,12 +139,12 @@ ship_event = {
 }
 
 # fleet hauls science ship to safety
-ship_event = {				
-	id = eev_houston.5				
-	title = eev_houston.5.name			
-	desc = eev_houston.5.desc		
-	picture = GFX_evt_large_explosion	
-	show_sound = event_ship_bridge	
+ship_event = {
+	id = eev_houston.5
+	title = eev_houston.5.name
+	desc = eev_houston.5.desc
+	picture = GFX_evt_large_explosion
+	show_sound = event_ship_bridge
 	location = root
 
 	is_triggered_only = yes
@@ -165,15 +165,15 @@ ship_event = {
 }
 
 # science ship left to its doom
-ship_event = {				
-	id = eev_houston.6				
-	title = eev_houston.6.name			
-	desc = eev_houston.6.desc		
-	picture = GFX_evt_atmospheric_entry	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = eev_houston.6
+	title = eev_houston.6.name
+	desc = eev_houston.6.desc
+	picture = GFX_evt_atmospheric_entry
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 	}
@@ -190,15 +190,15 @@ ship_event = {
 }
 
 # four ships saved
-ship_event = {				
-	id = eev_houston.7				
-	title = eev_houston.7.name			
-	desc = eev_houston.7.desc		
-	picture = GFX_evt_mysterious_signal	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = eev_houston.7
+	title = eev_houston.7.name
+	desc = eev_houston.7.desc
+	picture = GFX_evt_mysterious_signal
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		event_target:eev_vortex_sci = {
@@ -272,15 +272,15 @@ ship_event = {
 }
 
 # three ships saved
-ship_event = {				
-	id = eev_houston.8				
-	title = eev_houston.7.name			
-	desc = eev_houston.7.desc		
-	picture = GFX_evt_mysterious_signal	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = eev_houston.8
+	title = eev_houston.7.name
+	desc = eev_houston.7.desc
+	picture = GFX_evt_mysterious_signal
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		event_target:eev_vortex_sci = {
@@ -352,14 +352,14 @@ ship_event = {
 }
 
 ship_event = {
-	id = eev_houston.9				
-	title = eev_houston.9.name			
-	desc = eev_houston.9.desc		
-	picture = GFX_evt_gas_giant	
-	show_sound = event_ship_bridge	
-	location = root				
+	id = eev_houston.9
+	title = eev_houston.9.name
+	desc = eev_houston.9.desc
+	picture = GFX_evt_gas_giant
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		owner = {

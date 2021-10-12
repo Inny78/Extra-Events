@@ -592,7 +592,6 @@ eev_houston_category = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
-			from.fleet.leader = { eev_is_scientist_cautious = no }
 			from.owner = {
 				is_gestalt = no
 			}
@@ -622,4 +621,47 @@ eev_tower_city_category = {
 		}
 	}
 	on_success = eev_tower_city.1
+}
+
+# Scanned
+eev_scanned_category = {
+	desc = eev_scanned_category_desc
+	picture = GFX_evt_ship_in_orbit
+	level = 5
+	spawn_chance = {
+		modifier = {
+			add = 3
+			eev_is_uninhabitable = yes
+			from.owner = { has_country_flag = eev_sphere_encountered }
+		}
+	}
+	on_success = eev_scanned.1
+}
+
+# Ancient Echoes
+eev_ancient_echoes_category = {
+	desc = eev_scanned_category_desc
+	picture = GFX_evt_ship_in_orbit
+	level = 5
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_uninhabitable = yes
+		}
+	}
+	on_success = eev_ancient_echoes.1
+}
+
+# Mysterious Cache
+eev_mysterious_cache_category = {
+	desc = eev_mysterious_cache_category_desc
+	picture = GFX_evt_ship_in_orbit
+	level = 5
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_uninhabitable = yes
+		}
+	}
+	on_success = eev_mysterious_cache.1
 }

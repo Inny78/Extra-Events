@@ -6,7 +6,7 @@
 # from = planet scope
 
 # Ancient Civilian Flag Anomaly
-namespace = ancient_flag			
+namespace = ancient_flag
 
 ship_event = {
 	id = ancient_flag.1
@@ -14,9 +14,9 @@ ship_event = {
 	desc = ancient_flag.1.desc
 	picture = GFX_evt_ship_in_orbit
 	show_sound = event_ship_bridge
-	location = FROM				
+	location = FROM
 
-	is_triggered_only = yes			
+	is_triggered_only = yes
 
 	immediate = {
 	}

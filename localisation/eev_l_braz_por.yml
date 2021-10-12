@@ -175,7 +175,8 @@
  space_nomads.1.g: "Perguntem o que sabem sobre nosso universo."
  space_nomads.1.h: "Eles conhecem nosso senhor e salvador?"
  space_nomads.1.i: "Capturem e escravizem-nos!"
- 
+ space_nomads.1.t: "An alien vessel joins our forces."
+
  space_minerals_category: "Anomalia da nave de carga em órbita"
  space_minerals_category_desc: "Nossos cientistas descobriram uma nave de carga na órbita de §Y[Root.GetName]§!."
  space_minerals.1.name: "Minerais em órbita"

@@ -244,8 +244,8 @@
  sand_creature_category: "Moving Sand"
  sand_creature_category_desc: "The sand on the surface of §Y[Root.GetName]§! appears to be moving in a very unnatural way."
  sand_creature.1.name: "Horrific Sand Creature"
- sand_creature.1.desc: "As the §B[Root.GetFleetName]§! crew landed on the planet they noticed the sand moving towards them. §G[Root.GetLeaderName]§! was curious so he decided to leave the science ship for a closer look. The rest of the crew advised not to but §G[Root.GetLeaderName]§! ignored them. \n\nAs the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment they realized whatever was under that sand was alive and saw the crew and it's leader as food. \n\nThe crew had no choice but to leave §G[Root.GetLeaderName]§! to die as there was no time to save him."
- sand_creature.1.a: "He served well."
+ sand_creature.1.desc: "As the §B[Root.GetFleetName]§! crew landed on the planet they noticed the sand moving towards them. §G[Root.GetLeaderName]§! was curious so he decided to leave the science ship for a closer look. The rest of the crew advised not to but §G[Root.GetLeaderName]§! ignored them. \n\nAs the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment they realized whatever was under that sand was alive and saw the crew and its leader as food. \n\nThe crew had no choice but to leave §G[Root.GetLeaderName]§! to die as there was no time to save [Root.GetHerHim]."
+ sand_creature.1.a: "[Root.GetSheHeCap] served well."
  
  frozen_civilization_category: "Encased in Ice" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Massive structures on the surface of §Y[Root.GetName]§! appear to be encased in ice all across the surface."

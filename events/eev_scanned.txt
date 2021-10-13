@@ -14,20 +14,11 @@ ship_event = {
 
 	is_triggered_only = yes		
 
-	immediate = {
-		root = { save_event_target_as = eev_vortex_sci }
-		from = { save_event_target_as = eev_vortex_pla }
-		fleet = { set_event_locked = yes }
-	}
-
 	option = {
 		name = eev_scanned.1a
 		trigger = {
 			owner = {
-				NOR = { 
-					is_xenophobe = yes
-					is_militarist = yes
-				}
+				is_xenophobe = no
 			}
 		}
 		owner = {

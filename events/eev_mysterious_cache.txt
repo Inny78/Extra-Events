@@ -18,7 +18,7 @@ ship_event = {
 	}
 
 	option = {
-		name = INTRIGING
+		name = INTRIGUING
 		leader = {
 			add_experience = 75
 			add_trait = leader_trait_expertise_materials

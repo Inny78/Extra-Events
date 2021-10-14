@@ -1135,8 +1135,10 @@ country_event = {
 	
 	option = {
 		name = "popup.28.b"
-		random_owned_pop = {
-			kill_pop = yes
+		fromfrom = {
+			random_owned_pop = {
+				kill_pop = yes
+			}
 		}
 	}
 	

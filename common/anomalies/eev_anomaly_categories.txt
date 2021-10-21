@@ -630,7 +630,7 @@ eev_scanned_category = {
 	level = 5
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 2
 			eev_is_uninhabitable = yes
 			from.owner = { has_country_flag = eev_sphere_encountered }
 		}

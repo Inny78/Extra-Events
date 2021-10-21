@@ -28,6 +28,8 @@ ship_event = {
 				min = @tier1researchmin
 				max = @tier1researchmax
 			}
+			remove_country_flag = eev_sphere_encountered
+			set_country_flag = eev_scanned
 		}
 	}
 	option = {
@@ -47,6 +49,8 @@ ship_event = {
 				min = @tier1researchmin
 				max = @tier1researchmax
 			}
+			remove_country_flag = eev_sphere_encountered
+			set_country_flag = eev_scanned
 		}
 	}
 }

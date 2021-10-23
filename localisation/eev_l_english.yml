@@ -233,7 +233,7 @@
  artificial_sun_category: "Strange Sun"
  artificial_sun_category_desc: "This sun isn't quite like anything we've seen before. The shape of this sun is a bit off for no apparent reason."
  artificial_sun.1.name: "An Artificial Sun"
- artificial_sun.1.desc: "The §Y[Root.GetName]§! sun is outstanding! Not because it's shape was off, but because it was built by some alien species long ago! \n\nFrom what §G[Root.GetLeaderName]§! has gathered the reasoning behind building this sun was that their old one was dying very soon. However it didn't work out for them as they have been extinct for thousands of years now."
+ artificial_sun.1.desc: "The §Y[Root.GetName]§! sun is outstanding! Not because its shape was off, but because it was built by some alien species long ago! \n\nFrom what §G[Root.GetLeaderName]§! has gathered the reasoning behind building this sun was that their old one was dying very soon. However it didn't work out for them as they have been extinct for thousands of years now."
  
  blackhole_life_category: "Signs of Life"
  blackhole_life_category_desc: "The crew has picked up signs of life inside the §Y[From.GetName]§! black hole. This could change everything we know about physics and life!"

@@ -462,6 +462,8 @@ country_event = {
 	mean_time_to_happen = { months = 10000 }
 	
 	trigger = {
+		is_gestalt = no
+		eev_is_heavy_metal = no
 		NOT = { 
 			has_country_flag = had_sick
 		}
@@ -502,6 +504,7 @@ country_event = {
 	mean_time_to_happen = { months = 2500 }
 	
 	trigger = {
+		eev_is_heavy_metal = no
 		NOT = { 
 			has_country_flag = had_crops
 		}
@@ -538,6 +541,7 @@ country_event = {
 	mean_time_to_happen = { months = 4010 }
 	
 	trigger = {
+		eev_is_heavy_metal = no
 		NOT = { 
 			has_country_flag = had_fish
 		}
@@ -670,9 +674,9 @@ country_event = {
 	mean_time_to_happen = { months = 7506 }
 	
 	trigger = {
+		is_gestalt = no
+		eev_is_heavy_metal = no
 		NOT = {
-			is_hive_empire = yes
-			is_machine_empire = yes
 			has_country_flag = had_pet
 		}
 	}

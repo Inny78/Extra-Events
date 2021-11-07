@@ -30,7 +30,7 @@
  last_words_category: "Anomalía encontrada... Señal perdida"
  last_words_category_desc: "La tripulación ha recibido un fuerte señal desconocida procedente de §Y[Root.GetName]§!."
  last_words.1.name: "Las últimas palabras de un aventurero"
- last_words.1.desc: "La  tripulación de [Root.GetFleetName] ha encontrado el dispositivo que emite las señales que recogimos previamente y parece ser las últimas palabras de un aventurero extranjero. Ellos han traducido el lenguaje y esto es lo que dice: \n\n"Base! Aqui Líder!, ¡necesito apoyo! ¡Lo encontré! ¡Después de tantos años lo he encontrado! Esto cambiará el universo tal y como lo conocemos Podremos hacer algo... Esperen! ... algo pasa, se está moviendo, todavía está vivo ... Me vio, no parece feliz. En caso de que no salga vivo de aca mis coordenadas son AgHc-sector 2356... ". \n\nEso es todo lo que tenemos. Tal vez nunca sepamos quién o qué encontró, ya que este "Líder" parece haber bombardeado el planeta. Nada vivo está en este planeta excepto nosotros."
+ last_words.1.desc: "La  tripulación de [Root.GetFleetName] ha encontrado el dispositivo que emite las señales que recogimos previamente y parece ser las últimas palabras de un aventurero extranjero. Ellos han traducido el lenguaje y esto es lo que dice: \n\n§SBase! Aqui Líder!, ¡necesito apoyo! ¡Lo encontré! ¡Después de tantos años lo he encontrado! Esto cambiará el universo tal y como lo conocemos Podremos hacer algo... Esperen! ... algo pasa, se está moviendo, todavía está vivo ... Me vio, no parece feliz. En caso de que no salga vivo de aca mis coordenadas son Ag...§! \n\nEso es todo lo que tenemos. Tal vez nunca sepamos quién o qué encontró, ya que este Líder parece haber bombardeado el planeta. Nada vivo está en este planeta excepto nosotros."
  last_words.1.a: "Algo me dice que volveremos a saber de esto mas adelante."
  
  
@@ -44,7 +44,7 @@
  bad_fate_category: "Anomalía encontrada... Extinción Alienigena"
  bad_fate_category_desc: "Un examen detallado ha revelado fósiles diseminados a través de múltiples capas de roca. Lo que es aún más inusual, es que el planeta es completamente estéril."
  bad_fate.1.name: "Un destino devastador"
- bad_fate.1.desc: "A raíz de los resultados más detallados de §Y[From.GetName]§! Parece ser la consecuencia de la colisión de dos planetas. El equipo de §B[Root.GetFleetName]§! lo están llamando "Destino Fatal". \n\nProbablemente la parte más intrigante de esto es que uno de los planetas tenía una civilización avanzada al parecer! \n\nUn hallazgo verdaderamente interesante."
+ bad_fate.1.desc: "A raíz de los resultados más detallados de §Y[From.GetName]§! Parece ser la consecuencia de la colisión de dos planetas. El equipo de §B[Root.GetFleetName]§! lo están llamando §SDestino§! y §SFatal§!. \n\nProbablemente la parte más intrigante de esto es que uno de los planetas tenía una civilización avanzada al parecer! \n\nUn hallazgo verdaderamente interesante."
  bad_fate.1.b: "Descansen en paz."
  
  
@@ -96,7 +96,7 @@
  crushed_category: "Anomalía encontrada... Objeto brillante"
  crushed_category_desc: "La tripulación ha detectado una anomalía en §Y[Root.GetName]§!. es muy brillante y reflectante."
  crushed.1.name: "Civilización aplastada"
- crushed.1.desc: "Mientras investigaba el planeta, la tripulación de §B[Root.GetFleetName]§! aterrizó en una civilización muy pequeña y poco inteligente. \n\nCuando la nave aterrizó sobre la civilización, aplastaron al 90% de la población. Los que quedaron vivos no estaban felices y lanzaron miles de granos de roca a los pies de los científicos como una pequeña tormenta de arena. \n\¡Sin embargo, ese objeto brillante parece ser muy valioso."
+ crushed.1.desc: "Mientras investigaba el planeta, la tripulación de §B[Root.GetFleetName]§! aterrizó en una civilización muy pequeña y poco inteligente. \n\nCuando la nave aterrizó sobre la civilización, aplastaron al 90% de la población. Los que quedaron vivos no estaban felices y lanzaron miles de granos de roca a los pies de los científicos como una pequeña tormenta de arena. \n\n¡Sin embargo, ese objeto brillante parece ser muy valioso."
 
  perfect_planet_category: "Anomalía encontrada... Lecturas Extraordinarias"
  perfect_planet_category_desc: "En las inmediaciones cercanas de §Y[Root.GetName]§! un planeta está mostrando lecturas extraordinarias!"
@@ -122,7 +122,7 @@
  asteroid_attack_category: "Anomalía encontrada... cuevas de asteroides"
  asteroid_attack_category_desc: "Los científicos han descubierto cuevas no naturales en §Y[Root.GetName]§! y desean encontrar el significado de ellas."
  asteroid_attack.1.name: "Un ataque de asteroides"
- asteroid_attack.1.desc: "Las cuevas fueron hechas por algo, pero no por personas... \n\nMientras buscaba el sistema de cuevas del asteroide, el equipo de §B[Root.GetFleetName]§! encontró algo que calificaron de "horriblemente aterrador" y poco después de caer las cominucaciones con nosotros. \n\nLos científicos se perdieron..."
+ asteroid_attack.1.desc: "Las cuevas fueron hechas por algo, pero no por personas... \n\nMientras buscaba el sistema de cuevas del asteroide, el equipo de §B[Root.GetFleetName]§! encontró algo que calificaron de horriblemente aterrador y poco después de caer las cominucaciones con nosotros. \n\nLos científicos se perdieron..."
  asteroid_attack.1.a: "Es una pena."
  
  ayy_category: "Anomalía encontrada: Manchas de luces"
@@ -153,7 +153,7 @@
  space_nomads_category: "Anomalía encontrada... Nave de carga en órbita"
  space_nomads_category_desc: "Nuestros científicos han descubierto un buque de carga en órbita §Y[Root.GetName]§!."
  space_nomads.1.name: "Nomadas del espacio"
- space_nomads.1.desc: "Cuando §B[Root.GetFleetName]§! se acercó a la nave de carga, fuimos recibidos por algunos nómadas muy agradables que se llaman a sí mismos "Los bagabundos". \n\nran lo suficientemente agradables como para decirnos que viajan por toda la galaxia, sus encuentros con razas alienígenas, y su pobre situación financiera, algo de comida picante y una bebida que ellos llaman "Glabnak". Después de compartir con ellos un rato nos separamos pero antes de irnos nos dieron su receta para el "Glabnak". \n\n§G[Root.GetLeaderName]§! sugiere que ayudemos a su situación financiera con una donación de 200 celdas de energía."
+ space_nomads.1.desc: "Cuando §B[Root.GetFleetName]§! se acercó a la nave de carga, fuimos recibidos por algunos nómadas muy agradables que se llaman a sí mismos §SLos bagabundos§!. \n\nran lo suficientemente agradables como para decirnos que viajan por toda la galaxia, sus encuentros con razas alienígenas, y su pobre situación financiera, algo de comida picante y una bebida que ellos llaman §SGlabnak§!. Después de compartir con ellos un rato nos separamos pero antes de irnos nos dieron su receta para el §SGlabnak§!. \n\n§G[Root.GetLeaderName]§! sugiere que ayudemos a su situación financiera con una donación de 200 celdas de energía."
  space_nomads.1.a: "Nos faltan los fondos..."
  space_nomads.1.b: "¡Por supuesto!"
  space_nomads.1.c: "No, envienlos lejos."
@@ -186,12 +186,12 @@
  abandoned_base_category: "Anomalía encontrada... Objeto metálico"
  abandoned_base_category_desc: "Nuestros científicos informan que parece haber algún objeto metálico desconocido en la superficie de §Y[Root.GetName]§!."
  abandoned_base.1.name: "Desertores"
- abandoned_base.1.desc: "Cuando nos acercamos a este objeto metálico, quedó claro para los científicos que se trataba de un complejo de tipo militar construido al lado de una montaña. \n\nCuando nuestros científicos fueron a verlos más de cerca fueron recibidos con armas, pero después de que los científicos les aseguraron que vinieron en paz todas las hostilidades fueron neutralizadas mientras se saludaban como "El Pueblo Libre" y como una manera de decir perdón decidieron invitar a nuestros científicos a la cena... \n\n§G[Root.GetLeaderName]§! nos han enviado mensajes acerca de estos "Desertores" siendo de su antiguo imperio y que tienen riquezas más allá de lo que deberían tener carroñeros como estos."
+ abandoned_base.1.desc: "Cuando nos acercamos a este objeto metálico, quedó claro para los científicos que se trataba de un complejo de tipo militar construido al lado de una montaña. \n\nCuando nuestros científicos fueron a verlos más de cerca fueron recibidos con armas, pero después de que los científicos les aseguraron que vinieron en paz todas las hostilidades fueron neutralizadas mientras se saludaban como §SEl Pueblo Libre§! y como una manera de decir perdón decidieron invitar a nuestros científicos a la cena... \n\n§G[Root.GetLeaderName]§! nos han enviado mensajes acerca de estos §SDesertores§! siendo de su antiguo imperio y que tienen riquezas más allá de lo que deberían tener carroñeros como estos."
  abandoned_base.1.a: "Pídales que sirvan a nuestra causa."
  abandoned_base.1.b: "¡No son más que traidores!"
  abandoned_base.1.c: "¡Tome su tesoro robado y corra!"
  abandoned_base.2.name: "Reclutamiento"
- abandoned_base.2.desc: "Nuestros científicos han pedido a estos "Desertores" que se unan a nuestros ejércitos y apoyen nuestra causa. Que a nuestra sorpresa aceptaron bajo una condición: ser pagado por adelantado por sus servicios. \n\n§G[Root.GetLeaderName]§! nos insta encarecidamente a no inscribirlos en nuestros ejércitos, ya que no eran leales a sus gobernantes anteriores. ¿Quién va a decir que seguirán siendo leales a nosotros?"
+ abandoned_base.2.desc: "Nuestros científicos han pedido a estos §SDesertores§! que se unan a nuestros ejércitos y apoyen nuestra causa. Que a nuestra sorpresa aceptaron bajo una condición: ser pagado por adelantado por sus servicios. \n\n§G[Root.GetLeaderName]§! nos insta encarecidamente a no inscribirlos en nuestros ejércitos, ya que no eran leales a sus gobernantes anteriores. ¿Quién va a decir que seguirán siendo leales a nosotros?"
  abandoned_base.2.a: "Bienvenido a nuestro imperio, desertores!"
  abandoned_base.2.b: "Olvidalo entonces."
  abandoned_base.2.tooltip: "Continúa la historia"
@@ -199,20 +199,20 @@
  infinium_category: "Anomalía encontrada... Mineral anormal"
  infinium_category_desc: "Mientras explorabamos §Y[Root.GetName]§! Nuestros científicos han descubierto un mineral como ninguno en la historia registrada! El equipo desea desesperadamente investigar más en este mineral."
  infinium.1.name: "Mineral de Infinium"
- infinium.1.desc: "¡Este mineral encontrado por nuestros científicos es verdaderamente magnífico! Bajo calor intenso puede ser moldeado en cualquier cosa y cuando se enfría hacia abajo es casi indestructible! \n\nNuestros científicos han comenzado a llamarla "Infinium" por sus usos casi infinitos. \n\n§G[Root.GetLeaderName]§! Sugieren mantener este Infinium para una mayor investigación y uso, pero dice que también podríamos venderlo si realmente necesitamos el dinero."
+ infinium.1.desc: "¡Este mineral encontrado por nuestros científicos es verdaderamente magnífico! Bajo calor intenso puede ser moldeado en cualquier cosa y cuando se enfría hacia abajo es casi indestructible! \n\nNuestros científicos han comenzado a llamarla §SInfinium§! por sus usos casi infinitos. \n\n§G[Root.GetLeaderName]§! Sugieren mantener este Infinium para una mayor investigación y uso, pero dice que también podríamos venderlo si realmente necesitamos el dinero."
  infinium.1.a: "Guardarlo."
  infinium.1.b: "Venderlo."
  
  error_category: "Anomalía encontrada... Vida artificial"
  error_category_desc: "§Y[Root.GetName]§! parece haber formas de vida artificiales patrullando el planeta."
  error.1.name: "Vida artificial"
- error.1.desc: "El planeta, de hecho, tiene formas de vida artificial patrullando el planeta, ¿pero por qué no establecen comunicaciones?. \n\nCuando tratamos de contactar con una de estas formas de vida, simplemente repetirían: "§RError-703, camino - no - encontrado§!". Y cuando nuestros científicos fueron descubiertos, repetían: "§RError-001, Forma de vida - Objetivo§!". \n\n§G[Root.GetLeaderName]§! Sugiere secuestrar una de estas formas de vida para encontrar su propósito, o podríamos simplemente desecharlos a todos, o tal vez venderlos?"
+ error.1.desc: "El planeta, de hecho, tiene formas de vida artificial patrullando el planeta, ¿pero por qué no establecen comunicaciones?. \n\nCuando tratamos de contactar con una de estas formas de vida, simplemente repetirían: §RError-703, camino - no - encontrado§!. Y cuando nuestros científicos fueron descubiertos, repetían: §RError-001, Forma de vida - Objetivo§!. \n\n§G[Root.GetLeaderName]§! Sugiere secuestrar una de estas formas de vida para encontrar su propósito, o podríamos simplemente desecharlos a todos, o tal vez venderlos?"
  error.1.a: "Encuentre su propósito."
  error.1.b: "Desecharlos."
  error.1.c: "Venderlas."
  error.1.d: "Dejarlos ser."
  error.2.name: "El propósito"
- error.2.desc: "Nuestros científicos han encontrado el propósito de estas formas de vida artificiales. \n\nSu propósito era matar todas las formas de vida en el planeta. Su otro propósito sin embargo es un misterio ... Ellos estaban tratando de llegar a algo, de ahí la frase "Camino no encontrado". Tal vez se suponía que seguir a su creador en alguna parte?"
+ error.2.desc: "Nuestros científicos han encontrado el propósito de estas formas de vida artificiales. \n\nSu propósito era matar todas las formas de vida en el planeta. Su otro propósito sin embargo es un misterio ... Ellos estaban tratando de llegar a algo, de ahí la frase §RCamino no encontrado§!. Tal vez se suponía que seguir a su creador en alguna parte?"
  error.2.tooltip: "Continúa la historia"
  
  #1.7
@@ -236,7 +236,6 @@
  artificial_sun.1.name: "Sol Artificial"
  artificial_sun.1.desc: "En §Y[Root.GetName]§! el sol es excepcional! No porque su forma sea curiosa, sino porque fue construido por algunas especies avanzadas hace mucho tiempo! \n\nDe qué §G[Root.GetLeaderName]§! ha reunido información detrás de la construcción de este sol se cree que era para un antigua civilización que no funcionó para ellos, ya que han estado extinguidos desde hace miles de años."
  
- blackhole_life_category: "Anomalía encontrada... Signos de vida"
  blackhole_life_category: "Signos de vida"
  blackhole_life_category_desc: "La tripulación ha recogido signos de vida dentro del agugero negro de §Y[From.GetName]§!. Esto podría cambiar todo lo que sabemos sobre la física y la vida!"
  blackhole_life.1.name: "Ecosistema en el agujero negro"
@@ -280,13 +279,13 @@
  unstable_gas.1.tooltip: "El gigante de gas explotó en un sol."
  
  ########## STAR STUFF ##########
- 
- star_stuff.1.name:0 "Proyecto buscar estrella"
- star_stuff.1.desc:0 "Desde que nuestra especie llegó a tener consiencia de si mismo siempre ha estado mirando con asombro a las estrellas. Ahora podemos visitarlas. \n\nTodos nuestros científicos están de acuerdo en que debemos recopilar información sobre algunas estrellas desconocidas mas allá de nuestros limites, en la zona peligrosa, para ver qué secretos tienen."
- star_stuff.1.a:0 "Adelante. Al infinito y más allá."
- star_stuff.1.b:0 "No tenemos tiempo para esto"
+
+ star_stuff.1.name: "Proyecto buscar estrella"
+ star_stuff.1.desc: "Desde que nuestra especie llegó a tener consiencia de si mismo siempre ha estado mirando con asombro a las estrellas. Ahora podemos visitarlas. \n\nTodos nuestros científicos están de acuerdo en que debemos recopilar información sobre algunas estrellas desconocidas mas allá de nuestros limites, en la zona peligrosa, para ver qué secretos tienen."
+ star_stuff.1.a: "Adelante. Al infinito y más allá."
+ star_stuff.1.b: "No tenemos tiempo para esto"
   
- star_stuff.1001.desc:0 "¡La tripulación de §B[from.GetName]§! informaron que observaron varios tipos nuevos de estrellas y sugirieron que también se debería recopilar información sobre estas estrellas."
+ star_stuff.1001.desc: "¡La tripulación de §B[from.GetName]§! informaron que observaron varios tipos nuevos de estrellas y sugirieron que también se debería recopilar información sobre estas estrellas."
  
  
  star_stuff.2.name: "Una estrella Tipo A"
@@ -305,16 +304,16 @@
  star_stuff.5.desc: "Esta enana amarilla es conocida como una estrella tipo G y en realidad tiene una gama de colores que pueden ser vistas de otros sistemas. Estas estrellas fusionan hidrógeno durante aproximadamente 10 mil millones de años antes de que se expandan y se conviertan en gigantes rojos. \n\nAunque la vida de la estrella tipo G es más corta que una estrella tipo K, los mundos dentro de la zona habitable de una estrella tipo G gozan de condiciones óptimas para el desarrollo de la vida."
  star_stuff.5.a: "Asombroso."
  
- star_stuff.6.name:0 "Una estrella Tipo K"
- star_stuff.6.desc:0 "Las estrellas tipo K se refieren a menudo como estrellas enanas anaranjadas y son una vista común. Las estrellas tipo K viven durante mucho tiempo, lo que significa que la vida tiene mucho tiempo para desarrollarse."
+ star_stuff.6.name: "Una estrella Tipo K"
+ star_stuff.6.desc: "Las estrellas tipo K se refieren a menudo como estrellas enanas anaranjadas y son una vista común. Las estrellas tipo K viven durante mucho tiempo, lo que significa que la vida tiene mucho tiempo para desarrollarse."
  star_stuff.6.a: "Interesante."
  
- star_stuff.7.name:0 "Una estrella Tipo M"
- star_stuff.7.desc:0 "Las estrellas tipo M están entre las más comunes en el universo y se refieren a menudo como estrellas del enano rojo. Su baja luminosidad significa que son difíciles de observar a simple vista desde lejos pero de cerca es una vista increíble. \n\nAunque viven durante un tiempo extremadamente largo, no emiten casi ninguna luz UV resultando condiciones desfavorables para que exista vida."
+ star_stuff.7.name: "Una estrella Tipo M"
+ star_stuff.7.desc: "Las estrellas tipo M están entre las más comunes en el universo y se refieren a menudo como estrellas del enano rojo. Su baja luminosidad significa que son difíciles de observar a simple vista desde lejos pero de cerca es una vista increíble. \n\nAunque viven durante un tiempo extremadamente largo, no emiten casi ninguna luz UV resultando condiciones desfavorables para que exista vida."
  star_stuff.7.a: "Increíble."
  
- star_stuff.8.name:0 "Una estrella de neutrones"
- star_stuff.8.desc:0 "Esta estrella increíblemente densa se conoce como Estrella de Neutrón y se crea a menudo cuando una estrella grande sufre un rápido colapso y explota en una supernova. \n\nAunque su diámetro es tan pequeño como diez kilómetros de su masa es aún mayor que una estrella tipo G promedio!"
+ star_stuff.8.name: "Una estrella de neutrones"
+ star_stuff.8.desc: "Esta estrella increíblemente densa se conoce como Estrella de Neutrón y se crea a menudo cuando una estrella grande sufre un rápido colapso y explota en una supernova. \n\nAunque su diámetro es tan pequeño como diez kilómetros de su masa es aún mayor que una estrella tipo G promedio!"
  star_stuff.8.a: "Increíble!"
  
  star_stuff.9.name: "Un agujero negro"
@@ -391,7 +390,7 @@
  popup.6.c: "maldito alienigena!"
  #
  popup.7.name: "llegada de Nomades"
- popup.7.desc: "Un par de alienigenas nómadas que se llaman "Los primeros" han solicitado alojamiento en nuestra Capital. Como a menudo no dejamos que nadie viva en nuestro Planeta Capital, hemos establecido una especie de entrevista. \n\n"Loa primeros" Afirman que tienen planes de construir una gran ciudad llena de todo lo que una persona podría esperar, incluir alimentos y bebidas gratis, atención médica gratuita e incluso vivienda gratuita, con una excepción. Todos los que viven allí deben adorar a su dios."
+ popup.7.desc: "Un par de alienigenas nómadas que se llaman §SLos primeros§! han solicitado alojamiento en nuestra Capital. Como a menudo no dejamos que nadie viva en nuestro Planeta Capital, hemos establecido una especie de entrevista. \n\n§SLoa primeros§! Afirman que tienen planes de construir una gran ciudad llena de todo lo que una persona podría esperar, incluir alimentos y bebidas gratis, atención médica gratuita e incluso vivienda gratuita, con una excepción. Todos los que viven allí deben adorar a su dios."
  popup.7.a: "Déjales entrar"
  popup.7.b: "Acceso denegado"
  popup.7.c: "¿Quién dejó entrar a estos alienigenas?"
@@ -483,8 +482,8 @@
  popup.28.c: "Este planeta y sus especies son inútiles. Explotarlos."
  
  popup.30.name: "Nuevas Especies Primitivas Despiertan"
- popup.30.desc: "Como nuestro puesto de observación y sus científicos estaban estudiando en §Y[From.GetName]§!, notaron algo muy raro e interesante. \n\nUna nueva especie sensible ha evolucionado junto con las especies sensibles actuales ya existentes que han sido nombradas "§SXiblibi§!". Dos razas sencillas diferentes habitan ahora §Y[From.GetName]§!."
- popup.30.b: "Es mejor tener una especie dominante. Exterminar estos "Xiblibi"."
+ popup.30.desc: "Como nuestro puesto de observación y sus científicos estaban estudiando en §Y[From.GetName]§!, notaron algo muy raro e interesante. \n\nUna nueva especie sensible ha evolucionado junto con las especies sensibles actuales ya existentes que han sido nombradas §SXiblibi§!. Dos razas sencillas diferentes habitan ahora §Y[From.GetName]§!."
+ popup.30.b: "Es mejor tener una especie dominante. Exterminar estos §SXiblibi§!."
  
  popup.31.name: "Nueva evolución de la sensibilidad"
  popup.31.desc: "Uno de los mamíferos nativos de nuestro planeta ha comenzado a mostrar signos de evolución de la sensibilidad. \n\nCon esta noticia podemos comenzar a elevarlos para completar la sensibilidad para que puedan convertirse en ciudadanos de pleno derecho"
@@ -500,35 +499,35 @@
  murder_category_desc: "Nuestros científicos han recogido una de nuestras señales de socorro en §Y[Root.GetName]§!."
  
  MURDER_PROJECT: "El proyecto del asesino en serie"
- MURDER_PROJECT_DESC: "Durante la exploración del planeta, encontramos la ubicación del ping que era un contenedor abierto. En el interior encontramos una carta con las palabras "LEERME" escrita en rojo en la parte delantera. Después de debatir si debíamos abrirlo o no, decidimos que sería mejor si lo hicimos. \n\nSu contenido dice: -Bien, has encontrado mi caja fuerte. Ahora que tengo su atención, debo decirle que estoy cansado de la forma en que funcionarios del gobierno como usted nos dominan como si fueran esclavos. Por lo tanto, voy a matar a cinco personas importantes para usted, mejor me captura antes de hacerlo. Oh, y no llegar tarde. -D'"
+ MURDER_PROJECT_DESC: "Durante la exploración del planeta, encontramos la ubicación del ping que era un contenedor abierto. En el interior encontramos una carta con las palabras §SLEERME§! escrita en rojo en la parte delantera. Después de debatir si debíamos abrirlo o no, decidimos que sería mejor si lo hicimos. \n\nSu contenido dice: §SBien, has encontrado mi caja fuerte. Ahora que tengo su atención, debo decirle que estoy cansado de la forma en que funcionarios del gobierno como usted nos dominan como si fueran esclavos. Por lo tanto, voy a matar a cinco personas importantes para usted, mejor me captura antes de hacerlo. Oh, y no llegar tarde. -D§!"
  
  murder_event.1.name: "El asecino serial"
- murder_event.1.desc: "Durante la exploración del planeta, encontramos la ubicación del ping que era un contenedor abierto. En el interior encontramos una carta con las palabras "LEERME" escrita en rojo en la parte delantera. Después de debatir si debíamos abrirlo o no, decidimos que sería mejor si la hicemos. \n\nSu contenido dice: "Bueno, encontraste mi caja fuerte. Ahora que tengo su atención, debo decirle que estoy cansado de la forma en que funcionarios del gobierno como usted nos dominan como si fueran esclavos. Por lo tanto, voy a matar a cinco personas importantes para usted, mejor me captura antes de hacerlo. Oh, y no llegar tarde. -D'. \n\Podría ser una broma, pero todos pensamos que está en el mejor interés de nuestro pueblo encontrar a este tipo."
+ murder_event.1.desc: "Durante la exploración del planeta, encontramos la ubicación del ping que era un contenedor abierto. En el interior encontramos una carta con las palabras §SLEERME§! escrita en rojo en la parte delantera. Después de debatir si debíamos abrirlo o no, decidimos que sería mejor si la hicemos. \n\nSu contenido dice: §SBueno, encontraste mi caja fuerte. Ahora que tengo su atención, debo decirle que estoy cansado de la forma en que funcionarios del gobierno como usted nos dominan como si fueran esclavos. Por lo tanto, voy a matar a cinco personas importantes para usted, mejor me captura antes de hacerlo. Oh, y no llegar tarde. -D§!. \n\Podría ser una broma, pero todos pensamos que está en el mejor interés de nuestro pueblo encontrar a este tipo."
  murder_event.1.a: "¡Debemos encontrar a esta persona!"
  murder_event.1.b: "Otra amenaza de muerte ... ¿A quién le importa?"
  
  murder_event.2.name: "Primera muerte"
- murder_event.2.desc: "Nuestros peores temores se han hecho realidad ... No fue una amenaza de muerte ordinaria ... Mató a alguien. Una joven dama, hija de un renombrado general. \n\nEn su mano hay una carta que dice: 'La pobre chica. ¿Será extrañada? Probablemente ... pero llegaste demasiado tarde. -D' \n\nEl general será informado en breve."
+ murder_event.2.desc: "Nuestros peores temores se han hecho realidad ... No fue una amenaza de muerte ordinaria ... Mató a alguien. Una joven dama, hija de un renombrado general. \n\nEn su mano hay una carta que dice: §SLa pobre chica. ¿Será extrañada? Probablemente ... pero llegaste demasiado tarde. -D§! \n\nEl general será informado en breve."
  murder_event.2.a: "¡Encuentra a este hombre!"
  
  murder_event.4.name: "Segunda muerte"
- murder_event.4.desc: "Otro asesinato aquí. Esta vez un xeno responsable de asuntos externos. \n\nEn el suelo junto al xeno una carta que dice: 'Esta vez un xeno. Llegaste demasiado tarde. -D'"
+ murder_event.4.desc: "Otro asesinato aquí. Esta vez un xeno responsable de asuntos externos. \n\nEn el suelo junto al xeno una carta que dice: §SEsta vez un xeno. Llegaste demasiado tarde. -D§!"
  murder_event.4.a: "¿Por qué no lo hemos encontrado todavía?"
  
  murder_event.5.name: "Tercera muerte"
- murder_event.5.desc: "El tercer asesinato. Un viejo hombre y su esposa tomados de la mano y colgando de un árbol. Parece que es uno de los padres de nuestro científico principal. \n\nEn su mano hay una nota que dice: 'Esta pareja era linda. Pero llegaste tarde ... -D'"
+ murder_event.5.desc: "El tercer asesinato. Un viejo hombre y su esposa tomados de la mano y colgando de un árbol. Parece que es uno de los padres de nuestro científico principal. \n\nEn su mano hay una nota que dice: §SEsta pareja era linda. Pero llegaste tarde ... -D§!"
  murder_event.5.a: "¿Cuántas personas deben morir antes de ser capturado?"
  
  murder_event.6.name: "Cuearta muerte"
- murder_event.6.desc: "Otro asesinato. Esta vez parece ser la esposa de uno de nuestros alcaldes. \n\nEn el suelo hay una carta que dice: 'Esta vez una esposa importante, oh cómo espero que el alcalde no se mate a sí mismo debido a esto ... Lástima que fueras demasiado tarde. -D'"
+ murder_event.6.desc: "Otro asesinato. Esta vez parece ser la esposa de uno de nuestros alcaldes. \n\nEn el suelo hay una carta que dice: §SEsta vez una esposa importante, oh cómo espero que el alcalde no se mate a sí mismo debido a esto ... Lástima que fueras demasiado tarde. -D§!"
  murder_event.6.a: "Descansa en paz."
  
  murder_event.7.name: "La muerte final"
- murder_event.7.desc: "Como esperábamos un quinto asesinato, dimos a nuestros ciudadanos más importantes guardias personales para asegurarnos de que no caerían víctimas. Esta vez estábamos seguros de que lo atraparíamos ... ¡y lo hicimos! Pero no antes de que matara a su objetivo - uno de nuestros xenos más ricos. \n\nEncontramos al hombre con una armadura tecnológicamente avanzada y estaba cubierto de sangre, como si decidiera no lavar su armadura después de cada asesinato. Tratamos de identificar a este hombre, pero era como si fuera un fantasma, e ignoró todas las preguntas excepto una. Le preguntamos '¿Cómo te llamas?', Su única respuesta fue 'Yo soy la Muerte'. \n\nComo esperábamos, encontramos una nota en los bolsillos del xeno que dice: "Ni siquiera el dinero podría salvarla, y confía en mí, ofreció mucho. Pero llegaste demasiado tarde. -D'"
+ murder_event.7.desc: "Como esperábamos un quinto asesinato, dimos a nuestros ciudadanos más importantes guardias personales para asegurarnos de que no caerían víctimas. Esta vez estábamos seguros de que lo atraparíamos ... ¡y lo hicimos! Pero no antes de que matara a su objetivo - uno de nuestros xenos más ricos. \n\nEncontramos al hombre con una armadura tecnológicamente avanzada y estaba cubierto de sangre, como si decidiera no lavar su armadura después de cada asesinato. Tratamos de identificar a este hombre, pero era como si fuera un fantasma, e ignoró todas las preguntas excepto una. Le preguntamos §S¿Cómo te llamas?§!, Su única respuesta fue §SYo soy la Muerte§!. \n\nComo esperábamos, encontramos una nota en los bolsillos del xeno que dice: §SNi siquiera el dinero podría salvarla, y confía en mí, ofreció mucho. Pero llegaste demasiado tarde. -D§!"
  murder_event.7.a: "Finalmente y acaba esta locura."
  
  murder_event.8.name: "El Fin"
- murder_event.8.desc: "Esta 'Muerte' fue atrapada, pero no antes de matar a las cinco personas importantes que prometió matar. Cómo él evadió nuestra seguridad y cómo él era mucho más techonologically avanzado que nosotros es un misterio. Pero si hay algo bueno que viene de esto, es que hemos aprendido mucho de su locura y ahora tendremos mucha más seguridad. \n\nPero a ese costo ... ¿Vale la pena?"
+ murder_event.8.desc: "Esta §SMuerte§! fue atrapada, pero no antes de matar a las cinco personas importantes que prometió matar. Cómo él evadió nuestra seguridad y cómo él era mucho más techonologically avanzado que nosotros es un misterio. Pero si hay algo bueno que viene de esto, es que hemos aprendido mucho de su locura y ahora tendremos mucha más seguridad. \n\nPero a ese costo ... ¿Vale la pena?"
  murder_event.8.a: "Por lo menos algo vino de esto."
  
  ########## END MURDER ##########

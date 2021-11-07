@@ -9,13 +9,11 @@
  ancient_flag_category_desc: "L'équipage a découvert sur §Y[From.GetName]§! un étrange cylindre métallique avec un tissu delavé qui y est attaché, apparemment une sorte de drapeau."
  ancient_flag.1.name: "Drapeau d'une ancienne civilisation"
  ancient_flag.1.desc: "L'officier scientifique §G[Root.GetLeaderName]§! qui commande le §B[Root.GetFleetName]§! a terminé son analyse détaillée de §Y[From.GetName]§!. L'objet semble avoir été placé par une ancienne civilisation, il y a environ 3000 ans. Dans leur culture, placer des drapeaux sur des objets célestes était une façon de s'approprier des terrains dans l'espace. \n\nComme il n'y a presque pas de vent sur §Y[From.GetName]§!, ne s'est pas érodé pendant les 3000 dernières années. Ce qu'il est advenu de l'ancienne civilisation est toujours un mystère."
-
  
  space_grave_category: "Squelettes en orbite"
  space_grave_category_desc: "L'équipage et son commandant, Â§G[Root.GetLeaderName]Â§!, ont fait une bien curieuse découverte: une douzaine de squelettes en orbite autour de Â§Y[Root.GetName]Â§!. \n\nL'équipage est très excité par cette trouvaille et désire vivement étudier cette anomalie."
  space_grave.1.name: "Un tombeau céleste"
  space_grave.1.desc: "En plus des squelettes flottants en orbite, l'équipage a aussi trouvé plusieurs centaines de milliers de ces squelettes sur la surface de Â§Y[Root.GetName]Â§!. Cela est probablement le résultat d'un cataclysme datant de quelques milliers d'années sur cette planète. Quelques individus ont manifestement tenté d'échapper au désastre, mais leur vaisseau a sans doute explosé pendant qu'il tentait de se soustraire au champ gravitationnel de Â§Y[Root.GetName]Â§!. \n\nLa nature de ce cataclysme est un mystère. Toutefois, plusieurs théories telles que la chute d'un astéroïde ou une éruption volcanique ont été écartées."
- 
  
  mineral_monolith_category: "Gigantesque rocher"
  mineral_monolith_category_desc: "Nous avons découvert un gigantesque rocher à la surface de Â§Y[Root.GetName]Â§! Une analyse préliminaire nous a permis de constater qu'il était extrêmement riche en minéraux et qu'il était recouvert d'inscriptions à sa base."
@@ -26,13 +24,11 @@
  mineral_monolith.1.c: "Vendez-le."
  mineral_monolith.1.d: "N'y touchez plus !"
  
- 
  last_words_category: "Ping"
  last_words_category_desc: "Notre équipage a reçu un signal d'appel ‘ping' provenant de Â§Y[Root.GetName]Â§!."
  last_words.1.name: "Les dernières paroles d'un explorateur"
- last_words.1.desc: "L'équipage du Â§B[Root.GetFleetName]Â§! a trouvé le dispositif qui émet le signal radio. Ce dispositif a enregistré les dernières paroles d'un explorateur de l'espace d'une autre espèce. Nous avons traduit ce message comme suit: \n\n"Commandant! Commandant!? Répondez, commandant! Je l'ai trouvé! Après toutes ces années, je l'ai enfin trouvé! Cela va changer l'univers tel que nous le connaissons maintenant. Tout deviendra possible et... attendez. Cela... bouge? Cela bouge! C'est encore en vie! ... Il m'a repéré. Il semble hostile. Si je ne réussis pas, mes coordonnées sont...Non... oh, non! Aaaah! " \n\nC'est tout ce que nous avons. Nous ne saurons jamais ce que cet explorateur a découvert, car son "commandant" semble avoir bombardé massivement la planète et aucune forme de vie n'a subsisté."
+ last_words.1.desc: "L'équipage du Â§B[Root.GetFleetName]Â§! a trouvé le dispositif qui émet le signal radio. Ce dispositif a enregistré les dernières paroles d'un explorateur de l'espace d'une autre espèce. Nous avons traduit ce message comme suit: \n\n§SCommandant! Commandant!? Répondez, commandant! Je l'ai trouvé! Après toutes ces années, je l'ai enfin trouvé! Cela va changer l'univers tel que nous le connaissons maintenant. Tout deviendra possible et... attendez. Cela... bouge? Cela bouge! C'est encore en vie! ... Il m'a repéré. Il semble hostile. Si je ne réussis pas, mes coordonnées sont...Non... oh, non! Aaaah!§! \n\nC'est tout ce que nous avons. Nous ne saurons jamais ce que cet explorateur a découvert, car son commandant semble avoir bombardé massivement la planète et aucune forme de vie n'a subsisté."
  last_words.1.a: "Quelle histoire..."
- 
  
  mineral_core_category: "Masse variable"
  mineral_core_category_desc: "La masse de cette planète semble varier de jour en jour selon nos instruments. Nous devons poursuivre l'étude de ce phénomène avant d'en arriver à une conclusion."
@@ -40,31 +36,26 @@
  mineral_core.1.desc: "Â§G[Root.GetLeaderName]Â§! rapporte que l'équipage du vaisseau Â§B[Root.GetFleetName]Â§! a identifié pourquoi la masse de cette planète augmente rapidement. \n\nLe noyau de cette planète a commencé à arrêter de tourner! Cela nous permettra de forer plus profondément pour fournir une quantité substantielle de minéraux à notre empire."
  mineral_core.1.a: "Un jour de gloire !"
  
- 
  bad_fate_category: "Extinction d'une race"
  bad_fate_category_desc: "Un examen minutieux du sol de cette planète révèle la présence d'une grande quantité de fossiles dans les couches rocheuses. Ce qui est intrigant puisque cette planète est complètement stérile."
  bad_fate.1.name: "Tragique destin"
- bad_fate.1.desc: "Une étude de reconstitution dirigée par Â§Y[From.GetName]Â§! démontre que nous contemplons ici le résultat d'une collision entre deux planètes que l'équipage du  Â§B[Root.GetFleetName]Â§! a surnommé ‘Fatalité' et ‘Destinée'". \n\nUne civilisation en plein essor peuplait l'une de ces planètes et s'est éteinte à la suite de cette collision."
+ bad_fate.1.desc: "Une étude de reconstitution dirigée par Â§Y[From.GetName]Â§! démontre que nous contemplons ici le résultat d'une collision entre deux planètes que l'équipage du  Â§B[Root.GetFleetName]Â§! a surnommé §SFatalité§! et §SDestinée§!. \n\nUne civilisation en plein essor peuplait l'une de ces planètes et s'est éteinte à la suite de cette collision."
  bad_fate.1.b: "Qu'ils reposent en paix."
- 
  
  rocky_egg_category: "Cartographie atypique"
  rocky_egg_category_desc: "Le balayage de cette planète démontre qu'elle possède une géographie extrêmement atypique."
  rocky_egg.1.name: "Un œuf géant"
  rocky_egg.1.desc: "Â§G[Root.GetLeaderName]Â§! et l'équipage du Â§B[Root.GetFleetName]Â§! rapporte que cette planète est en fait un œuf datant de plusieurs millions d'années! \n\nL'oeuf a augmenté exponentiellement sa masse pendant ces millions d'années en se recouvrant de débris célestes! \n\nÂ§G[Root.GetLeaderName]Â§! dit toutefois de ne pas s'en faire, car l'oeuf ne devrait pas éclore d'ici plusieurs autres millions d'années. \n\nQu'une telle chose puisse exister relève du miracle. Cette créature devait être extrêmement rare et cet œuf doit constituer tout ce qui reste de cette race. Nos savants sont émerveillés par cette bouleversante découverte."
  
- 
  gassy_planet_category: "Vieille demeure"
  gassy_planet_category_desc: "Notre équipage a découvert que Â§Y[Root.GetName]Â§! abritait auparavant une civilisation qui avait quitté précipitamment sa surface."
  gassy_planet.1.name: "Une éruption gazeuse"
  gassy_planet.1.desc: "L'étude de cette planète par l'équipage du Â§B[Root.GetFleetName]Â§! démontre qu'une ancienne civilisation a abandonné cette planète après qu'elle soit devenue impropre à la vie. \n\nÂ§G[Root.GetLeaderName]Â§! estime que la planète avait perdu son caractère habitable en raison d'une éruption volcanique massive qui avait relâché un gaz toxique dans tout l'atmosphère. \n\Nous ne saurons jamais ce qu'ils sont finalement devenus."
  
- 
  doomed_civ_category: "Navette échouée"
  doomed_civ_category_desc: "L'équipage a identifié ce qui semble être une navette spatiale qui s'est écrasée en surface."
  doomed_civ.1.name: "La trajectoire de rescapés"
- doomed_civ.1.desc: "L'équipage du Â§B[Root.GetFleetName]Â§! est parvenu à une triste conclusion en analysant la navette échouée. \n\nCette navette était en fait une capsule de survie contenant des rescapés qui fuyaient une planète devenue hostile pour on ne sait quelle raison. Quoi qu'il en soit, la trajectoire de cet aéronef a été mal calculée lors de son lancement et elle s'est écrasée ici. 
- 
+ doomed_civ.1.desc: "L'équipage du Â§B[Root.GetFleetName]Â§! est parvenu à une triste conclusion en analysant la navette échouée. \n\nCette navette était en fait une capsule de survie contenant des rescapés qui fuyaient une planète devenue hostile pour on ne sait quelle raison. Quoi qu'il en soit, la trajectoire de cet aéronef a été mal calculée lors de son lancement et elle s'est écrasée ici."
  
  lost_treasure_category: "Faible signal"
  lost_treasure_category_desc: "Nous recevons un faible signal provenant de Â§Y[Root.GetName]Â§! "
@@ -76,7 +67,7 @@
  crazy_scientist_category: "Phéromone bizarre"
  crazy_scientist_category_desc: "Lors du balayage de Â§Y[Root.GetName]Â§! l'équipage a capté la présence d'une phéromone bizarre."
  crazy_scientist.1.name: "Un savant perd la raison"
- crazy_scientist.1.desc: "Lors de l'étude de cette anomalie, l'un de nos savants a accidentellement déchiré son costume et la phéromone a commencé à l'affecter d'une façon étonnante. \n\nIl criait à propos des "voix" et semblait terrifié par ce qu'il entendait puis, après un moment, il s'est enfui pour se cacher dans une grotte. Nous savons qu'il s'y trouve toujours. \n\nNous avons décider de l'abandonner à son sort de crainte de contaminer tout l'équipage. Â§G[Root.GetLeaderName]Â§! nous assure que cet incident n'affectera pas le moral de l'équipage."
+ crazy_scientist.1.desc: "Lors de l'étude de cette anomalie, l'un de nos savants a accidentellement déchiré son costume et la phéromone a commencé à l'affecter d'une façon étonnante. \n\nIl criait à propos des voix et semblait terrifié par ce qu'il entendait puis, après un moment, il s'est enfui pour se cacher dans une grotte. Nous savons qu'il s'y trouve toujours. \n\nNous avons décidé de l'abandonner à son sort de crainte de contaminer tout l'équipage. Â§G[Root.GetLeaderName]Â§! nous assure que cet incident n'affectera pas le moral de l'équipage."
  crazy_scientist.1.a: "Quelle fin tragique."
  
  diamond_core_category: "Noyau dense"
@@ -91,7 +82,7 @@
  except_engine.1.name: "Conception avancée"
  except_engine.1.desc: "Â§B[Root.GetFleetName]Â§! a découvert sur la surface de cette planète des machines-outils d'une conception plus avancée que les nôtres! \n\nÂ§G[Root.GetLeaderName]Â§! propose de les ramener dans la capitale afin de les étudier ou de les vendre au plus offrant."
  except_engine.1.a: "Nous devons apprendre de ces machines !"
- except_engine.1.b: "Vendez-les, notre technologie est inégalée.
+ except_engine.1.b: "Vendez-les, notre technologie est inégalée."
 
  crushed_category: "Objet brillant"
  crushed_category_desc: "L'équipage a identifié une anomalie sur Â§Y[Root.GetName]Â§! Cela brille énormément!"
@@ -153,7 +144,7 @@
  space_nomads_category: "Navire cargo en orbite"
  space_nomads_category_desc: "Nos savants ont découvert un navire-cargo en orbite autour de Â§Y[Root.GetName]Â§! "
  space_nomads.1.name: "Nomades de l'espace"
- space_nomads.1.desc: "Comme l'équipage du Â§B[Root.GetFleetName]Â§! approchait le navire-cargo, ils ont été accueillis par des nomades très hospitaliers qui se nomment eux-mêmes les ‘vagabonds'. \n\nIls ont parlé de leur long voyage à travers la galaxie, de leurs rencontres avec d'autres espèces, et de leurs ennuis financiers tout en partageant avec nous des plats épicés et une boisson aromatique appelé "Glabnak". Après les festivités, nous nous sommes quittés non sans avoir reçu la recette du "Glabnak". \n\nÂ§G[Root.GetLeaderName]Â§! recommande de les aider financièrement avec une donation de 200 crédits énergie."
+ space_nomads.1.desc: "Comme l'équipage du Â§B[Root.GetFleetName]Â§! approchait le navire-cargo, ils ont été accueillis par des nomades très hospitaliers qui se nomment eux-mêmes les ‘vagabonds'. \n\nIls ont parlé de leur long voyage à travers la galaxie, de leurs rencontres avec d'autres espèces, et de leurs ennuis financiers tout en partageant avec nous des plats épicés et une boisson aromatique appelé §SGlabnak§!. Après les festivités, nous nous sommes quittés non sans avoir reçu la recette du §SGlabnak§!. \n\nÂ§G[Root.GetLeaderName]Â§! recommande de les aider financièrement avec une donation de 200 crédits énergie."
  space_nomads.1.a: "Nous n'avons pas cette somme..."
  space_nomads.1.b: "Bien sûr!"
  space_nomads.1.c: "Laissez-les partir avec leur misère."
@@ -186,12 +177,12 @@
  abandoned_base_category: "Coupole en métal"
  abandoned_base_category_desc: "Nos savants ont découvert une large coupole en métal à la surface de Â§Y[Root.GetName]Â§! "
  abandoned_base.1.name: "Déserteurs"
- abandoned_base.1.desc: "Comme nous approchions de la coupole, il est devenu clair qu'elle recouvrait un bâtiment construit à flanc de montagne. \n\nLorsque notre équipe s'est approchée, elle a été accueillie par des fusils, mais après avoir assuré ces gens que nous venions en paix, cela a mis fin à l'hostilité et ceux qui se désignent comme les "Personnes libres" nous ont finalement offert de partager un repas. \n\nÂ§G[Root.GetLeaderName]Â§! a envoyé un message à propos de ces ‘Personnes libres' à l'effet qu'ils étaient en fait des déserteurs, peut-être devenus mercenaires, car ils possèdent des richesses bien au-delà de ce que l'on aurait s'attendre de tels lascards."
+ abandoned_base.1.desc: "Comme nous approchions de la coupole, il est devenu clair qu'elle recouvrait un bâtiment construit à flanc de montagne. \n\nLorsque notre équipe s'est approchée, elle a été accueillie par des fusils, mais après avoir assuré ces gens que nous venions en paix, cela a mis fin à l'hostilité et ceux qui se désignent comme les §SPersonnes libres§! nous ont finalement offert de partager un repas. \n\nÂ§G[Root.GetLeaderName]Â§! a envoyé un message à propos de ces §SPersonnes libres§! à l'effet qu'ils étaient en fait des déserteurs, peut-être devenus mercenaires, car ils possèdent des richesses bien au-delà de ce que l'on aurait s'attendre de tels lascards."
  abandoned_base.1.a: "Demandez-leur de servir notre cause."
  abandoned_base.1.b: "Ce sont des traîtres!"
  abandoned_base.1.c: "Emparez-vous de leurs richesses et fuyez !"
  abandoned_base.2.name: "Recrutement"
- abandoned_base.2.desc: "Nos savants ont demandé à ces ‘Personnes libres' s'ils voulaient s'enrôler dans notre armée.  Ils accepteront à condition d'être payés d'avance. \n\nÂ§G[Root.GetLeaderName]Â§! nous incite fortement à ne pas les enrôler puisqu'ils ils n'ont pas été loyaux à leur ancien chef.  Pourquoi seraient-ils loyaux à notre cause?
+ abandoned_base.2.desc: "Nos savants ont demandé à ces §SPersonnes libres§! s'ils voulaient s'enrôler dans notre armée.  Ils accepteront à condition d'être payés d'avance. \n\nÂ§G[Root.GetLeaderName]Â§! nous incite fortement à ne pas les enrôler puisqu'ils ils n'ont pas été loyaux à leur ancien chef.  Pourquoi seraient-ils loyaux à notre cause?"
  abandoned_base.2.a: "Enrôlez ces Personnes libres"
  abandoned_base.2.b: "Laissons tomber."
  abandoned_base.2.tooltip: "Continuez cette histoire"
@@ -199,14 +190,14 @@
  infinium_category: "Minerai rare et précieux"
  infinium_category_desc: "Lors du balayage de Â§Y[Root.GetName]Â§!, nos savants ont découvert une petite source d'un minerai jusqu'ici inconnu! L'équipe veut désespérément étudier ce nouveau minerai."
  infinium.1.name: "Infinium"
- infinium.1.desc: "Ce minerai est absolument merveilleux! Sous une chaleur intense, il peut être moulé sous n'importe quelle forme et lorsque refroidi, cela devient presque indestructible! \n\nNos savants ont décidé de le nommer  "Infinium" à cause des usages infinis pour lequel il pourrait servir. \n\nÂ§G[Root.GetLeaderName]Â§! suggère de garder ce minerai pour une recherche plus poussée, mais nous pourrions aussi le vendre si nous avons réellement besoin d'argent."
+ infinium.1.desc: "Ce minerai est absolument merveilleux! Sous une chaleur intense, il peut être moulé sous n'importe quelle forme et lorsque refroidi, cela devient presque indestructible! \n\nNos savants ont décidé de le nommer  §SInfinium§! à cause des usages infinis pour lequel il pourrait servir. \n\nÂ§G[Root.GetLeaderName]Â§! suggère de garder ce minerai pour une recherche plus poussée, mais nous pourrions aussi le vendre si nous avons réellement besoin d'argent."
  infinium.1.a: "Gardez-le."
  infinium.1.b: "Vendez-le"
  
  error_category: "Vie artificielle"
  error_category_desc: "Â§Y[Root.GetName]Â§! semble abriter une forme de vie artificielle."
  error.1.name: "Vie artificielle"
- error.1.desc: "Il y a véritablement des robots semi-organiques qui patrouillent la planète pour on ne sait quelle raison. \n\nLorsque nous tentons d'entrer en communication avec un de ces robots, ils ne font que répéter: "Â§RERROR-703, PATH - NOT – FOUNDÂ§!" et lorsqu'ils détectent un de nos savants, ils répètent: "Â§RERROR-001, LIFEFORM - DETECTEDÂ§!". \n\nÂ§G[Root.GetLeaderName]Â§! suggère de kidnapper quelques-uns de ces robots afin de déterminer à quoi ils servent, de les envoyer à la casse ou peut-être les vendre?"
+ error.1.desc: "Il y a véritablement des robots semi-organiques qui patrouillent la planète pour on ne sait quelle raison. \n\nLorsque nous tentons d'entrer en communication avec un de ces robots, ils ne font que répéter: §RERROR-703, PATH - NOT – FOUND§! et lorsqu'ils détectent un de nos savants, ils répètent: §RERROR-001, LIFEFORM - DETECTEDÂ§!. \n\nÂ§G[Root.GetLeaderName]Â§! suggère de kidnapper quelques-uns de ces robots afin de déterminer à quoi ils servent, de les envoyer à la casse ou peut-être les vendre?"
  error.1.a: "Trouvez à quoi ils servent."
  error.1.b: "À la casse !"
  error.1.c: "Vendez-les !"
@@ -284,12 +275,11 @@
  
  ########## STAR STUFF ##########
  
- star_stuff.1.name:0 "Le projet de recherche sur les étoiles"
- star_stuff.1.desc:0 "Depuis l'aube de son existence, notre civilisation a toujours contemplé les étoiles avec admiration. Nous pouvons maintenant les visiter. \n\nTous nos savants s'accordent à penser que nous devrions récolter des informations sur chaque classe d'étoiles afin de de percer leurs mystères."
- star_stuff.1.a:0 "Je suis d'accord. Avançons vers l'inconnu."
- star_stuff.1.b:0 "Nous n'avons pas le temps pour ce genre de chose." 
- 
- star_stuff.1001.desc:0 "L'équipage de §B[from.GetName]§! a signalé qu'il avait observé plusieurs nouveaux types d'étoiles, et a suggéré que des informations sur ces étoiles soient également recueillies."
+ star_stuff.1.name: "Le projet de recherche sur les étoiles"
+ star_stuff.1.desc: "Depuis l'aube de son existence, notre civilisation a toujours contemplé les étoiles avec admiration. Nous pouvons maintenant les visiter. \n\nTous nos savants s'accordent à penser que nous devrions récolter des informations sur chaque classe d'étoiles afin de de percer leurs mystères."
+ star_stuff.1.a: "Je suis d'accord. Avançons vers l'inconnu."
+ star_stuff.1.b: "Nous n'avons pas le temps pour ce genre de chose." 
+ star_stuff.1001.desc: "L'équipage de §B[from.GetName]§! a signalé qu'il avait observé plusieurs nouveaux types d'étoiles, et a suggéré que des informations sur ces étoiles soient également recueillies."
  
  star_stuff.2.name: "Étoile de classe A"
  star_stuff.2.desc: "Cette étoile blanche ou bleuâtre est relativement jeune et brille davantage que toutes les autres. Les étoiles de classe A sont des étoiles massives tournant très rapidement sur elles-mêmes pour finalement ralentir leur vitesse de rotation et se changer en géante rouge après quelques millions d'années."
@@ -307,16 +297,16 @@
  star_stuff.5.desc: "Cette naine jaune dont la couleur peut en fait varier est connue comme une étoile de classe G. Ces étoiles fusionnent de l'hydrogène pour environ 10 milliards d'années avant de prendre de l'expansion et se transformer en géantes rouges. \n\nBien que la durée de vie d'une étoile de classe G est plus courte que celle d'une étoile de classe K, elles forment le centre de systèmes qui profitent de conditions optimales pour l'apparition de formes de vie."
  star_stuff.5.a: "Merveilleux."
  
- star_stuff.6.name:0 "Étoile de classe K"
- star_stuff.6.desc:0 "Les étoiles de classe K sont souvent appelées géantes orange et sont très communes. Ce type d'étoile a une très longue durée de vie et la vie a donc beaucoup de temps pour se développer dans ces systèmes."
+ star_stuff.6.name: "Étoile de classe K"
+ star_stuff.6.desc: "Les étoiles de classe K sont souvent appelées géantes orange et sont très communes. Ce type d'étoile a une très longue durée de vie et la vie a donc beaucoup de temps pour se développer dans ces systèmes."
  star_stuff.6.a: "Intéressant."
  
- star_stuff.7.name:0 "Étoile de classe M"
- star_stuff.7.desc:0 "Les étoiles de classe M, souvent appelées naines rouges, sont les plus répandues dans l'univers. Leur faible luminosité les rend difficiles à observer à l'oeil nu depuis de longues distances bien que, vues de près, elles présentent un extraordinaire spectacle. \n\nBien qu'elles vivent très longtemps, elles n'émettent pratiquement pas de rayons ultraviolets ce qui résulte en des conditions peu favorables à l'éclosion de la vie dans ces systèmes."
+ star_stuff.7.name: "Étoile de classe M"
+ star_stuff.7.desc: "Les étoiles de classe M, souvent appelées naines rouges, sont les plus répandues dans l'univers. Leur faible luminosité les rend difficiles à observer à l'oeil nu depuis de longues distances bien que, vues de près, elles présentent un extraordinaire spectacle. \n\nBien qu'elles vivent très longtemps, elles n'émettent pratiquement pas de rayons ultraviolets ce qui résulte en des conditions peu favorables à l'éclosion de la vie dans ces systèmes."
  star_stuff.7.a: "Incroyable."
  
- star_stuff.8.name:0 "Une étoile à neutrons"
- star_stuff.8.desc:0 "Cette étoile incroyablement dense est connue sous le nom d'étoile à neutrons et elle résulte souvent de l'implosion rapide d'une étoile massive qui se transforme en supernova.  \n\nBien que son diamètre peut n'être que d'une dizaine de kilomètre, sa masse dépasse souvent une étoile de classe G !"
+ star_stuff.8.name: "Une étoile à neutrons"
+ star_stuff.8.desc: "Cette étoile incroyablement dense est connue sous le nom d'étoile à neutrons et elle résulte souvent de l'implosion rapide d'une étoile massive qui se transforme en supernova.  \n\nBien que son diamètre peut n'être que d'une dizaine de kilomètre, sa masse dépasse souvent une étoile de classe G !"
  star_stuff.8.a: "Incroyable."
  
  star_stuff.9.name: "Un trou noir"
@@ -479,14 +469,14 @@
  popup.26.desc: "Notre équipe scientifique a de nouveau atterri sur Â§Y[From.GetName]Â§! pour sa recherche routinière. Nous espérons aussi que la savante retrouvera son équipement. \n\nNous n'avons pas retrouvé son équipement.  Toutefois, nous avons observé de nombreuses traces de pas un peu partout et dans tous les sens comme si les locaux avaient dansé ou s'étaient mis à vénérer avec frénésie l'équipement de la savante."
  
  popup.28.name: "Équipement oublié, partie III"
- popup.28.desc: ""Notre équipe scientifique a encore atterri sur Â§Y[From.GetName]Â§! pour sa recherche routinière. Cette fois, nous avons vite été accueillis et entourés par les locaux. L'un de ces locaux tenait le pistolet de notre savante.  Il semblait avoir un statut plus important que le reste du groupe. Peut-être était-il devenu une espèce de roi après cette découverte qui le rendait tout puissant. \n\n Quoiqu'il en soit, ils se sont mis à crier dans leur propre langage et à gesticuler.  Le message semble clair, ils veulent que nous quittions les lieux sans y remettre les pieds. \n\nNotre équipe s'est retiré rapidement et nous avons quitté la planète."
+ popup.28.desc: "Notre équipe scientifique a encore atterri sur Â§Y[From.GetName]Â§! pour sa recherche routinière. Cette fois, nous avons vite été accueillis et entourés par les locaux. L'un de ces locaux tenait le pistolet de notre savante.  Il semblait avoir un statut plus important que le reste du groupe. Peut-être était-il devenu une espèce de roi après cette découverte qui le rendait tout puissant. \n\n Quoiqu'il en soit, ils se sont mis à crier dans leur propre langage et à gesticuler.  Le message semble clair, ils veulent que nous quittions les lieux sans y remettre les pieds. \n\nNotre équipe s'est retiré rapidement et nous avons quitté la planète."
  popup.28.a: "Peut-être est-il préférable des les étudier à distance."
  popup.28.b: "Tuez tous ceux qui s'opposent à nous."
  popup.28.c: "Cette planète et sa population idiote sont insignifiantes. Faites-moi exploser tout ça !."
  
  popup.30.name: "Naissance d'une nouvelle espèce intelligente"
- popup.30.desc: "Depuis leur poste d'observation, notre équipage étudiait Â§Y[From.GetName]Â§!, lorsqu'il a relevé un phénomène fascinant et très rare. \n\nA Une autre espèce développe la sentience en cohabitation avec une autre espèce possédant la sentience appelée "Â§SXiblibiÂ§!". Deux espèces possédant la sentience  cohabitent maintenant sur Â§Y[From.GetName]Â§! "
- popup.30.b: "Il est préférable qu'une seule espèce règne.  Éliminez ces "Xiblibi"."
+ popup.30.desc: "Depuis leur poste d'observation, notre équipage étudiait Â§Y[From.GetName]Â§!, lorsqu'il a relevé un phénomène fascinant et très rare. \n\nA Une autre espèce développe la sentience en cohabitation avec une autre espèce possédant la sentience appelée §SXiblibi§!. Deux espèces possédant la sentience  cohabitent maintenant sur Â§Y[From.GetName]Â§! "
+ popup.30.b: "Il est préférable qu'une seule espèce règne.  Éliminez ces §SXiblibi§!."
  
  popup.31.name: "Évolution vers la sentience"
  popup.31.desc: "Une forme de vie génétiquement proche de la nôtre sur notre planète commence à développer une sentience. \n\nNous pourrions les faire évoluer rapidement vers la sentience complète afin qu'ils puissent devenir des citoyens."
@@ -503,36 +493,36 @@
  murder_category_desc: "Notre équipe scientifique a reçu un signal de détresse provenant de Â§Y[Root.GetName]Â§! "
  
  MURDER_PROJECT: "Le tueur en série"
- MURDER_PROJECT_DESC: "Un balayage de la planète nous a permis de découvrir que le signal de détresse provenait d'un contenant ouvert. Dans ce contenant, nous avons trouvé une enveloppe avec les mots ‘Lisez-moi' écrits en rouge. Nous avons décidé de l'offrir. \n\nCette enveloppe contenait une lettre avec le texte suivant: ‘Bon. Vous avez donc repéré le signal et vous avez trouvé cette lettre. C'est bien. Puisque j'ai maintenant votre attention, je dois vous dire que j'en ai marre que des représentants du gouvernement nous traitent comme si nous étions leurs esclaves. Aussi, je vais tuer cinq personnes importantes pour vous à moins que vous ne me capturiez avant, bien sûr. Allez, ne soyez pas en retard. -D'."
+ MURDER_PROJECT_DESC: "Un balayage de la planète nous a permis de découvrir que le signal de détresse provenait d'un contenant ouvert. Dans ce contenant, nous avons trouvé une enveloppe avec les mots ‘Lisez-moi' écrits en rouge. Nous avons décidé de l'offrir. \n\nCette enveloppe contenait une lettre avec le texte suivant: §SBon. Vous avez donc repéré le signal et vous avez trouvé cette lettre. C'est bien. Puisque j'ai maintenant votre attention, je dois vous dire que j'en ai marre que des représentants du gouvernement nous traitent comme si nous étions leurs esclaves. Aussi, je vais tuer cinq personnes importantes pour vous à moins que vous ne me capturiez avant, bien sûr. Allez, ne soyez pas en retard. -D§!."
  
  murder_event.1.name: "Le tueur en série"
- murder_event.1.desc: "Un balayage de la planète nous a permis de découvrir que le signal de détresse provenait d'un contenant ouvert. Dans ce contenant, nous avons trouvé une enveloppe avec les mots ‘Lisez-moi' écrits en rouge. Nous avons décidé de l'offrir. \n\nCette enveloppe contenait une lettre avec le texte suivant: "Bon. Vous avez donc repéré le signal et vous avez trouvé cette lettre. C'est bien. Puisque j'ai maintenant votre attention, je dois vous dire que j'en ai marre que des représentants du gouvernement nous traitent comme si nous étions leurs esclaves. Aussi, je vais tuer cinq personnes importantes pour vous à moins que vous me capturiez avant, bien sûr. Allez, ne soyez pas en retard. -D'.". \n\nCela peut être un canular, mais je pense qu'il serait préférable de nous trouvions ce type."
+ murder_event.1.desc: "Un balayage de la planète nous a permis de découvrir que le signal de détresse provenait d'un contenant ouvert. Dans ce contenant, nous avons trouvé une enveloppe avec les mots ‘Lisez-moi' écrits en rouge. Nous avons décidé de l'offrir. \n\nCette enveloppe contenait une lettre avec le texte suivant: §SBon. Vous avez donc repéré le signal et vous avez trouvé cette lettre. C'est bien. Puisque j'ai maintenant votre attention, je dois vous dire que j'en ai marre que des représentants du gouvernement nous traitent comme si nous étions leurs esclaves. Aussi, je vais tuer cinq personnes importantes pour vous à moins que vous me capturiez avant, bien sûr. Allez, ne soyez pas en retard. -D§! \n\nCela peut être un canular, mais je pense qu'il serait préférable de nous trouvions ce type."
  murder_event.1.a: "Trouvez ce type !"
  murder_event.1.b: "Une autre menace de mort... rien de bien neuf"
  
  murder_event.2.name: "Le premier meurtre"
- murder_event.2.desc: "Le pire s'est produit... Cela n'étaient pas que des menaces... Il a tué quelqu'un. Une jeune femme, la fille d'un général renommé. \n\nNous avons trouvé une lettre dans les mains de la victime: 'Pauvre fille. Est-ce qu'elle manquera beaucoup à son papa? Sans doute... mais vous êtes arrivé en retard. -D' \n\nNous devrons bientôt informer le général...
+ murder_event.2.desc: "Le pire s'est produit... Cela n'étaient pas que des menaces... Il a tué quelqu'un. Une jeune femme, la fille d'un général renommé. \n\nNous avons trouvé une lettre dans les mains de la victime: §SPauvre fille. Est-ce qu'elle manquera beaucoup à son papa? Sans doute... mais vous êtes arrivé en retard. -D§! \n\nNous devrons bientôt informer le général...
  murder_event.2.a: "Trouvez ce meurtrier !"
  
  murder_event.4.name: "Le second meurtre"
- murder_event.4.desc: "Un autre meurtre. Cette fois, il s'agit d'un haut fonctionnaire xénocitoyen responsable des affaires extérieures. \n\nNous avons trouvé cette lettre près du cadavre: 'Cette fois, un xéno. Trop tard. -D'"
+ murder_event.4.desc: "Un autre meurtre. Cette fois, il s'agit d'un haut fonctionnaire xénocitoyen responsable des affaires extérieures. \n\nNous avons trouvé cette lettre près du cadavre: §SCette fois, un xéno. Trop tard. -D§!"
  murder_event.4.a: "Comment...nous ne l'avons pas encore trouvé !?"
  
  murder_event.5.name: "Le troisième meurtre"
- murder_event.5.desc: "Hélas, un troisième meurtre. Un vieil homme et sa compagne se tenant par la main ont été pendus à un arbre. Ce sont les parents d'un de nos meilleurs hommes de science. \n\nDans les mains du pauvre vieil homme, cette note: 'Ce couple était charmant. Encore trop tard... -D'"
+ murder_event.5.desc: "Hélas, un troisième meurtre. Un vieil homme et sa compagne se tenant par la main ont été pendus à un arbre. Ce sont les parents d'un de nos meilleurs hommes de science. \n\nDans les mains du pauvre vieil homme, cette note: §SCe couple était charmant. Encore trop tard... -D§!"
  murder_event.5.a: "Combien de personnes devront mourir avant que ce type soit capturé !?"
  
  murder_event.6.name: "Le quatrième meurtre"
- murder_event.6.desc: "Un autre meurtre. Cette fois, il s'agit de la femme d'un de nos gouverneurs. \n\nSur le sol, une note: 'Cette fois, la femme d'un gouverneur. J'espère qu'il s'en remettra... Dommage, vous arrivez encore trop tard. -D'"
+ murder_event.6.desc: "Un autre meurtre. Cette fois, il s'agit de la femme d'un de nos gouverneurs. \n\nSur le sol, une note: §SCette fois, la femme d'un gouverneur. J'espère qu'il s'en remettra... Dommage, vous arrivez encore trop tard. -D§!"
  murder_event.6.a: "Qu'elle repose en paix..."
  
  murder_event.7.name: "Le dernier meurtre"
 
- murder_event.7.desc: "Comme nous nous attendions à un cinquième meurtre, tous nos services de protection et de renseignement étaient aux aguets et nous avons donné des gardes du corps à nos plus éminents citoyens afin de les protéger. Cette fois, nous étions sûrs de le capturer... et nous avons réussi! Mais hélas pas avant qu'il ne fasse sa dernière victime – une PDG très connue et richissime. \n\nNous avons trouvé le meurtrier dans un costume haute technologie blindé couvert de sang, car il avait décidé de ne pas laver son costume après ses meurtres. Nous avons tenté de l'identifier, mais cet individu semble sorti de nulle part.  Il a ignoré toutes nos questions sauf une. Nous lui avons demandé 'Quel est votre nom?', sa seule réponse était 'Je suis l'ombre de la mort'.  \n\nToujours une note, cette fois dans la poche du PDG: 'Même l'argent n'a pu la sauver et croyez-moi, elle m'a offert une fortune. Mais vous êtes arrivé trop tard. -D'"
+ murder_event.7.desc: "Comme nous nous attendions à un cinquième meurtre, tous nos services de protection et de renseignement étaient aux aguets et nous avons donné des gardes du corps à nos plus éminents citoyens afin de les protéger. Cette fois, nous étions sûrs de le capturer... et nous avons réussi! Mais hélas pas avant qu'il ne fasse sa dernière victime – une PDG très connue et richissime. \n\nNous avons trouvé le meurtrier dans un costume haute technologie blindé couvert de sang, car il avait décidé de ne pas laver son costume après ses meurtres. Nous avons tenté de l'identifier, mais cet individu semble sorti de nulle part.  Il a ignoré toutes nos questions sauf une. Nous lui avons demandé §SQuel est votre nom ?§!, sa seule réponse était §SJe suis l'ombre de la mort.§!  \n\nToujours une note, cette fois dans la poche du PDG: §SMême l'argent n'a pu la sauver et croyez-moi, elle m'a offert une fortune. Mais vous êtes arrivé trop tard. -D§!"
  murder_event.7.a: "Finalement, cette folie prend fin."
  
  murder_event.8.name: "La fin"
- murder_event.8.desc: "Cet 'ombre de la mort' a été capturée, mais pas avant qu'il ne fasse cinq victimes comme il l'avait promis. Comment a-t-il réussi à échapper à toute tentative d'identification et comment s'est-il procuré ce costume blindé de haute technologie? Cela demeurera un mystère. La seule note positive de cette malheureuse histoire, c'est que l'étude de son costume de protection de haute technologie permettra désormais une meilleure protection de certains de nos citoyens. \n\nMais, à quel prix...N'était-ce pas trop cher payer ?"
+ murder_event.8.desc: "Cette §SOmbre de la mort§! a été capturée, mais pas avant qu'il ne fasse cinq victimes comme il l'avait promis. Comment a-t-il réussi à échapper à toute tentative d'identification et comment s'est-il procuré ce costume blindé de haute technologie? Cela demeurera un mystère. La seule note positive de cette malheureuse histoire, c'est que l'étude de son costume de protection de haute technologie permettra désormais une meilleure protection de certains de nos citoyens. \n\nMais, à quel prix...N'était-ce pas trop cher payer ?"
  murder_event.8.a: "Au moins, il en sort quelque chose de bon."
  
  ########## END MURDER ##########

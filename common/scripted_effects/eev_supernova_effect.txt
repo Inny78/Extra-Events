@@ -9,6 +9,7 @@ eev_supernova_start = {
 	else = {
 		fire_on_action = { on_action = on_destroy_star_system }
 	}
+	set_star_class = sc_black_hole
 	every_system_ambient_object = {
 		limit = {
 			# Preserve Unbidden crisis effects
@@ -34,7 +35,7 @@ eev_supernova_start = {
 			}
 		}
 		change_pc = pc_black_hole
-		clear_planet_modifiers = yes
+		reset_planet = yes
 	}
 	# Handle Contingency Machine Worlds
 	every_system_planet = {
@@ -87,7 +88,7 @@ eev_supernova_start = {
 			}
 			else = {
 				change_pc = pc_shattered
-				clear_planet_modifiers = yes
+				reset_planet = yes
 			}
 		}
 		else_if = {
@@ -107,7 +108,7 @@ eev_supernova_start = {
 		}
 		else = {
 			change_pc = pc_shattered
-			clear_planet_modifiers = yes
+			reset_planet = yes
 		}
 	}
 	every_system_planet = {
@@ -118,7 +119,7 @@ eev_supernova_start = {
 	}
 	every_system_planet = {
 		clear_deposits = yes
-		clear_planet_modifiers = yes
+		reset_planet = yes
 		prevent_anomaly = yes
 	}
 	every_system_planet = {

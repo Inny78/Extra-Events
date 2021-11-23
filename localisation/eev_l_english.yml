@@ -188,7 +188,7 @@
  infinium_category: "Rare Mineral"
  infinium_category_desc: "While scanning §Y[Root.GetName]§! our scientists have discovered a mineral unlike any in recorded history! The team desperately wishes to research more in to this mineral."
  infinium.1.name: "Infinium Ore"
- infinium.1.desc: "This mineral our scientists found is truely magnificent! Under intense heat it can be molded in to anything and when cooled back down it's nearly indestructible! \n\nOur scientists have started calling it §SInfinium§! for its nearly infinite uses. \n\n§G[Root.GetLeaderName]§! suggest keeping this Infinium for further research and use, but says we could also sell it if we really need the money."
+ infinium.1.desc: "This mineral our scientists found is truely magnificent! Under intense heat it can be molded in to anything and when cooled back down its nearly indestructible! \n\nOur scientists have started calling it §SInfinium§! for its nearly infinite uses. \n\n§G[Root.GetLeaderName]§! suggest keeping this Infinium for further research and use, but says we could also sell it if we really need the money."
  infinium.1.a: "Keep it."
  infinium.1.b: "Sell it."
  
@@ -352,7 +352,7 @@
  popup.2.a: "Find them!"
  #
  popup.3.name: "Leader Assassinated!"
- popup.3.desc: "At an annual conference meeting concerning the empire and it's people an idealist fool shot and injured our leader! He we jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma where he soon met death. \n\nHe will be missed..."
+ popup.3.desc: "At an annual conference meeting concerning the empire and its people an idealist fool shot and injured our leader! He we jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma where he soon met death. \n\nHe will be missed..."
  popup.3.default: "A shame..."
  popup.3.militarist: "What's wrong with our army!?"
  popup.3.phobe: "An alien, no doubt?"
@@ -468,7 +468,7 @@
  popup.28.c: "This planet and their species are useless. Blow them up."
  
  popup.30.name: "New Primitive Species Awakens"
- popup.30.desc: "As our observation post and it's scientists were studying §Y[From.GetName]§!, they noticed something very rare and interesting. \n\nA new sentient species has evolved along with the current sentient species already there which have been named §SXiblibi§!. Two different sentient races now inhabit §Y[From.GetName]§!."
+ popup.30.desc: "As our observation post and its scientists were studying §Y[From.GetName]§!, they noticed something very rare and interesting. \n\nA new sentient species has evolved along with the current sentient species already there which have been named §SXiblibi§!. Two different sentient races now inhabit §Y[From.GetName]§!."
  popup.30.b: "It's better to have one ruling species. Exterminate these §SXiblibi§!."
  
  popup.31.name: "New Sentience Evolving"
@@ -485,10 +485,10 @@
  murder_category_desc: "Our scientists have picked up one of our distress signal coming from §Y[Root.GetName]§!."
  
  MURDER_PROJECT: "The Serial Killer"
- MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIt's contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."
+ MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."
  
  murder_event.1.name: "The Serial Killer"
- murder_event.1.desc: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIt's contents read 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'. \n\nIt could be a hoax but we all think it's in our people's best interest to find this guy."
+ murder_event.1.desc: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'. \n\nIt could be a hoax but we all think it's in our people's best interest to find this guy."
  murder_event.1.a: "We must find this person!"
  murder_event.1.b: "Another death threat... Who cares?"
  

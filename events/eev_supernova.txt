@@ -147,6 +147,10 @@ ship_event = {
 	immediate = {
 		from = {
 			change_pc = pc_black_hole
+			reset_planet = yes
+			solar_system = {
+				set_star_class = sc_black_hole
+			}
 		}
 		
 	    kill_leader = { type = scientist show_notification = yes }

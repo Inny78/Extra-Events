@@ -33,14 +33,14 @@ ship_event = {
 				}
 			}
 			change_pc = pc_k_star
-			clear_planet_modifiers = yes
+			reset_planet = yes
 			if = {
 				limit = {
 					has_moon = yes
 				}
 				every_moon = {
 					change_pc = pc_shattered
-					clear_planet_modifiers = yes
+					reset_planet = yes
 				}
 			}
 		}

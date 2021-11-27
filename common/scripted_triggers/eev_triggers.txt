@@ -46,6 +46,9 @@ eev_is_scientist_cautious = {
 		has_trait = leader_trait_expertise_particles
 		has_trait = leader_trait_curator
 		has_trait = leader_trait_cataloger
+		# Expanded Stellaris Traditions
+		has_trait = leader_trait_roamer_est_2
+		has_trait = leader_trait_expertise_particles_est_2
 	}
 }
 

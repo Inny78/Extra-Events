@@ -23,6 +23,8 @@ eev_is_frozen = {
 		is_planet_class = pc_snow
 		is_planet_class = pc_glacio
 		is_planet_class = pc_eyeball
+		is_planet_class = pc_subglacial
+		is_planet_class = pc_hydrocarbon
 	}
 }
 
@@ -58,10 +60,16 @@ eev_is_uninhabitable = {
 	OR = {
 		uninhabitable_regular_planet = yes
 		# Planetary Diversity
-		is_planet_class = pc_rogue
-		is_planet_class = pc_eyeball
 		is_planet_class = pc_diamond
 		is_planet_class = pc_chthonian
+		is_planet_class = pc_volcanic
+		is_planet_class = pc_subglacial
+		is_planet_class = pc_hydrocarbon
+		is_planet_class = pc_hothouse
+		is_planet_class = pc_iron
+		is_planet_class = pc_carbon
+		# Giga Diversity
+		is_planet_class = pc_melted_frozen
 	}
 }
 

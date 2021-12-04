@@ -12,6 +12,11 @@ eev_is_desertic = {
 		# Planetary Diversity
 		is_planet_class = pc_sandsea
 		is_planet_class = pc_oasis
+		# Real Space
+		is_planet_class = pc_dune
+		is_planet_class = pc_oasis
+		is_planet_class = pc_salt
+		is_planet_class = pc_adiabatic
 	}
 }
 
@@ -25,6 +30,11 @@ eev_is_frozen = {
 		is_planet_class = pc_eyeball
 		is_planet_class = pc_subglacial
 		is_planet_class = pc_hydrocarbon
+		# Real Space
+		is_planet_class = pc_glacial
+		is_planet_class = pc_melting
+		is_planet_class = pc_geothermal
+		is_planet_class = pc_ice
 	}
 }
 
@@ -73,6 +83,8 @@ eev_is_uninhabitable = {
 		is_planet_class = pc_carbon
 		# Giga Diversity
 		is_planet_class = pc_melted_frozen
+		# Real Space
+		is_planet_class = pc_sterile
 	}
 }
 
@@ -133,6 +145,8 @@ eev_is_valid_system = {
 			has_global_flag = nep_not_pass_Aemethms
 			has_star_flag = nep_dragon_system
 			has_star_flag = nep_heptagram_cluster
+			# Real Space
+			has_star_flag = star_disaster
 		}
 	}
 }

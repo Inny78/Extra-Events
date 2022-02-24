@@ -62,9 +62,7 @@ eev_supernova_start = {
 				is_planet_class = pc_shattered
 				is_planet_class = pc_shattered_2
 				is_planet_class = pc_shielded
-				is_planet_class = pc_ringworld_habitable_damaged
-				is_planet_class = pc_ringworld_tech_damaged
-				is_planet_class = pc_ringworld_seam_damaged
+				is_ringworld = yes
 			}
 		}
 		if = {
@@ -82,7 +80,7 @@ eev_supernova_start = {
 				remove_planet = yes
 			}
 			else_if = {
-				limit = { is_planet_class = pc_ringworld_habitable }
+				limit = { is_ringworld = yes }
 				spawn_ringworld_cracker_effect = yes
 				change_pc = pc_ringworld_habitable_damaged
 			}
@@ -92,19 +90,9 @@ eev_supernova_start = {
 			}
 		}
 		else_if = {
-			limit = { is_planet_class = pc_ringworld_habitable }
+			limit = { is_ringworld = yes }
 			spawn_ringworld_cracker_effect = yes
 			change_pc = pc_ringworld_habitable_damaged
-		}
-		else_if = {
-			limit = { is_planet_class = pc_ringworld_tech }
-			spawn_ringworld_cracker_effect = yes
-			change_pc = pc_ringworld_tech_damaged
-		}
-		else_if = {
-			limit = { is_planet_class = pc_ringworld_seam }
-			spawn_ringworld_cracker_effect = yes
-			change_pc = pc_ringworld_seam_damaged
 		}
 		else = {
 			change_pc = pc_shattered

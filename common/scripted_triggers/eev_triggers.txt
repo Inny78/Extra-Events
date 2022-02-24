@@ -150,3 +150,24 @@ eev_is_valid_system = {
 		}
 	}
 }
+
+eev_is_crisis_unbidden = {
+	AND = {
+		is_crises_allowed = yes
+		allowed_crisis_type = unbidden
+	}
+}
+
+eev_is_crisis_prethoryn = {
+	AND = {
+		is_crises_allowed = yes
+		allowed_crisis_type = prethoryn
+	}
+}
+
+eev_is_crisis_contingency = {
+	AND = {
+		is_crises_allowed = yes
+		allowed_crisis_type = contingency
+	}
+}

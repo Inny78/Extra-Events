@@ -23,6 +23,9 @@ ship_event = {
 	}
 	option = {
 		trigger = {
+			root = {
+				is_ship_size = science
+			}
 			leader = {
 				eev_is_scientist_cautious = yes
 			}
@@ -34,6 +37,9 @@ ship_event = {
 	}
 	option = {
 		trigger = {
+			root = {
+				NOT = { is_ship_size = science }
+			}
 			leader = {
 				eev_is_scientist_cautious = no
 			}
@@ -43,6 +49,14 @@ ship_event = {
 			ship_event = { id = supernova.2 days = 35 }
 		}
 	}
+	# option = {
+	# 	trigger = {
+	# 		root = {
+	# 			is_ship_size = precursor_oracle
+	# 		}
+	# 	}
+	# 	name = x
+	# }
 }
 
 ship_event = {

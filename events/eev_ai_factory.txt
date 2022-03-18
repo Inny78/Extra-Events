@@ -37,7 +37,7 @@ ship_event = {
 			}
 			add_resource = {
 				energy = -2500
-				influence = -100
+				unity = -1000
 			}
 		}
 	}
@@ -56,7 +56,7 @@ ship_event = {
 				max = @tier2researchmax
 			}
 			add_resource = {
-				influence = 100
+				unity = 1000
 			}
 		}
 	}
@@ -89,7 +89,7 @@ ship_event = {
 				max = @tier2researchmax
 			}
 			add_resource = {
-				influence = 100
+				unity = 1000
 			}
 		}
 	}

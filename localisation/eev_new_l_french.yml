@@ -88,3 +88,11 @@
  eev_mysterious_cache_category_desc: "Nos détecteurs ont localisé un faible signal émanant de §Y[From.GetName]§!. En s'approchant, <science ship> découvre qu'il émanae d'un ancien bâtiment isolé sur cette planète déserte."
  eev_mysterious_cache.1.name: "Un cadeau du passé"
  eev_mysterious_cache.1.desc: "Entrer dans le bâtiment s'est révélé difficile car il a des murs particulièrement épais et aucune entrée. Ces murs protégeaient une petite pièce qui contenait un autel central sur lequel repose une boîte décorée. Les analyses révèlent que le bâtiment et la boîte datent d'il y a onze mille ans, mais l'autel a des inscriptions dans notre langue moderne ! Encore plus troublant est le fait qu'elles nomment §G[Root.GetLeaderName]§!, disant que la boîte est un cadeau pour [Root.GetHerHim]. Le coffret est extrêmement lourd, considérant qu'il est rempli d'un alliage inconnu qui va certainement se révéler utile et donnera du travail à nos scientifiques. Mais qui nous a fait ce cadeau, et comment a-t-il su que nous viendrions ?"
+
+# Crashed colony ship
+ eev_crashcol_category: "Débris métalliques"
+ eev_crashcol_category_desc: "Les senseurs de notre vaisseau ont détecté des débris métalliques sur la surface de §Y[From.GetName]§!. L'équpage prépare une expédition pour enquêter."
+ eev_crashcol.1.name: "Epave de colonisateur"
+ eev_crashcol.1.desc: "L'expédition scientifique a découvert les restes d'un ancien vaisseau colonisateur d'origine inconnue. D'une taille plusieurs fois supérieure aux nôtres, il s'est écrasé sur un plateau il y a quelques millénaires, tuant tous ses occupants. Les ordinateurs de bord sont complètement détruits et nous ne pouvons détermienr son origine. La coque de cette énorme épave est faite d'alliages utiles toutefois, ils ont donc placé une balise pour une future récupération."
+ eev_crashcol.2.name: "Récupération complétée"
+ eev_crashcol.2.desc: "Une expédition de récupération est revenue de l'épave du vaisseau colonisateur avec sa cale pleine d'alliages. Cela va certainement être utile à notre empire."

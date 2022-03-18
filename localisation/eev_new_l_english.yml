@@ -87,4 +87,30 @@
  eev_mysterious_cache_category: "Mysterious Cache"
  eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, the §B[Root.GetFleetName]§! discovered that it's emanating from an old building that stands alone on this desolate world."
  eev_mysterious_cache.1.name: "A gift from the past"
- eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did he know we would come?"
+ eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did they know we would come?"
+
+# Crashed colony ship
+ eev_crashcol_category: "Metallic debris"
+ eev_crashcol_category_desc: "Our ship's sensors have detected some metallic debris on the surface of §Y[From.GetName]§!. The team is preparing an expedition to investigate."
+ eev_crashcol.1.name: "Crashed colony ship"
+ eev_crashcol.1.desc: "The scientific expedition discovered the remnants of an ancient colony ship of unknown origin. Multiple times bigger than our designs, it crashed on a plateau a few millenias ago, killing all its occupants. The computers are completely destroyed and we can't determine its origin. The hull of this massive wreckage is made of useful alloys though, so they placed a beacon for a later recovery expedition."
+ eev_crashcol.2.name: "Recovery completed"
+ eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."
+
+# A New Queen - country event
+ eev_newqueen.1.name: ""
+ eev_newqueen.1.desc: ""
+ eev_newqueen.1a: ""
+ eev_newqueen.1b: ""
+
+# Robot Spy - country event
+ eev_robospy.1.name: ""
+ eev_robospy.1.desc: ""
+ eev_robospy.1a: ""
+ eev_robospy.1b: ""
+
+# The Invisible Army - Murder follow-up
+ eev_invisarmy.1.name: ""
+ eev_invisarmy.1.desc: ""
+ eev_invisarmy.1a: ""
+ eev_invisarmy.1b: ""

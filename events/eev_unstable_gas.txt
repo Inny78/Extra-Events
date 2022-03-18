@@ -54,7 +54,7 @@ ship_event = {
 		
 		owner = {
 			add_resource = {
-				influence = 200
+				unity = 2000
 			}
 			add_monthly_resource_mult = {
 				resource = physics_research

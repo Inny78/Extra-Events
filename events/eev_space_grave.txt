@@ -28,10 +28,10 @@ ship_event = {
 		
 		owner = {
 			add_monthly_resource_mult = {
-				resource = influence
-				value = @tier4influencereward
-				min = @tier4influencemin
-				max = @tier4influencemax
+				resource = unity
+				value = @tier4unityreward
+				min = @tier4unitymin
+				max = @tier4unitymax
 			}
 		}
 	}

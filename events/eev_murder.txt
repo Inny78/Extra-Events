@@ -27,7 +27,7 @@ ship_event = {
         }
 		owner = {
 			add_resource = {
-				influence = 100
+				unity = 1000
 			}
 		}
 	}
@@ -36,7 +36,7 @@ ship_event = {
         name = "murder_event.1.b"
 		owner = {
 			add_resource = {
-				influence = -100
+				unity = -1000
 			}
 			while = {
 				count = 5
@@ -96,7 +96,7 @@ country_event = {
         name = "murder_event.3.a"
 		owner = {
 			add_resource = {
-				influence = -100
+				unity = -1000
 			}
 			while = {
 				count = 5
@@ -261,7 +261,7 @@ ship_event = {
 			}
 			
 			add_resource = {
-				influence = 100
+				unity = 1000
 			}
 		}
     }

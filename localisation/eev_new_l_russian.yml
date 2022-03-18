@@ -18,7 +18,7 @@
  eev_houston.4.desc: "Наши военные встретились с §B[eev_vortex_sci.GetFleetName]§!, строительный корабль начал уводить подальше от планеты §Y[eev_vortex_pla.GetName]§!. В это время вихрь снова вспыхнул, однако, наша догадка оказалась верной: военный флот получил лишь несколько незначительных сбоев, резервные системы были на готове. Но несколько минут спустя, §G[eev_vortex_sci.GetLeaderName]§! предупредил, что аномалия находится в критически нестабильном состоянии и призвал флот ускориться, однако, прежде чем они смогли это сделать, вихрь взорвался - огромный взрыв энергии, был последней информацией, которую мы получили, прежде чем потеряли связь с [From.System.GetName]."
  eev_houston.4a: "Это плохо..."
 
-eev_houston.5.name: "Военные спешат на помощь"
+ eev_houston.5.name: "Военные спешат на помощь"
  eev_houston.5.desc: "Наши военные встретились с §B[eev_vortex_sci.GetFleetName]§! и начали уводить подальше от планеты §Y[eev_vortex_pla.GetName]§!. В это время вихрь снова вспыхнул, однако, наша догадка оказалась верной: военный флот получил лишь несколько незначительных сбоев, резервные системы были на готове. Но несколько минут спустя, §G[[eev_vortex_sci.GetLeaderName]§! предупредил, что аномалия находится в критически нестабильном состоянии и призвал флот ускориться, однако, прежде чем они смогли это сделать, вихрь взорвался - огромный взрыв энергии, был последней информацией, которую мы получили, прежде чем потеряли связь с [From.System.GetName]."
 
  eev_houston.6.name: "Нет спасения"
@@ -89,3 +89,11 @@ eev_houston.5.name: "Военные спешат на помощь"
  eev_mysterious_cache_category_desc: "Датчики засекли слабый сигнал, исходящий от §Y[From.GetName]§!. Подойдя ближе, <научный корабль> обнаружил, что он исходит от старого здания, которое одиноко стоит в этом пустынном мире."
  eev_mysterious_cache.1.name: "Подарок из прошлого"
  eev_mysterious_cache.1.desc: "Войти в здание оказалось непросто, так как у него были очень толстые стены и не было входа. Эти прочные стены защищали небольшую комнату, в которой находился центральный алтарь с богато украшенной коробкой на нём. Сканирование показало, что зданию и коробке одиннадцать тысяч лет, интересно то, что на алтаре есть надписи на нашем современном языке! Заставляет задуматься и точное название §G[Root.GetLeaderName]§!, они сообщаяют, что коробка - это подарок для [Root.GetHerHim]. Коробка невероятно тяжелая, вероятно в ней много неизвестного сплава, который, безусловно, окажется полезным и даст нашим ученым поле для деятнльности. Но кто сделал этот подарок, и как он узнал, что мы придем?"
+
+# Crashed colony ship
+ eev_crashcol_category: "Metallic debris"
+ eev_crashcol_category_desc: "Our ship's sensors have detected some metallic debris on the surface of §Y[From.GetName]§!. The team is preparing an expedition to investigate."
+ eev_crashcol.1.name: "Crashed colony ship"
+ eev_crashcol.1.desc: "The scientific expedition discovered the remnants of an ancient colony ship of unknown origin. Multiple times bigger than our designs, it crashed on a plateau a few millenias ago, killing all its occupants. The computers are completely destroyed and we can't determine its origin. The hull of this massive wreckage is made of useful alloys though, so they placed a beacon for a later recovery expedition."
+ eev_crashcol.2.name: "Recovery completed"
+ eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."

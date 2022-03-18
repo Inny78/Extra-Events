@@ -29,8 +29,8 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 25
-			}			
+				unity = 250
+			}
 			add_monthly_resource_mult = {
 				resource = engineering_research
 				value = @tier3researchreward

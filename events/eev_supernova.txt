@@ -84,7 +84,7 @@ ship_event = {
 				
 		owner = {
 			add_resource = {
-				influence = 100
+				unity = 2000
 			}
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -128,7 +128,7 @@ ship_event = {
 				
 		owner = {
 			add_resource = {
-				influence = 100
+				unity = 2000
 			}
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -176,7 +176,7 @@ ship_event = {
 		
 		owner = {
 			add_resource = {
-				influence = 100
+				unity = 2000
 			}
 			add_monthly_resource_mult = {
 				resource = society_research

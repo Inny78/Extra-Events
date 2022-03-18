@@ -593,7 +593,7 @@ murder_category = {
 eev_houston_category = {
 	desc = eev_houston_category_desc
 	picture = GFX_evt_ship_in_orbit
-	level = 4
+	level = 6
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -610,7 +610,7 @@ eev_houston_category = {
 eev_tower_city_category = {
 	desc = eev_tower_city_category_desc
 	picture = GFX_evt_gas_giant
-	level = 4
+	level = 6
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -633,7 +633,7 @@ eev_tower_city_category = {
 eev_scanned_category = {
 	desc = eev_scanned_category_desc
 	picture = GFX_evt_ship_in_orbit
-	level = 5
+	level = 7
 	spawn_chance = {
 		modifier = {
 			add = 2
@@ -648,7 +648,7 @@ eev_scanned_category = {
 eev_ancient_echoes_category = {
 	desc = eev_scanned_category_desc
 	picture = GFX_evt_ship_in_orbit
-	level = 5
+	level = 6
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -662,11 +662,24 @@ eev_ancient_echoes_category = {
 eev_mysterious_cache_category = {
 	desc = eev_mysterious_cache_category_desc
 	picture = GFX_evt_ship_in_orbit
-	level = 5
+	level = 6
 	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
+		}
+	}
+	on_success = eev_mysterious_cache.1
+}
+
+eev_crashcol_category = {
+	desc = eev_crashcol_category_desc
+	picture = GFX_evt_ship_in_orbit
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			habitable_planet = yes
 		}
 	}
 	on_success = eev_mysterious_cache.1

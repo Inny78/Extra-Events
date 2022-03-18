@@ -27,7 +27,7 @@ ship_event = {
 		hidden_effect = { ship_event = { id = mutiny.2 days = 10 } }
 		owner = {
 			add_resource = {
-				influence = 25
+				unity = 250
 			}
 		}
 	}	
@@ -47,7 +47,7 @@ ship_event = {
 		
 		owner = {
 			add_resource = {
-				influence = -50
+				unity = -500
 			}
 		}
 	}	
@@ -74,7 +74,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 50
+				unity = 500
 			}			
 			add_monthly_resource_mult = {
 				resource = minerals
@@ -112,7 +112,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 25
+				unity = 250
 			}
 		}
 	}				

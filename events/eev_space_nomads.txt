@@ -22,7 +22,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = -25
+				unity = -250
 			}
 		}
 	}
@@ -33,7 +33,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 55
+				unity = 550
 				energy = -200
 			}
 		}
@@ -51,7 +51,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 25
+				unity = 250
 			}
 		}
 	}
@@ -67,7 +67,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 25
+				unity = 250
 			}
 		}
 	}
@@ -83,7 +83,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 50
+				unity = 500
 			}
 		}
 	}
@@ -100,7 +100,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 50
+				unity = 500
 			}
 			save_event_target_as = owner_country
 			create_fleet = {
@@ -163,7 +163,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 50
+				unity = 500
 			}
 		}
 	}
@@ -179,7 +179,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				influence = 50
+				unity = 500
 			}
 		}
 	}

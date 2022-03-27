@@ -19,7 +19,7 @@
  eev_houston.4a: "This is bad..."
 
  eev_houston.5.name: "Military to the rescue"
- eev_houston.5.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finaly imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
+ eev_houston.5.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finaly imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
 
  eev_houston.6.name: "No rescue"
  eev_houston.6.desc: "The last transmission we received from §B[Root.GetFleetName]§! was the final gigantic destruction of the energy vortex as the ship started to enter the atmosphere of §Y[From.GetName]§!. There's no way they could have survived that."

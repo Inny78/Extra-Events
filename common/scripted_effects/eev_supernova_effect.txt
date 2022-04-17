@@ -66,7 +66,7 @@ eev_supernova_start = {
 			}
 		}
 		if = {
-			limit = { is_planet_class = pc_habitat } # uncolonized
+			limit = { merg_is_habitat = yes } # uncolonized
 			spawn_habitat_cracker_effect = yes
 			remove_planet = yes
 		}
@@ -75,7 +75,7 @@ eev_supernova_start = {
 			remove_all_buildings = yes
 			destroy_colony = yes
 			if = {
-				limit = { is_planet_class = pc_habitat }
+				limit = { merg_is_habitat = yes }
 				spawn_habitat_cracker_effect = yes
 				remove_planet = yes
 			}

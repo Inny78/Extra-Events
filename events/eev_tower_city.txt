@@ -142,9 +142,11 @@ fleet_event = {
 			}
 		}
 		from = {
-			add_deposit = d_engineering_6
-			add_deposit = d_physics_4
-			add_deposit = d_society_4
+			planet = {
+				add_deposit = d_engineering_6
+				add_deposit = d_physics_4
+				add_deposit = d_society_4
+			}
 		}
 	}
 	option = {
@@ -159,7 +161,9 @@ fleet_event = {
 			}
 		}
 		from = {
-			add_deposit = d_alloys_5
+			planet = {
+				add_deposit = d_alloys_5
+			}
 		}
 	}
 }

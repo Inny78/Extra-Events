@@ -1,0 +1,2 @@
+# Dummy triggers - to be overwritten by their respective mods.
+is_pd_habitat = { always = no }

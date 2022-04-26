@@ -96,3 +96,12 @@
  eev_crashcol.1.desc: "The scientific expedition discovered the remnants of an ancient colony ship of unknown origin. Multiple times bigger than our designs, it crashed on a plateau a few millenias ago, killing all its occupants. The computers are completely destroyed and we can't determine its origin. The hull of this massive wreckage is made of useful alloys though, so they placed a beacon for a later recovery expedition."
  eev_crashcol.2.name: "Recovery completed"
  eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."
+
+# Start menu
+ eev_start_menu.1.name: "Configuration"
+ eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
+ eev_start_menu.1.START: "Start"
+ eev_start_menu.1.no_kaboom: "Deactivate"
+ eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
+ eev_start_menu.1.kaboom: "Activate"
+ eev_start_menu.1.kaboomTT: "This wil allow the destructive events."

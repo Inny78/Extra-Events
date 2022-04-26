@@ -114,3 +114,12 @@
  eev_invisarmy.1.desc: ""
  eev_invisarmy.1a: ""
  eev_invisarmy.1b: ""
+
+# Start menu
+ eev_start_menu.1.name: "Configuration"
+ eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
+ eev_start_menu.1.START: "Start"
+ eev_start_menu.1.no_kaboom: "Deactivate"
+ eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
+ eev_start_menu.1.kaboom: "Activate"
+ eev_start_menu.1.kaboomTT: "This wil allow the destructive events."

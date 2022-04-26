@@ -1,46 +1,40 @@
 ###########################################################################
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
-
 # Ancient Civilian Flag Anomaly
 ancient_flag_category = {
-	desc = "ancient_flag_category_desc"	
-	picture = GFX_evt_mining_station 	
-	level = 1				
-
-	spawn_chance = {		
+	desc = "ancient_flag_category_desc"
+	picture = GFX_evt_mining_station
+	level = 1
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
 		}
 	}
-
 	on_success = ancient_flag.1
 }
 
 # Space Grave Anomaly
 space_grave_category = {
 	desc = "space_grave_category_desc"
-	picture = GFX_evt_mining_station 	
-	level = 4				
-
-	spawn_chance = {			
+	picture = GFX_evt_mining_station
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
 		}
 	}
-	
 	on_success = space_grave.1
 }
 
 # Mineral Monolith Anomaly
 mineral_monolith_category = {
 	desc = "mineral_monolith_category_desc"
-	picture = GFX_evt_in_the_dark 		
-	level = 2				
-
-	spawn_chance = {			
+	picture = GFX_evt_in_the_dark
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -52,25 +46,22 @@ mineral_monolith_category = {
 # Last Words Anomaly
 last_words_category = {
 	desc = "last_words_category_desc"
-	picture = GFX_evt_frozen 	
-	level = 4			
-
-	spawn_chance = {		
+	picture = GFX_evt_frozen
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
 		}
 	}
-	
 	on_success = last_words.1
 }
 
 # Mineral Core Anomaly
 mineral_core_category = {
-	desc = "mineral_core_category_desc"	
-	picture = GFX_evt_mining_station 	
-	level = 3				
-
+	desc = "mineral_core_category_desc"
+	picture = GFX_evt_mining_station
+	level = 3
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -82,11 +73,10 @@ mineral_core_category = {
 
 # Bad Fate Anomaly
 bad_fate_category = {
-	desc = "bad_fate_category_desc"		
-	picture = GFX_evt_satellite_in_orbit 	
-	level = 2				
-
-	spawn_chance = {		
+	desc = "bad_fate_category_desc"
+	picture = GFX_evt_satellite_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -97,11 +87,10 @@ bad_fate_category = {
 
 # Rocky Egg Anomaly
 rocky_egg_category = {
-	desc = "rocky_egg_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 3				
-
-	spawn_chance = {		
+	desc = "rocky_egg_category_desc"
+	picture = GFX_evt_mining_station
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -111,12 +100,11 @@ rocky_egg_category = {
 }
 
 # Gassy Planet Anomaly
-gassy_planet_category = {	
-	desc = "gassy_planet_category_desc"	
-	picture = GFX_evt_mining_station 	
-	level = 1			
-
-	spawn_chance = {		
+gassy_planet_category = {
+	desc = "gassy_planet_category_desc"
+	picture = GFX_evt_mining_station
+	level = 1
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -127,10 +115,9 @@ gassy_planet_category = {
 
 # Doomed Civ Anomaly
 doomed_civ_category = {
-	desc = "doomed_civ_category_desc"	
-	picture = GFX_evt_mining_station 
-	level = 1				
-
+	desc = "doomed_civ_category_desc"
+	picture = GFX_evt_mining_station
+	level = 1
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -141,12 +128,11 @@ doomed_civ_category = {
 }
 
 # Lost Treasure Anomaly
-lost_treasure_category = {	
-	desc = "lost_treasure_category_desc"	
-	picture = GFX_evt_mining_station 	
-	level = 2			
-
-	spawn_chance = {			
+lost_treasure_category = {
+	desc = "lost_treasure_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -156,12 +142,11 @@ lost_treasure_category = {
 }
 
 # Crazy Scientist Anomaly
-crazy_scientist_category = {		
-	desc = "crazy_scientist_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 1				
-
-	spawn_chance = {			
+crazy_scientist_category = {
+	desc = "crazy_scientist_category_desc"
+	picture = GFX_evt_mining_station
+	level = 1
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -172,11 +157,10 @@ crazy_scientist_category = {
 
 # Diamond Core Anomaly
 diamond_core_category = {
-	desc = "diamond_core_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2				
-
-	spawn_chance = {		
+	desc = "diamond_core_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -187,10 +171,10 @@ diamond_core_category = {
 
 # Exceptional Engineering Anomaly
 except_engine_category = {
-	desc = "except_engine_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2			
-	spawn_chance = {			
+	desc = "except_engine_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -201,10 +185,10 @@ except_engine_category = {
 
 # Crushed Anomaly
 crushed_category = {
-	desc = "crushed_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 4			
-	spawn_chance = {		
+	desc = "crushed_category_desc"
+	picture = GFX_evt_mining_station
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -215,10 +199,10 @@ crushed_category = {
 
 # Perfect Planet Anomaly
 perfect_planet_category = {
-	desc = "perfect_planet_category_desc"	
-	picture = GFX_evt_mining_station 
-	level = 3			
-	spawn_chance = {	
+	desc = "perfect_planet_category_desc"
+	picture = GFX_evt_mining_station
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -229,10 +213,10 @@ perfect_planet_category = {
 
 # Ancient Fossils Anomaly
 ancient_fossils_category = {
-	desc = "ancient_fossils_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2		
-	spawn_chance = {		
+	desc = "ancient_fossils_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -243,10 +227,10 @@ ancient_fossils_category = {
 
 # Space Knights Anomaly
 space_knights_category = {
-	desc = "space_knights_category_desc"		
-	picture = GFX_evt_mining_station 
-	level = 2		
-	spawn_chance = {			
+	desc = "space_knights_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -257,10 +241,10 @@ space_knights_category = {
 
 # World War Anomaly
 world_war_category = {
-	desc = "world_war_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2				
-	spawn_chance = {			
+	desc = "world_war_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -271,9 +255,9 @@ world_war_category = {
 
 # Asteroid Attack Anomaly
 asteroid_attack_category = {
-	desc = "asteroid_attack_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2				
+	desc = "asteroid_attack_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
 	spawn_chance = {
 		modifier = {
 			add = 3
@@ -285,10 +269,10 @@ asteroid_attack_category = {
 
 # Alien Bumkins Anomaly
 ayy_category = {
-	desc = "ayy_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2				
-	spawn_chance = {			
+	desc = "ayy_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -299,10 +283,10 @@ ayy_category = {
 
 # Storms Anomaly
 storms_category = {
-	desc = "storms_category_desc"		
-	picture = GFX_evt_mining_station 	
-	level = 2				
-	spawn_chance = {		
+	desc = "storms_category_desc"
+	picture = GFX_evt_mining_station
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -314,9 +298,9 @@ storms_category = {
 # AI Anomaly
 ai_factory_category = {
 	desc = "ai_factory_category_desc"
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
@@ -327,10 +311,10 @@ ai_factory_category = {
 
 # Nomads Anomaly
 space_nomads_category = {
-	desc = "space_nomads_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	desc = "space_nomads_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_general_planet = yes
@@ -341,10 +325,10 @@ space_nomads_category = {
 
 # Minerals
 space_minerals_category = {
-	desc = "space_minerals_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	desc = "space_minerals_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_general_planet = yes
@@ -355,10 +339,10 @@ space_minerals_category = {
 
 # Water Monster
 water_monster_category = {
-	desc = "water_monster_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	desc = "water_monster_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -369,10 +353,10 @@ water_monster_category = {
 
 # Deserters
 abandoned_base_category = {
-	desc = "abandoned_base_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	desc = "abandoned_base_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
@@ -383,10 +367,10 @@ abandoned_base_category = {
 
 # Infinium
 infinium_category = {
-	desc = "infinium_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 2				
-	spawn_chance = {			
+	desc = "infinium_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_general_planet = yes
@@ -397,42 +381,41 @@ infinium_category = {
 
 # Error
 error_category = {
-	desc = "error_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 1				
-	spawn_chance = {			
+	desc = "error_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 1
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
 		}
 	}
-	
 	on_success = error.1
 }
 
 # Mutiny
 mutiny_category = {
-	desc = "mutiny_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 3				
-	spawn_chance = {			
+	desc = "mutiny_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
 			from.owner = {
 				is_gestalt = no
 			}
-		}	
+		}
 	}
 	on_success = mutiny.1
 }
 
 # Artificial Sun
 artificial_sun_category = {
-	desc = "artificial_sun_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 4				
-	spawn_chance = {			
+	desc = "artificial_sun_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
 			OR = {
@@ -450,9 +433,9 @@ artificial_sun_category = {
 
 # Black Hole Life Anomaly
 blackhole_life_category = {
-	desc = "blackhole_life_category_desc"	
-	picture = GFX_evt_mining_station 	
-	level = 3				
+	desc = "blackhole_life_category_desc"
+	picture = GFX_evt_mining_station
+	level = 3
 	spawn_chance = {
 		modifier = {
 			add = 3
@@ -466,14 +449,16 @@ blackhole_life_category = {
 
 # Sand Creature
 sand_creature_category = {
-	desc = "sand_creature_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 3				
-	spawn_chance = {			
+	desc = "sand_creature_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_desertic = yes
-			from.fleet.leader = { eev_is_scientist_cautious = no }
+			from.fleet.leader = {
+				eev_is_scientist_cautious = no
+			}
 			from.owner = {
 				is_gestalt = no
 			}
@@ -484,14 +469,13 @@ sand_creature_category = {
 
 # Frozen Civilization
 frozen_civilization_category = {
-	desc = "frozen_civilization_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 3				
-	spawn_chance = {			
+	desc = "frozen_civilization_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 3
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_frozen = yes
-
 		}
 	}
 	on_success = frozen_civilization.1
@@ -506,23 +490,26 @@ supernova_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_m_giant_star
-				# Real Space
-				is_planet_class = pc_k_giant_star
-				is_planet_class = pc_g_giant_star
+			AND = {
+				has_global_flag = eev_kaboom
+				OR = {
+					is_planet_class = pc_a_star
+					is_planet_class = pc_m_giant_star
+					# Real Space
+					is_planet_class = pc_k_giant_star
+					is_planet_class = pc_g_giant_star
+				}
+				is_binary_star = no
+				is_trinary_star = no
+				eev_is_valid_system = yes
 			}
-			is_binary_star = no
-			is_trinary_star = no
-			eev_is_valid_system = yes
 		}
 	}
 	on_success = {
 		0 = {
 			modifier = {
 				add = 1
-				has_nemesis = yes 
+				has_nemesis = yes
 			}
 			anomaly_event = supernova.1
 		}
@@ -538,14 +525,16 @@ supernova_category = {
 
 # Nuclear Explosion							
 boom_asteroid_category = {
-	desc = "boom_asteroid_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
-	level = 4				
-	spawn_chance = {	
+	desc = "boom_asteroid_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
-			from.fleet.leader = { eev_is_scientist_cautious = no }
+			from.fleet.leader = {
+				eev_is_scientist_cautious = no
+			}
 		}
 	}
 	on_success = boom_asteroid.1
@@ -553,16 +542,21 @@ boom_asteroid_category = {
 
 # Unstable Gas							
 unstable_gas_category = {
-	desc = "unstable_gas_category_desc"		
-	picture = GFX_evt_ship_in_orbit 	
+	desc = "unstable_gas_category_desc"
+	picture = GFX_evt_ship_in_orbit
 	max_once_global = yes
-	level = 4				
-	spawn_chance = {			
+	level = 4
+	spawn_chance = {
 		modifier = {
 			add = 1
-			eev_is_gas_giant = yes
-			eev_is_valid_system = yes
-			from.fleet.leader = { eev_is_scientist_cautious = no }
+			AND = {
+				has_global_flag = eev_kaboom
+				eev_is_gas_giant = yes
+				eev_is_valid_system = yes
+				from.fleet.leader = {
+					eev_is_scientist_cautious = no
+				}
+			}
 		}
 	}
 	on_success = unstable_gas.1
@@ -601,7 +595,7 @@ eev_houston_category = {
 			from.owner = {
 				is_gestalt = no
 			}
-		}	
+		}
 	}
 	on_success = eev_houston.1
 }
@@ -616,7 +610,9 @@ eev_tower_city_category = {
 			add = 1
 			solar_system = {
 				any_system_planet = {
-					NOT = { exists = archaeological_site }
+					NOT = {
+						exists = archaeological_site
+					}
 				}
 			}
 			OR = {
@@ -638,7 +634,9 @@ eev_scanned_category = {
 		modifier = {
 			add = 2
 			eev_is_uninhabitable = yes
-			from.owner = { has_country_flag = eev_sphere_encountered }
+			from.owner = {
+				has_country_flag = eev_sphere_encountered
+			}
 		}
 	}
 	on_success = eev_scanned.1

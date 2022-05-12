@@ -7,15 +7,11 @@ event = {
 	
 	trigger = {
 		NOT = {
-			# has_global_flag = has_extra_events
-			has_global_flag = eev_config_menu
+			has_global_flag = has_extra_events
 		}
 	}
 	
 	immediate = {
 		set_global_flag = has_extra_events
-		set_global_flag = eev_no_kaboom
-		set_global_flag = eev_config_menu
-		country_event = { id = eev_start_menu.1 }
 	}
 }

@@ -136,6 +136,7 @@ eev_is_valid_system = {
 					urmazin_system = yes
 					everchanging_system = yes
 					katzen_jump_blocked_system = yes
+					annihilator_system = yes
 					has_star_flag = maginot_anti_jump_star
 				}
 			}

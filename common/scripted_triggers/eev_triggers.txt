@@ -99,14 +99,10 @@ eev_is_valid_system = {
 					has_planet_flag = suppress_archaeological_sites
 				}
 			}
+			has_special_star_flag_trigger = yes
 			has_star_flag = empire_cluster
 			is_fe_cluster = yes
-			has_star_flag = lcluster
-			has_star_flag = sealed_system
-			has_star_flag = crystal_home_system
-			has_star_flag = amoeba_home_system
 			has_star_flag = drone_home_system
-			has_star_flag = guardian
 			# Ancient Empire
 			has_star_flag = ag_no_jump_in_system
 			# ACOT

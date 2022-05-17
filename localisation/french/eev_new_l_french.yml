@@ -96,3 +96,12 @@
  eev_crashcol.1.desc: "L'expédition scientifique a découvert les restes d'un ancien vaisseau colonisateur d'origine inconnue. D'une taille plusieurs fois supérieure aux nôtres, il s'est écrasé sur un plateau il y a quelques millénaires, tuant tous ses occupants. Les ordinateurs de bord sont complètement détruits et nous ne pouvons détermienr son origine. La coque de cette énorme épave est faite d'alliages utiles toutefois, ils ont donc placé une balise pour une future récupération."
  eev_crashcol.2.name: "Récupération complétée"
  eev_crashcol.2.desc: "Une expédition de récupération est revenue de l'épave du vaisseau colonisateur avec sa cale pleine d'alliages. Cela va certainement être utile à notre empire."
+
+# Start menu
+ eev_start_menu.1.name: "Configuration"
+ eev_start_menu.1.desc: "Voulez-vous activer ou désactiver les événements les plus destructeurs ? Ceux-ci peuvent détruire des planètes ou des systèmes solaires entiers."
+ eev_start_menu.1.START: "Commencer"
+ eev_start_menu.1.no_kaboom: "Désactiver"
+ eev_start_menu.1.no_kaboomTT: "Ceci empêchera les événements destructeurs de se produire."
+ eev_start_menu.1.kaboom: "Activer"
+ eev_start_menu.1.kaboomTT: "Ceci permetta aux événements destructeurs de se produire."

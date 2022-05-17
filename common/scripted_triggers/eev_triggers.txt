@@ -170,7 +170,7 @@ eev_is_crisis_contingency = {
 }
 
 # Listing habitats
-merg_is_habitat = {
+eev_is_habitat = {
 	OR = {
 		is_planet_class = pc_habitat
 		# Planetary Diversity
@@ -192,5 +192,7 @@ merg_is_habitat = {
 		is_planet_class = pc_habitat_robot
 		# Giga Diversity
 		is_planet_class = pc_pd_toxic_hab
+		# Nyto Species Pack
+		is_planet_class = pc_GFnytp_habitis
 	}
 }

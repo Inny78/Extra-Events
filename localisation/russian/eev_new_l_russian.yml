@@ -97,21 +97,11 @@
  eev_crashcol.2.name: "Восстановление завершено"
  eev_crashcol.2.desc: "Экспедиция по восстановлению, только что вернулась с разбившегося колониального корабля с полным трюмом сплавов. Они, безусловно, окажутся полезными для нашей империи."
 
-# A New Queen - country event
- eev_newqueen.1.name: "Нарушения в Сознании"
- eev_newqueen.1.desc: ""
- eev_newqueen.1a: ""
- eev_newqueen.1b: ""
-
-# Robot Spy - country event
- eev_robospy.1.name: ""
- eev_robospy.1.desc: ""
- eev_robospy.1a: ""
- eev_robospy.1b: ""
-
-# The Invisible Army - Murder follow-up
- eev_invisarmy.1.name: ""
- eev_invisarmy.1.desc: ""
- eev_invisarmy.1a: ""
- eev_invisarmy.1b: ""
- 
+# Start menu
+ eev_start_menu.1.name: "Configuration"
+ eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
+ eev_start_menu.1.START: "Start"
+ eev_start_menu.1.no_kaboom: "Deactivate"
+ eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
+ eev_start_menu.1.kaboom: "Activate"
+ eev_start_menu.1.kaboomTT: "This wil allow the destructive events."

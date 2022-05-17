@@ -100,7 +100,7 @@
  space_knights_category: "Stone Home"
  space_knights_category_desc: "While scanning §Y[Root.GetName]§! the crew spotted houses made of rock."
  space_knights.1.name: "Space Knights"
- space_knights.1.desc: "A dead medieval species once roamed this planet, but they died in a spectacular way! \n\nTwo factions ruled the planet, warring eachother for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. \n\nThe last battle these two warring factions were apart of destroyed their planet and it never recovered. \n\nEven more so they believe the cause of this war was the belief in a god."
+ space_knights.1.desc: "A dead medieval species once roamed this planet, but they died in a spectacular way! \n\nTwo factions ruled the planet, warring eachother for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. \n\nThe last battle these two warring factions were a part of destroyed their planet and it never recovered. \n\nEven more so they believe the cause of this war was the belief in a god."
  
  world_war_category: "Debris of a Battle"
  world_war_category_desc: "The crew believes a world war happened on §Y[Root.GetName]§! that destroyed their race."

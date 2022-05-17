@@ -97,24 +97,6 @@
  eev_crashcol.2.name: "Recovery completed"
  eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."
 
-# A New Queen - country event
- eev_newqueen.1.name: "A Disturbance in the Consciousness"
- eev_newqueen.1.desc: ""
- eev_newqueen.1a: ""
- eev_newqueen.1b: ""
-
-# Robot Spy - country event
- eev_robospy.1.name: ""
- eev_robospy.1.desc: ""
- eev_robospy.1a: ""
- eev_robospy.1b: ""
-
-# The Invisible Army - Murder follow-up
- eev_invisarmy.1.name: ""
- eev_invisarmy.1.desc: ""
- eev_invisarmy.1a: ""
- eev_invisarmy.1b: ""
-
 # Start menu
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."

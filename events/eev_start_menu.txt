@@ -7,7 +7,7 @@ country_event = {
 	picture = GFX_evt_hangar_bay
 	is_triggered_only = yes
 	trigger = {
-		is_ai = no
+		has_country_flag = eev_is_host
 	}
 
 	# Activate the kaboom

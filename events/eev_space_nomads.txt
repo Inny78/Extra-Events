@@ -104,16 +104,16 @@ ship_event = {
 			}
 			save_event_target_as = owner_country
 			create_fleet = {
-				name = "The Wanderers"
+				name = eevfleet
 			}
 			last_created_fleet = {
 				set_owner = prev
 				create_ship_design = {
-					design = "Dagger"
+					design = daggerdesign
 				}
 				create_ship = {
 					graphical_culture = "pirate_01"
-					name = "Ostrich"
+					name = ostrich
 					design = last_created_design
 				}
 				set_location = from
@@ -243,7 +243,7 @@ ship_event = {
 		}
 		owner = {
 			add_resource = {
-				food = 400
+				food = 40
 			}
 		}
 	}

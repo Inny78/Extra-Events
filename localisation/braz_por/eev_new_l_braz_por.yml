@@ -123,3 +123,46 @@
  eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
  eev_start_menu.1.kaboom: "Activate"
  eev_start_menu.1.kaboomTT: "This wil allow the destructive events."
+
+# Anomalies - alternate endings
+ supernova.5.name: "Massive plasma vortexes"
+ supernova.5.desc: "Our science ship has observed the most violent and massive plasma vortexes ever spotted in a star. This phenomenon is generating extreme waves of radiations but §B[Root.GetFleetName]§!'s shields support their assault. §G[Root.GetLeaderName]§! announced that this star will probably explode in a supernova before the next millenia. The crew has collected some exciting data that will have an important impact in physics research."
+
+ unstable_gas.2.name: "Plasmoid gathering"
+ unstable_gas.2.desc: "§G[Root.GetLeaderName]§! reports that the ship detected the presence in the atmosphere of the gas giant of a great herd of plasmoid beings. They're consuming the hydrogen of the giant planet, igniting it with their extreme temperature. At this rate, it will take them a few centuries to consume it before they leave §Y[From.GetName]§! to find a new pasture."
+
+ boom_asteroid.2.name: "Malfunction"
+ boom_asteroid.2.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all writen in some alien language nobody understood. \n\nSoon after, the countdown ended... and nothing happened. Fearing that it could trigger at any moment, the crew returned hastily to the §B[Root.GetFleetName]§!"
+ boom_asteroid.1.a: "At least everyone is safe."
+
+# Country Events
+ murder_event.9.name: "Invisibility armor analysis"
+ murder_event.9.desc: "Our scientists have made progress in analysing the murderer's strange armor. They confirm that it uses a technology that is far beyond our own. They're trying to devise a sensor capable of detecting it but it is going to be complicated."
+ murder_event.9.a: "Spare no effort!"
+
+ murder_event.10.name: "Disturbing discovery"
+ murder_event.10.desc: "Our science team has made a discovery while analyzing the murderer's armor. Its energy source emits a faint radiation that defies all analysis, but it is not totally unknown to us. It's the same radiation that our fleets have detected from the enigmatic alien ships they encountered. But those weren't hostile..."
+ murder_event.10.a: "Strange... Keep analyzing the data, we must have missed something."
+ murder_event.10.b: "I knew they were dangerous! Keep analyzing the data, we must find their weakness."
+
+ eev_new_queen.1.name: "A perturbation in the Network"
+ eev_new_queen.1.desc: "Your Mind feels uneasy these times. Something is odd within the great networks that links you to your drones, but you can't find what is wrong. And as time passes, the feeling is becoming stronger."
+ eev_new_queen.1.a: "Distraction can't be allowed"
+ eev_new_queen.1.tt: "Your Mind will focus on the Network to find the source of the disturbances."
+
+ eev_new_queen.2.name: "Source discovered"
+ eev_new_queen.2.desc: "The disturbances in our network were faint at start, but they kept becoming stronger. You finally found the cause: somehow, one of your drone has mutated, its mind becoming independant and expanding its will. The impossible happened: a new Mind is claiming your very Network as its own."
+ eev_new_queen.2.a: "This is untolerable. Kill it by any means necessary."
+ eev_new_queen.2.b: "Isolate the mutant drone and study it."
+ eev_new_queen.2.c: "Deviation is food."
+
+ eev_new_queen.3.name: "Clear Network"
+ eev_new_queen.3.desc: "Stopping the mutant drone was not an easy task, as some of your drones switched sides as they approached it. Focusing your Mind like you never did, though, you managed to overcome its grip and regain control of them. It's being disposed as you wanted, but something alerted your drones as they found some strange vials containing a swirling liquid. You know everything that is built in your empire, and this is not one of them."
+ eev_new_queen.3.a: "Who's interfering with us?"
+
+# Localisation - 3.4 stuff
+ xibilispecies: "Xibili"
+ xebospecies: "Xebo"
+ ostrich: "Ostrich"
+ daggerdesign: "Dagger"
+ eevfleet: "The Wanderers"

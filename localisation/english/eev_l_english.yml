@@ -54,7 +54,7 @@
  doomed_civ_category: "The Crashed Ship"
  doomed_civ_category_desc: "The crew has spotted what appears to be a crashed space shuttle."
  doomed_civ.1.name: "Escape Trajectory"
- doomed_civ.1.desc: "While scanning the ship the §B[Root.GetFleetName]§! crew came across something devastating. \n\nThe ship was more of an escape pod, on an escape trajectory from their home planet which according to what left the crew can read was a dying planet. The disaster that occurred on their home planet, must have been extremely devastating as whoever launched it, missed its target."
+ doomed_civ.1.desc: "While scanning the ship the §B[Root.GetFleetName]§! crew came across something devastating. \n\nThe ship was more of an escape pod, on an escape trajectory from their home planet which according to what left the crew can read was a dying planet. The disaster that occurred on their home planet must have been extremely devastating as whoever launched it, missed its target."
  
  lost_treasure_category: "The Weak Signal"
  lost_treasure_category_desc: "We have picked up a weak signal around §Y[Root.GetName]§!."
@@ -286,7 +286,7 @@
  star_stuff.4.a: "Interesting."
  
  star_stuff.5.name: "A G-Type Star"
- star_stuff.5.desc: "This yellow dwarf is known as a G-Type star and actually has a range of colors it can be. These stars fuse hydrogen for roughly 10 billion years before they expand and become red giants. \n\nAlthough the G-Type star's lifespan is shorter than a K-Type star, worlds inside the habitable zone of a G-Type star enjoy optimal conditions for the development of life."
+ star_stuff.5.desc: "This yellow dwarf is known as a G-Type star. These stars fuse hydrogen for roughly 10 billion years before they expand and become red giants. \n\nAlthough the G-Type star's lifespan is shorter than a K-Type star, worlds inside the habitable zone of a G-Type star enjoy optimal conditions for the development of life."
  star_stuff.5.a: "Amazing."
  
  star_stuff.6.name: "A K-Type Star"

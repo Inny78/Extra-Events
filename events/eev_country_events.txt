@@ -1204,7 +1204,7 @@ country_event = {
 		name = INTERESTING
 		from = {
 			create_species = {
-				name = "Xiblibi"
+				name = xibilispecies
 				class = random
 				portrait = random
 				traits = random
@@ -1247,7 +1247,7 @@ country_event = {
 	option = {
 		name = popup.31.b
 		create_species = {
-			name = "Xebo"
+			name = xebospecies
 			class = random
 			portrait = random
 			traits = random
@@ -1260,3 +1260,4 @@ country_event = {
 		}
 	}
 }
+

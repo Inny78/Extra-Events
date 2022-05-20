@@ -157,7 +157,7 @@
  eev_new_queen.2.c: "Deviation is food."
 
  eev_new_queen.3.name: "Clear Network"
- eev_new_queen.3.desc: "Stopping the mutant drone was not an easy task, as some of your drones switched sides as they approached it. Focusing your Mind like you never did, though, you managed to overcome its grip and regain control of them. It's being disposed as you wanted, but something alerted your drones as they found some strange vials containing a swirling liquid. You know everything that is built in your empire, and this is not one of them."
+ eev_new_queen.3.desc: "Stopping the mutant drone was not an easy task, as some of your drones switched sides as they approached it. Focusing your Mind like you never did, though, you managed to overcome its grip and regain control of them. It's being disposed as you wanted, but something alerted your drones as they found some strange vials containing a swirling liquid. You know everything that is built in your hive, and this is not one of them."
  eev_new_queen.3.a: "Who's interfering with us?"
 
 # Localisation - 3.4 stuff

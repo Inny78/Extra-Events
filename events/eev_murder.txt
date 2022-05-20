@@ -1,9 +1,7 @@
 ###########################################################################
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
-
 namespace = murder_event
-
 # Start
 ship_event = {
 	id = murder_event.1
@@ -11,29 +9,27 @@ ship_event = {
 	desc = murder_event.1.desc
 	picture = GFX_evt_metropolis
 	location = FROM
-	
 	is_triggered_only = yes
-	
 	immediate = {
-		from = { save_event_target_as = murder_position }
+		from = {
+			save_event_target_as = murder_position
+		}
 	}
-	
 	option = {
 		name = murder_event.1.a
-        enable_special_project = {
-            name = MURDER_PROJECT
-            location = from
+		enable_special_project = {
+			name = MURDER_PROJECT
+			location = from
 			owner = root
-        }
+		}
 		owner = {
 			add_resource = {
 				unity = 1000
 			}
 		}
 	}
-    
-    option = {
-        name = murder_event.1.b
+	option = {
+		name = murder_event.1.b
 		owner = {
 			add_resource = {
 				unity = -1000
@@ -45,7 +41,7 @@ ship_event = {
 				}
 			}
 		}
-    }
+	}
 }
 
 # 2
@@ -54,21 +50,23 @@ ship_event = {
 	title = murder_event.2.name
 	desc = murder_event.2.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-	
 	immediate = {
-        fleet = {
-            set_event_locked = yes
-        }
+		fleet = {
+			set_event_locked = yes
+		}
 	}
-	
 	option = {
 		name = murder_event.2.a
-        hidden_effect = { ship_event = { id = murder_event.4 days = 45 } }
-        leader = { 
-            add_experience = 50
-        }
+		hidden_effect = {
+			ship_event = {
+				id = murder_event.4
+				days = 45
+			}
+		}
+		leader = {
+			add_experience = 50
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -85,15 +83,13 @@ ship_event = {
 
 # 3
 country_event = {
-    id = murder_event.3
-    title = murder_event.3.name
+	id = murder_event.3
+	title = murder_event.3.name
 	desc = murder_event.3.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-
-    option = {
-        name = murder_event.3.a
+	option = {
+		name = murder_event.3.a
 		owner = {
 			add_resource = {
 				unity = -1000
@@ -105,22 +101,24 @@ country_event = {
 				}
 			}
 		}
-    }
+	}
 }
 
 # 4
 ship_event = {
-    id = murder_event.4
-    title = murder_event.4.name
+	id = murder_event.4
+	title = murder_event.4.name
 	desc = murder_event.4.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-	
-	
-    option = {
-        name = murder_event.4.a
-        hidden_effect = { ship_event = { id = murder_event.5 days = 45 } }
+	option = {
+		name = murder_event.4.a
+		hidden_effect = {
+			ship_event = {
+				id = murder_event.5
+				days = 45
+			}
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -132,21 +130,24 @@ ship_event = {
 				kill_pop = yes
 			}
 		}
-    }
+	}
 }
 
 # 5
 ship_event = {
-    id = murder_event.5
-    title = murder_event.5.name
+	id = murder_event.5
+	title = murder_event.5.name
 	desc = murder_event.5.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-    
-    option = {
-        name = murder_event.5.a
-		hidden_effect = { ship_event = { id = murder_event.6 days = 45 } }
+	option = {
+		name = murder_event.5.a
+		hidden_effect = {
+			ship_event = {
+				id = murder_event.6
+				days = 45
+			}
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -158,30 +159,32 @@ ship_event = {
 				kill_pop = yes
 			}
 		}
-        leader = { 
-            add_experience = 50
-        }
-    }
+		leader = {
+			add_experience = 50
+		}
+	}
 }
 
 # 6
 ship_event = {
-    id = murder_event.6
-    title = murder_event.6.name
+	id = murder_event.6
+	title = murder_event.6.name
 	desc = murder_event.6.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-    
 	immediate = {
 	}
-	
-    option = {
-        name = murder_event.6.a
-		hidden_effect = { ship_event = { id = murder_event.7 days = 15 } }
-        leader = { 
-            add_experience = 50
-        }
+	option = {
+		name = murder_event.6.a
+		hidden_effect = {
+			ship_event = {
+				id = murder_event.7
+				days = 15
+			}
+		}
+		leader = {
+			add_experience = 50
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -193,27 +196,29 @@ ship_event = {
 				kill_pop = yes
 			}
 		}
-    }
+	}
 }
 
 # 7
 ship_event = {
-    id = murder_event.7
-    title = murder_event.7.name
+	id = murder_event.7
+	title = murder_event.7.name
 	desc = murder_event.7.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-    
 	immediate = {
 	}
-	
-    option = {
-        name = murder_event.7.a
-		hidden_effect = { ship_event = { id = murder_event.8 days = 15 } }
-        leader = { 
-            add_experience = 50
-        }
+	option = {
+		name = murder_event.7.a
+		hidden_effect = {
+			ship_event = {
+				id = murder_event.8
+				days = 15
+			}
+		}
+		leader = {
+			add_experience = 50
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -225,27 +230,31 @@ ship_event = {
 				kill_pop = yes
 			}
 		}
-    }
+	}
 }
 
 # End?
 ship_event = {
-    id = murder_event.8
-    title = murder_event.8.name
+	id = murder_event.8
+	title = murder_event.8.name
 	desc = murder_event.8.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-	
 	immediate = {
-        fleet = {
-            set_event_locked = no
-        }
+		fleet = {
+			set_event_locked = no
+		}
 	}
-    
-    option = {
-        name = murder_event.8.a
-		hidden_effect = { ship_event = { id = murder_event.9 days = 30 } }
+	option = {
+		name = murder_event.8.a
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = murder_event.9
+					days = 30
+				}
+			}
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -253,19 +262,17 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			
 			add_monthly_resource_mult = {
 				resource = engineering_research
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			
 			add_resource = {
 				unity = 1000
 			}
 		}
-    }
+	}
 }
 
 country_event = {
@@ -273,14 +280,14 @@ country_event = {
 	title = murder_event.9.name
 	desc = murder_event.9.desc
 	picture = GFX_evt_metropolis
-	
 	is_triggered_only = yes
-
-	immediate = { }
-
+	immediate = {
+	}
 	option = {
 		name = murder_event.9.a
-		hidden_effect = { set_country_flag = eev_murder_set }
+		hidden_effect = {
+			set_country_flag = eev_murder_set
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = physics_research
@@ -288,14 +295,12 @@ country_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			
 			add_monthly_resource_mult = {
 				resource = engineering_research
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			
 			add_resource = {
 				unity = 200
 			}
@@ -303,3 +308,72 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = murder_event.10
+	title = murder_event.10.name
+	desc = murder_event.10.desc
+	picture = GFX_evt_metropolis
+	is_triggered_only = yes
+	trigger = {
+		mid_game_years_passed > 0
+		has_country_flag = eev_murder_set
+		has_country_flag = eev_scanned
+	}
+	immediate = {
+		remove_country_flag = eev_murder_set
+		set_country_flag = eev_murder_rev
+	}
+	option = {
+		name = murder_event.10.a
+		trigger = {
+			owner = {
+				is_xenophobe = no
+			}
+		}
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_resource = {
+				unity = 800
+			}
+		}
+	}
+	option = {
+		name = murder_event.10.b
+		trigger = {
+			owner = {
+				OR = {
+					is_xenophobe = yes
+					is_militarist = yes
+				}
+			}
+		}
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_resource = {
+				unity = 800
+			}
+		}
+	}
+}

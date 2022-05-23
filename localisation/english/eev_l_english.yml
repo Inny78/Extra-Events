@@ -6,7 +6,7 @@
 
  ancient_flag_category: "The Forgotten Flag"
  ancient_flag_category_desc: "The crew has found a strange metallic cylinder with stained cloth attached to it, presumably some sort of flag on §Y[From.GetName]§!."
- ancient_flag.1.name: "Ancient Civlization Flag"
+ ancient_flag.1.name: "Ancient Civilization Flag"
  ancient_flag.1.desc: "Science Officer §G[Root.GetLeaderName]§! commander of the §B[Root.GetFleetName]§! has completed its detailed scan of §Y[From.GetName]§!. The object appears to be placed by an ancient civilization, roughly 3000 years ago. In their culture, placing flags on celestial objects was a way to claim areas in space. \n\nSince there is little to no wind on §Y[From.GetName]§!, the flag has not eroded over the past 3000 years. What happened to the ancient civilization is still a mystery. "
 
  space_grave_category: "The Outer Space Skeletal Remains"
@@ -83,9 +83,9 @@
  except_engine.1.b: "Sell them, nothing beats our technology."
  
  crushed_category: "Shiny Object"
- crushed_category_desc: "The crew have spotted an abnormality on §Y[Root.GetName]§!. It's very shiny and reflectant."
+ crushed_category_desc: "The crew have spotted an abnormality on §Y[Root.GetName]§!. It's very shiny and reflective."
  crushed.1.name: "Crushed Civilization"
- crushed.1.desc: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilzation. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable!"
+ crushed.1.desc: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable!"
  
  perfect_planet_category: "Extraordinary Readings"
  perfect_planet_category_desc: "Upon closer scans of §Y[Root.GetName]§! the planet is showing extraordinary readings!"
@@ -95,17 +95,17 @@
  ancient_fossils_category: "Advanced and Ancient Ruins"
  ancient_fossils_category_desc: "Scientists have spotted what appears to be ancient - yet advanced - civilization ruins."
  ancient_fossils.1.name: "Ancient Civilization Fossils"
- ancient_fossils.1.desc: "The crew of the §B[Root.GetFleetName]§! was right. Millions of years ago lived a civilzation on this planet, and one that was advanced. \n\n§G[Root.GetLeaderName]§! does not know what killed off this civilization. Perhaps it was an asteroid or super volcano. \n\nWhatever happened does not matter, what does matter is that there is much to learn from their remains!"
+ ancient_fossils.1.desc: "The crew of the §B[Root.GetFleetName]§! was right. Millions of years ago lived a civilization on this planet, and one that was advanced. \n\n§G[Root.GetLeaderName]§! does not know what killed off this civilization. Perhaps it was an asteroid or super volcano. \n\nWhatever happened does not matter, what does matter is that there is much to learn from their remains!"
  
  space_knights_category: "Stone Home"
  space_knights_category_desc: "While scanning §Y[Root.GetName]§! the crew spotted houses made of rock."
  space_knights.1.name: "Space Knights"
- space_knights.1.desc: "A dead medieval species once roamed this planet, but they died in a spectacular way! \n\nTwo factions ruled the planet, warring eachother for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. \n\nThe last battle these two warring factions were a part of destroyed their planet and it never recovered. \n\nEven more so they believe the cause of this war was the belief in a god."
+ space_knights.1.desc: "A medieval species once roamed this planet, but they died in a spectacular way! \n\nTwo factions ruled the planet, warring each other for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. \n\nThe last battle these two warring factions were a part of destroyed their planet and it never recovered. \n\nEven more so they believe the cause of this war was the belief in a god."
  
  world_war_category: "Debris of a Battle"
  world_war_category_desc: "The crew believes a world war happened on §Y[Root.GetName]§! that destroyed their race."
  world_war.1.name: "World War"
- world_war.1.desc: "The crew was correct, but §G[Root.GetLeaderName]§! and his scientists believed that the civilization wouldn't be as advanced as they were when they destroyed themselves. They were nearly at our technology level when it happened. \n\n§G[Root.GetLeaderName]§! believes that there was a warmongering fascist leader who's goal was world domination. What's more is this leader bombed as many of his enemies as he could which was the cause of the planet's destruction."
+ world_war.1.desc: "The crew was correct, but §G[Root.GetLeaderName]§! and his scientists believed that the civilization wouldn't be as advanced as they were when they destroyed themselves. They were nearly at our technology level when it happened. \n\n§G[Root.GetLeaderName]§! believes that there was a warmongering fascist leader whose goal was world domination. What's more is this leader bombed as many of his enemies as he could which was the cause of the planet's destruction."
  
  #1.4
  asteroid_attack_category: "Asteroid Caves"
@@ -117,7 +117,7 @@
  ayy_category: "Lights Spotted"
  ayy_category_desc: "Our scientists have spotted lights on §Y[Root.GetName]§! and wish to investigate."
  ayy.1.name: "Local Aliens"
- ayy.1.desc: "§G[Root.GetLeaderName]§! has found the lights, and those lights were connected to houses which had aliens inside of them with... less than average intellegence. \n\nThey claim that they're empire is great and wishes to colonize everything in the galaxy. Habitable or not. \n\n§G[Root.GetLeaderName]§! says that these aliens are actually terrified of us and claims that they just want us gone and are willing to pay."
+ ayy.1.desc: "§G[Root.GetLeaderName]§! has found the lights, and those lights were connected to houses which had aliens inside of them with... less than average intelligence. \n\nThey claim that their empire is great and wishes to colonize everything in the galaxy. Habitable or not. \n\n§G[Root.GetLeaderName]§! says that these aliens are actually terrified of us and claims that they just want us gone and are willing to pay."
  ayy.1.a: "Very well, take the money."
  ayy.1.b: "Leave them in peace."
  ayy.1.c: "Recruit them for our armies."
@@ -142,7 +142,7 @@
  space_nomads_category: "Cargo Ship in Orbit"
  space_nomads_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."
  space_nomads.1.name: "Space Nomads"
- space_nomads.1.desc: "As the §B[Root.GetFleetName]§! approached the the cargo ship we were greeted by some very nice nomads who call themselves §SThe Wanderers§!. \n\nThey were nice enough to tell us of there journies across the galaxy, their encounters of alien races, and their poor financial situation over some spicy food and a drink they called §SGlabnak§!. After the festivities we parted ways but not before they gave us their recipe for §SGlabnak§!. \n\n§G[Root.GetLeaderName]§! suggests we help their financial situation with a donation of 200 energy."
+ space_nomads.1.desc: "As the §B[Root.GetFleetName]§! approached the the cargo ship we were greeted by some very nice nomads who call themselves §SThe Wanderers§!. \n\nThey were nice enough to tell us of their journeys across the galaxy, their encounters of alien races, and their poor financial situation over some spicy food and a drink they called §SGlabnak§!. After the festivities we parted ways but not before they gave us their recipe for §SGlabnak§!. \n\n§G[Root.GetLeaderName]§! suggests we help their financial situation with a donation of 200 energy."
  space_nomads.1.a: "We lack the funds..."
  space_nomads.1.b: "Of course!"
  space_nomads.1.c: "Send them away."
@@ -175,20 +175,20 @@
  abandoned_base_category: "Metallic Object"
  abandoned_base_category_desc: "Our scientists report that there appears to be some unknown metallic object on the surface of §Y[Root.GetName]§!."
  abandoned_base.1.name: "Deserters"
- abandoned_base.1.desc: "As we approached this mettalic object it became clear to the scientists that it was a military compound of sorts built in to the side of a mountain. \n\nWhen our scientists went in for a closer look they were greeted with guns, but after the scientists assured them that they came in peace all hostilities were neutralized as they greeted themselves as §SThe Free Folk§! and as a way to say sorry they decided to treat our scientists to dinner. \n\n§G[Root.GetLeaderName]§! has sent us messages about these §SFree Folk§! being deserters of their former empire and that they have riches beyond what scavangers like these should have."
+ abandoned_base.1.desc: "As we approached this metallic object it became clear to the scientists that it was a military compound of sorts built in to the side of a mountain. \n\nWhen our scientists went in for a closer look they were greeted with guns, but after the scientists assured them that they came in peace all hostilities were neutralized as they greeted themselves as §SThe Free Folk§! and as a way to say sorry they decided to treat our scientists to dinner. \n\n§G[Root.GetLeaderName]§! has sent us messages about these §SFree Folk§! being deserters of their former empire and that they have riches beyond what scavengers like these should have."
  abandoned_base.1.a: "Ask them to serve our cause."
  abandoned_base.1.b: "They are nothing but traitors!"
  abandoned_base.1.c: "Take their stolen treasure and run!"
  abandoned_base.2.name: "Recruitment"
- abandoned_base.2.desc: "Our scientists have asked these §SFree Folk§! to join our armies and to support our cause. Which to our surprise they accepted under one condition: To be payed upfront for their services. \n\n§G[Root.GetLeaderName]§! strongly urges us to not inlist them in our armies as they were not loyal to their previous rulers. Who's to say they'll remain loyal to us?"
+ abandoned_base.2.desc: "Our scientists have asked these §SFree Folk§! to join our armies and to support our cause. Which to our surprise they accepted under one condition: To be payed upfront for their services. \n\n§G[Root.GetLeaderName]§! strongly urges us to not enlist them in our armies as they were not loyal to their previous rulers. Who's to say they'll remain loyal to us?"
  abandoned_base.2.a: "Welcome to our empire, Free Folk!"
- abandoned_base.2.b: "Nevermind then."
+ abandoned_base.2.b: "Never mind then."
  abandoned_base.2.tooltip: "Continues the Story"
  
  infinium_category: "Rare Mineral"
  infinium_category_desc: "While scanning §Y[Root.GetName]§! our scientists have discovered a mineral unlike any in recorded history! The team desperately wishes to research more in to this mineral."
  infinium.1.name: "Infinium Ore"
- infinium.1.desc: "This mineral our scientists found is truely magnificent! Under intense heat it can be molded in to anything and when cooled back down its nearly indestructible! \n\nOur scientists have started calling it §SInfinium§! for its nearly infinite uses. \n\n§G[Root.GetLeaderName]§! suggest keeping this Infinium for further research and use, but says we could also sell it if we really need the money."
+ infinium.1.desc: "This mineral our scientists found is truly magnificent! Under intense heat it can be molded in to anything and when cooled back down its nearly indestructible! \n\nOur scientists have started calling it §SInfinium§! for its nearly infinite uses. \n\n§G[Root.GetLeaderName]§! suggest keeping this Infinium for further research and use, but says we could also sell it if we really need the money."
  infinium.1.a: "Keep it."
  infinium.1.b: "Sell it."
  
@@ -208,7 +208,7 @@
  mutiny_category: "Cargo Ship in Orbit"
  mutiny_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."
  mutiny.1.name: "Mutiny!"
- mutiny.1.desc: "Our scientists have found a large quantity of minerals inside the cargo ship! Unfortunately some of our scientists decided they would rather keep the minerals for their own personal benefit and formed a mutiny against §G[Root.GetLeaderName]§! and his most loyal scientists. \n\nHow should we procede?"
+ mutiny.1.desc: "Our scientists have found a large quantity of minerals inside the cargo ship! Unfortunately some of our scientists decided they would rather keep the minerals for their own personal benefit and formed a mutiny against §G[Root.GetLeaderName]§! and his most loyal scientists. \n\nHow should we proceed?"
  mutiny.1.a: "Attempt to negotiate with them."
  mutiny.1.b: "Let them sort it out by themselves."
  mutiny.1.c: "Make an example out of those fools and blow the ship up!"
@@ -217,11 +217,11 @@
  mutiny.2.desc: "After hearing us out, everyone who formed the mutiny agreed to 10 years in medium security prison and a combined payment of 500 Energy."
  mutiny.2.a: "That turned out well."
  mutiny.3.name: "Situation Neutralized"
- mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to him were killed. However those who lead the mutiny have ageed to continue to work for us as long as they can take the minerals they wanted."
+ mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to him were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
  mutiny.2.tooltip: "The science ship will be blown up."
 
  artificial_sun_category: "Strange Sun"
- artificial_sun_category_desc: "This sun isn't quite like anything we've seen before. The shape of this sun is a bit off for no apparent reason."
+ artificial_sun_category_desc: "This sun isn't quite like anything we have seen before. The shape of this sun is a bit off for no apparent reason."
  artificial_sun.1.name: "An Artificial Sun"
  artificial_sun.1.desc: "The §Y[Root.GetName]§! sun is outstanding! Not because its shape was off, but because it was built by some alien species long ago! \n\nFrom what §G[Root.GetLeaderName]§! has gathered the reasoning behind building this sun was that their old one was dying very soon. However it didn't work out for them as they have been extinct for thousands of years now."
  
@@ -240,23 +240,23 @@
  frozen_civilization_category: "Encased in Ice" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Massive structures on the surface of §Y[Root.GetName]§! appear to be encased in ice all across the surface."
  frozen_civilization.1.name: "A Frozen Civilization"
- frozen_civilization.1.desc: "After further research the crew of the §B[Root.GetFleetName]§! has discovered that not only buildings are encased in ice, but frozen sentient organisms too. \n\nBiometric scans reveal that they are in fact still alive. Their technology seems to be far more primitive than our own. \n\nIt appears that a sudden change in orbit occured making the planet almost instantly freeze. Multiple theories have been suggested by the science community, yet none have any proof. Regardless, Science Officier §G[Root.GetLeaderName]§! has begun to artificially unfreezing the planet. \n\nWhile the planet was being thawed a facility was constructed to study them going back to their pre-frozen lives. It took a few days before their bodies completely thawed. Sadly, only a few hundred of them survived the process. \n\nSome of our scientists were caught off guard by the creatures once they awakened. Luckily, security measures were taken to prevent some of them from going on a rampage. They were put on anesthetics and a small transport ship carried them to what to us seems like an important landmark. \n\nOnce they fully awakened from the anesthetics they seemed very confused. A few of them started to attack, but one of them rose up and convinced them to calm down. The crew was fascinated by the primitive creatures."
+ frozen_civilization.1.desc: "After further research the crew of the §B[Root.GetFleetName]§! has discovered that not only buildings are encased in ice, but frozen sentient organisms too. \n\nBiometric scans reveal that they are in fact still alive. Their technology seems to be far more primitive than our own. \n\nIt appears that a sudden change in orbit occurred, making the planet almost instantly freeze. Multiple theories have been suggested by the science community, yet none have any proof. Regardless, Science Officer §G[Root.GetLeaderName]§! has begun to artificially unfreezing the planet. \n\nWhile the planet was being thawed a facility was constructed to study them going back to their pre-frozen lives. It took a few days before their bodies completely thawed. Sadly, only a few hundred of them survived the process. \n\nSome of our scientists were caught off guard by the creatures once they awakened. Luckily, security measures were taken to prevent some of them from going on a rampage. They were put on anesthetics and a small transport ship carried them to what to us seems like an important landmark. \n\nOnce they fully awakened from the anesthetics they seemed very confused. A few of them started to attack, but one of them rose up and convinced them to calm down. The crew was fascinated by the primitive creatures."
  
  supernova_category: "An Extremely Bright Star"
- supernova_category_desc: "As the science crew approched the §Y[Root.GetName]§! star they came to the realization that it's many time brighter than it should be!"
- supernova.1.name: "Unusal fluctuations"
- supernova.1.desc: "§B[Root.GetFleetName]§!'s instruments has detected internal fluctuations of plasma on a massive scale. The crew is having a hard time getting some detailed readings due to the gravimetric interferences emitted by these fluctuations and they will have to get closer to the star to know what's going on."
+ supernova_category_desc: "As the science crew approached the §Y[Root.GetName]§! star they came to the realization that it's many time brighter than it should be!"
+ supernova.1.name: "Unusual fluctuations"
+ supernova.1.desc: "§B[Root.GetFleetName]§!'s instruments has detected internal fluctuations of plasma on a massive scale. The crew is having a hard time getting some detailed readings due to the gravimetric interference emitted by these fluctuations and they will have to get closer to the star to know what's going on."
  supernova.2.name: "A Supernova!"
  supernova.2.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A Supernova was taking place. But they knew attempting to escape would be pointless so the crew accepted their fate and recorded the event. \n\nBecause of their deaths we now know more about supernovas. They will be remembered."
  supernova.2.a: "Indeed."
  supernova.3.name: "A Supernova!"
- supernova.3.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A Supernova was taking place. But Science Officier §G[Root.GetLeaderName]§! was extremely cautious and ordered the ship to stay at maximum scanner range. \n\nIt was very close, but he punched the commands of the emergency hyperpropulsion just in time."
+ supernova.3.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A Supernova was taking place. But Science Officer §G[Root.GetLeaderName]§! was extremely cautious and ordered the ship to stay at maximum scanner range. \n\nIt was very close, but he punched the emergency hyperpropulsion's commands just in time."
  supernova.3.a: "That was too close."
  
  boom_asteroid_category: "Metallic Structure"
  boom_asteroid_category_desc: "The crew has spotted an unnatural metallic structure on the surface of §Y[Root.GetName]§!."
  boom_asteroid.1.name: "Nuclear Explosion"
- boom_asteroid.1.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all writen in some alien language nobody understood. \n\nSoon after the planet exploded. We still don't know why there was an alarm or why there were explosives big enough to destroy the planet."
+ boom_asteroid.1.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all written in some alien language nobody understood. \n\nSoon after the planet exploded. We still don't know why there was an alarm or why there were explosives big enough to destroy the planet."
  boom_asteroid.1.a: "A Tragic Fate."
  
  #1.8
@@ -282,7 +282,7 @@
  star_stuff.3.a: "Interesting."
  
  star_stuff.4.name: "An F-Type Star"
- star_stuff.4.desc: "An F-Type star, or more widely known as a White Dwarf Star, are fairly large emit a significant amount of UV radiation and have wide habital zones which have a good chance of supporting life."
+ star_stuff.4.desc: "An F-Type star, or more widely known as a White Dwarf Star, are fairly large emit a significant amount of UV radiation and have wide habitable zones which have a good chance of supporting life."
  star_stuff.4.a: "Interesting."
  
  star_stuff.5.name: "A G-Type Star"
@@ -310,7 +310,7 @@
  star_stuff.10.a: "Incredible!"
  
  star_stuff.11.name: "Studies Complete"
- star_stuff.11.desc: "After all these years we have completed our studies of all known star types in the universe. It was a bumpy ride but there's no doubt in anyone's mind that nothing but good can come of this! \n\nOur lead scientist suggests that keeping a close eye on these stars would be best, but did mention something about using the knowlege we've learned to gather more energy..."
+ star_stuff.11.desc: "After all these years we have completed our studies of all known star types in the universe. It was a bumpy ride but there's no doubt in anyone's mind that nothing but good can come of this! \n\nOur lead scientist suggests that keeping a close eye on these stars would be best, but did mention something about using the knowlege we have learned to gather more energy..."
  star_stuff.11.a: "We now know more about the universe."
  star_stuff.11.b: "Energy it is!"
  
@@ -342,7 +342,7 @@
  ########## COUNTRY EVENTS ##########
  
  popup.1.name: "Illegal Aliens"
- popup.1.desc.d: "Aliens have trespassed on one of our planets without persmission! We could send them away, or perhaps we could let them stay?"
+ popup.1.desc.d: "Aliens have trespassed on one of our planets without permission! We could send them away, or perhaps we could let them stay?"
  popup.1.a: "Jail them up and send them away."		
  popup.1.b: "They may stay." 
  popup.1.c: "Let them stay for now... I'll decide what to do with them at a later date."
@@ -376,7 +376,7 @@
  popup.6.c: "Damn xeno-scum!"
  #
  popup.7.name: "Nomads Arrive"
- popup.7.desc: "A couple of xeno nomads who call themselves §SThe Fist§! have requested housing on our Capital Planet. As we do not often just let anybody live on our Capital Planet we have set up an interview of sorts. \n\n§SThe Fist§! claims that they have plans to build a great town full of everything a person could hope for including free food and drinks, free medical care and even free housing with one exception. Everybody who lives there must worship their god."
+ popup.7.desc: "A couple of xeno nomads who call themselves §SThe Fist§! have requested housing on our Capital Planet. As we do not often just let anybody live there we have set up an interview of sorts. \n\n§SThe Fist§! claims that they have plans to build a great town full of everything a person could hope for including free food and drinks, free medical care and even free housing with one exception. Everybody who lives there must worship their god."
  popup.7.a: "Let them in"
  popup.7.b: "Deny them"
  popup.7.c: "Who let these xenos in?"
@@ -421,7 +421,7 @@
  #
  popup.16.name: "A Gifted Pet"
  popup.16.desc: "A family member of mine that I am close to has decided to give me a gift in the form of a companion pet. After much thought I decided I would name it..."
- popup.16.a: "Ceaser"
+ popup.16.a: "Caesar"
  popup.16.b: "Hunter"
  popup.16.c: "Socks"
  popup.16.d: "Max"
@@ -451,19 +451,19 @@
  popup.20.a: "Wonderful"
  
  popup.22.name: "Primitive Alien Infection"
- popup.22.desc: "One of our observation posts has spotted a rapid decline in population on §Y[From.GetName]§!. It seems an extinction level infection has sweeped the planet. \n\nWe could let them be and hope for them to build an immunity. Or we could end it now and nuke the planet."
+ popup.22.desc: "One of our observation posts has spotted a rapid decline in population on §Y[From.GetName]§!. It seems an extinction level infection has swept the planet. \n\nWe could let them be and hope for them to build an immunity. Or we could end it now and nuke the planet."
  popup.22.a: "Let them be."
  popup.22.b: "Nuke the planet!"
  
  popup.24.name: "Misplaced Equipment"
- popup.24.desc: "As per routine, our scientists have very carefuly landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including her gun, on the planets surface. \n\nShe assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! she will retrieve her weapon."
+ popup.24.desc: "As per routine, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including her gun, on the planets surface. \n\nShe assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! she will retrieve her weapon."
  
  popup.26.name: "Misplaced Equipment: Part II"
- popup.26.desc: "As per routine, our scientists have landed on §Y[From.GetName]§! once more. Only this time with hopes that our scientists could find some missing equipment. \n\nThey did not find any equipment. However they did notice the native's footprints scattered around as if the natives were having a party, or in some way frantically worshiping our scientists equipment."
+ popup.26.desc: "As per routine, our scientists have landed on §Y[From.GetName]§! once more. Only this time with hopes that our scientists could find some missing equipment. \n\nThey did not find any equipment. However they did notice the natives' footprints scattered around as if the natives were having a party, or in some way frantically worshiping our scientists equipment."
  
  popup.28.name: "Misplaced Equipment: Part III"
- popup.28.desc: "As per routine, our scientsis have landed on §Y[From.GetName]§! once more. Except this time they were greeted, and quickly surrounded by the local natives. One such native held the gun of one of our scientists. He looked more regal than the rest. Perhaps he has become a king of sorts on this planet because of his new found power. \n\n All at once they started rambling and screaming in their native language. The message was clear, to never come back. \n\nOur scientists quickly retreated and left the planet with haste."
- popup.28.a: "Perhaps it's better to study from affar."
+ popup.28.desc: "As per routine, our scientists have landed on §Y[From.GetName]§! once more. Except this time they were greeted, and quickly surrounded by the local natives. One such native held the gun of one of our scientists. He looked more regal than the rest. Perhaps he has become a king of sorts on this planet because of his new found power. \n\n All at once they started rambling and screaming in their native language. The message was clear, to never come back. \n\nOur scientists quickly retreated and left the planet with haste."
+ popup.28.a: "Perhaps it's better to study from afar."
  popup.28.b: "Kill those who oppose us. Big or small."
  popup.28.c: "This planet and their species are useless. Blow them up."
  
@@ -485,10 +485,10 @@
  murder_category_desc: "Our scientists have picked up one of our distress signal coming from §Y[Root.GetName]§!."
  
  MURDER_PROJECT: "The Serial Killer"
- MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."
+ MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that I'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."
  
  murder_event.1.name: "The Serial Killer"
- murder_event.1.desc: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read 'Good, you found my safe. Now that I've got your attention I should tell you that i'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'. \n\nIt could be a hoax but we all think it's in our people's best interest to find this guy."
+ murder_event.1.desc: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read 'Good, you found my safe. Now that I've got your attention I should tell you that I'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'. \n\nIt could be a hoax but we all think it's in our people's best interest to find this guy."
  murder_event.1.a: "We must find this person!"
  murder_event.1.b: "Another death threat... Who cares?"
  
@@ -513,11 +513,11 @@
  murder_event.6.a: "Rest in peace."
  
  murder_event.7.name: "The Final Murder"
- murder_event.7.desc: "As we expected a fifth murder we gave our most important citizens personel guards to ensure they would not fall victim. This time we were sure we would catch him... and we did! But not before he killed his target - one of our richest CEOs. \n\nWe found the man in a techonologically advanced suit of armor and he was covered in blood, as if he decided not to wash his armor after each murder. We tried to ID this man but it was as if he was a ghost, and he ignored every question except for one. We asked 'What is your name?', his only response was 'I am Death'.  \n\nAs we expected we found a note in the CEOs pockets reading: 'Not even money could save her, and trust me she offered plenty. But you were too late. -D'"
+ murder_event.7.desc: "As we expected a fifth murder we gave our most important citizens personal guards to ensure they would not fall victim. This time we were sure we would catch him... and we did! But not before he killed his target - one of our richest CEOs. \n\nWe found the man in a technologically advanced suit of armor and he was covered in blood, as if he decided not to wash his armor after each murder. We tried to ID this man but it was as if he was a ghost, and he ignored every question except for one. We asked 'What is your name?', his only response was 'I am Death'.  \n\nAs we expected we found a note in the CEOs pockets reading: 'Not even money could save her, and trust me she offered plenty. But you were too late. -D'"
  murder_event.7.a: "Finally and end to this madness."
  
  murder_event.8.name: "The End"
- murder_event.8.desc: "This 'Death' was caught, but not before he killed the five important people he promised to kill. How he evaded our census and how he was so much more techonologically advanced than us is a mystery. But if there is one good thing to come from this, it's that we've learned much from his suit and we will have much better security from now on. \n\nBut at that cost... Was it worth it?"
+ murder_event.8.desc: "This 'Death' was caught, but not before he killed the five important people he promised to kill. How he evaded our census and how he was so much more technologically advanced than us is a mystery. But if there is one good thing to come from this, it's that we have learned much from his suit and we will have much better security from now on. \n\nBut at that cost... Was it worth it?"
  murder_event.8.a: "At least something came from this."
  
  ########## END MURDER ##########

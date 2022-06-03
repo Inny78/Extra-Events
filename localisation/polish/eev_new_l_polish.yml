@@ -106,9 +106,9 @@
  eev_start_menu.1.name: "Konfiguracja"
  eev_start_menu.1.desc: "Chcesz aktywować czy dezaktywować najbardziej destrukcyjne wydarzenia? Mogą one zniszczyć planety, jak również całe systemy gwiezdne."
  eev_start_menu.1.START: "Start"
- eev_start_menu.1.no_kaboom: "Deaktywacja"
+ eev_start_menu.1.no_kaboom: "§GDeaktywacja§!"
  eev_start_menu.1.no_kaboomTT: "To ustawienie zapobiegnie aktywacji najbardziej destruktywnych wydarzeń."
- eev_start_menu.1.kaboom: "Aktywacja"
+ eev_start_menu.1.kaboom: "§RAktywacja§!"
  eev_start_menu.1.kaboomTT: "To ustawienie pozwoli na aktywację najbardziej destruktywnych wydarzeń."
 
 # Anomalies - alternate endings

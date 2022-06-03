@@ -101,10 +101,10 @@
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
  eev_start_menu.1.START: "Start"
- eev_start_menu.1.no_kaboom: "Deactivate"
- eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
- eev_start_menu.1.kaboom: "Activate"
- eev_start_menu.1.kaboomTT: "This will allow the destructive events."
+ eev_start_menu.1.no_kaboom: "§GDeactivate§!"
+ eev_start_menu.1.no_kaboomTT: "This will §Gprevent§! the destructive events to happen."
+ eev_start_menu.1.kaboom: "§RActivate§!"
+ eev_start_menu.1.kaboomTT: "This will §Rallow§! the destructive events to happen."
 
 # Anomalies - alternate endings
  supernova.5.name: "Massive plasma vortexes"

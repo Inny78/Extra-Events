@@ -1,4 +1,4 @@
-﻿l_french :
+﻿l_french:
 # Energy Vortex, alias " Houston, nous avons un problème "
  eev_houston_category : "Vortex énergétique"
  eev_houston_category_desc : "Le §B[Root.GetFleetName]§! a rencontré une puissante signature énergétique en orbite proche de §Y[From.GetName]§! Le §G[Root.GetLeaderName]§! a décidé de commencer une analyse de cet étrange vortex."
@@ -101,21 +101,21 @@
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Voulez-vous activer ou désactiver les événements les plus destructeurs ? Ceux-ci peuvent détruire des planètes ou des systèmes solaires entiers."
  eev_start_menu.1.START: "Commencer"
- eev_start_menu.1.no_kaboom: "Désactiver"
- eev_start_menu.1.no_kaboomTT: "Ceci empêchera les événements destructeurs de se produire."
- eev_start_menu.1.kaboom: "Activer"
- eev_start_menu.1.kaboomTT: "Ceci permetta aux événements destructeurs de se produire."
+ eev_start_menu.1.no_kaboom: "§GDésactiver§!"
+ eev_start_menu.1.no_kaboomTT: "Ceci §Gempêchera§! les événements destructeurs de se produire."
+ eev_start_menu.1.kaboom: "§RActiver§!"
+ eev_start_menu.1.kaboomTT: "Ceci §Rpermetta§! aux événements destructeurs de se produire."
 
 # Anomalies - alternate endings
  supernova.4.name: "Vortex de plasma massifs"
- supernova.4.desc: "Our science ship has observed the most violent and massive plasma vortexes ever spotted in a star. This phenomenon is generating extreme waves of radiations but §B[Root.GetFleetName]§!'s shields support their assault. §G[Root.GetLeaderName]§! announced that this star will probably explode in a supernova before the next millenia. The crew has collected some exciting data that will have an important impact in physics research."
+ supernova.4.desc: "Notre vaisseau scientifique vient d'observer les vortex de plasma les plus violents et massifs jamais découverts dans une étoile. Ce phénomène génère des vagues de radiations extrêmes mais les boucliers de §B[Root.GetFleetName]§! supportent leur assaut. §G[Root.GetLeaderName]§! a annconé que cette étoile allait probablement exploser en une supernova d'ici le prochain millénaire. L'équipe a collecté des données excitantes qui auront un impact important dans nos recherches en physique des particules."
 
  unstable_gas.2.name: "Horde de plasmoides"
- unstable_gas.2.desc: "§G[Root.GetLeaderName]§! reports that the ship detected the presence in the atmosphere of the gas giant of a great herd of plasmoid beings. They're consuming the hydrogen of the giant planet, igniting it with their extreme temperature. At this rate, it will take them a few centuries to consume it before they leave §Y[From.GetName]§! to find a new pasture."
+ unstable_gas.2.desc: "Le rapport de §G[Root.GetLeaderName]§! indique que le vaisseau a détecté la présence dans l'atmosphère de la géante gazeuse d'une grande horde d'être plasmoïdes. Ils consomment l'hydrogène de la planète géante, le rendant incandescent de par leur température extrême. À ce taux, cela leur prendra quelques sièces pour consommer l'atmosphère avant qu'ils ne quittent §Y[From.GetName]§! pour trouver un nouveau pâturage."
 
  boom_asteroid.2.name: "Dysfonctionnement"
- boom_asteroid.2.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all writen in some alien language nobody understood. \n\nSoon after, the countdown ended... and nothing happened. Fearing that it could trigger at any moment, the crew returned hastily to the §B[Root.GetFleetName]§!"
- boom_asteroid.1a: "At least everyone is safe."
+ boom_asteroid.2.desc: "Lorsque l'équipage du §B[Root.GetFleetName]§! s'apprêtait à examiner de plus près la structure métallique, il a déclenché une alarme assourdissante. Puis, l'alarme a commencé un décompte de 30 secondes lorsque l'équipage a aperçu un imposant dispositif nucléaire. C'est à ce moment qu'ils ont réalisé être dans une situation précaire. \n\nGardant la tête froide, l'équipage a tenté immédiatement de désarmer le dispositif en tentant de lire des instructions dans une langue et dans une écriture que personne ne connaissait. \n\nPeu après, le compte à rebours s'est arrêté... et rien ne s'est passé. Craignant que l'explosion puisse se déclencher à tout moment, l'équipage est retourné en hâte au §B[Root.GetFleetName]§!"
+ boom_asteroid.1a: "Au moins tout le monde est sain et sauf."
 
 # Country Events
  murder_event.9.name: "Analyse de l'armure d'invisibilité"

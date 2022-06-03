@@ -1,4 +1,5 @@
 ﻿l_spanish:
+
 # Energy Vortex, alias « Houston, we have a problem »
  eev_houston_category: "Energy Vortex"
  eev_houston_category_desc: "§B[Root.GetFleetName]§! has encountered a powerful energetic anomaly in close orbit of §Y[From.GetName]§!. §G[Root.GetLeaderName]§! decided to begin an analysis of this strange energy vortex."
@@ -15,23 +16,23 @@
  eev_houston.3.desc: "The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would have lost our construction ship if had sent one. Our military ships have reinforced systems and better shields, they should be able to handle this, but if they don't, we will lose it."
 
  eev_houston.4.name: "Military to the rescue"
- eev_houston.4.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started hauling them far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finaly imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
+ eev_houston.4.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started hauling them far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finally imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
  eev_houston.4a: "This is bad..."
 
  eev_houston.5.name: "Military to the rescue"
- eev_houston.5.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finaly imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
+ eev_houston.5.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finally imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
 
  eev_houston.6.name: "No rescue"
  eev_houston.6.desc: "The last transmission we received from §B[Root.GetFleetName]§! was the final gigantic destruction of the energy vortex as the ship started to enter the atmosphere of §Y[From.GetName]§!. There's no way they could have survived that."
  eev_houston.6a: "The universe is a dangerous place."
 
  eev_houston.7.name: "Rescue from out there"
- eev_houston.7.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They're all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§! systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
+ eev_houston.7.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They are all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§! systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
  eev_houston.7a: "Concerning..."
  eev_houston.7b: "We have friends out there."
 
  eev_houston.8.name: "Rescue from out there"
- eev_houston.8.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They're all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§! systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
+ eev_houston.8.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They are all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§! systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
 
  eev_houston.9.name: "A parting gift."
  eev_houston.9.desc: "As §G[Root.GetLeaderName]§! was conducting an evaluation of §B[Root.GetFleetName]§!'s systems after the recent events, he discovered a hidden block of scientific data in the ship's computer. He's adamant that it wasn't here before the incident and it probably comes from the strange ship. After a thorough analysis, he declared the data totally safe and published it."
@@ -61,10 +62,10 @@
  eev_tower_city_dig.2.desc: "Our first discoveries are quite confusing. The inhabitants of the city were clearly at a pre-spatial technology level, and they were clearly stuck at this level due to the total lack of resources of their impossible home. This raises even more questions. They couldn't have built the pillar, so who did it and how? And how did the primitives came to live here?"
 
  eev_tower_city_dig.3.name: "Breaking in"
- eev_tower_city_dig.3.desc: "The science team arrived in front of a great building, still imposing despite being partially ruined. After breaking in, they discovered the first remains of the humanoid inhabitants and left behind a few members to take some samples and analyze them. Progressing further, <science officer> entered some sort of restricted area. Scans indicate that the interior is still intact, but between the crumbled ceilings and the reinforced walls, this will require some work to gain access to it."
+ eev_tower_city_dig.3.desc: "The science team arrived in front of a great building, still imposing despite being partially ruined. After breaking in, they discovered the first remains of the humanoid inhabitants and left behind a few members to take some samples and analyze them. Progressing further, §G[Root.GetLeaderName]§! entered some sort of restricted area. Scans indicate that the interior is still intact, but between the crumbled ceilings and the reinforced walls, this will require some work to gain access to it."
 
  eev_tower_city_dig.4.name: "Broken by war"
- eev_tower_city_dig.4.desc: "We finally gained access to the interior bunker and found a huge computer that's connected to the whole cylinder - and the first gathered data is enough to make our head spin. It isn't a massive pillar, but a titanic skyscraper. The interior was abandoned long ago after a brutal civil war that totally broke their society. They became more and more primitive as their equipment fell in disrepair. The last tribes that roamed the surface weren't able to comprehend their old technology anymore, and when the last synthetizers stopped working, their end came soon after."
+ eev_tower_city_dig.4.desc: "We finally gained access to the interior bunker and found a huge computer that's connected to the whole cylinder - and the first gathered data is enough to make our head spin. It isn't a massive pillar, but a titanic skyscraper. The interior was abandoned long ago after a brutal civil war that totally broke their society. They became more and more primitive as their equipment fell in disrepair. The last tribes that roamed the surface weren't able to comprehend their old technology anymore, and when the last synthesizers stopped working, their end came soon after."
  eev_tower_city_dig.4a: "A tragic tale."
  eev_tower_city_dig.4t: "The ancient building is a feat of engineering that will keep our scientists busy for centuries."
  eev_tower_city_dig.4b: "We're sitting on a huge pile of alloys."
@@ -79,21 +80,21 @@
 
 # Ancient Echoes
  eev_ancient_echoes_category: "Ancient Echoes"
- eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimentional rift above §Y[From.GetName]§!. §G[Root.GetLeaderName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
+ eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimensional rift above §Y[From.GetName]§!. §G[Root.GetLeaderName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
  eev_ancient_echoes.1.name: "Battle from the past"
- eev_ancient_echoes.1.desc: "Our probe recorded a frightening scene beyond the rift: two great alien fleets are engaged in a ferocious battle, using weapons of incredible strength. Flashes of energy illuminate the whole system like a thousand suns as they disperses on seemingly impenetrable shields. Then, a concentrated fire tore through the defenses of a capital ship, hitting its reactor. The following explosion blinds our probe, and when the instruments recover, the rift has disappeared. Later analysis of the star positions and the tachyon's energy place the battle over a million years ago."
+ eev_ancient_echoes.1.desc: "Our probe recorded a frightening scene beyond the rift: two great alien fleets are engaged in a ferocious battle, using weapons of incredible strength. Flashes of energy illuminate the whole system like a thousand suns as they disperses on seemingly impenetrable shields. Then, a concentrated fire tore through the defenses of a capital ship, hitting its reactor. The following explosion blinds our probe, and when the instruments recover, the rift has disappeared. Later analysis of the star positions and the tachyons' energy place the battle over a million years ago."
 
 # Mysterious Cache
  eev_mysterious_cache_category: "Mysterious Cache"
- eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, <science ship> discovered that it's emanating from an old building that stands alone on this desolate world."
+ eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, the §B[Root.GetFleetName]§! discovered that it's emanating from an old building that stands alone on this desolate world."
  eev_mysterious_cache.1.name: "A gift from the past"
- eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did he know we would come?"
+ eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did they know we would come?"
 
 # Crashed colony ship
  eev_crashcol_category: "Metallic debris"
  eev_crashcol_category_desc: "Our ship's sensors have detected some metallic debris on the surface of §Y[From.GetName]§!. The team is preparing an expedition to investigate."
  eev_crashcol.1.name: "Crashed colony ship"
- eev_crashcol.1.desc: "The scientific expedition discovered the remnants of an ancient colony ship of unknown origin. Multiple times bigger than our designs, it crashed on a plateau a few millenias ago, killing all its occupants. The computers are completely destroyed and we can't determine its origin. The hull of this massive wreckage is made of useful alloys though, so they placed a beacon for a later recovery expedition."
+ eev_crashcol.1.desc: "The scientific expedition discovered the remnants of an ancient colony ship of unknown origin. Multiple times bigger than our designs, it crashed on a plateau a few millennia ago, killing all its occupants. The computers are completely destroyed and we can't determine its origin. The hull of this massive wreckage is made of useful alloys though, so they placed a beacon for a later recovery expedition."
  eev_crashcol.2.name: "Recovery completed"
  eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."
 
@@ -101,46 +102,46 @@
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
  eev_start_menu.1.START: "Start"
- eev_start_menu.1.no_kaboom: "Deactivate"
- eev_start_menu.1.no_kaboomTT: "This will prevent the destructive events to happen."
- eev_start_menu.1.kaboom: "Activate"
- eev_start_menu.1.kaboomTT: "This wil allow the destructive events."
+ eev_start_menu.1.no_kaboom: "§GDeactivate§!"
+ eev_start_menu.1.no_kaboomTT: "This will §Gprevent§! the destructive events to happen."
+ eev_start_menu.1.kaboom: "§RActivate§!"
+ eev_start_menu.1.kaboomTT: "This will §Rallow§! the destructive events to happen."
 
 # Anomalies - alternate endings
- supernova.4.name: "Massive plasma vortexes"
- supernova.4.desc: "Our science ship has observed the most violent and massive plasma vortexes ever spotted in a star. This phenomenon is generating extreme waves of radiations but §B[Root.GetFleetName]§!'s shields support their assault. §G[Root.GetLeaderName]§! announced that this star will probably explode in a supernova before the next millenia. The crew has collected some exciting data that will have an important impact in physics research."
+ supernova.5.name: "Massive plasma vortexes"
+ supernova.5.desc: "Our science ship has observed the most violent and massive plasma vortexes ever spotted in a star. This phenomenon is generating extreme waves of radiations but §B[Root.GetFleetName]§!'s shields support their assault. §G[Root.GetLeaderName]§! announced that this star will probably explode in a supernova before the next millennia. The crew has collected some exciting data that will have an important impact in physics research."
 
  unstable_gas.2.name: "Plasmoid gathering"
- unstable_gas.2.desc: "§G[Root.GetLeaderName]§! reports that the ship detected the presence in the atmosphere of the gas giant of a great herd of plasmoid beings. They're consuming the hydrogen of the giant planet, igniting it with their extreme temperature. At this rate, it will take them a few centuries to consume it before they leave §Y[From.GetName]§! to find a new pasture."
+ unstable_gas.2.desc: "§G[Root.GetLeaderName]§! reports that the ship detected the presence in the atmosphere of the gas giant of a great herd of plasmoid beings. They are consuming the hydrogen of the giant planet, igniting it with their extreme temperature. At this rate, it will take them a few centuries to consume it before they leave §Y[From.GetName]§! to find a new pasture."
 
  boom_asteroid.2.name: "Malfunction"
- boom_asteroid.2.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all writen in some alien language nobody understood. \n\nSoon after, the countdown ended... and nothing happened. Fearing that it could trigger at any moment, the crew returned hastily to the §B[Root.GetFleetName]§!"
- boom_asteroid.1a: "At least everyone is safe."
+ boom_asteroid.2.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all written in some alien language nobody understood. \n\nSoon after, the countdown ended... and nothing happened. Fearing that it could trigger at any moment, the crew returned hastily to the §B[Root.GetFleetName]§!"
+ boom_asteroid.1.a: "At least everyone is safe."
 
 # Country Events
  murder_event.9.name: "Invisibility armor analysis"
- murder_event.9.desc: "Our scientists have made progress in analysing the murderer's strange armor. They confirm that it uses a technology that is far beyond our own. They're trying to devise a sensor capable of detecting it but it is going to be complicated."
- murder_event.9a: "Spare no effort!"
+ murder_event.9.desc: "Our scientists have made progress in analysing the murderer's strange armor. They confirm that it uses a technology that is far beyond our own. They are trying to devise a sensor capable of detecting it but it is going to be complicated."
+ murder_event.9.a: "Spare no effort!"
 
  murder_event.10.name: "Disturbing discovery"
  murder_event.10.desc: "Our science team has made a discovery while analyzing the murderer's armor. Its energy source emits a faint radiation that defies all analysis, but it is not totally unknown to us. It's the same radiation that our fleets have detected from the enigmatic alien ships they encountered. But those weren't hostile..."
- murder_event.10a: "Strange... Keep analyzing the data, we must have missed something."
- murder_event.10b: "I knew they were dangerous! Keep analyzing the data, we must find their weakness."
+ murder_event.10.a: "Strange... Keep analyzing the data, we must have missed something."
+ murder_event.10.b: "I knew they were dangerous! Keep analyzing the data, we must find their weakness."
 
  eev_new_queen.1.name: "A perturbation in the Network"
  eev_new_queen.1.desc: "Your Mind feels uneasy these times. Something is odd within the great networks that links you to your drones, but you can't find what is wrong. And as time passes, the feeling is becoming stronger."
- eev_new_queen.1a: "Distraction can't be allowed"
- eev_new_queen.1tt: "Your Mind will focus on the Network to find the source of the disturbances."
+ eev_new_queen.1.a: "Distraction can't be allowed"
+ eev_new_queen.1.tt: "Your Mind will focus on the Network to find the source of the disturbances."
 
  eev_new_queen.2.name: "Source discovered"
- eev_new_queen.2.desc: "The disturbances in our network were faint at start, but they kept becoming stronger. You finally found the cause: somehow, one of your drone has mutated, its mind becoming independant and expanding its will. The impossible happened: a new Mind is claiming your very Network as its own."
- eev_new_queen.2a: "This is untolerable. Kill it by any means necessary."
- eev_new_queen.2b: "Isolate the mutant drone and study it."
- eev_new_queen.2c: "Deviation is food."
+ eev_new_queen.2.desc: "The disturbances in our network were faint at start, but they kept becoming stronger. You finally found the cause: somehow, one of your drone has mutated, its mind becoming independent and expanding its will. The impossible happened: a new Mind is claiming your very Network as its own."
+ eev_new_queen.2.a: "This is intolerable. Kill it by any means necessary."
+ eev_new_queen.2.b: "Isolate the mutant drone and study it."
+ eev_new_queen.2.c: "Deviation is food."
 
  eev_new_queen.3.name: "Clear Network"
  eev_new_queen.3.desc: "Stopping the mutant drone was not an easy task, as some of your drones switched sides as they approached it. Focusing your Mind like you never did, though, you managed to overcome its grip and regain control of them. It's being disposed as you wanted, but something alerted your drones as they found some strange vials containing a swirling liquid. You know everything that is built in your hive, and this is not one of them."
- eev_new_queen.3a: "Who's interfering with us?"
+ eev_new_queen.3.a: "Who's interfering with us?"
 
 # Localisation - 3.4 stuff
  xibilispecies: "Xibili"

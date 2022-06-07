@@ -304,6 +304,7 @@ ai_factory_category = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
+			mid_game_years_passed > 1
 		}
 	}
 	on_success = ai_factory.1
@@ -491,6 +492,7 @@ supernova_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
+			mid_game_years_passed < 0
 			AND = {
 				has_global_flag = eev_kaboom
 				OR = {
@@ -536,7 +538,7 @@ boom_asteroid_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 4
 	null_spawn_chance = 0.5
-	max_once = yes
+	max_once_global = yes
 	spawn_chance = {
 		modifier = {
 			add = 1

@@ -128,15 +128,15 @@
  murder_event.10b: "I knew they were dangerous! Keep analyzing the data, we must find their weakness."
 
  eev_new_queen.1.name: "Une perturbation dans le Réseau"
- eev_new_queen.1.desc: "Your Mind feels uneasy these times. Something is odd within the great networks that links you to your drones, but you can't find what is wrong. And as time passes, the feeling is becoming stronger."
- eev_new_queen.1a: "Distraction can't be allowed"
- eev_new_queen.1tt: "Your Mind will focus on the Network to find the source of the disturbances."
+ eev_new_queen.1.desc: "Votre Esprit se sent mal à l'aise ces derniers temps. Quelque chose ne va pas dans le grand réseau qui vous lie à vos drones, mais vous ne parvenez pas à voir ce dont il s'agit. Et tandis que le temps passe, ce sentiment devient plus fort."
+ eev_new_queen.1a: "Une telle distraction ne saurait être tolérée"
+ eev_new_queen.1tt: "Votre Esprit va se concentrer sur le Réseau pour découvrir la source des perturbations."
 
  eev_new_queen.2.name: "Source découverte"
- eev_new_queen.2.desc: "The disturbances in our network were faint at start, but they kept becoming stronger. You finally found the cause: somehow, one of your drone has mutated, its mind becoming independant and expanding its will. The impossible happened: a new Mind is claiming your very Network as its own."
- eev_new_queen.2a: "This is untolerable. Kill it by any means necessary."
- eev_new_queen.2b: "Isolate the mutant drone and study it."
- eev_new_queen.2c: "Deviation is food."
+ eev_new_queen.2.desc: "Les perturbations dans notre réseau étaient faibles au début, mais elles sont devenues de plus en plus fortes. Vous avez finalement découvert l'origine : étrangement, l'un de vos drones a muté, son esprit devenant indépendant et étendant sa volonté. L'impossible est arrivé : un nouvel Esprit s'approprie votre réseau comme étant le sien."
+ eev_new_queen.2a: "Ceci est intolérable. Tuez-le par tous les moyens."
+ eev_new_queen.2b: "Isolez le drone mutant et étudiez-le."
+ eev_new_queen.2c: "La déviation est nourriture."
 
  eev_new_queen.3.name: "Réseau nettoyé"
  eev_new_queen.3.desc: "Stopping the mutant drone was not an easy task, as some of your drones switched sides as they approached it. Focusing your Mind like you never did, though, you managed to overcome its grip and regain control of them. It's being disposed as you wanted, but something alerted your drones as they found some strange vials containing a swirling liquid. You know everything that is built in your hive, and this is not one of them."
@@ -148,3 +148,8 @@
  ostrich: "Autruche"
  daggerdesign: "Dague"
  eevfleet: "Les Errants"
+ headinsand: "Tête-dans-le-sable"
+ alientrespas: "Intrus étranger"
+ thefist: "Le Poing"
+
+ popup.22.c: "Répandez un remède discrètement."

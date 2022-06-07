@@ -46,9 +46,9 @@ ship_event = {
 		owner = {
 			add_monthly_resource_mult = {
 				resource = unity
-				value = @tier3unityreward
-				min = @tier3unitymin
-				max = @tier3unitymax
+				value = @tier1unityreward
+				min = @tier1unitymin
+				max = @tier1unitymax
 			}
 		}
 	}
@@ -63,16 +63,16 @@ ship_event = {
 			
 		owner = {
 			save_event_target_as = owner_country
-			create_fleet = { name = "Head-in-Sand" }
+			create_fleet = { name = headinsand }
 			last_created_fleet = {
 				set_owner = prev
 				create_ship_design = {
-					design = "Dagger"
+					design = daggerdesign
 					#ftl = event_target:owner_country
 				}
 				create_ship = {
 					graphical_culture = "pirate_01"
-					name = "Ostrich"
+					name = ostrich
 					design = last_created_design
 				}
 				set_location = from
@@ -91,9 +91,9 @@ ship_event = {
 		owner = {
 			add_monthly_resource_mult = {
 				resource = unity
-				value = @tier3unityreward
-				min = @tier3unitymin
-				max = @tier3unitymax
+				value = @tier1unityreward
+				min = @tier1unitymin
+				max = @tier1unitymax
 			}
 		}
 	}

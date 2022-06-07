@@ -26,9 +26,9 @@ country_event = {
 		name = popup.1.a	
 		add_monthly_resource_mult = {
 			resource = unity
-			value = @tier2unityreward
-			min = @tier2unitymin
-			max = @tier2unitymax
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}	
 	}
 
@@ -36,12 +36,12 @@ country_event = {
 		name = popup.1.b
 		add_monthly_resource_mult = {
 			resource = unity
-			value = @tier2unityreward
-			min = @tier2unitymin
-			max = @tier2unitymax
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 		create_species = {
-			name = "Alien Trespasser"
+			name = alientrespas
 			class = random_non_machine
 			portrait = random
 			traits = random
@@ -58,12 +58,12 @@ country_event = {
 		name = popup.1.c
 		add_monthly_resource_mult = {
 			resource = unity
-			value = @tier2unityreward
-			min = @tier2unitymin
-			max = @tier2unitymax
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 		create_species = {
-			name = "Alien Trespasser"
+			name = alientrespas
 			class = random_non_machine
 			portrait = random
 			traits = random
@@ -352,11 +352,16 @@ country_event = {
 	option = {
 		name = popup.7.a
 		add_resource = {
-			society_research = 50
-			unity = 1000
+			society_research = 250
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 		create_species = {
-			name = "The Fist"
+			name = thefist
 			class = random
 			portrait = random
 			traits = random
@@ -371,8 +376,13 @@ country_event = {
 	option = {
 		name = popup.7.b
 		add_resource = {
-			society_research = 50
-			unity = 1000
+			society_research = 250
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -382,27 +392,31 @@ country_event = {
 			is_xenophobe = yes
 		}
 		add_resource = {
-			society_research = 50
-			unity = 2000
+			society_research = 250
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
-	#option = {
-		#name = popup.7.d
-		#trigger = { has_ethic = ethic_militarist }
-		#add_society_research = 50
-		#add_unity = 2000
-	#}
 	option = {
 		name = popup.7.e
 		trigger = {
 			is_authoritarian = yes
 		}
 		add_resource = {
-			society_research = 50
-			unity = 2000
+			society_research = 250
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 		create_species = {
-			name = "The Fist"
+			name = thefist
 			class = random
 			portrait = random
 			traits = random
@@ -437,8 +451,11 @@ country_event = {
 
 	option = {
 		name = anomaly.4131.b
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -477,7 +494,12 @@ country_event = {
 		name = popup.10.a
 		add_resource = {
 			energy = -300
-			unity = 1000
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -516,8 +538,11 @@ country_event = {
 
 	option = {
 		name = MARVELOUS
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -553,8 +578,11 @@ country_event = {
 
 	option = {
 		name = GOOD
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -639,7 +667,7 @@ country_event = {
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 
-	mean_time_to_happen = { years = 10 }
+	mean_time_to_happen = { years = 20 }
 	
 	trigger = {
 		NOT = { 
@@ -657,8 +685,11 @@ country_event = {
 
 	option = {
 		name = popup.15.a
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 }
@@ -687,36 +718,51 @@ country_event = {
 
 	option = {
 		name = popup.16.a
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
 	option = {
 		name = popup.16.b
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
 	option = {
 		name = popup.16.c
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
 	option = {
 		name = popup.16.d
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
 	option = {
 		name = popup.16.e
-		add_resource = {
-			unity = 3500
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -751,8 +797,13 @@ country_event = {
 	option = {
 		name = popup.17.a
 		add_resource = {
-			unity = 3500
 			energy = -100
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -787,8 +838,13 @@ country_event = {
 	option = {
 		name = popup.18.a
 		add_resource = {
-			unity = 3500
 			energy = -100
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -824,7 +880,12 @@ country_event = {
 		name = popup.8.a
 		add_resource = {
 			society_research = 50
-			unity = 2500
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -832,7 +893,12 @@ country_event = {
 		name = popup.8.b
 		add_resource = {
 			society_research = 50
-			unity = 2500
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 }
@@ -865,7 +931,12 @@ country_event = {
 		name = popup.19.a
 		add_resource = {
 			energy = -2500
-			unity = 3000
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -873,7 +944,12 @@ country_event = {
 		name = popup.19.b
 		add_resource = {
 			energy = -2500
-			unity = 3000
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 
@@ -882,7 +958,12 @@ country_event = {
 		set_country_flag = had_cancer
 		add_resource = {
 			energy = -2500
-			unity = 1000
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 	
@@ -914,8 +995,11 @@ country_event = {
 
 	option = {
 		name = popup.20.a
-		add_resource = {
-			unity = 3000
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
 		}
 	}
 }
@@ -956,7 +1040,7 @@ country_event = {
 	id = popup.22
 	title = "popup.22.name"
 	desc = "popup.22.desc"
-	picture = GFX_evt_asteroid_approaching_planet
+	picture = GFX_evt_undertaker
 	show_sound = event_default
 	location = fromfrom
 
@@ -964,10 +1048,42 @@ country_event = {
 
 	option = {
 		name = "popup.22.a"
+		add_resource = {
+			society_research = 250
+		}
+	}
+
+	option = {
+		name = "popup.22.c"
+		trigger = {
+			is_xenophobe = no
+			is_homicidal = no 
+		}
+		add_resource = {
+			society_research = 200
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
+		}
 	}
 	
 	option = {
 		name = "popup.22.b"
+		trigger = {
+			OR = {
+				is_xenophobe = yes
+				is_homicidal = yes
+			}
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
+		}
 		fromfrom = {
 		    destroy_colony = yes
 			change_pc = pc_barren

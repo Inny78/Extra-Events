@@ -12,7 +12,7 @@
 
  
  space_grave_category: "Anomalía encontrada... Esqueletos"
- space_grave_category_desc: "La tripulación y su líder han detectado algo muy extraño, una docena de restos esqueléticos en órbita alrededor de [Root.GetName]. \n\nEl equipo no había estado tan entusiasmado con algo en mucho tiempo, están pidiendo una investigación."
+ space_grave_category_desc: "La tripulación y su líder han detectado algo muy extraño, una docena de restos esqueléticos en órbita alrededor de [From.GetName]. \n\nEl equipo no había estado tan entusiasmado con algo en mucho tiempo, están pidiendo una investigación."
  space_grave.1.name: "Tumba espacial"
  space_grave.1.desc: "Es increíblemente raro encontrar restos esqueléticos en órbita de un planeta clase S, pero la tripulación del [Root.GetFleetName] ha encontrado cientos de miles de restos esqueléticos de ellos. \n\nLo que pasó es desconocido, pero [Root.GetLeaderName] cree que esta especie vivió en órbita de este planeta en una nave espacial gigante que rodea el planeta para escapar de lo que haya pasado en el planeta abajo ya fue inhabitable."
 

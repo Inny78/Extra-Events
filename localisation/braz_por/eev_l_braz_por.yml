@@ -24,9 +24,9 @@
 
  
  space_grave_category: "A Anomalia Dos Restos Esqueléticos Do Espaço Sideral"
- space_grave_category_desc: "A tripulação e seu lider encontraram algo bastante singular, por volta de uma duzia de restos esqueléticos em órbita ao redor de §Y[Root.GetName]§!. \n\nA tripulação não parece animada assim há muito tempo, eles estão começando o estudo da anomalia."
+ space_grave_category_desc: "A tripulação e seu lider encontraram algo bastante singular, por volta de uma duzia de restos esqueléticos em órbita ao redor de §Y[From.GetName]§!. \n\nA tripulação não parece animada assim há muito tempo, eles estão começando o estudo da anomalia."
  space_grave.1.name: "Cova Espacial"
- space_grave.1.desc: "A tripulação não apenas encontrou os esqueletos em órbita como também encontraram centenas de milhares de restos esqueléticos na superfície de §Y[Root.GetName]§! Aparentemente os restos na superfície foram o resultado de um evento cataclísmico ocorrido há alguns milhares de anos atrás. Alguns tentaram escapar o que quer que tenha acontecido na superfície, porém suas naves explodiram de alguma forma enquanto buscavam escapar do campo gravitacional de §Y[Root.GetName]§!. \n\nO evento cataclísimico ocorrido na superfície continua um mistério, muitas teorias de impactos de asteróides e erupções vulcanicas estão sendo elaboradas."
+ space_grave.1.desc: "A tripulação não apenas encontrou os esqueletos em órbita como também encontraram centenas de milhares de restos esqueléticos na superfície de §Y[From.GetName]§! Aparentemente os restos na superfície foram o resultado de um evento cataclísmico ocorrido há alguns milhares de anos atrás. Alguns tentaram escapar o que quer que tenha acontecido na superfície, porém suas naves explodiram de alguma forma enquanto buscavam escapar do campo gravitacional de §Y[Root.GetName]§!. \n\nO evento cataclísimico ocorrido na superfície continua um mistério, muitas teorias de impactos de asteróides e erupções vulcanicas estão sendo elaboradas."
  
  
  mineral_monolith_category: "A Anomalia da Pedra Valiosa"

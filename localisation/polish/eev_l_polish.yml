@@ -12,9 +12,9 @@
 
 
  space_grave_category: "Szczątki Kostne w Zewnątrznej Przestrzeni Kosmicznej"
- space_grave_category_desc: "Załoga, wraz ze swoim przywódcą zauważyła coś niespotykanego, około tuzina szkieletów orbitujących wokół [Root.GetName]. \n\nZałoga od dawna nie była aż tak podekscytowana, więc bezzwłocznie rozpoczną badania."
+ space_grave_category_desc: "Załoga, wraz ze swoim przywódcą zauważyła coś niespotykanego, około tuzina szkieletów orbitujących wokół [From.GetName]. \n\nZałoga od dawna nie była aż tak podekscytowana, więc bezzwłocznie rozpoczną badania."
  space_grave.1.name: "Setki Tysięcy Grobów"
- space_grave.1.desc: "Nie dość, że obecność szkieletów na orbicie jakiejkolwiek planety jest rzadkością, to załoga [Root.GetFleetName] odnalazła łącznie około kilkuset tysięcy szczątków. \n\nRasa pozostaje nieznana, ale [Root.GetLeaderName] uważa, że ten gatunek żył na orbicie na ogromnym statku kosmicznym, który krążył wokół planet aby uniknąć tego co zdarzyło się na powierzchni, a uczyniło ją niezdolną do zamieszkania."
+ space_grave.1.desc: "Nie dość, że obecność szkieletów na orbicie jakiejkolwiek planety jest rzadkością, to załoga [From.GetFleetName] odnalazła łącznie około kilkuset tysięcy szczątków. \n\nRasa pozostaje nieznana, ale [Root.GetLeaderName] uważa, że ten gatunek żył na orbicie na ogromnym statku kosmicznym, który krążył wokół planet aby uniknąć tego co zdarzyło się na powierzchni, a uczyniło ją niezdolną do zamieszkania."
 
 
  mineral_monolith_category: "Duża Czerwona Skała"

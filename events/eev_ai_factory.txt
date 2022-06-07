@@ -36,8 +36,8 @@ ship_event = {
 				
 			}
 			add_resource = {
-				energy = -2500
-				unity = -1000
+				energy = -250
+				unity = -100
 			}
 		}
 	}
@@ -55,8 +55,11 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			add_resource = {
-				unity = 1000
+			add_monthly_resource_mult = {
+				resource = unity
+				value = @tier1unityreward
+				min = @tier1unitymin
+				max = @tier1unitymax
 			}
 		}
 	}
@@ -88,8 +91,11 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			add_resource = {
-				unity = 1000
+			add_monthly_resource_mult = {
+				resource = unity
+				value = @tier1unityreward
+				min = @tier1unitymin
+				max = @tier1unitymax
 			}
 		}
 	}

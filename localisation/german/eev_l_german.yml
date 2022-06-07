@@ -11,9 +11,9 @@
 
 
  space_grave_category: "Verbleibendes Weltraum Skelett Anomalie"
- space_grave_category_desc: "Die Crew und ihr Anführer haben etwas sehr seltsames entdeckt, über ein dutzend Skelette sind im Orbit von [Root.GetName]. \n\nDie Crew war schon lange nicht mehr so fasziniert und bittet darum, es erforschen zu dürfen"
+ space_grave_category_desc: "Die Crew und ihr Anführer haben etwas sehr seltsames entdeckt, über ein dutzend Skelette sind im Orbit von [From.GetName]. \n\nDie Crew war schon lange nicht mehr so fasziniert und bittet darum, es erforschen zu dürfen"
  space_grave.1.name: "Hunderttausende von Gräbern"
- space_grave.1.desc: "Es ist nicht nur ziemlich selten ein Skelett im Orbit eines Planeten zu finden, aber die Crew von [Root.GetFleetName] hat sogar Hunderttausende von Skeletten entdeckt.  \n\nDie Rasse ist unbekannt, aber [Root.GetLeaderName] glaubt, die Spezies lebte auf einem Rießigen Raumschiff das die Planeten Umlaufbahn umkreiste und was auch immer auf dem Planeten passierte zu entkommen, da dieser Unbewohnbar ist."
+ space_grave.1.desc: "Es ist nicht nur ziemlich selten ein Skelett im Orbit eines Planeten zu finden, aber die Crew von [From.GetFleetName] hat sogar Hunderttausende von Skeletten entdeckt.  \n\nDie Rasse ist unbekannt, aber [Root.GetLeaderName] glaubt, die Spezies lebte auf einem Rießigen Raumschiff das die Planeten Umlaufbahn umkreiste und was auch immer auf dem Planeten passierte zu entkommen, da dieser Unbewohnbar ist."
 
 
  mineral_monolith_category: "Der Große Rote Stein Anomalie"

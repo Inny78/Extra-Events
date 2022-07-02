@@ -34,6 +34,10 @@ ship_event = {
 				min = @tier1materialmin
 				max = @tier1materialmax
 			}
+			if = {
+				limit = { has_ancrel = yes }
+				add_resource = { minor_artifacts = 3 }
+			}
 		}
 	}
 }

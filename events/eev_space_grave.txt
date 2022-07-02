@@ -33,6 +33,10 @@ ship_event = {
 				min = @tier4unitymin
 				max = @tier4unitymax
 			}
+			if = {
+				limit = { has_ancrel = yes }
+				add_resource = { minor_artifacts = 3 }
+			}
 		}
 	}
 }

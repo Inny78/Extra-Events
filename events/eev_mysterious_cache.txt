@@ -37,6 +37,10 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
+			if = {
+				limit = { has_ancrel = yes }
+				add_resource = { minor_artifacts = 5 }
+			}
 		}
 	}
 }

@@ -34,6 +34,7 @@ country_event = {
 		hidden_effect = {
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_a
 				}
 				random_system_planet = {
@@ -58,6 +59,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_b
 				}
 				random_system_planet = {
@@ -82,6 +84,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_f
 				}
 				random_system_planet = {
@@ -107,6 +110,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_g
 				}
 				random_system_planet = {
@@ -131,6 +135,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_k
 				}
 				random_system_planet = {
@@ -155,6 +160,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_m
 				}
 				random_system_planet = {
@@ -179,6 +185,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_black_hole
 				}
 				random_system_planet = {
@@ -203,6 +210,7 @@ country_event = {
 			}		 
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_pulsar
 				}
 				random_system_planet = {
@@ -227,6 +235,7 @@ country_event = {
 			}
 			closest_system = {
 				limit = {
+					NOT = { exists = space_owner }
 					is_star_class = sc_neutron_star
 				}
 				random_system_planet = {

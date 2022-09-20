@@ -59,9 +59,6 @@ ship_event = {
 				days = 45
 			}
 		}
-		leader = {
-			add_experience = 50
-		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = society_research
@@ -154,9 +151,6 @@ ship_event = {
 				kill_pop = yes
 			}
 		}
-		leader = {
-			add_experience = 50
-		}
 	}
 }
 
@@ -176,9 +170,6 @@ ship_event = {
 				id = murder_event.7
 				days = 15
 			}
-		}
-		leader = {
-			add_experience = 50
 		}
 		owner = {
 			add_monthly_resource_mult = {
@@ -210,9 +201,6 @@ ship_event = {
 				id = murder_event.8
 				days = 15
 			}
-		}
-		leader = {
-			add_experience = 50
 		}
 		owner = {
 			add_monthly_resource_mult = {

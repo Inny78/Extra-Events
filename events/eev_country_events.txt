@@ -13,15 +13,14 @@ country_event = {
 	trigger = {
 		is_ai = no
 		is_gestalt = no
-		NOT = { has_country_flag = had_alien }
-		has_country_flag = has_encountered_other_empire
+		NOT = { has_global_flag = eev_had_alien }
+		has_country_flag = first_contact_event
 	}
 
 	immediate = { 
-		set_country_flag = had_alien 
+		set_global_flag = eev_had_alien
 	}
 	
-
 	option = {
 		name = popup.1.a	
 		add_monthly_resource_mult = {

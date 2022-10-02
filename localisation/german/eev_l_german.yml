@@ -416,10 +416,12 @@
  popup.11.name: "Hochwertige Ernte"
  popup.11.desc: "In seltenen Fällen und unter den richtigen Bedingungen ist es möglich, dass unsere Saat sich ganz außergewöhnlich entwickelt. Dies ist genau der Fall! \n\nDie diesjährige Ernte war reichlich und von höchster Qualität."
  popup.11.b: "Erntet die Früchte unserer Arbeit!"
+ popup.11.c: "Keep the crops."
  #
  popup.12.name: "Großer Fischfang"
  popup.12.desc: "Als unsere Fischer ihrer Arbeit nachgingen, machten sie eine erstaunliche Entdeckung - einen riesigen Schwarm sehr großer Fische - und fingen natürlich so viele, wie sie konnten."
  popup.12.b: "Verkauft den Fang!"
+ popup.11.c: "Keep the fish."
  #
  popup.13.name: "Zahlreiche Mineralien"
  popup.13.desc: "Als unsere Bergbau-Drohnen auf ihrer endlosen Suche nach Mineralien waren, stieß eine dieser Drohnen auf ein sehr großes Höhlensystem, das mit Mineralien gefüllt war!"

@@ -33,8 +33,11 @@
  eev_houston.8.name: "Rescue from out there"
  eev_houston.8.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They are all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§! systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
 
- eev_houston.9.name: "A parting gift."
+ eev_houston.9.name: "A parting gift"
  eev_houston.9.desc: "As §G[Root.GetLeaderName]§! was conducting an evaluation of §B[Root.GetFleetName]§!'s systems after the recent events, he discovered a hidden block of scientific data in the ship's computer. He's adamant that it wasn't here before the incident and it probably comes from the strange ship. After a thorough analysis, he declared the data totally safe and published it."
+
+ eev_houston.11.name: "Scientist lost"
+ eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite his perfect condition. Our medical team detected strange radiations emanating from [Root.GetHerHis] body, but they quickly faded."
 
  EEV_SCI_REPAIR: "Repairing the science ship"
  EEV_SCI_REPAIR_DESC: "Send a construction ship to repair our drifting science ship before it crashes on the nearby planet."

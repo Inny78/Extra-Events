@@ -148,35 +148,16 @@ eev_is_valid_system = {
 	}
 }
 
-eev_is_crisis_unbidden = {
-	AND = {
-		is_crises_allowed = yes
-		allowed_crisis_type = unbidden
-	}
-}
-
-eev_is_crisis_prethoryn = {
-	AND = {
-		is_crises_allowed = yes
-		allowed_crisis_type = prethoryn
-	}
-}
-
-eev_is_crisis_contingency = {
-	AND = {
-		is_crises_allowed = yes
-		allowed_crisis_type = contingency
-	}
-}
-
 # Listing habitats
 eev_is_habitat = {
 	OR = {
-		is_planet_class = pc_habitat
-		# Planetary Diversity
-		is_pd_habitat = yes
+		# Starborn: Improved Voidtouched
+		uses_district_set = starborn_start
 		# Gigastructural Engineering & More
 		is_planet_class = pc_interstellar_habitat
+		is_planet_class = pc_giga_elysium
+		is_planet_class = pc_ehof_habitat
+		is_planet_class = pc_giga_orbital
 		# More Events Mod
 		is_planet_class = pc_mem_vazuran_habitat
 		# Acquisition of Technology
@@ -184,8 +165,6 @@ eev_is_habitat = {
 		is_planet_class = pc_ae_habitat
 		is_planet_class = pc_sigma_habitat
 		is_planet_class = pc_sigma_deepspace_habitat
-		# Starborn: Improved Voidtouched
-		uses_district_set = starborn_start
 		# Twinks Atlantean
 		uses_district_set = skypalace
 		# Plentiful Traditions

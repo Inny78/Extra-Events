@@ -408,10 +408,12 @@
  popup.11.name: "Récolte abondante"
  popup.11.desc: "À de rares occasions, un ensemble de conditions optimales convergent pour nous procurer des récoltes abondantes et d'une grande qualité.Cela est arrivé ! \n\nLes récoltes de cette année sont spectaculaires."
  popup.11.b: "Profitons-en."
+ popup.11.c: "Gardons les récoltes."
  #
  popup.12.name: "Pêche miraculeuse"
  popup.12.desc: "Notre industrie de la pêche rapporte avoir trouvé de nouveaux bancs permettant une pêche abondante."
  popup.12.b: "Vendons le poisson."
+ popup.12.c: "Gardons le poisson."
  #
  popup.13.name: "Découverte d'une mine"
  popup.13.desc: "Alors que nos drones continuent leur quête pour trouver des minéraux, l'un de ces drones a trouvé un filon extrêmement riche en minéraux !"

@@ -36,6 +36,9 @@
  eev_houston.9.name: "Прощальный подарок."
  eev_houston.9.desc: "Когда §G[Root.GetLeaderName]§! проводил анализ системы §B[Root.GetFleetName]§!, после недавних событий, он обнаружил скрытый блок научных данных в корабельном компьютере. Он уверен в том, что этого не было здесь до инцидента, вероятно, он со странного корабля. После тщательного изучения, он объявил данные полностью безопасными и передал их."
 
+ eev_houston.11.name: "Scientist lost"
+ eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite his perfect condition. Our medical team detected strange radiations emanating from [Root.GetHerHis] body, but they quickly faded."
+
  EEV_SCI_REPAIR: "Ремонт научного корабля"
  EEV_SCI_REPAIR_DESC: "Отправьте строительный корабль, чтобы отремонтировать наш дрейфующий научный корабль, прежде чем он разобьется о ближайшую планету."
  EEV_MIL_REPAIR1: "Спасение научного корабля"

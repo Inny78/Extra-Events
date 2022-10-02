@@ -41,6 +41,9 @@
  eev_houston.9.name: "Pożegnalny prezent"
  eev_houston.9.desc: "§G[Root.GetLeaderName]§!, w trakcie ewaluacji danych uzyskanych w wyniku ostatnich wydarzeń w związku z §B[Root.GetFleetName]§!, odkrył w komputerach pokładowych ukryty dotychczas blok danych naukowych. Oficer jest święcie przekonany, że wcześniej nie było tam nic takiego i najprawdopodobniej dane pochodzą z obcej jednostki. Po dogłębnej analizie, zadecydowano, że uzyskane materiały są w pełni bezpieczne i należy je opublikować."
 
+ eev_houston.11.name: "Scientist lost"
+ eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite his perfect condition. Our medical team detected strange radiations emanating from [Root.GetHerHis] body, but they quickly faded."
+
  EEV_SCI_REPAIR: "Naprawa okrętu naukowego"
  EEV_SCI_REPAIR_DESC: "Wyślij statek konstrukcyjny celem naprawienia dryfującego okrętu naukowego, zanim ten rozbije się na pobliskiej planecie."
  EEV_MIL_REPAIR1: "Ocalenie okrętu naukowego"

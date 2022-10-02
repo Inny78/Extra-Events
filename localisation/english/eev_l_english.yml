@@ -217,7 +217,7 @@
  mutiny.2.desc: "After hearing us out, everyone who formed the mutiny agreed to 10 years in medium security prison and a combined payment of 500 Energy."
  mutiny.2.a: "That turned out well."
  mutiny.3.name: "Situation Neutralized"
- mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to him were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
+ mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to [Root.GetHerHim] were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
  mutiny.2.tooltip: "The science ship will be blown up."
 
  artificial_sun_category: "Strange Sun"
@@ -401,10 +401,12 @@
  popup.11.name: "Quality Crops"
  popup.11.desc: "On rare occasions, and with the right conditions, it's possible that crops can grow to be extraordinary. And this is just that occasion! \n\nThis year's harvest have been plenty and of the highest quality."
  popup.11.b: "Reap the rewards."
+ popup.11.c: "Keep the crops."
  #
  popup.12.name: "Large Fish"
  popup.12.desc: "As our fishermen went to search for more fish to harvest they came across an amazing discovery - A massive school of large fish and of course caught as many as they could."
  popup.12.b: "Sell the fish."
+ popup.12.c: "Keep the fish."
  #
  popup.13.name: "Many Minerals"
  popup.13.desc: "As our mining drones were doing their endless search for minerals one such drone stumbled upon a very large cave system filled with minerals!"

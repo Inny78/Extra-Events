@@ -415,10 +415,12 @@
  popup.11.name: "Cultivos de Calidad"
  popup.11.desc: "En raras ocasiones, y con las condiciones adecuadas, es posible que los cultivos puedan llegar a ser extraordinarios. Y esta es sólo esa ocasión! \n\nLa cosecha de este año ha sido abundante y de la más alta calidad."
  popup.11.b: "Cosechar las recompensas."
+ popup.11.c: "Keep the crops."
  #
  popup.12.name: "Pescado grande"
  popup.12.desc: "A medida que nuestros pescadores iban a buscar más pescado para cosechar, se encontraron con un descubrimiento asombroso: un gran cardumen de peces grandes y por supuesto, atraparon a cuantos pudieron."
  popup.12.b: "Vender el pescado."
+ popup.11.c: "Keep the fish."
  #
  popup.13.name: "Muchos minerales"
  popup.13.desc: "¡Mientras que nuestros drones de la minería estaban haciendo una búsqueda sin fin para los minerales, uno tropezó con un sistema muy grande de minerales!"

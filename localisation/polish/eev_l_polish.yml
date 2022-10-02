@@ -425,10 +425,12 @@
  popup.11.desc: "W rzadkich przypadkach i przy sprzyjających okolicznościach, plony mogą prześcignąć czyjekolwiek oczekiwania. I to właśnie jedno z takich zdarzeń!\n\nTegoroczne zbiory są niesamowitej jakości oraz niezwykle obfite."
  popup.11.a: "Cudownie!"
  popup.11.b: "Zbierzcie plony."
- #
+  popup.11.c: "Keep the crops."
+#
  popup.12.name: "Duża ryba"
  popup.12.desc: "Jeden z rybaków natknął się na niesamowicie dużą ławicę ryb - a jeśli tego byłoby mało, każda z nich przewyższała rozmiarami wszystko co do tej pory widziano!"
  popup.12.b: "Sprzedać ryby."
+ popup.11.c: "Keep the fish."
  #
  popup.13.name: "Bogate złoże"
  popup.13.desc: "Gdy nasze drony górnicze prowadziły niekończące się poszukiwania minerałów, jeden z nich natknął się na rozległy system jaskiń wypełniony minerałami!"

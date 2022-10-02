@@ -8,13 +8,14 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_mystic_reveal
 
-	mean_time_to_happen = { years = 30 }
+	mean_time_to_happen = { years = 50 }
 
 	trigger = {
 		is_ai = no
 		is_gestalt = no
 		NOT = { has_global_flag = eev_had_alien }
 		has_country_flag = first_contact_event
+		years_passed > 30
 	}
 
 	immediate = { 
@@ -529,28 +530,29 @@ country_event = {
 		NOT = { 
 			has_country_flag = had_crops
 		}
+		resource_stockpile_compare = { resource = food value > 0 }
+		years_passed > 15
 	}
 
-	immediate = { 
+	immediate = {
 		set_country_flag = had_crops
 	}
 
 	option = {
-		name = MARVELOUS
+		name = popup.11.b
 		add_monthly_resource_mult = {
-			resource = unity
-			value = @tier1unityreward
-			min = @tier1unitymin
-			max = @tier1unitymax
+			resource = energy
+			value = @tier1materialreward
+			min = @tier1materialmin
 		}
 	}
-	
 	option = {
-		name = popup.11.b
-		add_resource = {
-			energy = 300
+		name = popup.11.c
+		add_monthly_resource_mult = {
+			resource = food
+			value = @tier1materialreward
+			min = @tier1materialmin
 		}
-		
 	}
 }
 
@@ -561,14 +563,16 @@ country_event = {
 	desc = "popup.12.desc"
 	picture = GFX_evt_unspeakable_horror
 	show_sound = event_default
-
-	mean_time_to_happen = { months = 4010 }
 	
+	mean_time_to_happen = { months = 2500 }
+
 	trigger = {
 		eev_is_heavy_metal = no
 		NOT = { 
 			has_country_flag = had_fish
 		}
+		resource_stockpile_compare = { resource = food value > 0 }
+		years_passed > 10
 	}
 
 	immediate = { 
@@ -576,21 +580,21 @@ country_event = {
 	}
 
 	option = {
-		name = GOOD
+		name = popup.12.b
 		add_monthly_resource_mult = {
-			resource = unity
-			value = @tier1unityreward
-			min = @tier1unitymin
-			max = @tier1unitymax
+			resource = energy
+			value = @tier1materialreward
+			min = @tier1materialmin
 		}
 	}
 	
 	option = {
-		name = popup.12.b
-		add_resource = {
-			energy = 350
+		name = popup.12.c
+		add_monthly_resource_mult = {
+			resource = food
+			value = @tier1materialreward
+			min = @tier1materialmin
 		}
-		
 	}
 }
 
@@ -601,13 +605,13 @@ country_event = {
 	desc = "popup.13.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_default
-
-	mean_time_to_happen = { months = 5000 }
+	mean_time_to_happen = { months = 2500 }
 	
 	trigger = {
 		NOT = { 
 			has_country_flag = had_manyminerals
 		}
+		years_passed > 20
 	}
 
 	immediate = { 
@@ -637,13 +641,13 @@ country_event = {
 	desc = "popup.14.desc"
 	picture = GFX_evt_metropolis
 	show_sound = event_default
-
-	mean_time_to_happen = { months = 4500 }
+	mean_time_to_happen = { months = 2500 }
 	
 	trigger = {
 		NOT = { 
 			has_country_flag = had_extraprofit
 		}
+		years_passed > 15
 	}
 
 	immediate = { 
@@ -674,7 +678,7 @@ country_event = {
 		}
 		resource_stockpile_compare = {
 			resource = unity
-			value > 500
+			value > 5000
 		}
 	}
 
@@ -701,14 +705,13 @@ country_event = {
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 7506 }
-	
 	trigger = {
 		is_gestalt = no
 		eev_is_heavy_metal = no
 		NOT = {
 			has_country_flag = had_pet
 		}
+		years_passed > 10
 	}
 
 	immediate = { 
@@ -910,8 +913,6 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 1 }
-	
 	trigger = {
 		NOT = { 
 			has_country_flag = had_donate
@@ -920,6 +921,7 @@ country_event = {
 			resource = energy
 			value > 9999
 		}
+		years_passed > 25
 	}
 
 	immediate = { 
@@ -1354,7 +1356,6 @@ country_event = {
 		set_country_flag = had_newsent 
 	}
 	
-
 	option = {
 		name = popup.31.a		
 	}
@@ -1375,4 +1376,3 @@ country_event = {
 		}
 	}
 }
-

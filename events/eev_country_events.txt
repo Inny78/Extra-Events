@@ -530,7 +530,7 @@ country_event = {
 		NOT = { 
 			has_country_flag = had_crops
 		}
-		resource_stockpile_compare = { resource = food value > 0 }
+		country_uses_food = yes
 		years_passed > 15
 	}
 
@@ -571,7 +571,7 @@ country_event = {
 		NOT = { 
 			has_country_flag = had_fish
 		}
-		resource_stockpile_compare = { resource = food value > 0 }
+		country_uses_food = yes
 		years_passed > 10
 	}
 

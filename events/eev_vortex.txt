@@ -399,7 +399,9 @@ ship_event = {
 		}
 	}
 	after = {
-		country_event = { id = eev_houston.10 years = 50 }
+		hidden_effect = {
+			country_event = { id = eev_houston.10 years = 50 }
+		}
 	}
 }
 

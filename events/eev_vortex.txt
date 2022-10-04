@@ -380,6 +380,9 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
+			hidden_effect = {
+				country_event = { id = eev_houston.10 days = 18250 }
+			}
 		}
 		owner = {
 			add_monthly_resource_mult = {
@@ -387,6 +390,9 @@ ship_event = {
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax
+			}
+			hidden_effect = {
+				country_event = { id = eev_houston.10 days = 18250 }
 			}
 		}
 		owner = {
@@ -396,17 +402,15 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-		}
-	}
-	after = {
-		hidden_effect = {
-			country_event = { id = eev_houston.10 years = 50 }
+			hidden_effect = {
+				country_event = { id = eev_houston.10 days = 18250 }
+			}
 		}
 	}
 }
 
 country_event = {
-	eev_houston.10
+	id = eev_houston.10
 	hide_window = yes
 	location = root
 
@@ -417,13 +421,15 @@ country_event = {
 			limit = {
 				exists = event_target:eev_vortex_lead
 			}
-			country_event = { id = eev_houston.11 }
+			hidden_effect = {
+				country_event = { id = eev_houston.11 }
+			}
 		}
 	}
 }
 
 country_event = {
-	eev_houston.11
+	id = eev_houston.11
 	title = eev_houston.11.name
 	desc = eev_houston.11.desc
 	picture = GFX_evt_ship_in_orbit_2
@@ -445,13 +451,8 @@ country_event = {
 				max = @tier1unitymax
 			}
 		}
-		if = {
-			limit = {
-				exists = event_target:eev_vortex_lead
-			}
-			event_target:eev_vortex_lead = {
-				kill_leader = { type = scientist show_notification = yes }
-			}
+		event_target:eev_vortex_lead = {
+			kill_leader = { type = scientist show_notification = yes }
 		}
 	}
 }

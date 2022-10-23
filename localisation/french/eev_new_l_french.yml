@@ -37,7 +37,7 @@
  eev_houston.9.desc : "Alors que §G[Root.GetLeaderName]§! effectuait une évaluation des systèmes de §B[Root.GetFleetName]§! après les récents événements, il a découvert un bloc caché de données scientifiques dans l'ordinateur du vaisseau. Il est persuadé qu'il n'était pas là avant l'incident et qu'il provient probablement de l'étrange vaisseau. Après une analyse approfondie, il a déclaré les données totalement sûres et les a publiées."
 
  eev_houston.11.name: "Décès d'un scientifique"
- eev_houston.11.desc: "Nous venons juste d'apprendre que notre scientifique §G[eev_vortex_sci.GetLeaderName]§! est mort soudainement bien qu'il était en parfaite condition. Notre équipe médicale a détecté d'étranges radiations émanant du corps de [Root.GetHerHis], mais elles se sont rapidement dissipées."
+ eev_houston.11.desc: "Nous venons juste d'apprendre que notre scientifique §G[eev_vortex_sci.GetLeaderName]§! est mort soudainement bien qu'il était en parfaite condition. Notre équipe médicale a détecté d'étranges radiations émanant du corps de [Root.Leader.GetHerHis], mais elles se sont rapidement dissipées."
 
  EEV_SCI_REPAIR : "Réparation du vaisseau scientifique"
  EEV_SCI_REPAIR_DESC : "Envoyer un vaisseau de construction pour réparer notre vaisseau scientifique à la dérive avant qu'il ne s'écrase sur la planète voisine."
@@ -90,7 +90,7 @@
  eev_mysterious_cache_category: "Cache mystérieuse"
  eev_mysterious_cache_category_desc: "Nos détecteurs ont localisé un faible signal émanant de §Y[From.GetName]§!. En s'approchant, <science ship> découvre qu'il émanae d'un ancien bâtiment isolé sur cette planète déserte."
  eev_mysterious_cache.1.name: "Un cadeau du passé"
- eev_mysterious_cache.1.desc: "Entrer dans le bâtiment s'est révélé difficile car il a des murs particulièrement épais et aucune entrée. Ces murs protégeaient une petite pièce qui contenait un autel central sur lequel repose une boîte décorée. Les analyses révèlent que le bâtiment et la boîte datent d'il y a onze mille ans, mais l'autel a des inscriptions dans notre langue moderne ! Encore plus troublant est le fait qu'elles nomment §G[Root.GetLeaderName]§!, disant que la boîte est un cadeau pour [Root.GetHerHim]. Le coffret est extrêmement lourd, considérant qu'il est rempli d'un alliage inconnu qui va certainement se révéler utile et donnera du travail à nos scientifiques. Mais qui nous a fait ce cadeau, et comment a-t-il su que nous viendrions ?"
+ eev_mysterious_cache.1.desc: "Entrer dans le bâtiment s'est révélé difficile car il a des murs particulièrement épais et aucune entrée. Ces murs protégeaient une petite pièce qui contenait un autel central sur lequel repose une boîte décorée. Les analyses révèlent que le bâtiment et la boîte datent d'il y a onze mille ans, mais l'autel a des inscriptions dans notre langue moderne ! Encore plus troublant est le fait qu'elles nomment §G[Root.GetLeaderName]§!, disant que la boîte est un cadeau pour [Root.Leader.GetHerHim]. Le coffret est extrêmement lourd, considérant qu'il est rempli d'un alliage inconnu qui va certainement se révéler utile et donnera du travail à nos scientifiques. Mais qui nous a fait ce cadeau, et comment a-t-il su que nous viendrions ?"
 
 # Crashed colony ship
  eev_crashcol_category: "Débris métalliques"

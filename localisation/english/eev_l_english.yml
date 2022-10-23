@@ -69,7 +69,7 @@
  crazy_scientist.1.a: "A Tragic Fate."
  
  diamond_core_category: "The Dense Core"
- diamond_core_category_desc: "Investigation upon the planet’s core, suggest it is abnormally dense."
+ diamond_core_category_desc: "Investigation upon the planet's core, suggest it is abnormally dense."
  diamond_core.1.name: "A Diamond Core"
  diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that the planet's core is made of part diamond! \n\nMining this planet will prove very beneficial for our industry."
  diamond_core.1.a: "Get to mining!"
@@ -217,7 +217,7 @@
  mutiny.2.desc: "After hearing us out, everyone who formed the mutiny agreed to 10 years in medium security prison and a combined payment of 500 Energy."
  mutiny.2.a: "That turned out well."
  mutiny.3.name: "Situation Neutralized"
- mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to [Root.GetHerHim] were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
+ mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to [Root.Leader.GetHerHim] were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
  mutiny.2.tooltip: "The science ship will be blown up."
 
  artificial_sun_category: "Strange Sun"
@@ -234,8 +234,8 @@
  sand_creature_category: "Moving Sand"
  sand_creature_category_desc: "The sand on the surface of §Y[Root.GetName]§! appears to be moving in a very unnatural way."
  sand_creature.1.name: "Horrific Sand Creature"
- sand_creature.1.desc: "As the §B[Root.GetFleetName]§! crew landed on the planet they noticed the sand moving towards them. §G[Root.GetLeaderName]§! was curious so he decided to leave the science ship for a closer look. The rest of the crew advised not to but §G[Root.GetLeaderName]§! ignored them. \n\nAs the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment they realized whatever was under that sand was alive and saw the crew and its leader as food. \n\nThe crew had no choice but to leave §G[Root.GetLeaderName]§! to die as there was no time to save [Root.GetHerHim]."
- sand_creature.1.a: "[Root.GetSheHeCap] served well."
+ sand_creature.1.desc: "As the §B[Root.GetFleetName]§! crew landed on the planet they noticed the sand moving towards them. §G[Root.GetLeaderName]§! was curious so he decided to leave the science ship for a closer look. The rest of the crew advised not to but §G[Root.GetLeaderName]§! ignored them. \n\nAs the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment they realized whatever was under that sand was alive and saw the crew and its leader as food. \n\nThe crew had no choice but to leave §G[Root.GetLeaderName]§! to die as there was no time to save [Root.Leader.GetHerHim]."
+ sand_creature.1.a: "[Root.Leader.GetSheHeCap] served well."
  
  frozen_civilization_category: "Encased in Ice" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Massive structures on the surface of §Y[Root.GetName]§! appear to be encased in ice all across the surface."

@@ -37,7 +37,7 @@
  eev_houston.9.desc: "As §G[Root.GetLeaderName]§! was conducting an evaluation of §B[Root.GetFleetName]§!'s systems after the recent events, he discovered a hidden block of scientific data in the ship's computer. He's adamant that it wasn't here before the incident and it probably comes from the strange ship. After a thorough analysis, he declared the data totally safe and published it."
 
  eev_houston.11.name: "Scientist lost"
- eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite his perfect condition. Our medical team detected strange radiations emanating from [Root.GetHerHis] body, but they quickly faded."
+ eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite his perfect condition. Our medical team detected strange radiations emanating from [Root.Leader.GetHerHis] body, but they quickly faded."
 
  EEV_SCI_REPAIR: "Repairing the science ship"
  EEV_SCI_REPAIR_DESC: "Send a construction ship to repair our drifting science ship before it crashes on the nearby planet."
@@ -90,7 +90,7 @@
  eev_mysterious_cache_category: "Mysterious Cache"
  eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, <science ship> discovered that it's emanating from an old building that stands alone on this desolate world."
  eev_mysterious_cache.1.name: "A gift from the past"
- eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did he know we would come?"
+ eev_mysterious_cache.1.desc: "Entering the building proved difficult as it had very thick walls and no entrance. These walls were protecting a small room that contained a central altar with an ornate box on it. Scans indicate the building and the box are eleven thousands years old, but the altar has inscriptions in our modern language! More troubling is that they precisely name §G[Root.GetLeaderName]§!, saying that the box is a gift for [Root.Leader.GetHerHim]. The box is incredibly heavy, considering that it's full of an unknown alloy that will certainly prove useful and give our scientists something to work on. But who made this gift, and how did he know we would come?"
 
 # Crashed colony ship
  eev_crashcol_category: "Metallic debris"

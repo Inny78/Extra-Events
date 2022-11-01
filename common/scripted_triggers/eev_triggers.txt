@@ -116,6 +116,11 @@ eev_is_uninhabitable = {
 		is_planet_class = pc_melted_frozen
 		# Real Space
 		is_planet_class = pc_sterile
+		# All these worlds
+		is_planet_class = orbit_icy
+		is_planet_class = orbit_chthonian
+		is_planet_class = orbit_iron_telluric
+		is_planet_class = orbit_volcanic_telluric
 	}
 }
 

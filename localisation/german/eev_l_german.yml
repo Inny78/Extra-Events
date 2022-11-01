@@ -1,7 +1,7 @@
 ﻿l_german:
 
 ###########################################################################
-##### Translated by Sleya, NotGo0d and Ihr Finanzamt #####
+##### Translated by Sleya, NotGo0d, Ihr Finanzamt and Nugget #####
 ###########################################################################
 
  ancient_flag_category: "Ein seltsames Mettalisches Objekt Anomalie"
@@ -154,12 +154,12 @@
  space_nomads.1.e: "Uns fehlen die Mittel, aber wir lassen unserer Nation über diese netten Leute wissen!"
  space_nomads.1.f: "Rekrutiert diese Xenos und führt sie zum Sieg."
  space_nomads.1.g: "Fragt sie was sie über das Universum wissen."
- space_nomads.1.h: "Wissen sie bescheid über unseren Lord und Retter?"
+ space_nomads.1.h: "Wissen sie bescheid über unseren Herr und Retter?"
  space_nomads.1.i: "Fangt und Versklavt sie!"
- space_nomads.1.j: "Make them batteries."
- space_nomads.1.k: "A new master."
- space_nomads.1.l: "Make them food !"
- space_nomads.1.t: "An alien vessel joins our forces."
+ space_nomads.1.j: "Macht Batterien aus ihnen."
+ space_nomads.1.k: "Ein neuer Herr."
+ space_nomads.1.l: "Verarbeitet sie zu Essen!"
+ space_nomads.1.t: "Ein außerirdisches Schiff schließt sich uns an."
 
  space_minerals_category: "Cargo Schiff im Orbit Anomalie"
  space_minerals_category_desc: "Unsere Wissenschaftler entdeckten ein Cargo Schiff im Orbit von [Root.GetName]."
@@ -348,7 +348,7 @@
 ########## COUNTRY EVENTS ##########
 
  popup.1.name: "Illegale Aliens"
- popup.1.desc.d: "Aliens haben unseren Haupt Planeten betreten ohne die Erlaubniss zu haben, unsere Bevölkerung ist nicht sehr glücklich darüber..."
+ popup.1.desc.d: "Aliens haben unseren Hauptplanet betreten ohne die Erlaubniss zu haben, unsere Bevölkerung ist nicht sehr glücklich darüber..."
  popup.1.desc.c: "Berichte kamen rein, das illegale Aliens unseren Hauptplaneten betreten haben!. \n\nSollen wir sie versklaven?"
  popup.1.desc.x: "Berichte kamen rein das illegale Aliens unseren Hauptplaneten betreten haben! \n\nWas sollen wir mit ihnen tun?"
  popup.1.desc.xp: "Es scheint als haben wir uneingeladene Aliens auf unserem Hauptplaneten. \n\nSollen wir sie willkommen heißen oder wegschicken?"

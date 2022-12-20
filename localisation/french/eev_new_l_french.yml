@@ -149,10 +149,26 @@
  xibilispecies: "Xibili"
  xebospecies: "Xebo"
  ostrich: "Autruche"
- daggerdesign: "Dague"
  eevfleet: "Les Errants"
  headinsand: "Tête-dans-le-sable"
  alientrespas: "Intrus étranger"
  thefist: "Le Poing"
-
  popup.22.c: "Répandez un remède discrètement."
+
+# It's 3.6 time! New events start here
+ eevfreefolks: "Le Peuple Libre"
+ # Quantum God
+ eev_quantum_god_category: "Ruines désertées"
+ eev_quantum_god_category_desc: "Notre vaisseau scientifique a détecté des ruines sur §Y[From.GetName]§! et l'équipage désire les explorer."
+ eev_quantum_god.1.name: "Le Dieu Quantique"
+ eev_quantum_god.1.desc: "Une ancienne civilisation prospérait ici jusqu'à ce qu'une éruption solaire massive stérilise leur monde. Etonnamment, ils étaient aussi religieux que scientifiques, ayant décidé que leur dieu, simultanément, existait et n'existait pas jusqu'à ce qu'ils aient une réponse à cette question. Malheureusement, avant qu'ils puissent la trouver, leur entière civilisation mourut dans l'éruption solaire."
+ # Murder Chain
+ eev_victims: "Victimes"
+ murder_chain_title: "$murder_event.1.name$"
+ murder_chain_desc: "$MURDER_PROJECT_DESC$"
+ # Afraid of the Stars
+ eev_afraid_category: "Une planète bombardée"
+ eev_afraid_category_desc: "Notre vaisseau scientifique a découvert une planète qui a souffert d'un intense bombardement qui l'a rendu pratiquement inhabitable. Les senseurs détectent de faibles traces de civilisation et l'équipage souhaite enquêter."
+ eev_afraid.1.name: "Effrayés par les étoiles"
+ eev_afraid.1.desc: "Parmi les quelques traces restantes de la civilisation disparue qui habitait autrefois cette planète, nous avons découvert une cache enterrée contenant des enregistrements historiques. Il s'avère que ce peuple vivait dans une peur constante de leur propre ciel, croyant que la mort pourrait venir des étoiles à tout moment. Ils n'ont jamais tenté d'aller dans l'espace, et périrent lorsqu'une force extraterrestre a bombardé la surface pendant des années."
+ eev_afraid.1a: "Ils avaient raison."

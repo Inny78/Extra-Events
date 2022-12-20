@@ -7,7 +7,7 @@
  eev_houston.1a: "Schickt sofort ein Konstruktionsschiff!"
 
  eev_houston.2.name: "Rettung des Forschungsschiffs"
- eev_houston.2.desc: "Unser Konstrukteur hat hart daran gearbeitet, §B[Root.GetFleetName]§ zu reparieren, als plötzlich der Wirbel erneut ausbrach und die Schiffe lahmlegte. Beide Besatzungen arbeiten fieberhaft daran, ihre Systeme zu reparieren, während sich ihre Schiffe dem Planeten nähern. Unsere Militärschiffe haben verstärkte Systeme und bessere Schilde, sie sollten damit fertig werden, aber wenn sie das nicht tun, werden wir ein weiteres Schiff verlieren."
+ eev_houston.2.desc: "Unser Konstrukteur hat hart daran gearbeitet, §B[Root.GetFleetName]§! zu reparieren, als plötzlich der Wirbel erneut ausbrach und die Schiffe lahmlegte. Beide Besatzungen arbeiten fieberhaft daran, ihre Systeme zu reparieren, während sich ihre Schiffe dem Planeten nähern. Unsere Militärschiffe haben verstärkte Systeme und bessere Schilde, sie sollten damit fertig werden, aber wenn sie das nicht tun, werden wir ein weiteres Schiff verlieren."
  eev_houston.2a: "Lasst sie von einem Militärschiff in Sicherheit bringen."
  eev_houston.2b: "Wir können das Risiko nicht eingehen."
 
@@ -23,7 +23,7 @@
  eev_houston.5.desc: "Unsere Militärschiffe trafen auf §B[eev_vortex_sci.GetFleetName]§! und fing an, sie weit aus der Umlaufbahn von §Y[eev_vortex_pla.GetName]§! zu schleppen. Der Vortex explodierte erneut, aber unsere Vermutung war richtig: Unsere Flotte erlitt nur einige geringfügige Fehlfunktionen und ihre redundanten Systeme traten sofort in Kraft. Aber ein paar Minuten später warnte §G[eev_vortex_sci.GetLeaderName]§!, dass die Instabilität der Anomalie nun kritisch sei, und forderte die Flotte auf, schneller zu werden, aber bevor sie entkommen konnten, implodierte der Wirbel schließlich, und eine enorme Energieexplosion war die letzte Information die wir bekamen, bevor wir die Kommunikation zu [From.System.GetName] verloren."
 
  eev_houston.6.name: "Keine Rettung"
- eev_houston.6.desc: "Die letzte Übertragung, die wir von §B[Root.GetFleetName]§ erhalten haben, war die gigantische Zerstörung des Energiewirbels, während das Schiff begann, in die Atmosphäre von §Y[From.GetName]§! einzudringen. Das haben sie auf keinen Fall überlebt."
+ eev_houston.6.desc: "Die letzte Übertragung, die wir von §B[Root.GetFleetName]§! erhalten haben, war die gigantische Zerstörung des Energiewirbels, während das Schiff begann, in die Atmosphäre von §Y[From.GetName]§! einzudringen. Das haben sie auf keinen Fall überlebt."
  eev_houston.6a: "Das Universum ist ein gefährlicher Ort."
 
  eev_houston.7.name: "Rettung von da draußen"
@@ -114,10 +114,10 @@
  supernova.4.name: "Massive Plasmawirbel"
  supernova.4.desc: "Unser Forschungsschiff hat die heftigsten und massivsten Plasmawirbel beobachtet, die jemals in einem Stern entdeckt wurden. Dieses Phänomen erzeugt extreme Strahlungswellen, aber die Schilde von §B[Root.GetFleetName]§! halten Stand. §G[Root.GetLeaderName]§! kündigt an, dass dieser Stern wahrscheinlich noch vor den nächsten Jahrtausenden in einer Supernova explodieren wird. Die Crew hat einige aufregende Daten gesammelt, die einen wichtigen Einfluss auf die Physikforschung haben werden."
  unstable_gas.2.name: "Ansammlung von Plasmoiden"
- unstable_gas.2.desc: "§G[Root.GetLeaderName]§! berichtet, dass das Schiff die Anwesenheit einer großen Herde plasmoider Wesen in der Atmosphäre des Gasriesen festgestellt hat. Sie verbrauchen den Wasserstoff des Riesenplaneten und entzünden ihn mit ihrer extremen Temperatur. Bei diesem Tempo werden sie einige Jahrhunderte brauchen, um den Wassterstoff zu konsumieren, bevor sie §Y[From.GetName]§ verlassen um eine neue Weide zu finden."
+ unstable_gas.2.desc: "§G[Root.GetLeaderName]§! berichtet, dass das Schiff die Anwesenheit einer großen Herde plasmoider Wesen in der Atmosphäre des Gasriesen festgestellt hat. Sie verbrauchen den Wasserstoff des Riesenplaneten und entzünden ihn mit ihrer extremen Temperatur. Bei diesem Tempo werden sie einige Jahrhunderte brauchen, um den Wassterstoff zu konsumieren, bevor sie §Y[From.GetName]§! verlassen um eine neue Weide zu finden."
 
  boom_asteroid.2.name: "Fehlfunktion"
- boom_asteroid.2.desc: "Als die Besatzung von §B[Root.GetFleetName]§! die Metallstruktur näher untersuchte, löste sie einen extrem lauten Alarm aus. Der Alarm hatte vor 30 Sekunden begonnen herunterzuzählen, als die Besatzung riesige Nukleargeräte entdeckte. Da wussten sie, dass sie in Schwierigkeiten stecken. \n\nDie Crew musste schnell denken und versuchte, die Geräte zu entschärfen, aber sie waren alle in einer fremden Sprache geschrieben, die niemand verstand. \n\nKurz darauf endete der Countdown... und nichts geschah. Aus Angst, dass es jeden Moment ausgelöst werden könnte, kehrte die Besatzung hastig zur §B[Root.GetFleetName]§ zurück.!"
+ boom_asteroid.2.desc: "Als die Besatzung von §B[Root.GetFleetName]§! die Metallstruktur näher untersuchte, löste sie einen extrem lauten Alarm aus. Der Alarm hatte vor 30 Sekunden begonnen herunterzuzählen, als die Besatzung riesige Nukleargeräte entdeckte. Da wussten sie, dass sie in Schwierigkeiten stecken. \n\nDie Crew musste schnell denken und versuchte, die Geräte zu entschärfen, aber sie waren alle in einer fremden Sprache geschrieben, die niemand verstand. \n\nKurz darauf endete der Countdown... und nichts geschah. Aus Angst, dass es jeden Moment ausgelöst werden könnte, kehrte die Besatzung hastig zur §B[Root.GetFleetName]§! zurück.!"
  boom_asteroid.1a: "Wenigstens sind alle sicher."
 
 # Country Events
@@ -137,7 +137,7 @@
  eev_new_queen.1tt: "Wir werden uns auf das Netzwerk foskussieren, um die Quelle der Störungen zu finden."
 
  eev_new_queen.2.name: "Quelle entdeckt"
- eev_new_queen.2.desc: „Die Störungen in unserem Netzwerk waren am Anfang schwach, aber sie wurden immer stärker. Die Ursache wurde endlich gefunden: Irgendwie ist eine der Drohnen mutiert, ihr Bewusstsein wurde unabhängig und sie erweiterte ihren Geist. Das Unmögliche ist passiert : Ein neuer Verstand beansprucht das Netzwerk für sich."
+ eev_new_queen.2.desc: "Die Störungen in unserem Netzwerk waren am Anfang schwach, aber sie wurden immer stärker. Die Ursache wurde endlich gefunden: Irgendwie ist eine der Drohnen mutiert, ihr Bewusstsein wurde unabhängig und sie erweiterte ihren Geist. Das Unmögliche ist passiert : Ein neuer Verstand beansprucht das Netzwerk für sich."
  eev_new_queen.2a: "Das ist untolerierbar. Tötet es mit allen notwendigen Mitteln."
  eev_new_queen.2b: "Isoliert die mutierte Drohne und untersucht sie."
  eev_new_queen.2c: "Abweichung ist Nahrung."
@@ -150,10 +150,26 @@
  xibilispecies: "Xibili"
  xebospecies: "Xebo"
  ostrich: "Ostrich"
- daggerdesign: "Dolch-Design"
  eevfleet: "Die Wanderer"
  headinsand: "Kopf-im-Sand"
  alientrespas: "Alien Eindringlinge"
  thefist: "Faust"
-
  popup.22.c: "Verbreitet heimlich eine Heilung."
+
+# It's 3.6 time! New events start here
+ eevfreefolks: "The Free Folk"
+ # Quantum God
+ eev_quantum_god_category: "Deserted ruins"
+ eev_quantum_god_category_desc: "Our science ship has detected some ruins on §Y[From.GetName]§! and the crew wants to investigate them."
+ eev_quantum_god.1.name: "The Quantum God"
+ eev_quantum_god.1.desc: "An ancient civilization thrived here until a massive solar flare sterilized their world. Surprisingly, they were equally religious and science-inclined, having decided that their god both existed and didn't exist until they had a definitive answer to that question. Sadly, before they could find it, their entire civilization died when their sun erupted."
+ # Murder Chain
+ eev_victims: "Victims"
+ murder_chain_title: "$murder_event.1.name$"
+ murder_chain_desc: "$MURDER_PROJECT_DESC$"
+ # Afraid of the Stars
+ eev_afraid_category: "Bombed planet"
+ eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors are picking up faint traces of civilization and the crew wants to investigate."
+ eev_afraid.1.name: "Afraid of the Stars"
+ eev_afraid.1.desc: "Among the few remaining traces of the fallen civilization that once inhabited this planet, we found a buried vault containing historical records. It turns out that these people lived in constant fear of their own sky, believing that death could come from the stars at any moment. They never tried to go to space, and died when some hostile alien force bombed the surface for years."
+ eev_afraid.1a: "They were right."

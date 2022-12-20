@@ -7,3 +7,13 @@ star_stuff_chain = {
 		}
 	}
 }
+
+murder_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+	picture = GFX_evt_metropolis
+	counter = {
+		eev_victims = {
+			max = 5
+		}
+	}
+}

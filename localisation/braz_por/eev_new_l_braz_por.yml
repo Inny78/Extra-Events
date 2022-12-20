@@ -151,10 +151,26 @@
  xibilispecies: "Xibili"
  xebospecies: "Xebo"
  ostrich: "Ostrich"
- daggerdesign: "Dagger"
  eevfleet: "The Wanderers"
  headinsand: "Head-in-Sand"
  alientrespas: "Alien Trespasser"
  thefist: "The Fist"
-
  popup.22.c: "Spread a cure discreetly."
+
+# It's 3.6 time! New events start here
+ eevfreefolks: "The Free Folk"
+ # Quantum God
+ eev_quantum_god_category: "Deserted ruins"
+ eev_quantum_god_category_desc: "Our science ship has detected some ruins on §Y[From.GetName]§! and the crew wants to investigate them."
+ eev_quantum_god.1.name: "The Quantum God"
+ eev_quantum_god.1.desc: "An ancient civilization thrived here until a massive solar flare sterilized their world. Surprisingly, they were equally religious and science-inclined, having decided that their god both existed and didn't exist until they had a definitive answer to that question. Sadly, before they could find it, their entire civilization died when their sun erupted."
+ # Murder Chain
+ eev_victims: "Victims"
+ murder_chain_title: "$murder_event.1.name$"
+ murder_chain_desc: "$MURDER_PROJECT_DESC$"
+ # Afraid of the Stars
+ eev_afraid_category: "Bombed planet"
+ eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors are picking up faint traces of civilization and the crew wants to investigate."
+ eev_afraid.1.name: "Afraid of the Stars"
+ eev_afraid.1.desc: "Among the few remaining traces of the fallen civilization that once inhabited this planet, we found a buried vault containing historical records. It turns out that these people lived in constant fear of their own sky, believing that death could come from the stars at any moment. They never tried to go to space, and died when some hostile alien force bombed the surface for years."
+ eev_afraid.1a: "They were right."

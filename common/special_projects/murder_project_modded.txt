@@ -17,6 +17,10 @@ special_project = {
 	
 	on_success = {
 		ship_event = { id = murder_event.2 }
+		begin_event_chain = {
+			event_chain = "murder_chain"
+			target = root
+		}
 	}
 	
 	on_fail = {

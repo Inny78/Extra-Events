@@ -122,14 +122,14 @@
  ayy.1.b: "Leave them in peace."
  ayy.1.c: "Recruit them for our armies."
  ayy.1.d: "Blow these xenos up!"
- 
+
  storms_category: "Crazy Weather"
  storms_category_desc: "There appears to be abnormal weather on §Y[Root.GetName]§!."
  storms.1.name: "The Infinite Storm"
  storms.1.desc: "The planet's storms seems to have begun millions of years ago when the planet was still very young. Lead scientist §G[Root.GetLeaderName]§! theorizes that there will be no end to this storm until something drastic changes to this planet. \n\n§G[Root.GetLeaderName]§! says we do have the power to stop the storm and suggests we do so if we ever plan to colonize the planet."
  storms.1.a: "It's too expensive."
  storms.1.b: "Stop the storm."
- 
+
  #1.5
  ai_factory_category: "Underground Building"
  ai_factory_category_desc: "Scans of §Y[Root.GetName]§! shows an unnatural underground building of sorts."
@@ -138,7 +138,7 @@
  ai_factory.1.a: "Let the factory be."
  ai_factory.1.b: "Destroy the factory!"
  ai_factory.1.c: "Let the factory be and learn from it." 
- 
+
  space_nomads_category: "Cargo Ship in Orbit"
  space_nomads_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."
  space_nomads.1.name: "Space Nomads"
@@ -156,21 +156,21 @@
  space_nomads.1.k: "A new master."
  space_nomads.1.l: "Make them food !"
  space_nomads.1.t: "An alien vessel joins our forces."
- 
+
  space_minerals_category: "Cargo Ship in Orbit"
  space_minerals_category_desc: "Our scientists have discovered a cargo ship in orbit around §Y[Root.GetName]§!."
  space_minerals.1.name: "Minerals in Orbit"
  space_minerals.1.desc: "The §B[Root.GetFleetName]§! approached the cargo ship and upon opening it they found a fairly large stash of Minerals! \n\nWe don't know who these minerals belong to but we could easily just take them."
  space_minerals.1.a: "Take the minerals."
  space_minerals.1.b: "Leave the minerals."
- 
+
  water_monster_category: "Object in Ocean"
  water_monster_category_desc: "Our scientists have spotted something moving in the waters of §Y[Root.GetName]§!."
  water_monster.1.name: "Water Monster"
  water_monster.1.desc: "While scanning the oceans of the planet our scientists have encountered a massive water monster! \n\nHowever a junior scientist prodigy was interested in further researching it and, against §G[Root.GetLeaderName]§!'s orders, went in for a closer look and was eaten by this water monster."
  water_monster.1.a: "He will be missed."
  water_monster.1.b: "The young fool..."
- 
+
  #1.6
  abandoned_base_category: "Metallic Object"
  abandoned_base_category_desc: "Our scientists report that there appears to be some unknown metallic object on the surface of §Y[Root.GetName]§!."
@@ -477,47 +477,47 @@
  popup.31.desc: "One of our planet's native mammals has begun showing signs of evolving sentience. \n\nWith this news we can begin uplifting them to complete sentience so they can become full citizens."
  popup.31.a: "It would probably be a bad idea."
  popup.31.b: "The more the better."
- 
- 
+
+
  ########## END COUNTRY EVENTS ##########
- 
+
  ########## MURDER ##########
- 
+
  murder_category: "Unnatural Ping"
  murder_category_desc: "Our scientists have picked up one of our distress signal coming from §Y[Root.GetName]§!."
- 
+
  MURDER_PROJECT: "The Serial Killer"
  MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that I'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."
- 
+
  murder_event.1.name: "The Serial Killer"
  murder_event.1.desc: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read 'Good, you found my safe. Now that I've got your attention I should tell you that I'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'. \n\nIt could be a hoax but we all think it's in our people's best interest to find this guy."
  murder_event.1.a: "We must find this person!"
  murder_event.1.b: "Another death threat... Who cares?"
- 
+
  murder_event.2.name: "The First Murder"
  murder_event.2.desc: "Our worst fears have come true... It was no ordinary death threat... He murdered someone. A young lady, daughter to a renowned general. \n\nIn her hand is a letter reading: 'The poor girl. Will she be missed? Probably... but you were too late. -D' \n\nThe general will be informed shortly."
  murder_event.2.a: "Find this man!" 
- 
+
  murder_event.3.name: "The Escaped Murder"
  murder_event.3.desc: "We can't find this man,but we have five people was killed."
  murder_event.3.a: "Damn."
- 
+
  murder_event.4.name: "The Second Murder"
  murder_event.4.desc: "Another murder here. This time a xeno responsible for external affairs. \n\nOn the ground next to the xeno a letter reading: 'This time a xeno. You were too late. -D'"
  murder_event.4.a: "Why haven't we found him yet!?"
- 
+
  murder_event.5.name: "The Third Murder"
  murder_event.5.desc: "The Third Murder. An old man and his wife holding hands and hanging from a tree. It appears that it is one of our lead scientist's parents. \n\nIn their hands is a note reading: 'This couple was cute. But you were too late... -D'"
  murder_event.5.a: "How many people must die before he is caught!?"
- 
+
  murder_event.6.name: "The Fourth Murder"
  murder_event.6.desc: "Another murder. This time it appears to be the wife of one of our mayors. \n\nOn the ground is a letter reading: 'This time an important wife, oh how I hope the mayor doesn't kill himself because of this... Too bad you were too late. -D'"
  murder_event.6.a: "Rest in peace."
- 
+
  murder_event.7.name: "The Final Murder"
  murder_event.7.desc: "As we expected a fifth murder we gave our most important citizens personal guards to ensure they would not fall victim. This time we were sure we would catch him... and we did! But not before he killed his target - one of our richest CEOs. \n\nWe found the man in a technologically advanced suit of armor and he was covered in blood, as if he decided not to wash his armor after each murder. We tried to ID this man but it was as if he was a ghost, and he ignored every question except for one. We asked 'What is your name?', his only response was 'I am Death'.  \n\nAs we expected we found a note in the CEOs pockets reading: 'Not even money could save her, and trust me she offered plenty. But you were too late. -D'"
  murder_event.7.a: "Finally and end to this madness."
- 
+
  murder_event.8.name: "The End"
  murder_event.8.desc: "This 'Death' was caught, but not before he killed the five important people he promised to kill. How he evaded our census and how he was so much more technologically advanced than us is a mystery. But if there is one good thing to come from this, it's that we have learned much from his suit and we will have much better security from now on. \n\nBut at that cost... Was it worth it?"
  murder_event.8.a: "At least something came from this."

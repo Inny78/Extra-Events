@@ -19,7 +19,7 @@
  eev_houston.4a: "Это плохо..."
 
  eev_houston.5.name: "Военные спешат на помощь"
- eev_houston.5.desc: "Наши военные встретились с §B[eev_vortex_sci.GetFleetName]§! и начали уводить подальше от планеты §Y[eev_vortex_pla.GetName]§!. В это время вихрь снова вспыхнул, однако, наша догадка оказалась верной: военный флот получил лишь несколько незначительных сбоев, резервные системы были наготове. Однако, несколько минут спустя, §G[[eev_vortex_sci.GetLeaderName]§! сообщил о том, что аномалия находится в критически нестабильном состоянии и призвал флот ускориться, но прежде чем они смогли это сделать, вихрь взорвался - огромный взрыв энергии, был последней информацией, которую мы получили, прежде чем потеряли связь с [From.System.GetName]."
+ eev_houston.5.desc: "Наши военные встретились с §B[eev_vortex_sci.GetFleetName]§! и начали уводить подальше от планеты §Y[eev_vortex_pla.GetName]§!. В это время вихрь снова вспыхнул, однако, наша догадка оказалась верной: военный флот получил лишь несколько незначительных сбоев, резервные системы были наготове. Однако, несколько минут спустя, §G[eev_vortex_sci.GetLeaderName]§! сообщил о том, что аномалия находится в критически нестабильном состоянии и призвал флот ускориться, но прежде чем они смогли это сделать, вихрь взорвался - огромный взрыв энергии, был последней информацией, которую мы получили, прежде чем потеряли связь с [From.System.GetName]."
 
  eev_houston.6.name: "Нет спасения"
  eev_houston.6.desc: "Последние обрывки информации, которые нам удалось получить от §B[Root.GetFleetName]§!, были отправлены нам, когда корабль входил в атмосферу §Y[From.GetName]§!, в нём говорится, что энергетический вихрь взорвался, вследствие чего, произошли огромные разрушения. Они не смогли этого пережить."
@@ -149,10 +149,26 @@
  xibilispecies: "Шибили"
  xebospecies: "Ксебо"
  ostrich: "Страус"
- daggerdesign: "Кинжал"
  eevfleet: "Странники"
  headinsand: "Голова в песке"
  alientrespas: "Нарушитель границы"
  thefist: "Кулак"
-
  popup.22.c: "Осторожно нанесите лекарство."
+
+# It's 3.6 time! New events start here
+ eevfreefolks: "The Free Folk"
+ # Quantum God
+ eev_quantum_god_category: "Deserted ruins"
+ eev_quantum_god_category_desc: "Our science ship has detected some ruins on §Y[From.GetName]§! and the crew wants to investigate them."
+ eev_quantum_god.1.name: "The Quantum God"
+ eev_quantum_god.1.desc: "An ancient civilization thrived here until a massive solar flare sterilized their world. Surprisingly, they were equally religious and science-inclined, having decided that their god both existed and didn't exist until they had a definitive answer to that question. Sadly, before they could find it, their entire civilization died when their sun erupted."
+ # Murder Chain
+ eev_victims: "Victims"
+ murder_chain_title: "$murder_event.1.name$"
+ murder_chain_desc: "$MURDER_PROJECT_DESC$"
+ # Afraid of the Stars
+ eev_afraid_category: "Bombed planet"
+ eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors are picking up faint traces of civilization and the crew wants to investigate."
+ eev_afraid.1.name: "Afraid of the Stars"
+ eev_afraid.1.desc: "Among the few remaining traces of the fallen civilization that once inhabited this planet, we found a buried vault containing historical records. It turns out that these people lived in constant fear of their own sky, believing that death could come from the stars at any moment. They never tried to go to space, and died when some hostile alien force bombed the surface for years."
+ eev_afraid.1a: "They were right."

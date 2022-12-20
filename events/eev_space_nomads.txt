@@ -105,18 +105,15 @@ ship_event = {
 			save_event_target_as = owner_country
 			create_fleet = {
 				name = eevfleet
-			}
-			last_created_fleet = {
-				set_owner = prev
-				create_ship_design = {
-					design = daggerdesign
+				effect = {
+					set_owner = prev
+					create_ship = {
+						graphical_culture = "pirate_01"
+						name = ostrich
+						design = "NAME_Dagger"
+					}
+					set_location = from
 				}
-				create_ship = {
-					graphical_culture = "pirate_01"
-					name = ostrich
-					design = last_created_design
-				}
-				set_location = from
 			}
 		}
 	}

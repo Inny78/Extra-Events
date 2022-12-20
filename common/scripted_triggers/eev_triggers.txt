@@ -12,11 +12,6 @@ eev_is_desertic = {
 		# Planetary Diversity
 		is_planet_class = pc_sandsea
 		is_planet_class = pc_oasis
-		# Real Space
-		is_planet_class = pc_dune
-		is_planet_class = pc_oasis
-		is_planet_class = pc_salt
-		is_planet_class = pc_adiabatic
 		# All These Worlds
 		is_planet_class = orbit_erimosthalassic
 		is_planet_class = pc_erimosthalassic
@@ -31,6 +26,27 @@ eev_is_desertic = {
 	}
 }
 
+eev_is_aquatic = {
+	OR = {
+		is_planet_class = pc_ocean
+		# Planetary Diversity
+		is_planet_class = pc_tidallyaquatic
+		is_planet_class = pc_cascadian
+		is_planet_class = pc_wetswamp
+		is_planet_class = pc_subarctic
+		is_planet_class = pc_fog
+		# All These Worlds
+		is_planet_class = orbit_water_panthalassic
+		is_planet_class = orbit_archipelagic
+		is_planet_class = orbit_panthalassic
+		is_planet_class = pc_panthalassic
+		is_planet_class = orbit_cryopelagic
+		is_planet_class = orbit_thermopelagic
+		is_planet_class = orbit_panpelagic
+		is_planet_class = pc_panpelagic
+	}
+}
+
 eev_is_frozen = {
 	OR = {
 		is_planet_class = pc_frozen
@@ -41,11 +57,6 @@ eev_is_frozen = {
 		is_planet_class = pc_eyeball
 		is_planet_class = pc_subglacial
 		is_planet_class = pc_hydrocarbon
-		# Real Space
-		is_planet_class = pc_glacial
-		is_planet_class = pc_melting
-		is_planet_class = pc_geothermal
-		is_planet_class = pc_ice
 		# All These Worlds
 		is_planet_class = orbit_icy
 		is_planet_class = orbit_cryogenian
@@ -114,8 +125,6 @@ eev_is_uninhabitable = {
 		is_planet_class = pc_carbon
 		# Giga Diversity
 		is_planet_class = pc_melted_frozen
-		# Real Space
-		is_planet_class = pc_sterile
 		# All these worlds
 		is_planet_class = orbit_icy
 		is_planet_class = orbit_chthonian
@@ -189,25 +198,33 @@ eev_is_habitat = {
 	OR = {
 		# Starborn: Improved Voidtouched
 		uses_district_set = starborn_start
-		# Gigastructural Engineering & More
-		is_planet_class = pc_interstellar_habitat
-		is_planet_class = pc_giga_elysium
-		is_planet_class = pc_ehof_habitat
-		is_planet_class = pc_giga_orbital
-		# More Events Mod
-		is_planet_class = pc_mem_vazuran_habitat
 		# Acquisition of Technology
 		is_planet_class = pc_dm_habitat
 		is_planet_class = pc_ae_habitat
 		is_planet_class = pc_sigma_habitat
 		is_planet_class = pc_sigma_deepspace_habitat
-		# Twinks Atlantean
-		uses_district_set = skypalace
-		# Plentiful Traditions
-		is_planet_class = pc_habitat_robot
-		# Giga Diversity
-		is_planet_class = pc_pd_toxic_hab
+		# Blue Archive
+		is_planet_class = pc_BA_auto_habitat
+		# Gigastructural Engineering & More
+		is_planet_class = pc_interstellar_habitat
+		is_planet_class = pc_giga_elysium
+		is_planet_class = pc_ehof_habitat
+		is_planet_class = pc_giga_orbital
+		# Habitation
+		has_planet_flag = hab_init
+		# Living Space
+		has_planet_flag = stpg_planetary_habitat
+		# More Events Mod
+		is_planet_class = pc_mem_vazuran_habitat
 		# Nyto Species Pack
 		is_planet_class = pc_GFnytp_habitis
+		# Planetary Diversity
+		is_pd_habitat = yes
+		# Plentiful Traditions
+		is_planet_class = pc_habitat_robot
+		# NSC2 Modjam Freebooters Origin
+		uses_district_set = nsc_freebooter_habitat
+		# Twinks Atlantean
+		uses_district_set = skypalace
 	}
 }

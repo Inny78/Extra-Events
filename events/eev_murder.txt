@@ -69,6 +69,11 @@ ship_event = {
 			random_owned_pop = {
 				kill_pop = yes
 			}
+			add_event_chain_counter = {
+				event_chain = "murder_chain"
+				counter = "eev_victims"
+				amount = 1
+			}
 		}
 	}
 }
@@ -121,6 +126,11 @@ ship_event = {
 			random_owned_pop = {
 				kill_pop = yes
 			}
+			add_event_chain_counter = {
+				event_chain = "murder_chain"
+				counter = "eev_victims"
+				amount = 1
+			}
 		}
 	}
 }
@@ -149,6 +159,11 @@ ship_event = {
 			}
 			random_owned_pop = {
 				kill_pop = yes
+			}
+			add_event_chain_counter = {
+				event_chain = "murder_chain"
+				counter = "eev_victims"
+				amount = 1
 			}
 		}
 	}
@@ -181,6 +196,11 @@ ship_event = {
 			random_owned_pop = {
 				kill_pop = yes
 			}
+			add_event_chain_counter = {
+				event_chain = "murder_chain"
+				counter = "eev_victims"
+				amount = 1
+			}
 		}
 	}
 }
@@ -211,6 +231,11 @@ ship_event = {
 			}
 			random_owned_pop = {
 				kill_pop = yes
+			}
+			add_event_chain_counter = {
+				event_chain = "murder_chain"
+				counter = "eev_victims"
+				amount = 1
 			}
 		}
 	}
@@ -254,6 +279,7 @@ ship_event = {
 			add_resource = {
 				unity = 1000
 			}
+			end_event_chain = "murder_chain"
 		}
 	}
 }
@@ -269,7 +295,7 @@ country_event = {
 	option = {
 		name = murder_event.9.a
 		hidden_effect = {
-			set_country_flag = eev_murder_set
+			set_country_flag = murder_chain_set
 		}
 		owner = {
 			add_monthly_resource_mult = {
@@ -299,12 +325,12 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		mid_game_years_passed > 0
-		has_country_flag = eev_murder_set
+		has_country_flag = murder_chain_set
 		has_country_flag = eev_scanned
 	}
 	immediate = {
-		remove_country_flag = eev_murder_set
-		set_country_flag = eev_murder_rev
+		remove_country_flag = murder_chain_set
+		set_country_flag = murder_chain_rev
 	}
 	option = {
 		name = murder_event.10.a

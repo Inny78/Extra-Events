@@ -341,12 +341,12 @@ space_minerals_category = {
 # Water Monster
 water_monster_category = {
 	desc = "water_monster_category_desc"
-	picture = GFX_evt_ship_in_orbit
+	picture = GFX_evt_ocean
 	level = 2
 	spawn_chance = {
 		modifier = {
 			add = 1
-			habitable_planet = yes
+			eev_is_aquatic = yes
 		}
 	}
 	on_success = water_monster.1
@@ -414,7 +414,7 @@ mutiny_category = {
 # Artificial Sun
 artificial_sun_category = {
 	desc = "artificial_sun_category_desc"
-	picture = GFX_evt_ship_in_orbit
+	picture = GFX_evt_star_yellow
 	level = 4
 	spawn_chance = {
 		modifier = {
@@ -435,7 +435,7 @@ artificial_sun_category = {
 # Black Hole Life Anomaly
 blackhole_life_category = {
 	desc = "blackhole_life_category_desc"
-	picture = GFX_evt_mining_station
+	picture = GFX_evt_black_hole
 	level = 3
 	spawn_chance = {
 		modifier = {
@@ -451,7 +451,7 @@ blackhole_life_category = {
 # Sand Creature
 sand_creature_category = {
 	desc = "sand_creature_category_desc"
-	picture = GFX_evt_ship_in_orbit
+	picture = GFX_evt_desert
 	level = 3
 	spawn_chance = {
 		modifier = {
@@ -471,7 +471,7 @@ sand_creature_category = {
 # Frozen Civilization
 frozen_civilization_category = {
 	desc = "frozen_civilization_category_desc"
-	picture = GFX_evt_ship_in_orbit
+	picture = GFX_evt_arctic
 	level = 3
 	spawn_chance = {
 		modifier = {
@@ -560,7 +560,7 @@ boom_asteroid_category = {
 # Unstable Gas							
 unstable_gas_category = {
 	desc = "unstable_gas_category_desc"
-	picture = GFX_evt_ship_in_orbit
+	picture = GFX_evt_gas_giant
 	max_once_global = yes
 	level = 4
 	null_spawn_chance = 0.5
@@ -669,8 +669,8 @@ eev_scanned_category = {
 
 # Ancient Echoes
 eev_ancient_echoes_category = {
-	desc = eev_scanned_category_desc
-	picture = GFX_evt_ship_in_orbit
+	desc = eev_ancient_echoes_category_desc
+	picture = GFX_evt_machine_space_battle
 	level = 6
 	spawn_chance = {
 		modifier = {
@@ -695,6 +695,7 @@ eev_mysterious_cache_category = {
 	on_success = eev_mysterious_cache.1
 }
 
+# Crashed Colony Ship
 eev_crashcol_category = {
 	desc = eev_crashcol_category_desc
 	picture = GFX_evt_ship_in_orbit
@@ -705,5 +706,33 @@ eev_crashcol_category = {
 			habitable_planet = yes
 		}
 	}
-	on_success = eev_mysterious_cache.1
+	on_success = eev_crashcol.1
+}
+
+# The Quantum God
+eev_quantum_god_category = {
+	desc = eev_quantum_god_category_desc
+	picture = GFX_evt_desert
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_desertic = yes
+		}
+	}
+	on_success = eev_quantum_god.1
+}
+
+# Afraid of the Stars
+eev_afraid_category = {
+	desc = eev_afraid_category_desc
+	picture = GFX_evt_tomb_world
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			is_planet_class = pc_nuked
+		}
+	}
+	on_success = eev_afraid.1
 }

@@ -19,6 +19,7 @@ ship_event = {
 			create_archaeological_site = eev_tower_city_dig
 			save_event_target_as = eev_tower
 		}
+		owner = { country_event = { id = story.5 days = 30 } }
 	}
 	option = {
 		name = INTERESTING

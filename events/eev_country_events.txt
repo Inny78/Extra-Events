@@ -704,17 +704,16 @@ country_event = {
 	desc = "popup.16.desc"
 	picture = GFX_evt_throne_room
 	show_sound = event_default
+	fire_only_once = yes
 
 	trigger = {
 		is_gestalt = no
 		eev_is_heavy_metal = no
-		NOT = {
-			has_country_flag = had_pet
-		}
+		NOT = { has_country_flag = had_pet }
 		years_passed > 10
 	}
 
-	immediate = { 
+	immediate = {
 		set_country_flag = had_pet
 	}
 
@@ -771,7 +770,7 @@ country_event = {
 	option = {
 		name = popup.16.f
 		add_resource = {
-			unity = -1000
+			unity = -100
 		}
 	}
 }
@@ -912,6 +911,7 @@ country_event = {
 	desc = "popup.19.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
+	fire_only_once = yes
 
 	trigger = {
 		NOT = { 

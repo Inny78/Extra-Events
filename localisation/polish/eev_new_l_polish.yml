@@ -158,7 +158,7 @@
  headinsand: "Head-in-Sand"
  alientrespas: "Alien Trespasser"
  thefist: "The Fist"
- popup.22.c: "Spread a cure discreetly."
+ eev_popup.22.c: "Spread a cure discreetly."
 
 # It's 3.6 time! New events start here
  eevfreefolks: "The Free Folk"

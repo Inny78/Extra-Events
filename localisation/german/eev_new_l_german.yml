@@ -154,7 +154,7 @@
  headinsand: "Kopf-im-Sand"
  alientrespas: "Alien Eindringlinge"
  thefist: "Faust"
- popup.22.c: "Verbreitet heimlich eine Heilung."
+ eev_popup.22.c: "Verbreitet heimlich eine Heilung."
 
 # It's 3.6 time! New events start here
  eevfreefolks: "The Free Folk"

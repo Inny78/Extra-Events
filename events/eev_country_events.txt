@@ -1,10 +1,10 @@
-namespace = popup
+namespace = eev_popup
 
 # Illegal Aliens
 country_event = {
-	id = popup.1
-	title = "popup.1.name"
-	desc = "popup.1.desc.d"
+	id = eev_popup.1
+	title = "eev_popup.1.name"
+	desc = "eev_popup.1.desc.d"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_mystic_reveal
 
@@ -23,7 +23,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.1.a	
+		name = eev_popup.1.a	
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -33,7 +33,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.1.b
+		name = eev_popup.1.b
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -55,7 +55,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.1.c
+		name = eev_popup.1.c
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -79,9 +79,9 @@ country_event = {
 
 # Terrorist Attack
 country_event = {
-	id = popup.2
-	title = "popup.2.name"
-	desc = "popup.2.desc"
+	id = eev_popup.2
+	title = "eev_popup.2.name"
+	desc = "eev_popup.2.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -99,7 +99,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.2.a
+		name = eev_popup.2.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -111,9 +111,9 @@ country_event = {
 
 # Assassinated
 country_event = {
-	id = popup.3
-	title = "popup.3.name"
-	desc = "popup.3.desc"
+	id = eev_popup.3
+	title = "eev_popup.3.name"
+	desc = "eev_popup.3.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -136,7 +136,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.3.default
+		name = eev_popup.3.default
 		trigger = { 
 			is_authoritarian = no
 		}
@@ -149,7 +149,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.3.militarist
+		name = eev_popup.3.militarist
 		trigger = {
 			is_militarist = yes
 		}
@@ -162,7 +162,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.3.peace
+		name = eev_popup.3.peace
 		trigger = { 
 			OR = {
 				is_pacifist = yes
@@ -179,7 +179,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.3.phobe
+		name = eev_popup.3.phobe
 		trigger = {
 			is_xenophobe = yes
 		}
@@ -192,7 +192,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.3.authoritarian
+		name = eev_popup.3.authoritarian
 		trigger = {
 			is_authoritarian = yes
 		}
@@ -204,9 +204,9 @@ country_event = {
 
 # Whistleblower
 country_event = {
-	id = popup.4
-	title = "popup.4.name"
-	desc = "popup.4.desc"
+	id = eev_popup.4
+	title = "eev_popup.4.name"
+	desc = "eev_popup.4.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -219,7 +219,7 @@ country_event = {
 	immediate = { set_country_flag = had_whistle }
 
 	option = {
-		name = popup.4.a
+		name = eev_popup.4.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -229,7 +229,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.4.b
+		name = eev_popup.4.b
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -241,9 +241,9 @@ country_event = {
 
 # Celebrity
 country_event = {
-	id = popup.5
-	title = "popup.5.name"
-	desc = "popup.5.desc"
+	id = eev_popup.5
+	title = "eev_popup.5.name"
+	desc = "eev_popup.5.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -256,7 +256,7 @@ country_event = {
 	immediate = { set_country_flag = had_celebrity }
 
 	option = {
-		name = popup.5.a
+		name = eev_popup.5.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -266,7 +266,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.5.b
+		name = eev_popup.5.b
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -278,9 +278,9 @@ country_event = {
 
 # Disease
 country_event = {
-	id = popup.6
-	title = "popup.6.name"
-	desc = "popup.6.desc"
+	id = eev_popup.6
+	title = "eev_popup.6.name"
+	desc = "eev_popup.6.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -297,7 +297,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.6.a
+		name = eev_popup.6.a
 		add_resource = {
 			physics_research = -75
 			engineering_research = -75
@@ -306,7 +306,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.6.b
+		name = eev_popup.6.b
 		add_resource = {
 			physics_research = -75
 			engineering_research = -75
@@ -315,7 +315,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.6.c
+		name = eev_popup.6.c
 		trigger = {
 			is_xenophobe = yes
 		}
@@ -329,9 +329,9 @@ country_event = {
 
 # Nomads
 country_event = {
-	id = popup.7
-	title = "popup.7.name"
-	desc = "popup.7.desc"
+	id = eev_popup.7
+	title = "eev_popup.7.name"
+	desc = "eev_popup.7.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -350,7 +350,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.7.a
+		name = eev_popup.7.a
 		add_resource = {
 			society_research = 250
 		}
@@ -374,7 +374,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.7.b
+		name = eev_popup.7.b
 		add_resource = {
 			society_research = 250
 		}
@@ -387,7 +387,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.7.c
+		name = eev_popup.7.c
 		trigger = {
 			is_xenophobe = yes
 		}
@@ -402,7 +402,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = popup.7.e
+		name = eev_popup.7.e
 		trigger = {
 			is_authoritarian = yes
 		}
@@ -431,9 +431,9 @@ country_event = {
 
 # Rich Man
 country_event = {
-	id = popup.9
-	title = "popup.9.name"
-	desc = "popup.9.desc"
+	id = eev_popup.9
+	title = "eev_popup.9.name"
+	desc = "eev_popup.9.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -460,7 +460,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.9.b
+		name = eev_popup.9.b
 		add_resource = {
 			energy = 500
 			unity = -1000
@@ -470,9 +470,9 @@ country_event = {
 
 # Sick Pop
 country_event = {
-	id = popup.10
-	title = "popup.10.name"
-	desc = "popup.10.desc"
+	id = eev_popup.10
+	title = "eev_popup.10.name"
+	desc = "eev_popup.10.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -491,7 +491,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.10.a
+		name = eev_popup.10.a
 		add_resource = {
 			energy = -300
 		}
@@ -504,7 +504,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.10.b
+		name = eev_popup.10.b
 		add_resource = {
 			unity = -1000
 		}
@@ -517,9 +517,9 @@ country_event = {
 
 # Quality Crops
 country_event = {
-	id = popup.11
-	title = "popup.11.name"
-	desc = "popup.11.desc"
+	id = eev_popup.11
+	title = "eev_popup.11.name"
+	desc = "eev_popup.11.desc"
 	picture = GFX_evt_animal_wildlife
 	show_sound = event_default
 
@@ -539,7 +539,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.11.b
+		name = eev_popup.11.b
 		add_monthly_resource_mult = {
 			resource = energy
 			value = @tier1materialreward
@@ -547,7 +547,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = popup.11.c
+		name = eev_popup.11.c
 		add_monthly_resource_mult = {
 			resource = food
 			value = @tier1materialreward
@@ -558,9 +558,9 @@ country_event = {
 
 # Large Fish
 country_event = {
-	id = popup.12
-	title = "popup.12.name"
-	desc = "popup.12.desc"
+	id = eev_popup.12
+	title = "eev_popup.12.name"
+	desc = "eev_popup.12.desc"
 	picture = GFX_evt_unspeakable_horror
 	show_sound = event_default
 	
@@ -580,7 +580,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.12.b
+		name = eev_popup.12.b
 		add_monthly_resource_mult = {
 			resource = energy
 			value = @tier1materialreward
@@ -589,7 +589,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.12.c
+		name = eev_popup.12.c
 		add_monthly_resource_mult = {
 			resource = food
 			value = @tier1materialreward
@@ -600,9 +600,9 @@ country_event = {
 
 # Many Minerals
 country_event = {
-	id = popup.13
-	title = "popup.13.name"
-	desc = "popup.13.desc"
+	id = eev_popup.13
+	title = "eev_popup.13.name"
+	desc = "eev_popup.13.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_default
 	mean_time_to_happen = { months = 2500 }
@@ -619,14 +619,14 @@ country_event = {
 	}
 
 	option = {
-		name = popup.13.a
+		name = eev_popup.13.a
 		add_resource = {
 			minerals = 100
 		}
 	}
 	
 	option = {
-		name = popup.13.b
+		name = eev_popup.13.b
 		add_resource = {
 			energy = 325
 		}
@@ -636,9 +636,9 @@ country_event = {
 
 # Extra Profit
 country_event = {
-	id = popup.14
-	title = "popup.14.name"
-	desc = "popup.14.desc"
+	id = eev_popup.14
+	title = "eev_popup.14.name"
+	desc = "eev_popup.14.desc"
 	picture = GFX_evt_metropolis
 	show_sound = event_default
 	mean_time_to_happen = { months = 2500 }
@@ -655,7 +655,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.14.a
+		name = eev_popup.14.a
 		add_resource = {
 			energy = 2500
 		}
@@ -664,9 +664,9 @@ country_event = {
 
 # I Am Known
 country_event = {
-	id = popup.15
-	title = "popup.15.name"
-	desc = "popup.15.desc"
+	id = eev_popup.15
+	title = "eev_popup.15.name"
+	desc = "eev_popup.15.desc"
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 
@@ -687,7 +687,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.15.a
+		name = eev_popup.15.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -699,9 +699,9 @@ country_event = {
 
 # Pet
 country_event = {
-	id = popup.16
-	title = "popup.16.name"
-	desc = "popup.16.desc"
+	id = eev_popup.16
+	title = "eev_popup.16.name"
+	desc = "eev_popup.16.desc"
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 	fire_only_once = yes
@@ -718,7 +718,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.16.a
+		name = eev_popup.16.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -728,7 +728,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.16.b
+		name = eev_popup.16.b
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -738,7 +738,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.16.c
+		name = eev_popup.16.c
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -748,7 +748,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.16.d
+		name = eev_popup.16.d
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -758,7 +758,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.16.e
+		name = eev_popup.16.e
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -768,7 +768,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.16.f
+		name = eev_popup.16.f
 		add_resource = {
 			unity = -100
 		}
@@ -777,9 +777,9 @@ country_event = {
 
 # Traders Aid
 country_event = {
-	id = popup.17
-	title = "popup.17.name"
-	desc = "popup.17.desc"
+	id = eev_popup.17
+	title = "eev_popup.17.name"
+	desc = "eev_popup.17.desc"
 	picture = GFX_evt_unknown_ships
 	show_sound = event_default
 
@@ -796,7 +796,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.17.a
+		name = eev_popup.17.a
 		add_resource = {
 			energy = -100
 		}
@@ -809,7 +809,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.17.b
+		name = eev_popup.17.b
 		add_resource = {
 			unity = -1000
 		}
@@ -818,9 +818,9 @@ country_event = {
 
 # Scientists Aid
 country_event = {
-	id = popup.18
-	title = "popup.18.name"
-	desc = "popup.18.desc"
+	id = eev_popup.18
+	title = "eev_popup.18.name"
+	desc = "eev_popup.18.desc"
 	picture = GFX_evt_physics_research
 	show_sound = event_default
 
@@ -837,7 +837,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.18.a
+		name = eev_popup.18.a
 		add_resource = {
 			energy = -100
 		}
@@ -850,7 +850,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.18.b
+		name = eev_popup.18.b
 		add_resource = {
 			unity = -1000
 		}
@@ -859,9 +859,9 @@ country_event = {
 
 # Underwater 2
 country_event = {
-	id = popup.8
-	title = "popup.8.name"
-	desc = "popup.8.desc"
+	id = eev_popup.8
+	title = "eev_popup.8.name"
+	desc = "eev_popup.8.desc"
 	picture = GFX_evt_unspeakable_horror
 	show_sound = event_default
 
@@ -878,7 +878,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.8.a
+		name = eev_popup.8.a
 		add_resource = {
 			society_research = 50
 		}
@@ -891,7 +891,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.8.b
+		name = eev_popup.8.b
 		add_resource = {
 			society_research = 50
 		}
@@ -906,9 +906,9 @@ country_event = {
 
 # Donate
 country_event = {
-	id = popup.19
-	title = "popup.19.name"
-	desc = "popup.19.desc"
+	id = eev_popup.19
+	title = "eev_popup.19.name"
+	desc = "eev_popup.19.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 	fire_only_once = yes
@@ -929,7 +929,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.19.a
+		name = eev_popup.19.a
 		add_resource = {
 			energy = -2500
 		}
@@ -942,7 +942,7 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.19.b
+		name = eev_popup.19.b
 		add_resource = {
 			energy = -2500
 		}
@@ -955,7 +955,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.19.c
+		name = eev_popup.19.c
 		set_country_flag = had_cancer
 		add_resource = {
 			energy = -2500
@@ -969,15 +969,15 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.19.d
+		name = eev_popup.19.d
 	}
 }
 
 # Donate / Cancer
 country_event = {
-	id = popup.20
-	title = "popup.20.name"
-	desc = "popup.20.desc"
+	id = eev_popup.20
+	title = "eev_popup.20.name"
+	desc = "eev_popup.20.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
@@ -995,7 +995,7 @@ country_event = {
 	}
 
 	option = {
-		name = popup.20.a
+		name = eev_popup.20.a
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -1007,7 +1007,7 @@ country_event = {
 
 # Infected Aliens (HIDDEN)
 planet_event = {
-	id = popup.21
+	id = eev_popup.21
 	hide_window = yes
 
 	pre_triggers = {
@@ -1031,16 +1031,16 @@ planet_event = {
 	immediate = {
 		set_global_flag = had_prim
 		observation_outpost_owner = {
-			country_event = { id = popup.22 }
+			country_event = { id = eev_popup.22 }
 		}
 	}
 }
 
 # Infected Aliens
 country_event = {
-	id = popup.22
-	title = "popup.22.name"
-	desc = "popup.22.desc"
+	id = eev_popup.22
+	title = "eev_popup.22.name"
+	desc = "eev_popup.22.desc"
 	picture = GFX_evt_undertaker
 	show_sound = event_default
 	location = fromfrom
@@ -1048,14 +1048,14 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "popup.22.a"
+		name = "eev_popup.22.a"
 		add_resource = {
 			society_research = 250
 		}
 	}
 
 	option = {
-		name = "popup.22.c"
+		name = "eev_popup.22.c"
 		trigger = {
 			is_xenophobe = no
 			is_homicidal = no
@@ -1073,7 +1073,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "popup.22.b"
+		name = "eev_popup.22.b"
 		trigger = {
 			OR = {
 				is_xenophobe = yes
@@ -1098,7 +1098,7 @@ country_event = {
 
 # Contacted (HIDDEN)
 planet_event = {
-	id = popup.23
+	id = eev_popup.23
 	hide_window = yes
 
 	pre_triggers = {
@@ -1123,16 +1123,16 @@ planet_event = {
 	immediate = {
 		set_global_flag = had_contacted
 		observation_outpost_owner = {
-			country_event = { id = popup.24 }
+			country_event = { id = eev_popup.24 }
 		}
 	}
 }
 
 # Contacted
 country_event = {
-	id = popup.24
-	title = "popup.24.name"
-	desc = "popup.24.desc"
+	id = eev_popup.24
+	title = "eev_popup.24.name"
+	desc = "eev_popup.24.desc"
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
 	location = fromfrom
@@ -1150,7 +1150,7 @@ country_event = {
 
 # Contacted 2 (HIDDEN)
 planet_event = {
-	id = popup.25
+	id = eev_popup.25
 	hide_window = yes
 
 	pre_triggers = {
@@ -1176,16 +1176,16 @@ planet_event = {
 	immediate = {
 		set_global_flag = had_contacted2
 		observation_outpost_owner = {
-			country_event = { id = popup.26 }
+			country_event = { id = eev_popup.26 }
 		}
 	}
 }
 
 # Contacted 2
 country_event = {
-	id = popup.26
-	title = "popup.26.name"
-	desc = "popup.26.desc"
+	id = eev_popup.26
+	title = "eev_popup.26.name"
+	desc = "eev_popup.26.desc"
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
 	location = fromfrom
@@ -1203,7 +1203,7 @@ country_event = {
 
 # Contacted 3 (HIDDEN)
 planet_event = {
-	id = popup.27
+	id = eev_popup.27
 	hide_window = yes
 
 	pre_triggers = {
@@ -1229,16 +1229,16 @@ planet_event = {
 	immediate = {
 		set_global_flag = had_contacted3
 		observation_outpost_owner = {
-			country_event = { id = popup.28 }
+			country_event = { id = eev_popup.28 }
 		}
 	}
 }
 
 # Contacted 3
 country_event = {
-	id = popup.28
-	title = "popup.28.name"
-	desc = "popup.28.desc"
+	id = eev_popup.28
+	title = "eev_popup.28.name"
+	desc = "eev_popup.28.desc"
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
 	location = fromfrom
@@ -1250,11 +1250,11 @@ country_event = {
 	}
 	
 	option = {
-		name = "popup.28.a"
+		name = "eev_popup.28.a"
 	}
 	
 	option = {
-		name = "popup.28.b"
+		name = "eev_popup.28.b"
 		fromfrom = {
 			random_owned_pop = {
 				kill_pop = yes
@@ -1263,7 +1263,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "popup.28.c"
+		name = "eev_popup.28.c"
 		fromfrom = {
 		    destroy_colony = yes
 			change_pc = pc_barren
@@ -1276,7 +1276,7 @@ country_event = {
 
 # New Primitives (HIDDEN)
 planet_event = {
-	id = popup.29
+	id = eev_popup.29
 	hide_window = yes
 	
 	pre_triggers = {
@@ -1301,16 +1301,16 @@ planet_event = {
 	immediate = {
 		set_global_flag = had_newprimitives
 		observation_outpost_owner = {
-			country_event = { id = popup.30 }
+			country_event = { id = eev_popup.30 }
 		}
 	}
 }
 
 # New Primitives
 country_event = {
-	id = popup.30
-	title = "popup.30.name"
-	desc = "popup.30.desc"
+	id = eev_popup.30
+	title = "eev_popup.30.name"
+	desc = "eev_popup.30.desc"
 	picture = GFX_evt_animal_wildlife
 	show_sound = event_default
 	location = from
@@ -1334,15 +1334,15 @@ country_event = {
 	}
 	
 	option = {
-		name = "popup.30.b"
+		name = "eev_popup.30.b"
 	}
 }
 
 # New Sentience
 country_event = {
-	id = popup.31
-	title = "popup.31.name"
-	desc = "popup.31.desc"
+	id = eev_popup.31
+	title = "eev_popup.31.name"
+	desc = "eev_popup.31.desc"
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_mystic_reveal
 
@@ -1358,11 +1358,11 @@ country_event = {
 	}
 	
 	option = {
-		name = popup.31.a		
+		name = eev_popup.31.a		
 	}
 
 	option = {
-		name = popup.31.b
+		name = eev_popup.31.b
 		create_species = {
 			name = xebospecies
 			class = random

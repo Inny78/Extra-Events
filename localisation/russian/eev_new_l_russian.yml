@@ -153,7 +153,7 @@
  headinsand: "Голова в песке"
  alientrespas: "Нарушитель границы"
  thefist: "Кулак"
- popup.22.c: "Осторожно нанесите лекарство."
+ eev_popup.22.c: "Осторожно нанесите лекарство."
 
 # It's 3.6 time! New events start here
  eevfreefolks: "The Free Folk"

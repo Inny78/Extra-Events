@@ -90,7 +90,7 @@
  eev_mysterious_cache_category: "Таинственный тайник"
  eev_mysterious_cache_category_desc: "Датчики засекли слабый сигнал, исходящий от §Y[From.GetName]§!. Подойдя ближе, §B[Root.GetFleetName]§! обнаружил, что он исходит от старого здания, которое находится в этом пустынном мире."
  eev_mysterious_cache.1.name: "Подарок из прошлого"
- eev_mysterious_cache.1.desc: "Войти в здание оказалось непросто, так как у него были очень толстые стены и не было входа. Эти прочные стены защищали небольшую комнату, в которой находился центральный алтарь с богато украшенной коробкой на нём. Сканирование показало, что зданию и коробке 11 тысяч лет, интересно то, что на алтаре есть надписи на нашем современном языке! Заставляет задуматься и точное название §G[Root.GetLeaderName]§!, они сообщают, что коробка - это подарок для [Root.Leader.GetHerHim]. Коробка невероятно тяжелая, вероятно, в ней много неизвестного сплава, который, безусловно, окажется полезным и даст нашим ученым поле для деятельности. Но кто сделал этот подарок, и как он узнал, что мы придём?"
+ eev_mysterious_cache.1.desc: "Войти в здание оказалось непросто, так как у него были очень толстые стены и не было входа. Эти прочные стены защищали небольшую комнату, в которой находился центральный алтарь с богато украшенной коробкой на нём. Сканирование показало, что зданию и коробке 11 тысяч лет, интересно то, что на алтаре есть надписи на нашем современном языке! Заставляет задуматься и точное название §G[Root.GetLeaderName]§!, они сообщают, что коробка - это подарок для [Root.GetHerHim]. Коробка невероятно тяжелая, вероятно, в ней много неизвестного сплава, который, безусловно, окажется полезным и даст нашим ученым поле для деятельности. Но кто сделал этот подарок, и как он узнал, что мы придём?"
 
 # Crashed colony ship
  eev_crashcol_category: "Обломки"
@@ -149,26 +149,35 @@
  xibilispecies: "Шибили"
  xebospecies: "Ксебо"
  ostrich: "Страус"
+ daggerdesign: "Кинжал"
  eevfleet: "Странники"
  headinsand: "Голова в песке"
  alientrespas: "Нарушитель границы"
  thefist: "Кулак"
+
  eev_popup.22.c: "Осторожно нанесите лекарство."
 
 # It's 3.6 time! New events start here
- eevfreefolks: "The Free Folk"
+ eevfreefolks: "Свободный народ"
  # Quantum God
- eev_quantum_god_category: "Deserted ruins"
- eev_quantum_god_category_desc: "Our science ship has detected some ruins on §Y[From.GetName]§! and the crew wants to investigate them."
- eev_quantum_god.1.name: "The Quantum God"
- eev_quantum_god.1.desc: "An ancient civilization thrived here until a massive solar flare sterilized their world. Surprisingly, they were equally religious and science-inclined, having decided that their god both existed and didn't exist until they had a definitive answer to that question. Sadly, before they could find it, their entire civilization died when their sun erupted."
- # Murder Chain
- eev_victims: "Victims"
+ eev_quantum_god_category: "Заброшенные руины"
+ eev_quantum_god_category_desc: "Наш научный корабль обнаружил руины на §Y[From.GetName]§!, команда хочет изучить их."
+ eev_quantum_god.1.name: "Квантовый Бог"
+ eev_quantum_god.1.desc: "Когда-то на этой планете процветала древняя цивилизация, пока мощная солнечная вспышка не стерилизовала этот мир. Удивительно то, что они были одинаково религиозны и склонны к науке, решив, что их бог одновременно существует и не существует до тех пор, пока у них не будет окончательного ответа на этот вопрос. К сожалению, прежде чем они смогли найти ответ на этот вопрос, вся их цивилизация погибла, когда произошла вспышка на солнце."
+ # Murder chain
+ eev_victims: "Жертвы"
  murder_chain_title: "$murder_event.1.name$"
  murder_chain_desc: "$MURDER_PROJECT_DESC$"
  # Afraid of the Stars
- eev_afraid_category: "Bombed planet"
- eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors are picking up faint traces of civilization and the crew wants to investigate."
- eev_afraid.1.name: "Afraid of the Stars"
- eev_afraid.1.desc: "Among the few remaining traces of the fallen civilization that once inhabited this planet, we found a buried vault containing historical records. It turns out that these people lived in constant fear of their own sky, believing that death could come from the stars at any moment. They never tried to go to space, and died when some hostile alien force bombed the surface for years."
- eev_afraid.1a: "They were right."
+ eev_afraid_category: "Разбомбленная планета"
+ eev_afraid_category_desc: "Наш корабль обнаружил планету, которая подверглась интенсивной бомбардировке, сделавшей её почти непригодной для жизни. Датчики фиксируют слабые признаки цивилизации, команда хочет провести их изучение."
+ eev_afraid.1.name: "Боязнь звёзд"
+ eev_afraid.1.desc: "Среди немногих оставшихся следов погибшей цивилизации, когда-то населявшей эту планету, мы нашли погребённое хранилище, содержащее исторические записи. Оказывается, они жили в постоянном страхе перед собственным небом, веря, что смерть может прийти со звёзд в любой момент. Они не пытались выйти в космос и погибли, когда какая-то враждебная инопланетная сила годами бомбила поверхность их планеты."
+ eev_afraid.1a: "Они были правы."
+ # Expanding the Crushed event.
+ crushed.1.desc.phobe: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nThese survivors were incinerated by our ship's thrusters when the team left with a valuable shiny object."
+ crushed.1.desc.phile: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nVery ashamed by this event, the ship soon left on its antigravs to avoid making more damage."
+ crushed.1.desc.mega: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable! The team found them quite cute and gathered them too."
+ crushed.1a.phobe: "Finders keepers!"
+ crushed.1a.phile: "This will be an eternal shame for us."
+ crushed.1a.mega: "Can we sell them as pets?"

@@ -83,10 +83,10 @@
  except_engine.1.b: "Sell them, nothing beats our technology."
  
  crushed_category: "Shiny Object"
- crushed_category_desc: "The crew have spotted an abnormality on §Y[Root.GetName]§!. It's very shiny and reflective."
+ crushed_category_desc: "The crew of the §B[Root.GetFleetName]§! have spotted an abnormality on §Y[Root.GetName]§!. It's very shiny and reflective."
  crushed.1.name: "Crushed Civilization"
  crushed.1.desc: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable!"
- 
+
  perfect_planet_category: "Extraordinary Readings"
  perfect_planet_category_desc: "Upon closer scans of §Y[Root.GetName]§! the planet is showing extraordinary readings!"
  perfect_planet.1.name: "A Perfect Planet"

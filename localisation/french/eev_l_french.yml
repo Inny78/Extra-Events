@@ -87,7 +87,7 @@
  crushed_category: "Objet brillant"
  crushed_category_desc: "L'équipage a identifié une anomalie sur §Y[Root.GetName]§! Cela brille énormément!"
  crushed.1.name: "Civilisation écrasée"
- crushed.1.desc: "En voulant se poser au sol pour étudier l'anomalie, l'équipage du §B[Root.GetFleetName]§! a malencontreusement écrasé une minuscule civilisation relativement avancée. \n\nAlors qu'il allait se poser au sol, notre vaisseau a atterri sur l'étroite zone habitée de la planète et a détruit 90% de la population. Ceux qui ont survécu semblaient mécontents et lançaient des petits grains de sable sur les pieds des savants. \n\nQuoi qu'il en soit, cet objet brillant devrait être précieux."
+ crushed.1.desc: "En voulant se poser pour étudier l'anomalie, l'équipage du §B[Root.GetFleetName]§! a malencontreusement écrasé une minuscule civilisation relativement avancée. \n\nAlors qu'il allait se poser au sol, notre vaisseau a atterri sur l'étroite zone habitée de la planète et a détruit 90% de la population. Ceux qui ont survécu semblaient mécontents et lançaient des petits grains de sable sur les pieds des savants. \n\nQuoi qu'il en soit, cet objet brillant était très précieux !"
  
  perfect_planet_category: "Grand potentiel"
  perfect_planet_category_desc: "Nos instruments de lecture décèle un potentiel incomparable sur  §Y[Root.GetName]§!.!"

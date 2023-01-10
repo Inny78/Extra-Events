@@ -39,8 +39,8 @@ ship_event = {
 		trigger = {
 			owner = {
 				AND = {
+					is_xenophile = no
 					is_xenophobe = no
-					is_spiritualist = no
 					is_homicidal = no
 					is_megacorp = no
 				}
@@ -81,9 +81,9 @@ ship_event = {
 				min = @tier4materialmin
 				max = @tier4materialmax
 			}
-		}
-		add_resource = {
-			unity = 100
+			add_resource = {
+				unity = 100
+			}
 		}
 }
 	option = {

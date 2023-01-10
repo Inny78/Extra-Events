@@ -62,8 +62,10 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		root = { save_event_target_as = eev_vortex_con }
-		fleet = { set_event_locked = yes }
+		root = {
+			save_event_target_as = eev_vortex_con
+			fleet = { set_event_locked = yes }
+		}
 	}
 
 	option = {
@@ -154,8 +156,10 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		root = { save_event_target_as = eev_vortex_mil }
-		fleet = { set_event_locked = yes }
+		root = {
+			save_event_target_as = eev_vortex_mil
+			fleet = { set_event_locked = yes }
+		}
 	}
 
 	option = {

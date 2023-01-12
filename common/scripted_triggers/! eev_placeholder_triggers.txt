@@ -5,3 +5,7 @@ urmazin_system = { always = no }
 everchanging_system = { always = no }
 katzen_jump_blocked_system = { always = no }
 annihilator_system = { always = no }
+is_pd_desert = { always = no }
+is_pd_ocean = { always = no }
+is_pd_aquatics = { always = no }
+is_pd_arctic = { always = no }

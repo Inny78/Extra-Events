@@ -10,8 +10,7 @@ eev_is_desertic = {
 		is_planet_class = pc_barren
 		is_planet_class = pc_desert
 		# Planetary Diversity
-		is_planet_class = pc_sandsea
-		is_planet_class = pc_oasis
+		is_pd_desert = yes
 		# All These Worlds
 		is_planet_class = orbit_erimosthalassic
 		is_planet_class = pc_erimosthalassic
@@ -29,12 +28,6 @@ eev_is_desertic = {
 eev_is_aquatic = {
 	OR = {
 		is_planet_class = pc_ocean
-		# Planetary Diversity
-		is_planet_class = pc_tidallyaquatic
-		is_planet_class = pc_cascadian
-		is_planet_class = pc_wetswamp
-		is_planet_class = pc_subarctic
-		is_planet_class = pc_fog
 		# All These Worlds
 		is_planet_class = orbit_water_panthalassic
 		is_planet_class = orbit_archipelagic
@@ -44,27 +37,28 @@ eev_is_aquatic = {
 		is_planet_class = orbit_thermopelagic
 		is_planet_class = orbit_panpelagic
 		is_planet_class = pc_panpelagic
+		# Planetary Diversity
+		is_pd_ocean = yes
+		is_pd_aquatics = yes
 	}
 }
 
 eev_is_frozen = {
 	OR = {
 		is_planet_class = pc_frozen
-		# Planetary Diversity
-		is_planet_class = pc_antarctic
-		is_planet_class = pc_snow
-		is_planet_class = pc_glacio
-		is_planet_class = pc_eyeball
-		is_planet_class = pc_subglacial
-		is_planet_class = pc_hydrocarbon
+		is_planet_class = pc_arctic
 		# All These Worlds
 		is_planet_class = orbit_icy
+		is_planet_class = orbit_frozen_telluric
+		is_planet_class = orbit_icy
 		is_planet_class = orbit_cryogenian
-		is_planet_class = pc_alpine		
 		is_planet_class = orbit_geotidal_eyeball
 		is_planet_class = pc_geotidal_eyeball
 		is_planet_class = orbit_hydrocarbonal
 		is_planet_class = pc_hydrocarbonal
+		# Planetary Diversity
+		is_planet_class = pc_subglacial
+		is_pd_arctic = yes
 	}
 }
 
@@ -123,9 +117,13 @@ eev_is_uninhabitable = {
 		is_planet_class = pc_hothouse
 		is_planet_class = pc_iron
 		is_planet_class = pc_carbon
-		# Giga Diversity
-		is_planet_class = pc_melted_frozen
-		# All these worlds
+		is_planet_class = pc_karst
+		is_planet_class = pc_ethane_ocean
+		# All These Worlds
+		is_planet_class = orbit_chthonian
+		is_planet_class = orbit_iron_telluric
+		is_planet_class = orbit_hothouse_toxic
+		is_planet_class = orbit_carbonyl_toxic
 		is_planet_class = orbit_icy
 		is_planet_class = orbit_chthonian
 		is_planet_class = orbit_iron_telluric

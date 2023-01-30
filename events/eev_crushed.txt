@@ -13,15 +13,17 @@ ship_event = {
 	title = crushed.1.name
 	desc = {
 		trigger = {
-			switch = {
-				trigger = has_ethic
-				ethic_xenophobe = { text = crushed.1.desc.phobe }
-				ethic_fanatic_xenophobe = { text = crushed.1.desc.phobe }
-				ethic_xenophile = { text = crushed.1.desc.phile }
-				ethic_fanatic_xenophile = { text = crushed.1.desc.phile }
-				ethic_spiritualist = { text = crushed.1.desc.phile }
-				ethic_fanatic_spiritualist = { text = crushed.1.desc.phile }
-				default = { text = crushed.1.desc }
+			hidden:owner = {
+				switch = {
+					trigger = has_ethic
+					ethic_xenophobe = { text = crushed.1.desc.phobe }
+					ethic_fanatic_xenophobe = { text = crushed.1.desc.phobe }
+					ethic_xenophile = { text = crushed.1.desc.phile }
+					ethic_fanatic_xenophile = { text = crushed.1.desc.phile }
+					ethic_spiritualist = { text = crushed.1.desc.phile }
+					ethic_fanatic_spiritualist = { text = crushed.1.desc.phile }
+					default = { text = crushed.1.desc }
+				}
 			}
 		}
 	}

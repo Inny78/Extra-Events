@@ -616,10 +616,9 @@ eev_houston_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
+			mid_game_years_passed > 20
 			eev_is_uninhabitable = yes
-			from.owner = {
-				is_gestalt = no
-			}
+			from.owner = { is_gestalt = no }
 		}
 	}
 	on_success = eev_houston.1

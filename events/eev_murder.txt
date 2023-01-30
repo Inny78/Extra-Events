@@ -10,11 +10,7 @@ ship_event = {
 	picture = GFX_evt_metropolis
 	location = FROM
 	is_triggered_only = yes
-	immediate = {
-		from = {
-			save_event_target_as = murder_position
-		}
-	}
+	immediate = { from = { save_event_target_as = murder_position } }
 	option = {
 		name = murder_event.1.a
 		enable_special_project = {
@@ -22,24 +18,13 @@ ship_event = {
 			location = from
 			owner = root
 		}
-		owner = {
-			add_resource = {
-				unity = 1000
-			}
-		}
+		owner = { add_resource = { unity = 1000 } }
 	}
 	option = {
 		name = murder_event.1.b
 		owner = {
-			add_resource = {
-				unity = -1000
-			}
-			while = {
-				count = 5
-				random_owned_pop = {
-					kill_pop = yes
-				}
-			}
+			add_resource = { unity = -1000 }
+			random_owned_pop = { kill_pop = yes }
 		}
 	}
 }
@@ -66,9 +51,6 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			random_owned_pop = {
-				kill_pop = yes
-			}
 			add_event_chain_counter = {
 				event_chain = "murder_chain"
 				counter = "eev_victims"
@@ -88,15 +70,8 @@ country_event = {
 	option = {
 		name = murder_event.3.a
 		owner = {
-			add_resource = {
-				unity = -1000
-			}
-			while = {
-				count = 5
-				random_owned_pop = {
-					kill_pop = yes
-				}
-			}
+			add_resource = { unity = -1000 }
+			random_owned_pop = { kill_pop = yes }
 		}
 	}
 }
@@ -122,9 +97,6 @@ ship_event = {
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax
-			}
-			random_owned_pop = {
-				kill_pop = yes
 			}
 			add_event_chain_counter = {
 				event_chain = "murder_chain"
@@ -156,9 +128,6 @@ ship_event = {
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax
-			}
-			random_owned_pop = {
-				kill_pop = yes
 			}
 			add_event_chain_counter = {
 				event_chain = "murder_chain"
@@ -193,9 +162,6 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			random_owned_pop = {
-				kill_pop = yes
-			}
 			add_event_chain_counter = {
 				event_chain = "murder_chain"
 				counter = "eev_victims"
@@ -229,9 +195,6 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			random_owned_pop = {
-				kill_pop = yes
-			}
 			add_event_chain_counter = {
 				event_chain = "murder_chain"
 				counter = "eev_victims"
@@ -249,9 +212,7 @@ ship_event = {
 	picture = GFX_evt_metropolis
 	is_triggered_only = yes
 	immediate = {
-		fleet = {
-			set_event_locked = no
-		}
+		fleet = { set_event_locked = no }
 	}
 	option = {
 		name = murder_event.8.a
@@ -294,9 +255,7 @@ country_event = {
 	}
 	option = {
 		name = murder_event.9.a
-		hidden_effect = {
-			set_country_flag = murder_chain_set
-		}
+		hidden_effect = { set_country_flag = murder_chain_set }
 		owner = {
 			add_monthly_resource_mult = {
 				resource = physics_research
@@ -334,11 +293,7 @@ country_event = {
 	}
 	option = {
 		name = murder_event.10.a
-		trigger = {
-			owner = {
-				is_xenophobe = no
-			}
-		}
+		trigger = { owner = { is_xenophobe = no } }
 		owner = {
 			add_monthly_resource_mult = {
 				resource = physics_research

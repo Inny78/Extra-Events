@@ -181,3 +181,8 @@
  crushed.1a.phobe: "Finders keepers!"
  crushed.1a.phile: "This will be an eternal shame for us."
  crushed.1a.mega: "Can we sell them as pets?"
+ # Sci-Fi
+ eev_scifi_category: "Massive ruins"
+ eev_scifi_category_desc: "Our ship is currently scanning a planet that hosts some massive city ruins. Détecting some remaining energy signals, the crew decides to land."
+ eev_scifi.1.name: "Impossible designs"
+ eev_scifi.1.desc: "The fact that a computer system survived this long on this desolate world is a miracle. There is sadly no information on the fate of this lost civilization, but the computer is full of designs of impossibly massive megastructures, some of them spanning many solar systems? Our scientists are becoming extremely excited as the incredibly advanced schematics are transmitted back to our empire. It is only after weeks of exhausting work that one of the crew members discovers that the computer was only hosting a database related to a very popular science-fiction series."

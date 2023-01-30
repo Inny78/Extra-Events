@@ -179,3 +179,8 @@
  crushed.1a.phobe: "Qui trouve garde !"
  crushed.1a.phile: "Cet épisode demeurera une honte éternelle dans notre histoire."
  crushed.1a.mega: "Peut-on les revendre comme animaux de compagnie ?"
+ # Sci-Fi
+ eev_scifi_category: "Ruines massives"
+ eev_scifi_category_desc: "Notre vaisseau est en train de scanner une planète qui héberge les ruines de vastes cités. Détectant quelques traces d'énergies, l'équipage décide d'atterrir."
+ eev_scifi.1.name: "Schémas impossibles"
+ eev_scifi.1.desc: "Le fait qu'un seul ordinateur ait survécu aussi longtemps sur ce monde désolé est un miracle. Il n'y a malheureusement aucunbe information sur le destin de cette civilisation perdue, mais l'ordinateur est rempli de schémas de mégastructrure impossiblement massives, certaines s'étendant sur plusieurs systèmes solaires ? Nos chercheurs deviennent extrêmement excités tandis que ces schémas incroyablement avancés sont transmis vers notre empire. Ce n'est qu'après des semaines de travail épuisant qu'un membre de l'équipage découvre que l'ordinateur ne contenait qu'une base de données concernant une série de science-fiction très populaire."

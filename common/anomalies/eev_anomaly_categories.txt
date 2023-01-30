@@ -735,3 +735,17 @@ eev_afraid_category = {
 	}
 	on_success = eev_afraid.1
 }
+
+# Sci-Fi
+eev_scifi_category = {
+	desc = eev_scifi_category_desc
+	picture = GFX_evt_tomb_world
+	level = 6
+	spawn_chance = {
+		modifier = {
+			add = 1
+			is_planet_class = pc_nuked
+		}
+	}
+	on_success = eev_scifi.1
+}

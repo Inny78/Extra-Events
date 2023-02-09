@@ -5,6 +5,27 @@ eev_is_general_planet = {
 	}
 }
 
+eev_is_continental = {
+	OR = {
+		is_planet_class = pc_continental
+		# Planetary Diversity
+		is_pd_continental = yes
+		is_planet_class = pc_swamp
+		is_planet_class = pc_wetswamp
+		# All These Worlds
+		is_planet_class = orbit_chlorogenian
+		is_planet_class = pc_continental
+		is_planet_class = orbit_panthalassic
+		is_planet_class = pc_panthalassic
+		is_planet_class = orbit_retinalgenian
+		is_planet_class = pc_retinalgenian
+		is_planet_class = orbit_photogenian
+		is_planet_class = pc_photogenian
+		is_planet_class = orbit_geotidal_twilight
+		is_planet_class = pc_geotidal_twilight
+	}
+}
+
 eev_is_desertic = {
 	OR = {
 		is_planet_class = pc_barren

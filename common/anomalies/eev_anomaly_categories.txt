@@ -643,6 +643,10 @@ eev_tower_city_category = {
 				is_planet_class = pc_gas_giant
 				# Planetary Diversity
 				is_planet_class = pc_cold_gas_giant
+				is_planet_class = pc_cloudless_gas_giant
+				# All These Worlds
+				is_planet_class = orbit_temperate_giant
+				is_planet_class = orbit_cloudless_giant
 			}
 		}
 	}
@@ -748,4 +752,21 @@ eev_scifi_category = {
 		}
 	}
 	on_success = eev_scifi.1
+}
+
+# Unsavory scientist
+eev_unsavory_scientist = {
+	desc = eev_unsavory_scientist_desc
+	picture = GFX_evt_tomb_world
+	level = 3
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_continental = yes
+			from.fleet.leader.species = {
+				OR = { is_archetype = MACHINE is_archetype = ROBOT is_archetype = LITHOID }
+			}
+		}
+	}
+	on_success = eev_unsavory_scientist.1
 }

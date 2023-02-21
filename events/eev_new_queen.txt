@@ -5,14 +5,9 @@ country_event = {
 	title = eev_new_queen.1.name
 	desc = eev_new_queen.1.desc
 	picture = GFX_evt_metropolis
-	mean_time_to_happen = {
-		years = 20
-	}
-	trigger = {
-		is_hive_empire = yes
-	}
-	immediate = {
-	}
+	is_triggered_only = yes
+
+	immediate = { set_country_flag = eev_new_queen }
 	option = {
 		name = eev_new_queen.1.a
 		hidden_effect = {

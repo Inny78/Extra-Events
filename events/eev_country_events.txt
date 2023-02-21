@@ -8,15 +8,7 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_mystic_reveal
 
-	mean_time_to_happen = { years = 50 }
-
-	trigger = {
-		is_ai = no
-		is_gestalt = no
-		NOT = { has_global_flag = eev_had_alien }
-		has_country_flag = first_contact_event
-		years_passed > 30
-	}
+	is_triggered_only = yes
 
 	immediate = { 
 		set_global_flag = eev_had_alien
@@ -85,14 +77,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 3500 }
-	
-	trigger = {
-		NOT = { has_country_flag = had_terror }
-	}
+	is_triggered_only = yes
 
 	immediate =	{ 
-		set_country_flag = had_terror
 		random_owned_pop = {
 			kill_pop = yes
 		}
@@ -117,21 +104,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 20000 }
+	is_triggered_only = yes
 	
-	trigger = {
-		NOR = { 
-			has_country_flag = had_assassinated 
-			has_ethic = ethic_gestalt_consciousness
-		}
-		ruler = {
-			is_event_leader = no
-		}
-	}
-	
-
 	immediate = {
-		set_country_flag = had_assassinated
 		kill_leader = { type = ruler show_notification = yes }
 	}
 
@@ -210,13 +185,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 3000 }
+	is_triggered_only = yes
 	
-	trigger = {
-		NOT = { has_country_flag = had_whistle }
-	}
-
-	immediate = { set_country_flag = had_whistle }
+	immediate = { }
 
 	option = {
 		name = eev_popup.4.a
@@ -247,13 +218,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 1500 }
+	is_triggered_only = yes
 	
-	trigger = {
-		NOT = { has_country_flag = had_celebrity }
-	}
-
-	immediate = { set_country_flag = had_celebrity }
+	immediate = { }
 
 	option = {
 		name = eev_popup.5.a
@@ -284,17 +251,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 3250 }
+	is_triggered_only = yes
 	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_disease
-		}
-	}
-
-	immediate = { 
-		set_country_flag = had_disease
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.6.a
@@ -335,19 +294,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 3500 }
+	is_triggered_only = yes
 	
-	trigger = {
-		is_ai = no
-		is_gestalt = no
-		NOT = { 
-			has_country_flag = had_nomadpop
-		}
-	}
-
-	immediate = { 
-		set_country_flag = had_nomadpop
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.7.a
@@ -429,6 +378,46 @@ country_event = {
 	}
 }
 
+
+# Underwater
+country_event = {
+	id = eev_popup.8
+	title = "eev_popup.8.name"
+	desc = "eev_popup.8.desc"
+	picture = GFX_evt_unspeakable_horror
+	show_sound = event_default
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = eev_popup.8.a
+		add_resource = {
+			society_research = 50
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
+		}
+	}
+	
+	option = {
+		name = eev_popup.8.b
+		add_resource = {
+			society_research = 50
+		}
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier1unityreward
+			min = @tier1unitymin
+			max = @tier1unitymax
+		}
+	}
+}
+
 # Rich Man
 country_event = {
 	id = eev_popup.9
@@ -437,17 +426,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 10000 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_rich
-		}
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_rich
-	}
+	immediate = { }
 
 	option = {
 		name = anomaly.4131.b
@@ -476,25 +457,12 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 10000 }
-	
-	trigger = {
-		is_gestalt = no
-		eev_is_heavy_metal = no
-		NOT = { 
-			has_country_flag = had_sick
-		}
-	}
-
-	immediate = { 
-		set_country_flag = had_sick
-	}
+	is_triggered_only = yes
+	immediate = { }
 
 	option = {
 		name = eev_popup.10.a
-		add_resource = {
-			energy = -300
-		}
+		add_resource = { energy = -300 }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -505,9 +473,7 @@ country_event = {
 	
 	option = {
 		name = eev_popup.10.b
-		add_resource = {
-			unity = -1000
-		}
+		add_resource = { unity = -1000 }
 		
 		random_owned_pop = {
 			kill_pop = yes
@@ -523,20 +489,8 @@ country_event = {
 	picture = GFX_evt_animal_wildlife
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 2500 }
-	
-	trigger = {
-		eev_is_heavy_metal = no
-		NOT = { 
-			has_country_flag = had_crops
-		}
-		country_uses_food = yes
-		years_passed > 15
-	}
-
-	immediate = {
-		set_country_flag = had_crops
-	}
+	is_triggered_only = yes
+	immediate = { }
 
 	option = {
 		name = eev_popup.11.b
@@ -564,20 +518,9 @@ country_event = {
 	picture = GFX_evt_unspeakable_horror
 	show_sound = event_default
 	
-	mean_time_to_happen = { months = 2500 }
+	is_triggered_only = yes
 
-	trigger = {
-		eev_is_heavy_metal = no
-		NOT = { 
-			has_country_flag = had_fish
-		}
-		country_uses_food = yes
-		years_passed > 10
-	}
-
-	immediate = { 
-		set_country_flag = had_fish
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.12.b
@@ -605,32 +548,18 @@ country_event = {
 	desc = "eev_popup.13.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_default
-	mean_time_to_happen = { months = 2500 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_manyminerals
-		}
-		years_passed > 20
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_manyminerals
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.13.a
-		add_resource = {
-			minerals = 100
-		}
+		add_resource = { minerals = 100 }
 	}
 	
 	option = {
 		name = eev_popup.13.b
-		add_resource = {
-			energy = 325
-		}
-		
+		add_resource = { energy = 325 }
 	}
 }
 
@@ -641,18 +570,9 @@ country_event = {
 	desc = "eev_popup.14.desc"
 	picture = GFX_evt_metropolis
 	show_sound = event_default
-	mean_time_to_happen = { months = 2500 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_extraprofit
-		}
-		years_passed > 15
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_extraprofit
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.14.a
@@ -670,21 +590,9 @@ country_event = {
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 
-	mean_time_to_happen = { years = 20 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_iamknown
-		}
-		resource_stockpile_compare = {
-			resource = unity
-			value > 5000
-		}
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_iamknown
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.15.a
@@ -783,17 +691,9 @@ country_event = {
 	picture = GFX_evt_unknown_ships
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 10000 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_tradersaid
-		}
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_tradersaid
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.17.a
@@ -824,17 +724,9 @@ country_event = {
 	picture = GFX_evt_physics_research
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 10000 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_scienceaid
-		}
-	}
+	is_triggered_only = yes
 
-	immediate = { 
-		set_country_flag = had_scienceaid
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.18.a
@@ -857,53 +749,6 @@ country_event = {
 	}
 }
 
-# Underwater 2
-country_event = {
-	id = eev_popup.8
-	title = "eev_popup.8.name"
-	desc = "eev_popup.8.desc"
-	picture = GFX_evt_unspeakable_horror
-	show_sound = event_default
-
-	mean_time_to_happen = { months = 7500 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_underwater
-		}
-	}
-
-	immediate = { 
-		set_country_flag = had_underwater
-	}
-
-	option = {
-		name = eev_popup.8.a
-		add_resource = {
-			society_research = 50
-		}
-		add_monthly_resource_mult = {
-			resource = unity
-			value = @tier1unityreward
-			min = @tier1unitymin
-			max = @tier1unitymax
-		}
-	}
-	
-	option = {
-		name = eev_popup.8.b
-		add_resource = {
-			society_research = 50
-		}
-		add_monthly_resource_mult = {
-			resource = unity
-			value = @tier1unityreward
-			min = @tier1unitymin
-			max = @tier1unitymax
-		}
-	}
-}
-
 # Donate
 country_event = {
 	id = eev_popup.19
@@ -914,9 +759,9 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		NOT = { 
-			has_country_flag = had_donate
-		}
+		is_ai = no
+		is_gestalt = no
+		eev_is_heavy_metal = no
 		resource_stockpile_compare = {
 			resource = energy
 			value > 9999
@@ -924,9 +769,7 @@ country_event = {
 		years_passed > 25
 	}
 
-	immediate = { 
-		set_country_flag = had_donate
-	}
+	immediate = { }
 
 	option = {
 		name = eev_popup.19.a
@@ -956,7 +799,6 @@ country_event = {
 
 	option = {
 		name = eev_popup.19.c
-		set_country_flag = had_cancer
 		add_resource = {
 			energy = -2500
 		}
@@ -965,6 +807,9 @@ country_event = {
 			value = @tier1unityreward
 			min = @tier1unitymin
 			max = @tier1unitymax
+		}
+		hidden_effect = {
+			country_event = { id = eev_popup.20 days = 300 random = 100 }
 		}
 	}
 	
@@ -981,14 +826,7 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 
-	mean_time_to_happen = { months = 15 }
-	
-	trigger = {
-		NOT = { 
-			has_country_flag = had_donate2
-		}
-		has_country_flag = had_cancer
-	}
+	is_triggered_only = yes
 
 	immediate = { 
 		set_country_flag = had_donate2
@@ -1005,37 +843,6 @@ country_event = {
 	}
 }
 
-# Infected Aliens (HIDDEN)
-planet_event = {
-	id = eev_popup.21
-	hide_window = yes
-
-	pre_triggers = {
-		has_owner = yes
-	}
-
-	trigger = {
-		NOR = { 
-			has_global_flag = had_prim
-			is_artificial = yes
-		}
-		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
-		observation_outpost_owner = { is_ai = no }
-	}
-
-	mean_time_to_happen = {
-		months = 60
-	}
-
-	immediate = {
-		set_global_flag = had_prim
-		observation_outpost_owner = {
-			country_event = { id = eev_popup.22 }
-		}
-	}
-}
-
 # Infected Aliens
 country_event = {
 	id = eev_popup.22
@@ -1046,6 +853,8 @@ country_event = {
 	location = fromfrom
 
 	is_triggered_only = yes
+
+	immediate = { }
 
 	option = {
 		name = "eev_popup.22.a"
@@ -1096,40 +905,8 @@ country_event = {
 	}
 }
 
-# Contacted (HIDDEN)
-planet_event = {
-	id = eev_popup.23
-	hide_window = yes
-
-	pre_triggers = {
-		has_owner = yes
-	}
-
-	trigger = {
-		NOT = { 
-			has_global_flag = had_contacted
-		}
-		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
-		observation_outpost_owner = { is_ai = no }
-		
-
-	}
-	
-	mean_time_to_happen = {
-		months = 750
-	}
-	
-	immediate = {
-		set_global_flag = had_contacted
-		observation_outpost_owner = {
-			country_event = { id = eev_popup.24 }
-		}
-	}
-}
-
 # Contacted
-country_event = {
+planet_event = {
 	id = eev_popup.24
 	title = "eev_popup.24.name"
 	desc = "eev_popup.24.desc"
@@ -1140,7 +917,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = had_contactednext
+		save_event_target_as = eev_contacted
+		observation_outpost_owner = { save_event_target_as = eev_station_owner }
+		planet_event = { id = eev_popup.25 days = 1400 random = 100 }
 	}
 	
 	option = {
@@ -1153,30 +932,12 @@ planet_event = {
 	id = eev_popup.25
 	hide_window = yes
 
-	pre_triggers = {
-		has_owner = yes
-	}
-
-	trigger = {
-		NOT = { 
-			has_global_flag = had_contacted2
-		}
-		has_global_flag = had_contactednext
-		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
-		observation_outpost_owner = { is_ai = no }
-		
-
-	}
-	
-	mean_time_to_happen = {
-		months = 5
-	}
+	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = had_contacted2
-		observation_outpost_owner = {
-			country_event = { id = eev_popup.26 }
+		if = {
+			limit = { has_observation_outpost = yes }
+			observation_outpost_owner = { country_event = { id = eev_popup.26 } }
 		}
 	}
 }
@@ -1188,12 +949,14 @@ country_event = {
 	desc = "eev_popup.26.desc"
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
-	location = fromfrom
+	location = event_target:eev_contacted
 
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = had_contactednext2
+		event_target:eev_contacted = {
+			planet_event = { id = eev_popup.27 days = 1400 random = 100 }
+		}
 	}
 	
 	option = {
@@ -1206,30 +969,12 @@ planet_event = {
 	id = eev_popup.27
 	hide_window = yes
 
-	pre_triggers = {
-		has_owner = yes
-	}
-
-	trigger = {
-		NOT = { 
-			has_global_flag = had_contacted3
-		}
-		has_global_flag = had_contactednext2
-		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
-		observation_outpost_owner = { is_ai = no }
-		
-
-	}
-	
-	mean_time_to_happen = {
-		months = 5
-	}
+	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = had_contacted3
-		observation_outpost_owner = {
-			country_event = { id = eev_popup.28 }
+		if = {
+			limit = { has_observation_outpost = yes }
+			observation_outpost_owner = { country_event = { id = eev_popup.28 } }
 		}
 	}
 }
@@ -1241,13 +986,11 @@ country_event = {
 	desc = "eev_popup.28.desc"
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
-	location = fromfrom
+	location = event_target:eev_contacted
 
 	is_triggered_only = yes
 	
-	immediate = {
-		set_global_flag = had_contactednext3
-	}
+	immediate = { }
 	
 	option = {
 		name = "eev_popup.28.a"
@@ -1255,56 +998,37 @@ country_event = {
 	
 	option = {
 		name = "eev_popup.28.b"
-		fromfrom = {
-			random_owned_pop = {
-				kill_pop = yes
+		trigger = {
+			event_target:eev_station_owner = {
+				OR = {
+					is_authoritarian = yes
+					is_xenophobe = yes
+				}
 			}
+		}
+		event_target:eev_contacted = {
+			random_owned_pop = { kill_pop = yes }
 		}
 	}
 	
 	option = {
 		name = "eev_popup.28.c"
-		fromfrom = {
-		    destroy_colony = yes
-			change_pc = pc_barren
-			observation_outpost = {
-				dismantle = yes
+		trigger = {
+			event_target:eev_station_owner = {
+				OR = {
+					is_authoritarian = yes
+					is_xenophobe = yes
+				}
 			}
 		}
-	}
-}
-
-# New Primitives (HIDDEN)
-planet_event = {
-	id = eev_popup.29
-	hide_window = yes
-	
-	pre_triggers = {
-		has_owner = yes
-	}
-
-	trigger = {
-		NOT = { 
-			has_global_flag = had_newprimitives
-		}
-		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
-		observation_outpost_owner = { is_ai = no }
-		
-
-	}
-	
-	mean_time_to_happen = {
-		months = 1000
-	}
-	
-	immediate = {
-		set_global_flag = had_newprimitives
-		observation_outpost_owner = {
-			country_event = { id = eev_popup.30 }
+		event_target:eev_contacted = {
+		    destroy_colony = yes
+			change_pc = pc_barren
+			observation_outpost = { dismantle = yes }
 		}
 	}
 }
+
 
 # New Primitives
 country_event = {
@@ -1316,7 +1040,6 @@ country_event = {
 	location = from
 
 	is_triggered_only = yes
-	
 	
 	option = {
 		name = INTERESTING
@@ -1346,16 +1069,9 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_mystic_reveal
 
-	mean_time_to_happen = { months = 3000 }
+	is_triggered_only = yes
 
-	trigger = {
-		is_ai = no
-		NOT = { has_country_flag = had_newsent }
-	}
-
-	immediate = { 
-		set_country_flag = had_newsent 
-	}
+	immediate = { }
 	
 	option = {
 		name = eev_popup.31.a		

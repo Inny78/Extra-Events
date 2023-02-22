@@ -491,7 +491,7 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			# 70 = { planet_event = { id = eev_popup.24 } }
+			# 70 = { planet_event = { id = eev_misplaced.1 } }
 			70 = { }
 			30 = { }
 		}

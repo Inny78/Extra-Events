@@ -191,3 +191,20 @@
  eev_unsavory_scientist_category_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate. "
  eev_unsavory_scientist.1.name: "An unappetizing scientist"
  eev_unsavory_scientist.1.desc: "While analyzing the ancient structures, a big creature sprang out from the swamp and gobbled §G[Root.GetLeaderName]§!! Minutes later however, it spat [Root.Leader.GetHerHim] out and left. §G[Root.GetLeaderName]§! is shaken but unharmed."
+
+ # 3.7 starts here
+
+ # Misplaced equipment (rewrite of eev_popup.24,26,28)
+ eev_misplaced.1.name: "Misplaced Equipment"
+ eev_misplaced.1.desc: "As per routine, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including her gun, on the planets surface. \n\nShe assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! she will retrieve her weapon."
+ eev_misplaced.1.desc_m: "As per routine, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including his gun, on the planets surface. \n\nHe assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! he will retrieve his weapon."
+ eev_misplaced.1.desc_ind: "As per routine, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including its gun, on the planets surface. \n\nIt assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! he will retrieve its weapon."
+
+ eev_misplaced.3.name: "Misplaced Equipment: Part II"
+ eev_misplaced.3.desc: "As per routine, our scientists have landed on §Y[From.GetName]§! once more. Only this time with hopes that our scientists could find some missing equipment. \n\nThey did not find anything; however, they did notice the natives' footprints scattered around as if the natives were having a party, or in some way frantically worshiping our scientists equipment."
+
+ eev_misplaced.5.name: "Misplaced Equipment: Part III"
+ eev_misplaced.5.desc: "As per routine, our scientists have landed on §Y[From.GetName]§! once more. Except this time they were greeted, and quickly surrounded by the local natives. One such native held the gun of one of our scientists. He looked more regal than the rest. Perhaps he has become a king of sorts on this planet because of his new found power. \n\n All at once they started rambling and screaming in their native language. The message was clear, to never come back. \n\nOur scientists quickly retreated and left the planet with haste."
+ eev_misplaced.5.a: "Perhaps it's better to study from afar."
+ eev_misplaced.5.b: "Kill those who oppose us. Big or small."
+ eev_misplaced.5.c: "This planet and their species are useless. Blow them up."

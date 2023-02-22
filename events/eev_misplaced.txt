@@ -1,0 +1,137 @@
+namespace = eev_misplaced
+
+# Contacted
+planet_event = {
+	id = eev_misplaced.1
+	title = "eev_misplaced.1.name"
+	desc = {
+		trigger = {
+			hidden:observation_outpost_owner = {
+				switch = {
+					trigger = species_gender
+					female = { text = eev_misplaced.1.desc }
+					male = { text = eev_misplaced.1.desc_m }
+					indeterminable = { text = eev_misplaced.1.desc_ind }
+					default = { text = eev_misplaced.1.desc_m }
+				}
+			}
+		}
+	}
+	picture = GFX_evt_asteroid_approaching_planet
+	show_sound = event_default
+	location = fromfrom
+
+	is_triggered_only = yes
+	
+	immediate = {
+		save_event_target_as = eev_misplaced
+		observation_outpost_owner = { save_event_target_as = eev_station_owner }
+		planet_event = { id = eev_misplaced.2 days = 1400 random = 100 }
+	}
+	
+	option = {
+		name = UNFORTUNATE
+	}
+}
+
+# Contacted 2 (HIDDEN)
+planet_event = {
+	id = eev_misplaced.2
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { has_observation_outpost = yes }
+			observation_outpost_owner = { country_event = { id = eev_misplaced.3 } }
+		}
+	}
+}
+
+# Contacted 2
+country_event = {
+	id = eev_misplaced.3
+	title = "eev_misplaced.3.name"
+	desc = "eev_misplaced.3.desc"
+	picture = GFX_evt_asteroid_approaching_planet
+	show_sound = event_default
+	location = event_target:eev_misplaced
+
+	is_triggered_only = yes
+	
+	immediate = {
+		event_target:eev_misplaced = {
+			planet_event = { id = eev_misplaced.4 days = 1400 random = 100 }
+		}
+	}
+	
+	option = {
+		name = INTERESTING
+	}
+}
+
+# Contacted 3 (HIDDEN)
+planet_event = {
+	id = eev_misplaced.4
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { has_observation_outpost = yes }
+			observation_outpost_owner = { country_event = { id = eev_misplaced.5 } }
+		}
+	}
+}
+
+# Contacted 3
+country_event = {
+	id = eev_misplaced.5
+	title = "eev_misplaced.5.name"
+	desc = "eev_misplaced.5.desc"
+	picture = GFX_evt_asteroid_approaching_planet
+	show_sound = event_default
+	location = event_target:eev_misplaced
+
+	is_triggered_only = yes
+	
+	immediate = { }
+	
+	option = {
+		name = "eev_misplaced.5.a"
+	}
+	
+	option = {
+		name = "eev_misplaced.5.b"
+		trigger = {
+			event_target:eev_station_owner = {
+				OR = {
+					is_authoritarian = yes
+					is_xenophobe = yes
+				}
+			}
+		}
+		event_target:eev_misplaced = {
+			random_owned_pop = { kill_pop = yes }
+		}
+	}
+	
+	option = {
+		name = "eev_misplaced.5.c"
+		trigger = {
+			event_target:eev_station_owner = {
+				OR = {
+					is_authoritarian = yes
+					is_xenophobe = yes
+				}
+			}
+		}
+		event_target:eev_misplaced = {
+		    destroy_colony = yes
+			change_pc = pc_barren
+			observation_outpost = { dismantle = yes }
+		}
+	}
+}

@@ -472,18 +472,6 @@
  eev_popup.22.a: "Lasst sie in Ruhe."
  eev_popup.22.b: "Befreit Sie von ihrem Leid."
  
- eev_popup.24.name: "Verlorende Ausrüstung"
- eev_popup.24.desc: "Normalerweise sind unsere Wissenschaftler sehr sorgfältig auf §Y[From.GetName]§! und auf guter Distanz, um Informationen über die Lebensweise dieser Aliens zu sammeln. \n\nDoch einer unserer Wissenschaftler hat sein Equipment verlegt, inklusive ihrer Pistole. Wir vermuten, dass es auf der Oberfläche des Planeten zurückgelassen wurde. \n\nUns wurde versichert, dass alles unter Kontrolle sei und das Equipment, insbesondere die Waffe, bei der nächsten Oberflächenbegehung von §Y[From.GetName]§! zurückgeholt wird."
- 
- eev_popup.26.name: "Verlorene Ausrüstung: Part II"
- eev_popup.26.desc: "Routinemäßig sind unsere Wissenschaftler wieder auf §Y[From.GetName]§! gelandet. Dieses Mal jedoch mit der zusätzlichen Hoffnung die verlorene Ausrüstung zu finden. \n\nOhne Erfolg. Jedoch fanden sie Fußspuren der Einheimischen, wild verteilt um einen Punkt, als hätten Sie gefeiert oder - gewissermaßen - das Equipment unserer Wissenschaftler angebetet."
- 
- eev_popup.28.name: "Verlorenes Equipment: Part III"
- eev_popup.28.desc: "Gemäß der Routine sind unsere Wissenschaftler erneut auf §Y[From.GetName]§! gelandet. Doch dieses Mal wurden sie begrüßt, genauer gesagt von den Einheimischen umstellt. Einer von ihnen richtete die Pistole auf einen unserer Wissenschaftler. Im Vergleich zu den anderen sah er erhaben aus. Vermutlich ist er durc seine neue Macht zu einer Art König dieser Welt aufgestiegen. \n\n Aufeinmal finden sie an in ihrer Muttersprache zu reden und zu schreien. Die Botschaft war klar: Kehrt nie wieder. \n\nUnsere Wissenschaftler zogen sich zurück."
- eev_popup.28.a: "Vielleicht ist es besser sie aus der Ferne zu studieren."
- eev_popup.28.b: "Tötet jene, die uns um Weg stehen. Egal ob groß oder klein."
- eev_popup.28.c: "Dieser Planet und seine Bevölkerung haben keinen Nutzen für uns. Vernichtet sie."
- 
  eev_popup.30.name: "Eine neue, primitive Spezies erwacht"
  eev_popup.30.desc: "Als unser Beobachtungsposten und seine Wissenschaftler §Y[From.GetName]§! studierten bemerkten sie etwas sehr seltenes und spannendes. \n\nEine neue, fühlende Spezies entwickelt sich neben der Bisherigen, die den Planeten bevölkert und unter dem Namen §SXiblibi§! bekannt ist. Nun bevölkern zwei fühlende Spezies §Y[From.GetName]§!."
  eev_popup.30.b: "Es ist besser, eine einzige herrschende Spezies zu haben. Rottet diese §SXiblibi§! aus."

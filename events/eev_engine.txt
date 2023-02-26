@@ -462,14 +462,13 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			# 70 = { planet_event = { id = eev_popup.22 days = 200 random = 100 } }
-			70 = { }
+			70 = { planet_event = { id = eev_popup.22 days = 200 random = 100 } }
 			30 = { }
 		}
 	}
 }
 
-# Contacted
+# Misplaced
 planet_event = {
 	id = eev_engine.21
 	hide_window = yes
@@ -491,8 +490,11 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			# 70 = { planet_event = { id = eev_misplaced.1 } }
-			70 = { }
+			70 = {
+				save_event_target_as = eev_misplaced
+				observation_outpost_owner = { save_event_target_as = eev_station_owner }
+				planet_event = { id = eev_misplaced.1 }
+			}
 			30 = { }
 		}
 	}
@@ -518,8 +520,7 @@ planet_event = {
 	}
 	immediate = {
 		random_list = {
-			# 70 = { observation_outpost_owner = { country_event = { id = eev_popup.30 days = 1000 random = 100 } } }
-			70 = { }
+			70 = { observation_outpost_owner = { country_event = { id = eev_popup.30 days = 1000 random = 100 } } }
 			30 = { }
 		}
 	}

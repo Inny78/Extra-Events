@@ -494,20 +494,6 @@
  eev_popup.22.a: "Deixem-nos."
  eev_popup.22.b: "Nuke o planeta!"
  
- eev_popup.24.name: "Equipamento Deixado"
- eev_popup.24.desc: "Seguindo os procedimentos padrões, nossos cientistas pousaram com muito cuidado na superfície de §Y[From.GetName]§! numa localização bastante remota com o intuito colher amostras para pesquisas futuras sobre como esses aliens vivem. \n\nUma cientista porém esqueceu parte de seu equipamento, incluindo sua arma, na superfície do planeta. \n\nEla assegura de que tudo ficará bem e que na próxima inspeção em §Y[From.GetName]§! ela recuperará sua arma."
- eev_popup.24.a: "Que pena."
- 
- eev_popup.26.name: "Equipamento Deixado: Parte II"
- eev_popup.26.desc: "Seguindo a rotina, nossos cientistas pousaram em §Y[From.GetName]§! novamente. Esperando encontrar o equipamento deixado. \n\nEles não encontraram nenhum equipamento. Entretanto, perceberam pegadas espalhadas como se os primitivos estivessem feito alguma festa, ou adoração ao equipamento da nossa cientista."
- eev_popup.26.a: "Interessante"
- 
- eev_popup.28.name: "Equipamento Deixado: Parte III"
- eev_popup.28.desc: "Como a rotina manda, nossos cientistas pousaram em §Y[From.GetName]§! mais uma vez. Porém nesse dia eles foram recebidos, e rapidamente cercados pela população nativa. Um dos nativos segurava a arma de nossa cientista. Ele parecia mais régio do que os demais. Talvez tenha se tornado um rei pelo seu novo poder encontrado. \n\n De uma vez, todos começaram a gritar em sua língua nativa. A mensagem era clara, nunca mais voltar. \n\nNossos cientistas rapidamente recuaram e deixaram o planeta com pressa."
- eev_popup.28.a: "Talvez seja melhor estudá-los à distância."
- eev_popup.28.b: "Mate aqueles que nos opõem. Grandes ou pequenos."
- eev_popup.28.c: "Esse planeta e essa espécie são inúteis. Exploda-os."
- 
  eev_popup.30.name: "Nova espécie primitiva desperta"
  eev_popup.30.desc: "Nosso posto de observação ao monitorar §Y[From.GetName]§! percebeu algo muito raro e interessante. \n\nUma nova espécie senciente evoluiu junto da espécie senciente atual e foi nomeada de "§SXiblibi§!". Duas raças sencientes agora habitam o laneta §Y[From.GetName]§!."
  eev_popup.30.a: "Interessante"

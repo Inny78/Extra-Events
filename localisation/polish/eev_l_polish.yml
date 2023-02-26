@@ -229,7 +229,7 @@
  mutiny.2.desc: "Zbuntowana załoga, po wysłuchaniu naszej propozycji negocjacyjnej, zgodziła się na odbycie kary 10 lat więzienia w ośrodku o średnim rygorze i reparacje w wysokości 500 kredytów."
  mutiny.2.a: "Wyszło dobrze."
  mutiny.3.name: "Sytuacja zneutralizowana"
- mutiny.3.desc: "Właśnie otrzymaliśmy wieści o tym co się stało, gdy pozostawiliśmy rozwiązanie sprawy samemu sobie. Wygląda na to, że zespół §G[Root.GetLeaderName]§ i on sam zostali zabici. Niemniej jednak, buntownicy zgodzili się pracować dla nas, pod warunkiem, że pozwolimy im zachować cały ładunek."
+ mutiny.3.desc: "Właśnie otrzymaliśmy wieści o tym co się stało, gdy pozostawiliśmy rozwiązanie sprawy samemu sobie. Wygląda na to, że zespół §G[Root.GetLeaderName]§! i on sam zostali zabici. Niemniej jednak, buntownicy zgodzili się pracować dla nas, pod warunkiem, że pozwolimy im zachować cały ładunek."
  mutiny.2.tooltip: "Statek naukowy zostanie wysadzony w powietrze."
 
  artificial_sun_category: "Anomalia słoneczna"
@@ -425,26 +425,26 @@
  eev_popup.11.desc: "W rzadkich przypadkach i przy sprzyjających okolicznościach, plony mogą prześcignąć czyjekolwiek oczekiwania. I to właśnie jedno z takich zdarzeń!\n\nTegoroczne zbiory są niesamowitej jakości oraz niezwykle obfite."
  eev_popup.11.a: "Cudownie!"
  eev_popup.11.b: "Zbierzcie plony."
-  eev_popup.11.c: "Keep the crops."
-#
+ eev_popup.11.c: "Keep the crops."
+
  eev_popup.12.name: "Duża ryba"
  eev_popup.12.desc: "Jeden z rybaków natknął się na niesamowicie dużą ławicę ryb - a jeśli tego byłoby mało, każda z nich przewyższała rozmiarami wszystko co do tej pory widziano!"
  eev_popup.12.b: "Sprzedać ryby."
  eev_popup.11.c: "Keep the fish."
- #
+
  eev_popup.13.name: "Bogate złoże"
  eev_popup.13.desc: "Gdy nasze drony górnicze prowadziły niekończące się poszukiwania minerałów, jeden z nich natknął się na rozległy system jaskiń wypełniony minerałami!"
  eev_popup.13.a: "Świetna wiadomość."
  eev_popup.13.b: "Sprzedać nadwyżki."
- #
+
  eev_popup.14.name: "Nadwyżka gospodarcza"
  eev_popup.14.desc: "To był wspaniały rok gospodarczy dla naszego imperium. Nasze firmy, handlowcy i obywatele zarobili sporo pieniędzy, a my mamy udział w tym zysku!"
  eev_popup.14.a: "Jesteśmy potegą ekonomiczną!"
- #
+
  eev_popup.15.name: "Jestem wielki"
  eev_popup.15.desc: "W najdalszych zakątkach galaktyki jestem znany jako wielki przywódca. Moje zwycięstwa i sposób rządzenia moim ludem przyniosły mi prestiż!"
  eev_popup.15.a: "Jestem wielki."
- #
+
  eev_popup.16.name: "Utalentowany zwierzak"
  eev_popup.16.desc: "Bliski członek rodziny zdecydował się podarować mi zwierzaka do towarzystwa. Po długim namyśle zdecydowałem, że nazwę go..."
  eev_popup.16.a: "Ceaser"
@@ -453,12 +453,12 @@
  eev_popup.16.d: "Max"
  eev_popup.16.e: "Fluffy"
  eev_popup.16.f: "Nie potrzebuję zwierzaka. Pozbyć się go." 
- #
+
  eev_popup.17.name: "Kupcy w potrzebie"
  eev_popup.17.desc: "Nasi lojalni handlowcy znaleźli się ostatnio w trudnej sytuacji. Ten rok odbiega od prognoz, co sprawiło, że wysłano do nas petycję, w której zawarto prośbę o wsparcie celem kompensacji bessy."
  eev_popup.17.a: "Trzeba im pomóc."
  eev_popup.17.b: "Poradzą sobie sami."
- #
+
  eev_popup.18.name: "Naukowcy w potrzebie"
  eev_popup.18.desc: "Nasi naukowcy mieli ostatnio pewne problemy. W szczególności odpowiada za nie wadliwy sprzęt i brak nowych rekrutów. Otrzymaliśmy również informację, że dzięki pewnej pomocy pieniężnej z naszej strony mogą stanąć na nogi w mgnieniu oka."
  eev_popup.18.a: "Należy im pomóc."
@@ -480,19 +480,7 @@
  eev_popup.22.desc: "Jeden z naszych posterunków obserwacyjnych zauważył nagły spadek ludności na §Y[From.GetName]§!. Wygląda na to, że śmiertelna w skutkach infekcjach przetrzebia populację planety. \n\nMożemy zaczekać i pozwolić aż układy immunologiczne populacji same uporają się z problemem...albo zbombardować glob i zakończyć ich cierpienia."
  eev_popup.22.a: "Poczekajmy na rozwój sytuacji."
  eev_popup.22.b: "Zbombardować planetę!"
-  
- eev_popup.24.name: "Zagubiony ekwipunek"
- eev_popup.24.desc: "Zgodnie z protokołem, nasi naukowcy wylądowali w odległym od rdzennej ludności miejscu na §Y[From.GetName]§!. \n\nNiefortunnie jednak, jeden z naszych naukowców zapodział część swojego wyposażenia, wlicząjąc w to broń, na powierzchni planety.\n\nZapewnił nas jednak, że zbierze sprzęt w trakcie kolejnego podejścia do badania zwyczajów autochtonów."
-  
- eev_popup.26.name: "Zagubiony ekwipunek: część II"
- eev_popup.26.desc: "Nasi naukowcy ponownie wylądowali na §Y[From.GetName]§!. Tym razem jednak z nadzieją, że uda się odnaleźć zaginiony ekwipunek. \n\nNiestety jednak, nie udało im się odszukać żadnej ze zgubionych rzeczy. Zauważono jednak rozproszone ślady stóp tubylców, jakby urządzali oni przyjęcie lub w jakiś sposób gorączkowo czcili sprzęt naszych naukowców."
-  
- eev_popup.28.name: "Zagubiony ekwipunek: część III"
- eev_popup.28.desc: "Nasi naukowcy ponownie wylądowali na §Y[From.GetName]§!. Tylko, że tym razem zostali powitani i szybko otoczeni przez miejscowych. Jeden z nich, wyglądający na tutejszy odpowiednik feudalnego króla. Domniemywać można, że do takiego stanu rzeczy doprowadziła ''władza'' nad naszą bronią.\n\nWszyscy zaczęli jednocześnie pokrzykiwać w swoim języku, zacieśniając jednocześnie krąg wokół naukowców. Przekaz był jasny - mamy się wynosić z tej planety i nigdy nie wracać.\n\nNasi naukowcy, nie mając wielkiego wyboru, w pośpiechu ewakuowali się na orbitę."
- eev_popup.28.a: "Lepiej obserwować tubylców z daleka."
- eev_popup.28.b: "Zabić tych, którzy się nam sprzeciwili."
- eev_popup.28.c: "Ta planeta i jej mieszkańcy są bezużyteczni. Zrównać to miejsce z ziemią!"
-  
+
  eev_popup.30.name: "Powstanie cywilizacji"
  eev_popup.30.desc: "W trakcie badań wykonywanych ze stacji obserwacyjnej na orbicie §Y[From.GetName]§!, naukowcy zauważyli coś rzadkiego i interesującego jednocześnie.\n\nNowy gatunek rozumny wyewoluował na równi ze wcześniej odkrytym przez nas. Nazwaliśmy go §SXiblibi§!. Obecnie dwie rozumne rasy zamieszkują §Y[From.GetName]§!."
  eev_popup.30.b: "Lepiej, żeby pozostał tylko jeden gatunek. Wyeliminować tych §SXiblibi§!."

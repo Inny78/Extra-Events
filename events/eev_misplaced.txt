@@ -1,31 +1,18 @@
 namespace = eev_misplaced
 
+
 # Contacted
 planet_event = {
 	id = eev_misplaced.1
 	title = "eev_misplaced.1.name"
-	desc = {
-		trigger = {
-			hidden:observation_outpost_owner = {
-				switch = {
-					trigger = species_gender
-					female = { text = eev_misplaced.1.desc }
-					male = { text = eev_misplaced.1.desc_m }
-					indeterminable = { text = eev_misplaced.1.desc_ind }
-					default = { text = eev_misplaced.1.desc_m }
-				}
-			}
-		}
-	}
+	desc = eev_misplaced.1.desc
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_default
-	location = fromfrom
+	location = event_target:eev_misplaced
 
 	is_triggered_only = yes
 	
 	immediate = {
-		save_event_target_as = eev_misplaced
-		observation_outpost_owner = { save_event_target_as = eev_station_owner }
 		planet_event = { id = eev_misplaced.2 days = 1400 random = 100 }
 	}
 	

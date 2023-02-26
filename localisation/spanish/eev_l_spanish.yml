@@ -470,19 +470,7 @@
  eev_popup.22.desc: "Uno de nuestros puestos de observación ha detectado una pandemia en §Y[From.GetName]§!. Parece una infección de nivel de extinción que ha barrido el planeta. \n\nPodríamos dejarlos estar y esperar que construyan una inmunidad. O podríamos terminar ahora y bombardear el planeta."
  eev_popup.22.a: "Déjalos ser."
  eev_popup.22.b: "Destruir el planeta!"
- 
- eev_popup.24.name: "Equipo mal colocado"
- eev_popup.24.desc: "Según la rutina, nuestros científicos han aterrizado muy cuidadosamente en §Y[From.GetName]§! en un lugar muy remoto para recoger algunas muestras para futuras investigaciones de cómo viven estos extraterrestres. \n\nUn científico sin embargo a extraviado algunos equipos, incluyendo su arma, en la superficie del planeta. \n\nElla nos asegura que todo estará bien y durante nuestra próxima inspección de §Y[From.GetName]§! ella recuperará su arma."
- 
- eev_popup.26.name: "Equipo mal colocado: Parte II"
- eev_popup.26.desc: "Según la rutina, nuestros científicos han aterrizado en §Y[From.GetName]§! una vez más. Sólo que esta vez con esperanzas de que nuestros científicos pudieran encontrar algún equipo faltante. \n\nNo encontraron ningún equipo. Sin embargo notaron las huellas del nativo esparcidas alrededor como si los nativos estuvieran teniendo una fiesta, o de alguna manera adorando frenéticamente a nuestro equipo de científicos."
- 
- eev_popup.28.name: "Equipo mal colocado: Parte III"
- eev_popup.28.desc: "Según la rutina, nuestros científicos han aterrizado en §Y[From.GetName]§! una vez más. Excepto que esta vez fueron recibidos, y rápidamente rodeados por los nativos locales. Uno de ellos sostuvo el arma de uno de nuestros científicos. Parecía su lider. Tal vez se haya convertido en un rey en este planeta debido a su nuevo poder encontrado. \n\n De repente, empezaron a caminar y gritar en su lengua materna. El mensaje era claro, para nunca volver. \n\nNuestros científicos se retiraron rápidamente y abandonaron el planeta con prisa."
- eev_popup.28.a: "Tal vez sea mejor estudiar desde lejos."
- eev_popup.28.b: "Mata a los que se oponen a nosotros. Grande o pequeño."
- eev_popup.28.c: "Este planeta y sus especies son inútiles. Explotarlos."
- 
+
  eev_popup.30.name: "Nuevas Especies Primitivas Despiertan"
  eev_popup.30.desc: "Como nuestro puesto de observación y sus científicos estaban estudiando en §Y[From.GetName]§!, notaron algo muy raro e interesante. \n\nUna nueva especie sensible ha evolucionado junto con las especies sensibles actuales ya existentes que han sido nombradas §SXiblibi§!. Dos razas sencillas diferentes habitan ahora §Y[From.GetName]§!."
  eev_popup.30.b: "Es mejor tener una especie dominante. Exterminar estos §SXiblibi§!."

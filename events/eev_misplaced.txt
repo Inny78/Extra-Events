@@ -1,7 +1,5 @@
 namespace = eev_misplaced
 
-
-# Contacted
 planet_event = {
 	id = eev_misplaced.1
 	title = "eev_misplaced.1.name"
@@ -21,7 +19,7 @@ planet_event = {
 	}
 }
 
-# Contacted 2 (HIDDEN)
+# (HIDDEN)
 planet_event = {
 	id = eev_misplaced.2
 	hide_window = yes
@@ -36,7 +34,6 @@ planet_event = {
 	}
 }
 
-# Contacted 2
 country_event = {
 	id = eev_misplaced.3
 	title = "eev_misplaced.3.name"
@@ -48,17 +45,27 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		event_target:eev_misplaced = {
-			planet_event = { id = eev_misplaced.4 days = 1400 random = 100 }
+		event_target:eev_misplaced_owner = {
+			add_awareness = 10
 		}
 	}
 	
 	option = {
 		name = INTERESTING
+		custom_tooltip = error.2.tooltip
+		hidden_effect = {
+			event_target:eev_misplaced = {
+				planet_event = { id = eev_misplaced.4 days = 1400 random = 100 }
+			}
+		}
+	}
+	option = {
+		name = eev_misplaced.3.a
+		add_resource = { society_research = 200 }
 	}
 }
 
-# Contacted 3 (HIDDEN)
+# (HIDDEN)
 planet_event = {
 	id = eev_misplaced.4
 	hide_window = yes
@@ -73,7 +80,6 @@ planet_event = {
 	}
 }
 
-# Contacted 3
 country_event = {
 	id = eev_misplaced.5
 	title = "eev_misplaced.5.name"
@@ -84,10 +90,15 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = { }
+	immediate = {
+		event_target:eev_misplaced_owner = {
+			add_awareness = 20
+		}
+	}
 	
 	option = {
 		name = "eev_misplaced.5.a"
+		add_resource = { society_research = 500 }
 	}
 	
 	option = {
@@ -102,6 +113,9 @@ country_event = {
 		}
 		event_target:eev_misplaced = {
 			random_owned_pop = { kill_pop = yes }
+		}
+		observation_breach_effect = {
+			RESOLUTION = resolution_pre_ftl_stances_non_interference
 		}
 	}
 	
@@ -119,6 +133,9 @@ country_event = {
 		    destroy_colony = yes
 			change_pc = pc_barren
 			observation_outpost = { dismantle = yes }
+		}
+		observation_breach_effect = {
+			RESOLUTION = resolution_pre_ftl_stances_non_interference
 		}
 	}
 }

@@ -247,3 +247,10 @@ eev_is_habitat = {
 		uses_district_set = skypalace
 	}
 }
+
+eev_is_modern_age = {
+	OR = {
+		has_pre_ftl_age = industrial_age
+		has_pre_ftl_age = machine_age
+	}
+}

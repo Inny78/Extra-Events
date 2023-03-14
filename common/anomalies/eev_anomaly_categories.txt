@@ -491,6 +491,13 @@ supernova_category = {
 	null_spawn_chance = 0.5
 	spawn_chance = {
 		modifier = {
+			factor = 0
+			OR = {
+				has_deposit_for = shipclass_mining_station
+				has_deposit_for = shipclass_research_station
+			}
+		}
+		modifier = {
 			add = 1
 			mid_game_years_passed < 0
 			AND = {

@@ -137,11 +137,9 @@ eev_supernova_start = {
 				exists = event_target:crisis_country #i.e. not final destruction of all matter
 				is_mobile = yes
 			}
-			set_mia = yes
+			set_mia = mia_emergency_ftl
 		}
-		else = {
-			destroy_fleet = this
-		}
+		else = { destroy_fleet = this }
 	}
 	every_system_megastructure = {
 		if = {

@@ -358,7 +358,7 @@ country_event = {
 		}
 		resource_stockpile_compare = {
 			resource = influence
-			value > 500
+			value > 200
 		}
 	}
 
@@ -450,20 +450,24 @@ planet_event = {
 
 	trigger = {
 		is_artificial = no
+		NOT = { is_planet_class = pc_nuked }
 		years_passed = 15
-		owner = { is_country_type = primitive }
+		owner = {
+			is_country_type = primitive
+			current_awareness_level < high
+		}
 		has_observation_outpost = yes
+		observation_outpost = { has_mission = passive_observation }
 		observation_outpost_owner = {
 			is_ai = no
 			is_homicidal = no
 		}
-		# observation_outpost = { has_mission = passive_observation }
 	}
 
 	immediate = {
 		random_list = {
-			70 = { planet_event = { id = eev_popup.22 days = 200 random = 100 } }
-			30 = { }
+			40 = { observation_outpost_owner = { country_event = { id = eev_popup.22 days = 200 random = 100 } } }
+			60 = { }
 		}
 	}
 }
@@ -473,29 +477,37 @@ planet_event = {
 	id = eev_engine.21
 	hide_window = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	pre_triggers = { has_owner = yes }
 
 	trigger = {
-		is_artificial = yes
-		years_passed = 20
-		owner = { is_country_type = primitive }
+		is_artificial = no
+		NOT = { is_planet_class = pc_nuked }
+		years_passed = 30
+		owner = {
+			is_country_type = primitive
+			is_pre_renaissance = yes
+			is_regular_pre_ftl = yes
+			current_awareness_level < medium
+		}
 		has_observation_outpost = yes
+		observation_outpost = { has_mission = passive_observation }
 		observation_outpost_owner = {
 			is_ai = no
 			is_homicidal = no
 		}
-		# observation_outpost = { has_mission = passive_observation }
 	}
 
 	immediate = {
 		random_list = {
-			70 = {
+			60 = {
 				save_event_target_as = eev_misplaced
+				owner = { save_event_target_as = eev_misplaced_owner }
 				observation_outpost_owner = { save_event_target_as = eev_station_owner }
-				planet_event = { id = eev_misplaced.1 }
+				planet_event = { id = eev_misplaced.1 days = 100 random = 100 }
 			}
-			30 = { }
+			40 = { }
 		}
 	}
 }
@@ -505,23 +517,67 @@ planet_event = {
 	id = eev_engine.22
 	hide_window = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	pre_triggers = { has_owner = yes }
 	
 	trigger = {
 		is_artificial = no
-		years_passed = 25
-		owner = { is_country_type = primitive }
+		years_passed = 20
+		owner = {
+			is_country_type = primitive
+			current_awareness_level < high
+		}
 		has_observation_outpost = yes
+		observation_outpost = { has_mission = passive_observation }
 		observation_outpost_owner = {
 			is_ai = no
 			is_homicidal = no
 		}
-		# observation_outpost = { has_mission = passive_observation }
 	}
 	immediate = {
 		random_list = {
-			70 = { observation_outpost_owner = { country_event = { id = eev_popup.30 days = 1000 random = 100 } } }
+			70 = { observation_outpost_owner = { country_event = { id = eev_popup.30 days = 100 random = 100 } } }
 			30 = { }
+		}
+	}
+}
+
+# Losing nerves
+planet_event = {
+	id = eev_engine.23
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	pre_triggers = { has_owner = yes }
+	
+	trigger = {
+		is_artificial = no
+		years_passed = 35
+		owner = {
+			is_country_type = primitive
+			eev_is_modern_age = yes
+			is_regular_pre_ftl = yes
+			current_awareness_level < high
+		}
+		has_observation_outpost = yes
+		observation_outpost = { has_mission = passive_observation }
+		observation_outpost_owner = {
+			is_ai = no
+			is_gestalt = no
+			is_homicidal = no
+		}
+	}
+	immediate = {
+		random_list = {
+			50 = {
+				save_event_target_as = eev_lostnerves
+				owner = { save_event_target_as = eev_lostnerves_owner }
+				observation_outpost_owner = {
+					save_event_target_as = eev_lostnerves_station_owner
+					country_event = { id = eev_losing_nerves.1 days = 100 random = 100 }
+				}
+			}
+			50 = { }
 		}
 	}
 }

@@ -1,0 +1,21 @@
+namespace = eev_losing_nerves
+
+country_event = {
+	id = eev_losing_nerves.1
+	title = eev_losing_nerves.1.name
+	desc = eev_losing_nerves.1.desc
+	picture = GFX_evt_ship_in_orbit	
+	show_sound = event_ship_bridge	
+	location = FROM			
+
+	is_triggered_only = yes		
+
+	immediate = { add_awareness = 5 }
+
+	option = {
+		name =  eev_losing_nerves.1.a
+		custom_tooltip = eev_losing_nerves.1.t
+		set_country_flag = eev_nerves_lost
+	}
+}
+

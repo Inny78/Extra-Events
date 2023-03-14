@@ -187,8 +187,8 @@
  eev_scifi.1.name: "Impossible designs"
  eev_scifi.1.desc: "The fact that a computer system survived this long on this desolate world is a miracle. There is sadly no information on the fate of this lost civilization, but the computer is full of designs of impossibly massive megastructures, some of them spanning many solar systems? Our scientists are becoming extremely excited as the incredibly advanced schematics are transmitted back to our empire. It is only after weeks of exhausting work that one of the crew members discovers that the computer was only hosting a database related to a very popular science-fiction series."
  # Unsavory Scientist
- eev_unsavory_scientist_category: "Emerging structures"
- eev_unsavory_scientist_category_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate. "
+ eev_unsavory_scientist: "Emerging structures"
+ eev_unsavory_scientist_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate. "
  eev_unsavory_scientist.1.name: "An unappetizing scientist"
  eev_unsavory_scientist.1.desc: "While analyzing the ancient structures, a big creature sprang out from the swamp and gobbled §G[Root.GetLeaderName]§!! Minutes later however, it spat [Root.Leader.GetHerHim] out and left. §G[Root.GetLeaderName]§! is shaken but unharmed."
 
@@ -200,9 +200,32 @@
 
  eev_misplaced.3.name: "Misplaced Equipment: Part II"
  eev_misplaced.3.desc: "Our scientists have returned on §Y[From.GetName]§!. Only this time with hopes that they could find some missing equipment. \n\nThey didn't find anything; however, they did notice the natives' footprints scattered around as if they were having a party, or in some way frantically worshiping our scientists equipment."
+ eev_misplaced.3.a: "We should stop landing here."
 
  eev_misplaced.5.name: "Misplaced Equipment: Part III"
  eev_misplaced.5.desc: "Once more, our scientists have landed on §Y[From.GetName]§!. Except this time they were greeted, and quickly surrounded by the local natives. One such native held the lost gun. He looked more regal than the rest. Perhaps he has become a king of sorts on this planet because of his new found power. \n\n All at once they started rambling and screaming in their native language. The message was clear, to never come back. \n\nThe team quickly retreated and left the planet with haste."
  eev_misplaced.5.a: "Perhaps it's better to study them from afar."
  eev_misplaced.5.b: "Kill those who oppose us. Big or small."
  eev_misplaced.5.c: "This planet and their species are useless. Blow them up."
+
+ # Start of an event chain
+ eev_losing_nerves.1.name: "Lost nerves"
+ eev_losing_nerves.1.desc: "One of the scientists on the observation post over §Y[eev_lostnerves.GetName]§! was watching the primitive species' savants making theories about the nature of the universe and their very wrong deductions made him go mad. His colleagues were too late to prevent him from entering an escape pod, shouting about how he will §Rfix their theories§! and they could only follow his descent onto the planet."
+ eev_losing_nerves.1.a: "This is catastrophic!"
+ eev_losing_nerves.1.t: "Anything can happen now..."
+
+ eev_losing_nerves.2.name: "New report"
+ eev_losing_nerves.2.desc_a: ""
+ eev_losing_nerves.2.desc_b: ""
+ eev_losing_nerves.2.desc_c: ""
+ eev_losing_nerves.2.desc_d: ""
+ eev_losing_nerves.2.desc_e: ""
+ eev_losing_nerves.2.desc_f: ""
+ eev_losing_nerves.2.desc_g: ""
+ eev_losing_nerves.2.desc_h: ""
+ eev_losing_nerves.2.desc_i: ""
+ eev_losing_nerves.2.desc_j: ""
+ eev_losing_nerves.2.desc_k: ""
+ eev_losing_nerves.2.a: ""
+ eev_losing_nerves.2.b: ""
+ eev_losing_nerves.2.c: ""

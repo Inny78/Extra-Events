@@ -23,11 +23,9 @@ ship_event = {
 	}
 	option = {
 		trigger = {
-			root = {
-				is_ship_size = science
-			}
-			leader = {
-				eev_is_scientist_cautious = yes
+			OR = {
+				NOT = { is_ship_size = science }
+				leader = { eev_is_scientist_cautious = yes }
 			}
 		}
 		name = MAKE_IT_SO
@@ -37,26 +35,14 @@ ship_event = {
 	}
 	option = {
 		trigger = {
-			root = {
-				NOT = { is_ship_size = science }
-			}
-			leader = {
-				eev_is_scientist_cautious = no
-			}
+			root = { is_ship_size = science }
+			leader = { eev_is_scientist_cautious = no }
 		}
 		name = MAKE_IT_SO
 		hidden_effect = {
 			ship_event = { id = supernova.2 days = 35 }
 		}
 	}
-	# option = {
-	# 	trigger = {
-	# 		root = {
-	# 			is_ship_size = precursor_oracle
-	# 		}
-	# 	}
-	# 	name = x
-	# }
 }
 
 ship_event = {
@@ -73,9 +59,7 @@ ship_event = {
 	    kill_leader = { type = scientist show_notification = yes }
 		fleet = { destroy_fleet = this }
 		event_target:eev_supernova = {
-			solar_system = {
-				eev_supernova_start = yes
-			}				
+			solar_system = { eev_supernova_start = yes }				
 		}
 	}
 	
@@ -114,12 +98,10 @@ ship_event = {
 	immediate = {
 		fleet = {
 			set_event_locked = no
-			set_mia = yes
+			set_mia = mia_emergency_ftl
 		}
 		event_target:eev_supernova = {
-			solar_system = {
-				eev_supernova_start = yes
-			}				
+			solar_system = { eev_supernova_start = yes }				
 		}
 	}
 
@@ -206,9 +188,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		from = {
-			add_deposit = d_physics_5
-		}
+		from = { add_deposit = d_physics_5 }
 	}
 	
 	option = {

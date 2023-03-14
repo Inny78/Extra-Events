@@ -185,8 +185,8 @@
  eev_scifi.1.name: "Schémas impossibles"
  eev_scifi.1.desc: "Le fait qu'un seul ordinateur ait survécu aussi longtemps sur ce monde désolé est un miracle. Il n'y a malheureusement aucunbe information sur le destin de cette civilisation perdue, mais l'ordinateur est rempli de schémas de mégastructrure impossiblement massives, certaines s'étendant sur plusieurs systèmes solaires ? Nos chercheurs deviennent extrêmement excités tandis que ces schémas incroyablement avancés sont transmis vers notre empire. Ce n'est qu'après des semaines de travail épuisant qu'un membre de l'équipage découvre que l'ordinateur ne contenait qu'une base de données concernant une série de science-fiction très populaire."
  # Unsavory Scientist
- eev_unsavory_scientist_category: "Structures englouties"
- eev_unsavory_scientist_category_desc: "Notre vaisseau scientifique a détecté des structures artificielles émergeant d'un vaste marais sur cette planète, et §G[Root.GetLeaderName]§! a décidé d'enquêter sur place."
+ eev_unsavory_scientist: "Structures englouties"
+ eev_unsavory_scientist_desc: "Notre vaisseau scientifique a détecté des structures artificielles émergeant d'un vaste marais sur cette planète, et §G[Root.GetLeaderName]§! a décidé d'enquêter sur place."
  eev_unsavory_scientist.1.name: "Un scientifique peu appétissant"
  eev_unsavory_scientist.1.desc: "Pendant que l'équipe étudiait les anciennes structures, une grande créature jaillit du marais et avale §G[Root.GetLeaderName]§!! Quelques minutes plus tard cependant, elle le recrache et s'en va. §G[Root.GetLeaderName]§! est secoué mais intact."
 
@@ -198,9 +198,16 @@
  
  eev_misplaced.3.name: "Équipement oublié, partie II"
  eev_misplaced.3.desc: "Notre équipe scientifique est retournée sur §Y[From.GetName]§!. Nous espérons aussi retrouver l'équipement perdu. \n\nSans succès. Toutefois, nous avons observé de nombreuses traces de pas un peu partout et dans tous les sens comme si les locaux avaient dansé ou s'étaient mis à vénérer avec frénésie notre matériel."
+ eev_misplaced.3.a: "Nous devrions cesser de nous poser ici."
  
  eev_misplaced.5.name: "Équipement oublié, partie III"
  eev_misplaced.5.desc: "Notre équipe scientifique a encore atterri sur §Y[From.GetName]§!. Cette fois, nous avons vite été accueillis et entourés par les locaux. L'un de ces locaux tenait le pistolet égaré.  Il semblait avoir un statut plus important que le reste du groupe. Peut-être était-il devenu une espèce de roi après cette découverte qui le rendait tout puissant. \n\n Quoiqu'il en soit, ils se sont mis à crier dans leur propre langage et à gesticuler.  Le message semble clair, ils veulent que nous quittions les lieux sans y remettre les pieds. \n\nNotre équipe s'est retirée rapidement et nous avons quitté la planète."
  eev_misplaced.5.a: "Peut-être est-il préférable des les étudier à distance."
  eev_misplaced.5.b: "Tuez tous ceux qui s'opposent à nous."
  eev_misplaced.5.c: "Cette planète et sa population idiote sont insignifiants. Faites-moi exploser tout ça !."
+
+ # Start of an event chain
+ eev_losing_nerves.1.name: "Perte de contrôle"
+ eev_losing_nerves.1.desc: "L'un des scientifiques de la station d'observation au-dessus de §Y[eev_lostnerves.GetName]§! était en train de regarder leurs savants faire des théories sur la nature de l'univers leurs déductions particulièrement erronnées lui ont fait perdre ses nerfs. Ses collègues n'ont pu l'empêcher d'entrer dans une capsule de sauvetage, criant qu'il allait §Rcorriger leurs théories§! et ils n'ont pu que suivre sa descente vers la planète."
+ eev_losing_nerves.1.a: "C'est catastrophique !"
+ eev_losing_nerves.1.t: "Tout peut arriver maintenant..."

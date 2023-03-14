@@ -613,6 +613,7 @@ country_event = {
 	picture = GFX_evt_throne_room
 	show_sound = event_default
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
 		is_gestalt = no
@@ -757,6 +758,7 @@ country_event = {
 	picture = GFX_evt_smugglers_in_bar
 	show_sound = event_default
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
 		is_ai = no
@@ -858,9 +860,7 @@ country_event = {
 
 	option = {
 		name = "eev_popup.22.a"
-		add_resource = {
-			society_research = 250
-		}
+		add_resource = { society_research = 250 }
 	}
 
 	option = {
@@ -868,16 +868,23 @@ country_event = {
 		trigger = {
 			is_xenophobe = no
 			is_homicidal = no
-			NOT = { has_policy_flag = interference_passive }
+			NOR = {
+				has_policy_flag = interference_not_allowed
+				has_policy_flag = interference_subtle
+			}
 		}
-		add_resource = {
-			society_research = 200
-		}
+		add_resource = { society_research = 200 }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
 			min = @tier1unitymin
 			max = @tier1unitymax
+		}
+		observation_breach_effect = {
+			RESOLUTION = resolution_pre_ftl_stances_non_interference
+		}
+		fromfrom.owner = {
+			add_awareness = 5
 		}
 	}
 	
@@ -889,6 +896,7 @@ country_event = {
 				is_homicidal = yes
 			}
 		}
+		add_resource = { energy = -25 }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -897,10 +905,8 @@ country_event = {
 		}
 		fromfrom = {
 		    destroy_colony = yes
-			change_pc = pc_barren
-			observation_outpost = {
-				dismantle = yes
-			}
+			change_pc = pc_nuked
+			observation_outpost = { dismantle = yes }
 		}
 	}
 }
@@ -933,6 +939,12 @@ country_event = {
 	
 	option = {
 		name = "eev_popup.30.b"
+		observation_breach_effect = {
+			RESOLUTION = resolution_pre_ftl_stances_non_interference
+		}
+		fromfrom.owner = {
+			add_awareness = 5
+		}
 	}
 }
 

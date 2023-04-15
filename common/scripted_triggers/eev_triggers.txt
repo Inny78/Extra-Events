@@ -49,7 +49,6 @@ eev_is_frozen = {
 		# All These Worlds
 		atw_is_frozen = yes
 		# Planetary Diversity
-		is_planet_class = pc_subglacial
 		is_pd_arctic = yes
 	}
 }
@@ -57,10 +56,6 @@ eev_is_frozen = {
 eev_is_gas_giant = {
 	OR = {
 		is_planet_class = pc_gas_giant
-		# Planetary Diversity
-		is_planet_class = pc_hot_gas_giant
-		is_planet_class = pc_cloudless_gas_giant
-		is_planet_class = pc_cold_gas_giant
 		# All these worlds
 		atw_is_gas_giant = yes
 	}
@@ -91,16 +86,8 @@ eev_is_uninhabitable = {
 	OR = {
 		uninhabitable_regular_planet = yes
 		# Planetary Diversity
-		is_planet_class = pc_diamond
-		is_planet_class = pc_chthonian
-		is_planet_class = pc_volcanic
-		is_planet_class = pc_subglacial
-		is_planet_class = pc_hydrocarbon
 		is_planet_class = pc_hothouse
-		is_planet_class = pc_iron
-		is_planet_class = pc_carbon
 		is_planet_class = pc_karst
-		is_planet_class = pc_ethane_ocean
 		# All These Worlds
 		atw_is_barren = yes
 		atw_is_barren_cold = yes

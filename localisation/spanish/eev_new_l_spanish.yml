@@ -212,3 +212,22 @@
  eev_losing_nerves.1.desc: "One of the scientists on the observation post over §Y[eev_lostnerves.GetName]§! was watching the primitive species' savants making theories about the nature of the universe and their very wrong deductions made him go mad. His colleagues were too late to prevent him from entering an escape pod, shouting about how he will §Rfix their theories§! and they could only follow his descent onto the planet."
  eev_losing_nerves.1.a: "This is catastrophic!"
  eev_losing_nerves.1.t: "Anything can happen now..."
+
+ eev_losing_nerves.2.name: "New report"
+ eev_losing_nerves.2.desc_mil: "Despite their primitive technology, the natives of §Y[eev_lostnerves.GetName]§! destroyed the life pod before our scientist could even get out of it. They will gain a limited insight from the remaining debris, but the damage is still important."
+ eev_losing_nerves.2.desc_phobe: "The natives of §Y[eev_lostnerves.GetName]§! were quite horrified by our scientist's appearance and opened fire by pure instinct. They brought back the lifepod to a scientific compound. This will have a huge impact on this society."
+ eev_losing_nerves.2.desc_phile: "Our rogue scientist on §Y[eev_lostnerves.GetName]§! has been located, completely ignored by the natives as a festival involving grotesque disguises is going on. We can take advantage of it if we act quickly enough."
+ eev_losing_nerves.2.desc_mat: "Our rogue scientist on §Y[eev_lostnerves.GetName]§! has been welcomed with surprise and excitement. His scientific explanations are widely spread around the world. This is a catastrophe for the natural evolution of this society."
+ eev_losing_nerves.2.desc_spirit: "Our rogue scientist on §Y[eev_lostnerves.GetName]§! has first been welcomed with surprise and excitement, but the radical scientific explanations he's proposing hurts their beliefs so much that they soon decide to brutally silence it. This will still have an important impact on their society."
+ eev_losing_nerves.2.a: "Leave this society to itself, the damage is done already."
+ eev_losing_nerves.2.b: "Keep observing. At least we can learn something from this mess."
+ eev_losing_nerves.2.c: "Send a team to clean this mess as discreetly as possible."
+ eev_losing_nerves.2.d: "We can't let these primitives be aware of our existence. Strike them down."
+ eev_losing_nerves.2.ta: "The observation outpost will be dismantled."
+ eev_losing_nerves.2.td: "The planet will be nuked and the observation post dismantled."
+
+# Mossy Planet
+ eev_cushion_world: "Comfortable tundra"
+ eev_cushion_world_desc: "Our sensors are detecting a surprisingly high density of flora on this tundra world. Our scientists are preparing an investigation to find out why."
+ eev_mossy_planet.1.name: "Cushion world"
+ eev_mossy_planet.1.desc: "The flora of this planet evolved to grow as comfortable cushions. Animals gather to sleep on them, providing heat and nutriments. This mutually beneficial relationship has proved quite efficient and the crew spots some cat-like animals living their best life on these plants."

@@ -53,6 +53,14 @@ eev_is_frozen = {
 	}
 }
 
+eev_is_tundra = {
+	OR = {
+		is_planet_class = pc_tundra
+		is_pd_tundra = yes
+		atw_is_tundra = yes
+	}
+}
+
 eev_is_gas_giant = {
 	OR = {
 		is_planet_class = pc_gas_giant

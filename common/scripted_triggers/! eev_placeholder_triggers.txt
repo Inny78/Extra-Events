@@ -10,6 +10,7 @@ is_pd_desert = { always = no }
 is_pd_ocean = { always = no }
 is_pd_aquatics = { always = no }
 is_pd_arctic = { always = no }
+is_pd_tundra = { always = no }
 atw_is_continental = { always = no }
 atw_is_desert = { always = no }
 atw_is_ocean_basic = { always = no }
@@ -20,3 +21,4 @@ atw_is_barren_cold = { always = no }
 atw_is_molten = { always = no }
 atw_is_toxic = { always = no }
 atw_is_frozen = { always = no }
+atw_is_tundra = { always = no }

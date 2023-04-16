@@ -641,19 +641,13 @@ eev_tower_city_category = {
 			add = 1
 			solar_system = {
 				any_system_planet = {
-					NOT = {
-						exists = archaeological_site
-					}
+					NOT = { exists = archaeological_site }
 				}
 			}
 			OR = {
 				is_planet_class = pc_gas_giant
-				# Planetary Diversity
-				is_planet_class = pc_cold_gas_giant
-				is_planet_class = pc_cloudless_gas_giant
 				# All These Worlds
-				is_planet_class = orbit_temperate_giant
-				is_planet_class = orbit_cloudless_giant
+				atw_is_gas_giant = yes
 			}
 		}
 	}
@@ -769,11 +763,28 @@ eev_unsavory_scientist = {
 	spawn_chance = {
 		modifier = {
 			add = 1
-			eev_is_continental = yes
+			OR = {
+				eev_is_continental = yes
+				eev_is_tundra = yes
+			}
 			from.fleet.leader.species = {
 				OR = { is_archetype = MACHINE is_archetype = ROBOT is_archetype = LITHOID }
 			}
 		}
 	}
 	on_success = eev_unsavory_scientist.1
+}
+
+# Mossy planet
+eev_cushion_world = {
+	desc = eev_cushion_world_desc
+	picture = GFX_evt_tundra
+	level = 3
+	spawn_chance = {
+		modifier = {
+			add = 1
+			eev_is_tundra = yes
+		}
+	}
+	on_success = eev_mossy_planet.1
 }

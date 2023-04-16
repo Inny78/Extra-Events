@@ -211,3 +211,22 @@
  eev_losing_nerves.1.desc: "L'un des scientifiques de la station d'observation au-dessus de §Y[eev_lostnerves.GetName]§! était en train de regarder leurs savants faire des théories sur la nature de l'univers leurs déductions particulièrement erronnées lui ont fait perdre ses nerfs. Ses collègues n'ont pu l'empêcher d'entrer dans une capsule de sauvetage, criant qu'il allait §Rcorriger leurs théories§! et ils n'ont pu que suivre sa descente vers la planète."
  eev_losing_nerves.1.a: "C'est catastrophique !"
  eev_losing_nerves.1.t: "Tout peut arriver maintenant..."
+
+ eev_losing_nerves.2.name: "Nouveau rapport"
+ eev_losing_nerves.2.desc_mil: "En dépit de leur technologie primitive, les natifs de §Y[eev_lostnerves.GetName]§! ont détruit la capsule de sauvetage avant même que notre chercheur puisse en sortir. Ils tireront des informations limitées des débris restants, mais les dommages sont quand même importants."
+ eev_losing_nerves.2.desc_phobe: "Les natifs de §Y[eev_lostnerves.GetName]§! ont été particulièrement horrifiés par l'apparence de notre chercheur et ont ouvert le feu par pur instinct. Ils ont ramené la capsule de sauvetage dans un centre de recherches. Ceci aura un large impact sur leur société."
+ eev_losing_nerves.2.desc_phile: "Notre scientifique rebelle sur §Y[eev_lostnerves.GetName]§! a été localisé, complètement ignoré par les natifs alors qu'un festival impliquant des déguisements grotesques se déroule. Nous pouvons en tirer parti si nous agissons rapidement."
+ eev_losing_nerves.2.desc_mat: "Notre scientifique rebelle sur §Y[eev_lostnerves.GetName]§! a été accueilli avec surprise et excitation. Ses explications scientifiques sont largement diffusées autour du globe. C'est une catastrophe pour l'évolution naturelle de leur société."
+ eev_losing_nerves.2.desc_spirit: "Notre scientifique rebelle sur §Y[eev_lostnerves.GetName]§! a été d'abord accueilli avec surprise et excitation, mais les explications scientifiques radicales qu'il propose blesse leurs convictions si brutalement qu'ils decident rapidement de le réduire au silence en l'assassinant. Ceci aura un important impact sur leur société."
+ eev_losing_nerves.2.a: "Laissez cette société se débrouiller par elle-même, les dégâts sont déjà faits."
+ eev_losing_nerves.2.b: "Continuez à observer. Au moins nous pouvons apprendre quelque chose de tout ça."
+ eev_losing_nerves.2.c: "Envoyez une équipe faire le ménage aussi discrètement que possible."
+ eev_losing_nerves.2.d: "Nous ne pouvons laisser ces primitifs être au courant de notre existence. Détruisez-les."
+ eev_losing_nerves.2.ta: "La station d'observation va être démantelée."
+ eev_losing_nerves.2.td: "La planète sera irradiée et a station d'observation démantelée."
+
+# Mossy Planet
+ eev_cushion_world: "Toundra confortable"
+ eev_cushion_world_desc: "Nos détecteurs ont relevé une densité étonnament élevée de plantes sur cette planète majoritairement couverte de toundras. L'équipe prépare une investigation pour en découvrir la raison."
+ eev_mossy_planet.1.name: "Un monde douillet"
+ eev_mossy_planet.1.desc: "La flore de cette planète a évolué pour pousser sous forme de coussins confortables. Les animaux se rassemblent pour dormir dessus, fournissant chaleur et nutriments. Cette relation mutuellement bénéficiaire s'est révélée très efficace l'équipe a remarqué des sortes de chats vivant leur meilleure vie sur ces plantes."

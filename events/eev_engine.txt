@@ -560,7 +560,6 @@ planet_event = {
 			current_awareness_level < high
 		}
 		has_observation_outpost = yes
-		observation_outpost = { has_mission = passive_observation }
 		observation_outpost_owner = {
 			is_ai = no
 			is_gestalt = no
@@ -569,7 +568,7 @@ planet_event = {
 	}
 	immediate = {
 		random_list = {
-			50 = {
+			40 = {
 				save_event_target_as = eev_lostnerves
 				owner = { save_event_target_as = eev_lostnerves_owner }
 				observation_outpost_owner = {

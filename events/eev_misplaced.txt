@@ -105,14 +105,14 @@ country_event = {
 		name = "eev_misplaced.5.b"
 		trigger = {
 			event_target:eev_station_owner = {
-				OR = {
-					is_authoritarian = yes
-					is_xenophobe = yes
-				}
+				has_policy_flag = interference_aggressive
 			}
 		}
 		event_target:eev_misplaced = {
 			random_owned_pop = { kill_pop = yes }
+		}
+		event_target:eev_misplaced_owner = {
+			add_awareness = 5
 		}
 		observation_breach_effect = {
 			RESOLUTION = resolution_pre_ftl_stances_non_interference
@@ -123,15 +123,13 @@ country_event = {
 		name = "eev_misplaced.5.c"
 		trigger = {
 			event_target:eev_station_owner = {
-				OR = {
-					is_authoritarian = yes
-					is_xenophobe = yes
-				}
+				has_policy_flag = interference_aggressive
 			}
 		}
 		event_target:eev_misplaced = {
 		    destroy_colony = yes
 			change_pc = pc_barren
+			reset_planet = yes
 			observation_outpost = { dismantle = yes }
 		}
 		observation_breach_effect = {

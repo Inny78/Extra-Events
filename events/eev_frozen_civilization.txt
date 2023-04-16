@@ -21,6 +21,14 @@ ship_event = {
 	immediate = {
 		from = {
 			change_pc = pc_ocean
+			reset_planet = yes
+			generate_early_pre_ftls_on_planet = yes
+			set_name = random
+			last_created_country = {
+				set_country_flag = reached_full_awareness_once
+				set_country_flag = first_contact_completed@root.owner
+				set_awareness = 100
+			}
 		}
 	}
 	

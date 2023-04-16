@@ -8,23 +8,23 @@
 # Last Words Anomaly
 namespace = last_words
 
-ship_event = {				
-	id = last_words.1		
+ship_event = {
+	id = last_words.1
 	title = last_words.1.name
 	desc = last_words.1.desc
 	picture = GFX_evt_ship_in_orbit	
-	show_sound = event_ship_bridge	
-	location = FROM			
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
-	immediate = {		
+	immediate = {
 		owner = { country_event = { id = story.5 days = 30 } }
 	}
 
 	option = {
-		name = last_words.1.a 		
-		leader = {			
+		name = last_words.1.a
+		leader = {
 			add_experience = 150
 		}
 		

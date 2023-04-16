@@ -94,8 +94,8 @@ eev_is_uninhabitable = {
 	OR = {
 		uninhabitable_regular_planet = yes
 		# Planetary Diversity
-		is_planet_class = pc_hothouse
-		is_planet_class = pc_karst
+		is_pd_toxic = yes
+		is_pd_barren = yes
 		# All These Worlds
 		atw_is_barren = yes
 		atw_is_barren_cold = yes
@@ -168,6 +168,7 @@ eev_is_valid_system = {
 # Listing habitats
 eev_is_habitat = {
 	OR = {
+		is_planet_class = pc_habitat
 		# Starborn: Improved Voidtouched
 		uses_district_set = starborn_start
 		# Acquisition of Technology

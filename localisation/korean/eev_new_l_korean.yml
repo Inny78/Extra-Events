@@ -104,7 +104,7 @@
 # Start menu
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Do you want to activate or deactivate the most destructive events? These can destroy planets or entire systems."
- eev_start_menu.1.START: "Start"
+ eev_start_menu.1.START: "Start the game"
  eev_start_menu.1.no_kaboom: "§GDeactivate§!"
  eev_start_menu.1.no_kaboomTT: "This will §Gprevent§! the destructive events to happen."
  eev_start_menu.1.kaboom: "§RActivate§!"

@@ -103,7 +103,7 @@
 # Start menu
  eev_start_menu.1.name: "Configuration"
  eev_start_menu.1.desc: "Voulez-vous activer ou désactiver les événements les plus destructeurs ? Ceux-ci peuvent détruire des planètes ou des systèmes solaires entiers."
- eev_start_menu.1.START: "Commencer"
+ eev_start_menu.1.START: "Commencer la partie"
  eev_start_menu.1.no_kaboom: "§GDésactiver§!"
  eev_start_menu.1.no_kaboomTT: "Ceci §Gempêchera§! les événements destructeurs de se produire."
  eev_start_menu.1.kaboom: "§RActiver§!"

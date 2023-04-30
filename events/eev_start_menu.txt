@@ -46,6 +46,6 @@ country_event = {
 				has_global_flag = eev_no_kaboom
 			}
 		}
+		default_hide_option = yes
 	}
-
 }

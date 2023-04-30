@@ -24,3 +24,7 @@ atw_is_molten = { always = no }
 atw_is_toxic = { always = no }
 atw_is_frozen = { always = no }
 atw_is_tundra = { always = no }
+is_aot_habitat = { always = no }
+is_pc_mem_vazuran_habitat = { always = no }
+is_ds_skycatcher = { always = no }
+is_giga_habitat = { always = no }

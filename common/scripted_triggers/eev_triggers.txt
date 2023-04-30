@@ -171,34 +171,32 @@ eev_is_habitat = {
 		is_planet_class = pc_habitat
 		# Starborn: Improved Voidtouched
 		uses_district_set = starborn_start
+		is_planet_class = pc_habitat
+		uses_district_set = habitat
 		# Acquisition of Technology
-		is_planet_class = pc_dm_habitat
-		is_planet_class = pc_ae_habitat
-		is_planet_class = pc_sigma_habitat
-		is_planet_class = pc_sigma_deepspace_habitat
+		is_aot_habitat = yes
 		# Blue Archive
-		is_planet_class = pc_BA_auto_habitat
+		uses_district_set = BA_auto_habitat
+		# DarkSpace
+		is_ds_skycatcher = yes
 		# Gigastructural Engineering & More
-		is_planet_class = pc_interstellar_habitat
-		is_planet_class = pc_giga_elysium
-		is_planet_class = pc_ehof_habitat
-		is_planet_class = pc_giga_orbital
+		is_giga_habitat = yes
 		# Habitation
 		has_planet_flag = hab_init
 		# Living Space
 		has_planet_flag = stpg_planetary_habitat
 		# More Events Mod
-		is_planet_class = pc_mem_vazuran_habitat
+		is_pc_mem_vazuran_habitat = yes
 		# Nyto Species Pack
-		is_planet_class = pc_GFnytp_habitis
+		uses_district_set = GF_nyto_devil_furnace_world
 		# Planetary Diversity
 		is_pd_habitat = yes
-		# Plentiful Traditions
-		is_planet_class = pc_habitat_robot
 		# NSC2 Modjam Freebooters Origin
 		uses_district_set = nsc_freebooter_habitat
 		# Twinks Atlantean
 		uses_district_set = skypalace
+		# ZOFE
+		uses_district_set = utopian_habitat
 	}
 }
 
@@ -206,5 +204,15 @@ eev_is_modern_age = {
 	OR = {
 		has_pre_ftl_age = industrial_age
 		has_pre_ftl_age = machine_age
+	}
+}
+
+eev_is_leader_immortal = {
+	OR = {
+		is_immortal = yes
+		has_trait = leader_trait_scientist_composer_chosen
+		has_trait = leader_trait_scientist_instrument_chosen
+		has_trait = leader_trait_scientist_whisperers_chosen
+		has_trait = leader_trait_scientist_chosen
 	}
 }

@@ -107,7 +107,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		kill_leader = { type = ruler show_notification = yes }
+		ruler = { kill_leader = { show_notification = yes } }
 	}
 
 	option = {
@@ -896,7 +896,7 @@ country_event = {
 				is_homicidal = yes
 			}
 		}
-		add_resource = { energy = -25 }
+		add_resource = { energy = -200 }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -907,6 +907,9 @@ country_event = {
 		    destroy_colony = yes
 			change_pc = pc_nuked
 			observation_outpost = { dismantle = yes }
+		}
+		observation_breach_effect = {
+			RESOLUTION = resolution_pre_ftl_stances_non_interference
 		}
 	}
 }

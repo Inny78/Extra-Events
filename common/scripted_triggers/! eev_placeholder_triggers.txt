@@ -1,4 +1,4 @@
-# Dummy triggers - to be overwritten by their respective mods.
+# Irony this is a placeholder file please ignore it
 is_pd_habitat = { always = no }
 cohesive_system = { always = no }
 urmazin_system = { always = no }

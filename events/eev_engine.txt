@@ -76,8 +76,8 @@ country_event = {
 
 	immediate = {
 		random_list = {
-			20 = { country_event = { id = eev_popup.3 days = 500 random = 400 } }
-			80 = { }
+			5 = { country_event = { id = eev_popup.3 days = 500 random = 400 } }
+			95 = { }
 		}
 	}
 }

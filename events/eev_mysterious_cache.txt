@@ -21,8 +21,14 @@ ship_event = {
 	option = {
 		name = INTRIGUING
 		leader = {
-			add_experience = 75
-			add_trait = leader_trait_expertise_materials
+			if = {
+				limit = { NOT = { has_trait_tier1or2or3 = { TRAIT = { leader_trait_observant } } } }
+				add_trait = leader_trait_observant
+				add_experience = 75
+			}
+			else = {
+				add_experience = 300
+			}
 		}
 		
 		owner = {

@@ -49,10 +49,21 @@ ship_event = {
 			}
 		}
 		leader = {
-			add_experience = 400
-			add_trait = leader_trait_meticulous
+			if = {
+				limit = {
+					NAND = {
+						has_trait_tier1or2 = { TRAIT = leader_trait_carefree }
+						has_trait_tier1or2 = { TRAIT = leader_trait_meticulous }
+					}
+				}
+				add_experience = 100
+				add_trait = leader_trait_meticulous
+			}
+			else = {
+				add_experience = 400
+			}
 		}
-		
+
 		owner = {
 			add_monthly_resource_mult = {
 				resource = energy
@@ -122,8 +133,19 @@ ship_event = {
 			}
 		}
 		leader = {
-			add_experience = 400
-			add_trait = leader_trait_meticulous
+			if = {
+				limit = {
+					NAND = {
+						has_trait_tier1or2 = { TRAIT = leader_trait_carefree }
+						has_trait_tier1or2 = { TRAIT = leader_trait_meticulous }
+					}
+				}
+				add_experience = 100
+				add_trait = leader_trait_meticulous
+			}
+			else = {
+				add_experience = 400
+			}
 		}
 	}
 }

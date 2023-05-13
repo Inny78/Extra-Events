@@ -13,6 +13,11 @@ country_event = {
 		is_ai = no
 		is_hive_empire = yes
 		years_passed > 30
+		NAND = {
+			has_diagraphers_trait_mod = yes
+			any_owned_pop = { is_multihive_drone = yes }
+		}
+		any_owned_pop = { is_td_multi_hiveminded = yes }		
 	}
 	immediate = {
 		random_list = {

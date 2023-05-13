@@ -28,3 +28,6 @@ is_aot_habitat = { always = no }
 is_pc_mem_vazuran_habitat = { always = no }
 is_ds_skycatcher = { always = no }
 is_giga_habitat = { always = no }
+has_diagraphers_trait_mod = { always = no }
+is_td_multi_hiveminded = { always = no }
+is_multihive_drone = { always = no }

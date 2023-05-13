@@ -22,7 +22,7 @@ ship_event = {
 		name = INTRIGUING
 		leader = {
 			if = {
-				limit = { NOT = { has_trait_tier1or2or3 = { TRAIT = { leader_trait_observant } } } }
+				limit = { NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_observant } } }
 				add_trait = leader_trait_observant
 				add_experience = 75
 			}
@@ -30,7 +30,7 @@ ship_event = {
 				add_experience = 300
 			}
 		}
-		
+
 		owner = {
 			add_monthly_resource_mult = {
 				resource = alloys

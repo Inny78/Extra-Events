@@ -51,9 +51,10 @@ ship_event = {
 		leader = {
 			if = {
 				limit = {
-					NAND = {
+					NOR = {
 						has_trait_tier1or2 = { TRAIT = leader_trait_carefree }
 						has_trait_tier1or2 = { TRAIT = leader_trait_meticulous }
+						has_trait = leader_trait_maniacal
 					}
 				}
 				add_experience = 100

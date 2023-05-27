@@ -266,16 +266,10 @@
 
  boom_asteroid_category: "Metliczna struktura"
  boom_asteroid_category_desc: "Załoga zauważyła na powierzchni §Y[Root.GetName]§! nienaturalne, metaliczne struktury."
- boom_asteroid.1.name: "Ekslpozacja nuklearna"
- boom_asteroid.1.desc: "Gdy tylko załoga §B[Root.GetFleetName]§! wylądowała na planecie celem bliższego zbadania metalicznych struktur, rozległ się głośny alarm. Wraz z jego włączeniem się, aktywowane zostało również coś, co zostało szybko zidentyfikowane jako odliczanie. W tym też momencie, załoga spostrzegła obiekt znacznych rozmiarów przypominający bombę nuklearną.\n\nZespół badawczy podjął próbę rozbrojenia urządzenia, jednak jego oprogramowanie zostało stworzone w nieznanym nikomu języku.\n\nWkrótce potem, cały glob eksplodował. Nadal nie wiemy jaki był cel alarmu, ani w jakim celu stworzono urządzenie zdolne zniszczyć planetę..."
- boom_asteroid.1.a: "Straszny los."
 
  #1.8
  unstable_gas_category: "Niestabilny gazowy olbrzym"
  unstable_gas_category_desc: "Dokładniejsze skanowanie §Y[Root.GetName]§! wykryło, że gazowy gigant jest wysoce niestabilny."
- unstable_gas.1.name: "Narodziny słońca"
- unstable_gas.1.desc: "Zakładając odpowiednią masę i ilość wodoru, gazowy olbrzym może stać się słońcem, a §Y[From.GetName]§! wpisuje się w ten schemat!\n\nW trakcie dalszej analizy gazowego olbrzyma, §G[Root.GetLeaderName]§! i załoga §B[Root.GetFleetName]§! odkryli, że §Y[From.GetName]§! znajduje się w ostatniej fazie przemiany w słońce. Nieszczęśliwie jednak, inwazyjny przebieg badań §Y[From.GetName]§! sprawił, że proces transformacji zakończył się przedwcześnie.\n\nMając na względzie siłę i intensywność tego zdarzenia, załoga nie była w stanie opuścić układu na czas. Pozostaną w naszej pamięci."
- unstable_gas.1.tooltip: "Gazowy olbrzym zamienił się w słońce."
 
  ########## STAR STUFF ##########
 

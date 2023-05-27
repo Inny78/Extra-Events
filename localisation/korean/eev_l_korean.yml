@@ -303,17 +303,10 @@
  
  boom_asteroid_category: "금속 구조물"
  boom_asteroid_category_desc: "승무원들이 §Y[Root.GetName]§!의 표면에서 부자연스러운 금속 구조물을 발견했습니다."
- boom_asteroid.1.name: "핵 폭발"
- boom_asteroid.1.desc: "§B[Root.GetFleetName]§! 승무원들이 가까이에서 그 금속 구조물을 조사했더니 매우 큰 경보가 작동되었습니다. 그 경보는 승무원들이 거대한 핵 장치를 발견했을 때 30초의 카운트다운을 시작했습니다. 그러자 그들은 곤경에 빠졌음을 알았습니다. \n\n승무원들은 머리를 굴려 장치를 해제하려 했지만, 모든것이 어떤 외계 언어로 쓰여져 있어 누구도 이해하지 못했습니다. \n\n곧 그 행성은 폭발했습니다. 우리는 아직도 왜 저기에 저런 알람이 있었는지 왜 행성을 파괴할 만큼 폭발이 컸는지 모릅니다."
- boom_asteroid.1.a: "비극적인 운명이군."
  
  #1.8
  unstable_gas_category: "불안정한 가스 거인"
  unstable_gas_category_desc: "§Y[Root.GetName]§!의 정밀한 스캔 결과 그 가스 거인이 매우 불안정하다는 것이 보여집니다."
- unstable_gas.1.name: "항성의 탄생"
- unstable_gas.1.desc: "충분한 질량과 수소를 가진 가스 거인은 항성이 될 수 있고, §Y[From.GetName]§!은(는) 그 요구 사항들을 충족시켰습니다. \n\n가스 거인을 더 조사한 후, §G[Root.GetLeaderName]§!와(과) §B[Root.GetFleetName]§!의 승무원들은 §Y[From.GetName]§!이(가) 항성이 되는 마지막 단계에 이르렀었다는 것을 알아냈습니다. 그러나 §Y[From.GetName]§!에 행해진 공격적인 연구 때문에 가스 거인은 조기에 항성으로 폭발했습니다. \n\n폭발의 크기 때문에 승무원들은 제 때 도주할 수 없었습니다. 그들이 그리워질 겁니다."
- unstable_gas.1.a: "놀라워!"
- unstable_gas.1.tooltip: "가스 거인은 항성으로 폭발했다."
  
  #1.9
 

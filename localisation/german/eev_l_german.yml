@@ -259,16 +259,10 @@
  
  boom_asteroid_category: "Metallische Strukturen"
  boom_asteroid_category_desc: "Die Besatzung hat eine unnatürliche metallische Struktur auf der Oberfläche von §Y[Root.GetName]§! entdeckt."
- boom_asteroid.1.name: "Nukleare Explosion"
- boom_asteroid.1.desc: "Als die Crew der §B[Root.GetFleetName]§! die metallischen Strukturen zur Untersuchung betrat löste sie einen Alarm aus. Das Warnsystem begann einen Countdown und erschrak die Crew, als diese gigantische Nuklearsprengköpfe und einen Countdown-Timer mit wenigen Sekunden Zeit entdeckte. \n\nDie Crew versuchte die Sprengköpfe zu entschärfen, scheiterte jedoch an der Alien-Schrift, die keiner verstand. \n\nNach kurzer Zeit explodierte der ganze Planet. Wie und wieso der Planet sich selbst zerstörte wissen wir nicht."
- boom_asteroid.1.a: "Ein tragisches Schicksal."
  
  #1.8
  unstable_gas_category: "Der instabile Gasriese"
  unstable_gas_category_desc: "Detailliertere Scans von §Y[Root.GetName]§! zeigen, dass der Gasriese sehr instabil ist."
- unstable_gas.1.name: "Die Geburt einer Sonne"
- unstable_gas.1.desc: "Bei genügend Masse und Wasserstoff kann ein Gasriese zu einer Sonne entflammen. §Y[From.GetName]§! hat diese Vorraussetzungen erfüllt. \n\nWeitere Untersuchungen des Gasriesen durch §G[Root.GetLeaderName]§! und die Crew der §B[Root.GetFleetName]§! zeigten, dass §Y[From.GetName]§! im Spätstadium einer solchen Entflammung war. Doch die agressiven Experimente an §Y[From.GetName]§! beschleunigten die Wandlung des Gasriesen zu einer Sonne. \n\nSchlussendlich verschluckten die Flammen der jungen Sonne unsere Schiff. Die Crew konnten dem Feuersturm nicht rechtzeitig entkommen."
- unstable_gas.1.tooltip: "Der Gasriese ist zu einer Sonne entflammt!"
  
 
 ########## STAR STUFF ##########

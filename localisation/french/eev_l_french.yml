@@ -258,16 +258,10 @@
  
  boom_asteroid_category: "Structure métallique"
  boom_asteroid_category_desc: "L'équipage a découvert une curieuse structure métallique à la surface de §Y[Root.GetName]§! "
- boom_asteroid.1.name: "Explosion nucléaire"
- boom_asteroid.1.desc: "Lorsque l'équipage du §B[Root.GetFleetName]§! s'apprêtait à examiner de plus près la structure métallique, il a déclenché une alarme assourdissante. Puis, l'alarme a commencé un décompte de 30 secondes lorsque l'équipage a aperçu un imposant dispositif nucléaire. C'est à ce moment qu'ils ont réalisé être dans une situation précaire. \n\nGardant la tête froide, l'équipage a tenté immédiatement de désarmer le dispositif en tentant de lire des instructions dans une langue et dans une écriture que personne ne connaissait. \n\nLa planète a explosé après le décompte des 30 secondes...nous ne connaîtrons jamais la raison de l'existence d'un tel dispositif."
- boom_asteroid.1.a: "Quel destin tragique."
  
  #1.8
  unstable_gas_category: "Géante gazeuse instable"
  unstable_gas_category_desc: "Le balayage de §Y[Root.GetName]§! montre que cette géante gazeuse est très instable."
- unstable_gas.1.name: "La naissance d'une étoile"
- unstable_gas.1.desc: "Avec une masse critique et suffisamment d'hydrogène, une géante gazeuse peut se transformer en étoile et §Y[From.GetName]§! rencontre ces critères. \n\nAprès études, §G[Root.GetLeaderName]§! et l'équipage du  §B[Root.GetFleetName]§! sont parvenus à la conclusion que §Y[From.GetName]§! était en voie de se transformer en soleil. Toutefois, la nature très agressive de la recherche sur §Y[From.GetName]§! a malencontreusement accéléré considérablement le processus de transformation et la géante gazeuse a explosé pour former un soleil. \n\nEn raison de la magnitude de l'explosion, plus rien ne subsiste du vaisseau et de son équipage. Ils nous manqueront beaucoup..."
- unstable_gas.1.tooltip: "La géante gazeuse s'est transformée en soleil."
  
  #1.9
 

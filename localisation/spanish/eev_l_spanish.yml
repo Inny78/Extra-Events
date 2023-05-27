@@ -267,16 +267,10 @@
  
  boom_asteroid_category: "Anomalía encontrada... Estructura metálica"
  boom_asteroid_category_desc: "La tripulación ha detectado una estructura metálica poco natural en §Y[Root.GetName]§!."
- boom_asteroid.1.name: "Explosión nuclear"
- boom_asteroid.1.desc: "La tripulación de §B[Root.GetFleetName]§! entró en un examen más detenido de la estructura metálica que desencadenó una alarma muy fuerte. La alarma había comenzado a contar desde 30 segundos cuando la tripulación vio grandes dispositivos nucleares. Fue entonces cuando supieron que estaban en problemas. \n\nLa tripulación tuvo que pensar rápido y trató de desarmar los dispositivos, pero todos estaban escritos en un lenguaje extraño que nadie entendía. \n\nPoco después explotó el planeta. Todavía no sabemos por qué había una alarma o por qué había explosivos lo suficientemente grande como para destruir el planeta."
- boom_asteroid.1.a: "Un destino trágico."
  
  #1.8
  unstable_gas_category: "Anomalía encontrada... Gigante de Gas Inestable"
  unstable_gas_category_desc: "Exploraciones de §Y[Root.GetName]§! muestran que el gigante del gas es altamente inestable."
- unstable_gas.1.name: "El nacimiento de un sol"
- unstable_gas.1.desc: "Teniendo suficiente masa e hidrógeno, un gigante gaseoso puede convertirse en un sol, y §Y[From.GetName]§! reunió estos requisitos. \n\nDespués de investigar el gigante del gas, §G[Root.GetLeaderName]§! y la tripulación de §B[Root.GetFleetName]§! Han descubierto que §Y[From.GetName]§! Estaba en las últimas etapas de convertirse en un sol. Pero debido a la agresiva investigación realizada a §Y[From.GetName]§! el gigante de gas prematuramente explotó en un sol. \n\nDebido a la magnitud de la explosión, la tripulación no pudo escapar a tiempo y ellos se perdieron."
- unstable_gas.1.tooltip: "El gigante de gas explotó en un sol."
  
  ########## STAR STUFF ##########
 

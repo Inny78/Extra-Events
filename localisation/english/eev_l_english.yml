@@ -255,16 +255,10 @@
  
  boom_asteroid_category: "Metallic Structure"
  boom_asteroid_category_desc: "The crew has spotted an unnatural metallic structure on the surface of §Y[Root.GetName]§!."
- boom_asteroid.1.name: "Nuclear Explosion"
- boom_asteroid.1.desc: "As the §B[Root.GetFleetName]§! crew went in for a closer examination of the metallic structure they triggered an extremely loud alarm. The alarm had begun counting down from 30 seconds when the crew spotted huge nuclear devices. That's when they knew they were in trouble. \n\nThe crew had to think quick and attempted to disarm the devices, but they were all written in some alien language nobody understood. \n\nSoon after the planet exploded. We still don't know why there was an alarm or why there were explosives big enough to destroy the planet."
- boom_asteroid.1.a: "A Tragic Fate."
  
  #1.8
  unstable_gas_category: "The Unstable Gas Giant"
  unstable_gas_category_desc: "Closer scans of §Y[Root.GetName]§! show that the gas giant is highly unstable."
- unstable_gas.1.name: "The Birth of a Sun"
- unstable_gas.1.desc: "Given enough mass and hydrogen a gas giant can become a sun, and §Y[From.GetName]§! met those requirements. \n\nAfter further researching the gas giant, §G[Root.GetLeaderName]§! and the crew of the §B[Root.GetFleetName]§! has discovered that §Y[From.GetName]§! was in the late stages of becoming a sun. But because of the aggresive research done to §Y[From.GetName]§! the gas giant prematurely exploded in to a sun. \n\nBecause of the magnitude of the explosion the crew was unable to escape in time. They will be missed."
- unstable_gas.1.tooltip: "The gas giant exploded in to a sun."
  
  ########## STAR STUFF ##########
  

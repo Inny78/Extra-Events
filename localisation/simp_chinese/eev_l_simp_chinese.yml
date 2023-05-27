@@ -271,17 +271,10 @@ artifact_sun.1.a: "有趣。"
  
  boom_asteroid_category: "金属结构"
  boom_asteroid_category_desc: "机组人员在 §Y[Root.GetName]§! 的表面发现了一个不自然的金属结构。"
- Boom_asteroid.1.name: "核爆炸"
- boom_asteroid.1.desc: "当 §B[Root.GetFleetName]§! 机组人员深入检查金属结构时，他们触发了非常响亮的警报。当机组人员发现时，警报已从 30 秒开始倒计时 巨大的核装置。那时他们才知道自己有麻烦了。\n\n机组人员不得不迅速思考并试图解除这些装置的武装，但它们都是用某种无人理解的外星语言写成的。\n\n在行星爆炸后不久。 我们仍然不知道为什么会发出警报，或者为什么会有大到足以摧毁地球的爆炸物。"
- boom_asteroid.1.a: "悲惨的命运。"
  
  #1.8
  unstable_gas_category: "不稳定的气态行星"
  unstable_gas_category_desc: "对 §Y[Root.GetName]§! 的仔细扫描表明这颗气态巨行星非常不稳定。"
- unstable_gas.1.name: "太阳的诞生"
- unstable_gas.1.desc: "给定足够的质量和氢气，气态巨行星可以变成太阳，§Y[From.GetName]§! 满足这些要求。\n\n在进一步研究气态巨行星后，§G[Root. GetLeaderName]§! 和 §B[Root.GetFleetName]§! 的船员发现 §Y[From.GetName]§! 处于成为太阳的后期阶段。但由于对 §Y 进行的积极研究 [From.GetName]§! 气态巨行星过早地爆炸成太阳。\n\n由于爆炸的强度，机组人员无法及时逃脱。"
- unstable_gas.1.a: "太棒了！"
- unstable_gas.1.tooltip: "气态巨行星爆炸成太阳。"
  
  ########## STAR STUFF ##########
  

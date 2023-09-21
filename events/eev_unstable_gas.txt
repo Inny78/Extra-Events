@@ -10,8 +10,8 @@ namespace = unstable_gas
 
 ship_event = {
 	id = unstable_gas.2
-	title = unstable_gas.1.name
-	desc = unstable_gas.1.desc
+	title = unstable_gas.2.name
+	desc = unstable_gas.2.desc
 	picture = GFX_evt_gas_giant
 	show_sound = event_ship_bridge
 	location = FROM
@@ -26,7 +26,6 @@ ship_event = {
 
 	option = {
 		name = INTERESTING
-		custom_tooltip = "unstable_gas.1.tooltip"	
 		
 		owner = {
 			add_resource = {

@@ -478,7 +478,7 @@
  murder_event.1.b: "Another death threat... Who cares?"
 
  murder_event.2.name: "The First Murder"
- murder_event.2.desc: "Our worst fears have come true... It was no ordinary death threat... He murdered someone. A young lady, daughter to a renowned general. \n\nIn her hand is a letter reading: 'The poor girl. Will she be missed? Probably... but you were too late. -D' \n\nThe general will be informed shortly."
+ murder_event.2.desc: "Our worst fears have come true: it was no ordinary death threat. He murdered someone. A young lady, daughter to a renowned general. \n\nIn her hand is a letter reading: 'The poor girl. Will she be missed? Probably... but you were too late. -D' \n\nThe general will be informed shortly."
  murder_event.2.a: "Find this man!" 
 
  murder_event.3.name: "The Escaped Murder"

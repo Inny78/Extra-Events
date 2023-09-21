@@ -11,6 +11,7 @@ eev_is_continental = {
 		is_planet_class = pc_continental
 		# Planetary Diversity
 		is_pd_continental = yes
+		pd_is_continental = yes
 		# All These Worlds
 		atw_is_continental = yes
 	}
@@ -22,6 +23,7 @@ eev_is_desertic = {
 		is_planet_class = pc_desert
 		# Planetary Diversity
 		is_pd_desert = yes
+		pd_is_desert = yes
 		# All These Worlds
 		atw_is_desert = yes
 	}
@@ -36,6 +38,8 @@ eev_is_aquatic = {
 		# Planetary Diversity
 		is_pd_ocean = yes
 		is_pd_aquatics = yes
+		pd_is_ocean = yes
+		is_pd_planet_for_aqua_trait = yes
 	}
 }
 
@@ -53,7 +57,10 @@ eev_is_frozen = {
 eev_is_tundra = {
 	OR = {
 		is_planet_class = pc_tundra
+		# Planetary Diversity
 		is_pd_tundra = yes
+		pd_is_tundra = yes
+		# All These Worlds
 		atw_is_tundra = yes
 	}
 }
@@ -124,7 +131,6 @@ eev_is_habitat = {
 		is_planet_class = pc_habitat
 		# Starborn: Improved Voidtouched
 		uses_district_set = starborn_start
-		is_planet_class = pc_habitat
 		uses_district_set = habitat
 		# Acquisition of Technology
 		is_aot_habitat = yes

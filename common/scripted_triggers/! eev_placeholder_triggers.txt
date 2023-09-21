@@ -31,3 +31,15 @@ is_giga_habitat = { always = no }
 has_diagraphers_trait_mod = { always = no }
 is_td_multi_hiveminded = { always = no }
 is_multihive_drone = { always = no }
+pd_is_alpine = { always = no }
+pd_is_arctic = { always = no }
+pd_is_arid = { always = no }
+pd_is_continental = { always = no }
+pd_is_desert = { always = no }
+is_pd_planet_for_aqua_trait = { always = no }
+pd_is_planet_class_gaia = { always = no }
+pd_is_planet_class_nuked = { always = no }
+pd_is_ocean = { always = no }
+pd_is_savannah = { always = no }
+pd_is_tropical = { always = no }
+pd_is_tundra = { always = no }

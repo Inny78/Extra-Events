@@ -1,9 +1,9 @@
 ﻿l_english:
 # Energy Vortex, alias « Houston, we have a problem »
  eev_houston_category: "Energy Vortex"
- eev_houston_category_desc: "§B[Root.GetFleetName]§! has encountered a powerful energetic anomaly in close orbit of §Y[From.GetName]§!. §G[Root.GetLeaderName]§! decided to begin an analysis of this strange energy vortex."
+ eev_houston_category_desc: "§B[Root.GetFleetName]§! has encountered a formidable energetic anomaly in close orbit of §Y[From.GetName]§!. §G[Root.GetLeaderName]§! decided to to initiate an investigation into this enigmatic energy vortex."
  eev_houston.1.name: "[Root.owner.Capital.GetName], we have a problem."
- eev_houston.1.desc: "Bad news! The scan disturbed the vortex, sending a powerful energy wave that disrupted the ship's engines. The §B[Root.GetFleetName]§! is slowly drifting towards the gravity well of the planet.\n\nWithout repairs, it will crash into §Y[From.GetName]§!."
+ eev_houston.1.desc: "Unfortunately, the scan has had dire consequences. It agitated the vortex, unleashing a potent energy surge that disrupted the ship's engines. As a result, the §B[Root.GetFleetName]§! now drifts inexorably toward the planet's gravitational pull. Without repairs, it will crash into §Y[From.GetName]§!."
  eev_houston.1a: "Send a construction ship at once!"
 
  eev_houston.2.name: "Rescuing the science ship"
@@ -12,14 +12,14 @@
  eev_houston.2b: "We can't take the risk."
 
  eev_houston.3.name: "Left without repairs"
- eev_houston.3.desc: "The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would have lost our construction ship if had sent one. Our military ships have reinforced systems and better shields, they should be able to handle this, but if they don't, we will lose it."
+ eev_houston.3.desc: "The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would clearly have lost our construction ship too if we had sent one."
 
  eev_houston.4.name: "Military to the rescue"
- eev_houston.4.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started hauling them far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finally imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
+ eev_houston.4.desc: "Our military vessels met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started to swiftly drag them away from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems seamlessly kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex ultimately collapsed, unleashing an colossal surge of energy — a final, blinding burst that was the last bit of information we recieved before losing all communications from [From.System.GetName]."
  eev_houston.4a: "This is bad..."
 
  eev_houston.5.name: "Military to the rescue"
- eev_houston.5.desc: "Our military ships met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems immediately kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex finally imploded, and an enormous blast of energy was the last bit of information we got before losing all communications from [From.System.GetName]."
+ eev_houston.5.desc: "Our military vessels met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems seamlessly kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex ultimately collapsed, unleashing an colossal surge of energy — a final, blinding burst that was the last bit of information we recieved before losing all communications from [From.System.GetName]."
 
  eev_houston.6.name: "No rescue"
  eev_houston.6.desc: "The last transmission we received from §B[Root.GetFleetName]§! was the final gigantic destruction of the energy vortex as the ship started to enter the atmosphere of §Y[From.GetName]§!. There's no way they could have survived that."
@@ -67,9 +67,9 @@
  eev_tower_city_dig.3.desc: "The science team arrived in front of a grand edifice, still imposing despite its partial state of ruin. After breaking in, they uncovered the first remains of the humanoid inhabitants and stationed a few members to collect samples and conduct analyses. Progressing further, §G[Root.GetLeaderName]§! entered what appeared to be a restricted zone. Scans indicate that the interior remains largely intact, but given the compromised ceilings and reinforced walls, gaining access will undoubtedly necessitate significant effort."
 
  eev_tower_city_dig.4.name: "Broken by war"
- eev_tower_city_dig.4.desc: "We finally gained access to the interior bunker and found a huge computer  that is intricately linked to the entire cylinder. The initial dataset we acquired is enough to leave one's head spinning. It turns out this structure isn't merely a massive pillar but a colossal skyscraper. Its interior was abandoned eons ago, following a brutal civil war that shattered their society. Over time, they regressed into primitiveness as their once-advanced equipment fell into disrepair. The last tribes to roam the surface found themselves unable to comprehend their ancient technology. With the final synthesizers ceasing to function, their demise swiftly followed."
+ eev_tower_city_dig.4.desc: "We finally gained access to the interior of the bunker and found a huge computer that is intricately linked to the entire cylinder. The initial dataset we acquired is enough to leave one's head spinning. It turns out this structure isn't merely a massive pillar but a colossal skyscraper. Its interior was abandoned eons ago, following a brutal civil war that shattered their society. Over time, they regressed into primitiveness as their once-advanced equipment fell into disrepair. The last tribes to roam the surface found themselves unable to comprehend their ancient technology. With the final synthesizers ceasing to function, their demise swiftly followed."
  eev_tower_city_dig.4a: "A tragic tale."
- eev_tower_city_dig.4t: "The ancient building is a feat of engineering that will keep our scientists busy for centuries."
+ eev_tower_city_dig.4t: "This ancient building is a feat of engineering that will keep our scientists busy for centuries."
  eev_tower_city_dig.4b: "We're sitting on a huge pile of alloys."
 
  # Scanned
@@ -96,7 +96,7 @@
  eev_crashcol_category: "Metallic debris"
  eev_crashcol_category_desc: "Our ship's sensors have detected some metallic debris on the surface of §Y[From.GetName]§!. The team is preparing an expedition to investigate."
  eev_crashcol.1.name: "Crashed colony ship"
- eev_crashcol.1.desc: "The scientific expedition discovered the remains of an ancient colony ship of unknown origin, the origin of which remains shrouded in mystery. Dwarfing our own designs in size, this colossal vessel met its catastrophic end on a plateau several millennia ago, claiming the lives of all who were aboard. Regrettably, the onboard computers lay in complete ruin, rendering any attempt to ascertain its point of origin futile. Nonetheless, the hulking wreckage boasts a wealth of valuable alloys. In anticipation of a future recovery mission, our team placed a beacon to mark its location."
+ eev_crashcol.1.desc: "The scientific expedition discovered the remains of an ancient colony ship of unknown origin Dwarfing our own designs in size, this colossal vessel met its catastrophic end on a plateau several millennia ago, claiming the lives of all who were aboard. Regrettably, the onboard computers lay in complete ruin, rendering any attempt to ascertain its point of origin futile. Nonetheless, the hulking wreckage boasts a wealth of valuable alloys. In anticipation of a future recovery mission, our team placed a beacon to mark its location."
  eev_crashcol.2.name: "Recovery completed"
  eev_crashcol.2.desc: "A recovery expedition just came back from the crashed colony ship with its hold full of alloys. This will certainly prove useful for our empire."
 
@@ -176,7 +176,7 @@
  eev_afraid.1a: "They were right."
  # Expanding the Crushed event.
  crushed.1.desc.phobe: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nThese survivors were incinerated by our ship's thrusters when the team left with a valuable shiny object."
- crushed.1.desc.phile: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nVery ashamed by this event, the ship soon left on its antigravs to avoid making more damage."
+ crushed.1.desc.phile: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nVery ashamed by this event, the ship soon left, using its antigravs to avoid making more damage."
  crushed.1.desc.mega: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable! The team found the survivors quite cute and gathered them too."
  crushed.1a.phobe: "Finders keepers!"
  crushed.1a.phile: "This will be an eternal shame for us."
@@ -188,29 +188,29 @@
  eev_scifi.1.desc: "The mere survival of a computer system on this desolate world for such an extended duration is nothing short of miraculous. Regrettably, there exists no information regarding the fate of the vanished civilization. Yet, the computer's archives are replete with designs for unbelievably colossal megastructures, some spanning entire solar systems. Our scientists are becoming extremely excited as they transmit these profoundly advanced schematics back to our empire. However, after weeks of arduous labor, a crew member made a bewildering discovery — the computer merely housed a database dedicated to a widely popular science-fiction series."
  # Unsavory Scientist
  eev_unsavory_scientist: "Emerging structures"
- eev_unsavory_scientist_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate. "
+ eev_unsavory_scientist_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate."
  eev_unsavory_scientist.1.name: "An unappetizing scientist"
- eev_unsavory_scientist.1.desc: "While analyzing the ancient structures, a big creature sprang out from the swamp and gobbled §G[Root.GetLeaderName]§!! Minutes later however, it spat [Root.Leader.GetHerHim] out and left. §G[Root.GetLeaderName]§! is shaken but unharmed."
+ eev_unsavory_scientist.1.desc: "As our team diligently analyzed the ancient structures, a colossal creature suddenly lunged forth from the swamp, engulfing §G[Root.GetLeaderName]§!! In a matter of minutes, to our immense relief, the creature regurgitated [Root.Leader.GetHerHim], seemingly uninterested. Although visibly shaken, §G[Root.GetLeaderName]§! emerged from the encounter unscathed."
 
  # 3.7 starts here
 
  # Misplaced equipment (rewrite of eev_popup.24,26,28)
  eev_misplaced.1.name: "Misplaced Equipment"
- eev_misplaced.1.desc: "As per routine, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research of how these aliens live. \n\nOne scientist however misplaced some equipment, including a gun, on the planet's surface. \n\nThe team's lead scientist assures us that everything will be fine and during our next inspection of §Y[From.GetName]§! they will retrieve her weapon."
+ eev_misplaced.1.desc: "As part of our standard procedure, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research on the indigenous alien population and their way of life. One scientist inadvertently misplaced some equipment, including a firearm, on the planet's surface. The team's principal scientist reassured us that all would be well, and they planned to retrieve the misplaced weapon during our next visit to §Y[From.GetName]§!."
 
  eev_misplaced.3.name: "Misplaced Equipment: Part II"
- eev_misplaced.3.desc: "Our scientists have returned on §Y[From.GetName]§!. Only this time with hopes that they could find some missing equipment. \n\nThey didn't find anything; however, they did notice the natives' footprints scattered around as if they were having a party, or in some way frantically worshiping our scientists equipment."
+ eev_misplaced.3.desc: "Our scientists have returned on §Y[From.GetName]§!. Only this time with hopes that they could find some missing equipment. However, their search yielded no results. Instead, they stumbled upon a peculiar sight—natives' footprints scattered throughout the area, as if they had congregated for a celebration or were engaged in some form of fervent reverence toward our scientists' equipment."
  eev_misplaced.3.a: "We should stop landing here."
 
  eev_misplaced.5.name: "Misplaced Equipment: Part III"
- eev_misplaced.5.desc: "Once more, our scientists have landed on §Y[From.GetName]§!. Except this time they were greeted, and quickly surrounded by the local natives. One such native held the lost gun. He looked more regal than the rest. Perhaps he has become a king of sorts on this planet because of his new found power. \n\n All at once they started rambling and screaming in their native language. The message was clear, to never come back. \n\nThe team quickly retreated and left the planet with haste."
+ eev_misplaced.5.desc: "Once more, our scientists touched down on §Y[From.GetName]§!, but this time, they were met with a surprising reception. The local natives swiftly encircled them, and among them, one figure stood out, holding the lost firearm. This individual bore an air of regality that set them apart from the rest, perhaps having ascended to a form of kingship on the planet through newfound power. In unison, the natives began to fervently speak and scream in their native tongue, their message unmistakable — our return was unwelcome. The team quickly retreated, departing the planet with all due haste."
  eev_misplaced.5.a: "Perhaps it's better to study them from afar."
  eev_misplaced.5.b: "Kill those who oppose us. Big or small."
  eev_misplaced.5.c: "This planet and their species are useless. Blow them up."
 
  # Start of an event chain
  eev_losing_nerves.1.name: "Lost nerves"
- eev_losing_nerves.1.desc: "One of the scientists on the observation post over §Y[eev_lostnerves.GetName]§! was watching the primitive species' savants making theories about the nature of the universe and their very wrong deductions made him go mad. His colleagues were too late to prevent him from entering an escape pod, shouting about how he will §Rfix their theories§! and they could only follow his descent onto the planet."
+ eev_losing_nerves.1.desc: "One of the scientists stationed at the observation post above §Y[eev_lostnerves.GetName]§! found himself observing the primitive species' savants as they formulated theories about the nature of the universe. Their grossly erroneous deductions had a profoundly unsettling effect on him, eventually driving him to madness. Before his colleagues could intervene, he impulsively boarded an escape pod, vociferating his intent to rectify their flawed theories. Helplessly, the rest of the team followed his descent onto the planet's surface."
  eev_losing_nerves.1.a: "This is catastrophic!"
  eev_losing_nerves.1.t: "Anything can happen now..."
 

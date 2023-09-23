@@ -40,7 +40,6 @@
  eev_houston.11.name: "Scientist lost"
  eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite [eev_vortex_sci.Leader.GetHerHis] perfect condition. Our medical team detected strange radiations emanating from [Root.Leader.GetHerHis] body, but they quickly faded."
 
-
  EEV_SCI_REPAIR: "Repairing the science ship"
  EEV_SCI_REPAIR_DESC: "Send a construction ship to repair our drifting science ship before it crashes on the nearby planet."
  EEV_MIL_REPAIR1: "Rescuing the science ship"
@@ -232,3 +231,16 @@
  eev_cushion_world_desc: "Our sensors are detecting a surprisingly high density of flora on this tundra world. Our scientists are preparing an investigation to find out why."
  eev_mossy_planet.1.name: "Cushion world"
  eev_mossy_planet.1.desc: "The flora of this planet evolved to grow as comfortable cushions. Animals gather to sleep on them, providing heat and nutriments. This mutually beneficial relationship has proved quite efficient and the crew spots some cat-like animals living their best life on these plants."
+
+# Crazy Scientist rewrite
+ crazy_scientist_category: "The strange flora"
+ crazy_scientist_category_desc: "While scanning §Y[Root.GetName]§! the crew has detected some weird flora and wans to investigate."
+ crazy_scientist.1.name: "Weird pheromones"
+ crazy_scientist.1.desc: "As we studied the flora, our sensors picked up an interesting discovery — the emission of a potent, albeit unidentified, pheromone. One of our scientists inadvertently tore his suit, exposing himself to these mysterious pheromones. The effects on him were immediate: he began to scream, rambling about ethereal voices that filled him with fear. After a time, he sought refuge within a natural cave. For all we know, he's still in here."
+ crazy_scientist.1.a: "He's a threat to the whole crew. Leave him there"
+ crazy_scientist.1.b: "Try to capture him"
+ crazy_scientist.1.c: "Get some samples of the flora"
+ crazy_scientist.1.a.tt: "§G[Root.GetLeaderName]§! assures us that this will not affect their work."
+ crazy_scientist.2.name: "Capture failed"
+ crazy_scientist.2.desc: "We explored the cave in search of our lost scientist. Sadly, in his panic, he fell in a chasm and perished. We noticed though that this cave is full of interesting crystals and decided to take some samples."
+ crazy_scientist.2.a: "Um destino trágico."

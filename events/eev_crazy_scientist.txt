@@ -23,6 +23,7 @@ ship_event = {
 
 	option = {
 		name = crazy_scientist.1.a
+		custom_tooltip = crazy_scientist.1.a.tt
 		leader = {
 			add_experience = 175
 		}
@@ -34,6 +35,39 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
+		}
+	}
+	option = {
+		name = crazy_scientist.1.b
+		hidden_effect = {
+			ship_event = { id = crazy_scientist.2 days = 5 }
+		}
+	}
+	option = {
+		name = crazy_scientist.1.c
+		owner = {
+			add_resource = { exotic_gases = 50 }
+		}
+	}
+}
+
+ship_event = {
+	id = crazy_scientist.2
+	title = crazy_scientist.2.name	
+	desc = crazy_scientist.2.desc	
+	picture = GFX_evt_interior_battle	
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+	immediate = {
+	}
+
+	option = {
+		name = crazy_scientist.2.a
+		owner = {
+			add_resource = { rare_crystals = 50 }
 		}
 	}
 }

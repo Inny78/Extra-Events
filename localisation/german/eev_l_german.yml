@@ -65,12 +65,6 @@
  lost_treasure.1.desc: "Die [Root.GetFleetName] Crew hat herausgefunden von woher das Signal stammt und es scheint als wäre es ein Transport Schiff bis zum Rand gefüllt mit Geld. \n\n[Root.GetLeaderName] glaubt das Transportschiff war auf dem Weg zu seinem Ziel als es von der Schwerkraft des Planetes erfasst wurde.."
  lost_treasure.1.a: "Wir können Energie immer gut gebrauchen."
 
- crazy_scientist_category: "Komische Pheromone Anomalie"
- crazy_scientist_category_desc: "Während des Scannes von [Root.GetName] hat die Crew seltsame Pheromone aufgelesen."
- crazy_scientist.1.name: "Ein Verrückter Wissenschaftler"
- crazy_scientist.1.desc: "Während des erforschen des Planeten, ist bei einem Wissenschafftler ein Riss im Anzug entstanden, worauf die Pheromone ihn sofort auf einer sehr komischen weise beeinflusst hat. \n\nEr schreite etwas über §SStimmen§! und das er sie nicht versteht, worauf er sich sogar ein Loch grub. Alles was wir wissen ist das er noch immer dort unten ist. \n\nWir haben ihn natürlich dort zum Sterben zurückgelassen, er war eine Gefahr für die gesamte Crew. [Root.GetLeaderName] versicherte uns, das es auf keinem Fall unsere Arbeit beeinflussen wird."
- crazy_scientist.1.a: "Besorgniserregend."
-
  diamond_core_category: "Seltsame Messungen Anomalie"
  diamond_core_category_desc: "Die Messungen vom Nahen weichen von dem ab was wir davor gescannt haben."
  diamond_core.1.name: "ein Diamantkern"

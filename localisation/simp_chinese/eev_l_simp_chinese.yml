@@ -64,12 +64,6 @@
  lost_treasure.1.desc: "§B[Root.GetFleetName]§!船员已经弄清了信号的来源，它似乎是一艘装满了宝贵和稀有物品的货船。\n\n §G[Root.GetLeaderName]§!相信这艘货船在行驶过程中被星球的重力井所吸引。它似乎是由一个原始的人工智能控制的，这就解释了为什么它这么容易被重力吸走并毁灭。"
  lost_treasure.1.a: "我们幸运的总是可以使用更多的能源。"
  
- crazy_scientist_category: "奇怪的激素"
- crazy_scientist_category_desc: "在扫描§Y[Root.GetName]§! 时，船员们采集到了奇怪的激素。"
- crazy_scientist.1.name: "一个疯狂的科学家"
- crazy_scientist.1.description: "在研究异常点时，我们的一位科学家，不小心撕破了他的衣服，激素开始以一种非常奇怪的方式影响他。\n\n他尖叫着说有 "声音 "并表示很害怕它们，过了一会儿，他试图躲进一个天然洞穴。就我们所知，他还在这里。\n\n当然，我们让他自生自灭，因为他对整个船员都是一种威胁。 §G[Root.GetLeaderName]§!向我们保证，这不会影响他们的工作。"
- crazy_scientist.1.a: "悲惨的命运。"
- 
  diamond_core_category: "密集的核心"
  diamond_core_category_desc: "对行星核心的调查，表明它的密度异常大。"
  diamond_core.1.name: "一个钻石核心"

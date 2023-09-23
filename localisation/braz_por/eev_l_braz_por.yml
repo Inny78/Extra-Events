@@ -83,14 +83,7 @@
  lost_treasure.1.name: "Um tesouro perdido"
  lost_treasure.1.desc: "A equipe do §B[Root.GetFleetName]§! encontrou de onde vinha o sinal e parece ser de uma nave de carga lotada de objetos raros. \n\n§G[Root.GetLeaderName]§! acredita que a nave foi pega pela gravidade do planeta durante cruseiro. Parece ter sido controlada por uma IA primitiva, o que explicaria porque foi pega tão facilmente."
  lost_treasure.1.a: "Ganhar mais créditos energéticos sempre é bom."
- 
- 
- crazy_scientist_category: "Anomalia dos feromônios estranhos"
- crazy_scientist_category_desc: "Ao escanear §Y[Root.GetName]§!, a tripulação detectou alguns feromônios esquisitos."
- crazy_scientist.1.name: "Um cientista louco"
- crazy_scientist.1.desc: "Enquanto estudava os feromônios, um dos nossos cientistas rompeu seu traje num acidente e os feromônios começaram a afetá-lo de maneira bem estranha. \n\nEle gritava ouvindo "vozes" e amedrontava-se delas, após um tempo ele tentou esconder-se numa caverna natural. Por agora isso é tudo o que sabemos dele. \n\nNós, é claro, o deixamos para morrer já que ele era uma ameaça para toda a equipe. §G[Root.GetLeaderName]§! assegura que isso não irá afetar seu trabalho."
- crazy_scientist.1.a: "Um destino trágico."
- 
+
  diamond_core_category: "Anomalia do núcleo denso"
  diamond_core_category_desc: "Investigação no núcleo do planeta sugere que o núcleo do mesmo seja anormalmente denso."
  diamond_core.1.name: "Um núcleo de diamante"
@@ -280,8 +273,6 @@
  unstable_gas_category_desc: "Escaneamentos próximos de §Y[Root.GetName]§! mostram que a anomalia de gás gigante é altamente instável."
  
  #1.9
-
-
  
  ########## STAR STUFF ##########
  

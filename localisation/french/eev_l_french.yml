@@ -63,13 +63,6 @@
  lost_treasure.1.desc: "L'équipage du §B[Root.GetFleetName]§! a déterminé que ce signal provenait d'un vaisseau cargo rempli d'objets rares et précieux qui s'est échoué à la surface. \n\n§G[Root.GetLeaderName]§! croit que ce navire a été happé par la gravité de cette planète pendant son trajet. Le vaisseau est d'une technologie primitive, ce qui explique qu'il n'a pas pu échapper au champ gravitationnel."
  lost_treasure.1.a: "Nous n'avons jamais trop de crédits énergie."
  
- 
- crazy_scientist_category: "Phéromone bizarre"
- crazy_scientist_category_desc: "Lors du balayage de §Y[Root.GetName]§! l'équipage a capté la présence d'une phéromone bizarre."
- crazy_scientist.1.name: "Un savant perd la raison"
- crazy_scientist.1.desc: "Lors de l'étude de cette anomalie, l'un de nos savants a accidentellement déchiré son costume et la phéromone a commencé à l'affecter d'une façon étonnante. \n\nIl criait à propos des voix et semblait terrifié par ce qu'il entendait puis, après un moment, il s'est enfui pour se cacher dans une grotte. Nous savons qu'il s'y trouve toujours. \n\nNous avons décidé de l'abandonner à son sort de crainte de contaminer tout l'équipage. §G[Root.GetLeaderName]§! nous assure que cet incident n'affectera pas le moral de l'équipage."
- crazy_scientist.1.a: "Quelle fin tragique."
- 
  diamond_core_category: "Noyau dense"
  diamond_core_category_desc: "Le balayage de la planète §Y[Root.GetName]§! permet de conclure que son noyau est anormalement dense."
  diamond_core.1.name: "Un noyau en diamant"

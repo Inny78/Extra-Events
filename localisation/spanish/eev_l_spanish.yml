@@ -71,14 +71,7 @@
  lost_treasure.1.name: "Un tesoro perdido"
  lost_treasure.1.desc: "El equipo de §B[Root.GetFleetName]§! ha descubierto de dónde venía la señal y parece ser una nave de transporte lleno hasta el borde con celdas de energia. \n\n§G[Root.GetLeaderName]§! cree que la nave de transporte se dirigía a su destino cuando quedó atrapada en la gravedad del planeta en automático, de su tripulación no se sabe nada."
  lost_treasure.1.a: "Siempre podríamos usar más energía."
- 
- 
- crazy_scientist_category: "Anomalía encontrada... Extrañas Feromonas"
- crazy_scientist_category_desc: "Mientras se explora §Y[Root.GetName]§! la tripulación ha recogido feromonas extrañas."
- crazy_scientist.1.name: "Un científico loco"
- crazy_scientist.1.desc: "Mientras investigaba el planeta, un científico perforó su traje y las feromonas empezaron a afectarlo de una manera muy extraña. \n\nEl gritó sobre 'voces' y no saber que hacer para entenderlas e incluso cavarse un agujero para no escucharlas mas. Por lo que sabemos, el extrañp aroma todavía está aquí abajo. \n\nPor supuesto, lo dejamos en crio por un tiempo para observación ya que era una amenaza para toda la tripulación. [Root.GetLeaderName] nos asegura que esto no afectará los demás trabajos."
- crazy_scientist.1.a: "Un destino trágico."
- 
+
  diamond_core_category: "Anomalía encontrada... Lecturas extrañas"
  diamond_core_category_desc: "Investigación sobre el núcleo del planeta, sugieren que es anormalmente denso."
  diamond_core.1.name: "Un núcleo de diamante"

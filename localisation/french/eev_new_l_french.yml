@@ -223,10 +223,23 @@
  eev_losing_nerves.2.c: "Envoyez une équipe faire le ménage aussi discrètement que possible."
  eev_losing_nerves.2.d: "Nous ne pouvons laisser ces primitifs être au courant de notre existence. Détruisez-les."
  eev_losing_nerves.2.ta: "La station d'observation va être démantelée."
- eev_losing_nerves.2.td: "La planète sera irradiée et a station d'observation démantelée."
+ eev_losing_nerves.2.td: "La planète sera irradiée et la station d'observation démantelée."
 
 # Mossy Planet
  eev_cushion_world: "Toundra confortable"
  eev_cushion_world_desc: "Nos détecteurs ont relevé une densité étonnament élevée de plantes sur cette planète majoritairement couverte de toundras. L'équipe prépare une investigation pour en découvrir la raison."
  eev_mossy_planet.1.name: "Un monde douillet"
  eev_mossy_planet.1.desc: "La flore de cette planète a évolué pour pousser sous forme de coussins confortables. Les animaux se rassemblent pour dormir dessus, fournissant chaleur et nutriments. Cette relation mutuellement bénéficiaire s'est révélée très efficace l'équipe a remarqué des sortes de chats vivant leur meilleure vie sur ces plantes."
+
+# Crazy Scientist rewrite
+ crazy_scientist_category: "Une étrange flore"
+ crazy_scientist_category_desc: "En scannant §Y[Root.GetName]§!, l'équipage a détecté une flore étrange et souhaite l'étudier de plus près."
+ crazy_scientist.1.name: "Etranges phéromones"
+ crazy_scientist.1.desc: "Alors que nous étudiions la flore, nos capteurs ont fait une découverte intéressante : l'émission d'une phéromone puissante, bien que non identifiée. L'un de nos scientifiques a involontairement déchiré sa combinaison, s'exposant ainsi à ces phéromones mystérieuses. Les effets sur lui ont été immédiats : il a commencé à crier, délirant au sujet de voix éthérées qui le remplissaient de terreur. Après un certain temps, il a cherché refuge dans une grotte naturelle. Pour autant que nous le sachions, il y est toujours."
+ crazy_scientist.1.a: "Il est une menace pour tout l'équipage. Laissez-le là-bas."
+ crazy_scientist.1.b: "Essayez de le capturer."
+ crazy_scientist.1.c: "Prenez des échantillons de la flore."
+ crazy_scientist.1.a.tt: "§G[Root.GetLeaderName]§! nous assure que cela n'affectera pas leur travail."
+ crazy_scientist.2.name: "Capture échouée"
+ crazy_scientist.2.desc: "Nous avons exploré la grotte à la recherche de notre scientifique disparu. Malheureusement, dans sa panique, il est tombé dans un gouffre et a péri. Cependant, nous avons remarqué que cette grotte est pleine de cristaux intéressants et avons décidé de prélever quelques échantillons."
+ crazy_scientist.2.a: "Un destin tragique."

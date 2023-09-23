@@ -62,13 +62,7 @@
  lost_treasure.1.name: "A Lost Treasure"
  lost_treasure.1.desc: "The §B[Root.GetFleetName]§! crew has figured out where the signal was coming from and it appears to be a freighter filled to the brim with valuable and rare objects. \n\n§G[Root.GetLeaderName]§! believes the freighter got caught by the planet's gravity well while on its course. It appears to have been controlled by a primitive AI, which explains why it got caught up so easily."
  lost_treasure.1.a: "We could always use more Energy."
- 
- crazy_scientist_category: "The Weird Pheromones"
- crazy_scientist_category_desc: "While scanning §Y[Root.GetName]§! the crew has picked up weird pheromones."
- crazy_scientist.1.name: "A Crazy Scientist"
- crazy_scientist.1.desc: "While studying the anomaly, one of our scientists accidentally tore his suit and the pheromones started to affect him in a very strange way. \n\nHe screamed about voices and being scared of them, after a while he tried to hide in a natural cave. For all, we know he's still in here. \n\nWe, of course, left him to die as he was a threat to the whole crew. §G[Root.GetLeaderName]§! assures us that this will not affect their work."
- crazy_scientist.1.a: "A Tragic Fate."
- 
+
  diamond_core_category: "The Dense Core"
  diamond_core_category_desc: "Investigation upon the planet's core suggest it is abnormally dense."
  diamond_core.1.name: "A Diamond Core"

@@ -22,8 +22,14 @@ ship_event = {
 		name = INTRIGUING
 		leader = {
 			if = {
-				limit = { NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_observant } } }
-				add_trait = leader_trait_observant
+				limit = {
+					NOR = {
+						has_trait_tier1or2 = { TRAIT = leader_trait_carefree }
+						has_trait_tier1or2 = { TRAIT = leader_trait_meticulous }
+						has_trait = leader_trait_maniacal
+					}
+				}
+				add_trait = leader_trait_meticulous
 				add_experience = 75
 			}
 			else = {

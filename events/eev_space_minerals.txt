@@ -30,9 +30,9 @@ ship_event = {
 		owner = {
 			add_monthly_resource_mult = {
 				resource = minerals
-				value = @tier4materialreward
-				min = @tier4materialmin
-				max = @tier4materialmax
+				value = @tier3materialreward
+				min = @tier3materialmin
+				max = @tier3materialmax
 			}
 		}
 	}			

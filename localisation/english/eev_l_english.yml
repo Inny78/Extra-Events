@@ -50,7 +50,7 @@
  gassy_planet_category: "An Old Home"
  gassy_planet_category_desc: "The crew has discovered the remains of an ancient civilization on §Y[Root.GetName]§! that seems to have been abruptly abandoned their planet."
  gassy_planet.1.name: "A Gassy Planet"
- gassy_planet.1.desc: "While scanning the planet the crew of the §B[Root.GetFleetName]§! have determined that the former inhabitants of this planet abandoned it because it was dying. \n\n§G[Root.GetLeaderName]§! believes that the reason the planet was dying was due to a massive volcano launching toxic gasses into the atmosphere. \n\nWhere they are now is a mystery."
+ gassy_planet.1.desc: "While conducting an extensive scan of the planet, the crew of the §B[Root.GetFleetName]§! has discerned that the previous inhabitants of this world were compelled to abandon it due to its impending demise. §G[Root.GetLeaderName]§! posits that the planet's deterioration was a consequence of a colossal volcano ejecting toxic gases into the atmosphere. The current whereabouts of the former inhabitants remain shrouded in mystery."
  
  doomed_civ_category: "The Crashed Ship"
  doomed_civ_category_desc: "The crew has spotted what appears to be a crashed space shuttle."
@@ -60,13 +60,13 @@
  lost_treasure_category: "The Weak Signal"
  lost_treasure_category_desc: "We have picked up a weak signal around §Y[Root.GetName]§!."
  lost_treasure.1.name: "A Lost Treasure"
- lost_treasure.1.desc: "The §B[Root.GetFleetName]§! crew has figured out where the signal was coming from and it appears to be a freighter filled to the brim with valuable and rare objects. \n\n§G[Root.GetLeaderName]§! believes the freighter got caught by the planet's gravity well while on its course. It appears to have been controlled by a primitive AI, which explains why it got caught up so easily."
- lost_treasure.1.a: "We could always use more Energy."
+ lost_treasure.1.desc: "The crew of the §B[Root.GetFleetName]§! has successfully traced the origin of the signal, revealing an automated freighter brimming with invaluable and rare treasures. §G[Root.GetLeaderName]§! postulates that the freighter fell prey to the planet's gravitational pull while on its designated course. It appears to have been governed by a rudimentary AI system that malfunctioned, which explains why it got caught up so easily."
+ lost_treasure.1.a: "Sell it. We can always use more Energy."
 
- diamond_core_category: "The Dense Core"
- diamond_core_category_desc: "Investigation upon the planet's core suggest it is abnormally dense."
+ diamond_core_category: "Old planet"
+ diamond_core_category_desc: "The first analysis of this planet shows that it is ancient. The readings from its core suggests that its density is not what it should be."
  diamond_core.1.name: "A Diamond Core"
- diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that the planet's core is made of part diamond! \n\nMining this planet will prove very beneficial for our industry."
+ diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that this old planet's extinct core is partially made of diamond! \n\nMining this planet will prove very beneficial for our industry."
  diamond_core.1.a: "Get to mining!"
  
  #1.3
@@ -80,7 +80,7 @@
  crushed_category: "Shiny Object"
  crushed_category_desc: "The crew of the §B[Root.GetFleetName]§! have spotted an abnormality on §Y[Root.GetName]§!. It's very shiny and reflective."
  crushed.1.name: "Crushed Civilization"
- crushed.1.desc: "While investigating the planet the crew of the §B[Root.GetFleetName]§! landed on a very small - and somewhat intelligent - civilization. \n\nWhen the ship landed on the civilization they crushed 90% of the population. Those who remain did not look happy as they were throwing grains of rock at the scientists feet. \n\nHowever that shiny object will prove to be very valuable!"
+ crushed.1.desc: "While exploring the planet, the crew of the §B[Root.GetFleetName]§! encountered a remarkably small, yet somewhat intelligent civilization. Our ship landed directly on them, inadvertently killing 90% of the population, leaving those who survived understandably displeased. The survivors expressed their discontent by pelting the scientists' feet with small rocks. Nevertheless, the allure of that valuable, shiny object was too enticing to resist!"
 
  perfect_planet_category: "Extraordinary Readings"
  perfect_planet_category_desc: "Upon closer scans of §Y[Root.GetName]§! the planet is showing extraordinary readings!"
@@ -95,18 +95,16 @@
  space_knights_category: "Stone Home"
  space_knights_category_desc: "While scanning §Y[Root.GetName]§! the crew spotted houses made of rock."
  space_knights.1.name: "Space Knights"
- space_knights.1.desc: "A medieval species once roamed this planet, but they died in a spectacular way! \n\nTwo factions ruled the planet, warring each other for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. \n\nThe last battle these two warring factions were a part of destroyed their planet and it never recovered. \n\nEven more so they believe the cause of this war was the belief in a god."
+ space_knights.1.desc: "A medieval species once roamed this planet, but they died in a spectacular way! Two factions ruled the planet, warring each other for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. The last battle these two warring factions were a part of destroyed their planet and it never recovered. Even more so they believe the cause of this war was the belief in a god."
  
  world_war_category: "Debris of a Battle"
- world_war_category_desc: "The crew believes a world war happened on §Y[Root.GetName]§! that destroyed their race."
  world_war.1.name: "World War"
- world_war.1.desc: "The crew was correct, but §G[Root.GetLeaderName]§! and [Root.Leader.GetHerHis] scientists believed that the civilization wouldn't be as advanced as they were when they destroyed themselves. They were nearly at our technology level when it happened. \n\n§G[Root.GetLeaderName]§! believes that there was a warmongering fascist leader whose goal was world domination. What's more is this leader bombed as many of his enemies as he could which was the cause of the planet's destruction."
  
  #1.4
  asteroid_attack_category: "Asteroid Caves"
  asteroid_attack_category_desc: "Scientists have spotted unnatural caves in §Y[Root.GetName]§! and wish to find the meaning of them."
  asteroid_attack.1.name: "An Asteroid Attack"
- asteroid_attack.1.desc: "Those caves were indeed made by something, but not a person... \n\nWhile searching the cave system of the asteroid, the §B[Root.GetFleetName]§! crew found something which they described as horrifically terrifying and soon after dropped communications with us. \n\nMost of the scientists made it out alive, but the others will be missed."
+ asteroid_attack.1.desc: "Those caves were indeed made by something, but not a person... While searching the cave system of the asteroid, the §B[Root.GetFleetName]§! crew found something which they described as horrifically terrifying and soon after dropped communications with us. Most of the scientists made it out alive, but the others will be missed."
  asteroid_attack.1.a: "Such a shame."
  
  ayy_category: "Lights Spotted"
@@ -121,7 +119,7 @@
  storms_category: "Crazy Weather"
  storms_category_desc: "There appears to be abnormal weather on §Y[Root.GetName]§!."
  storms.1.name: "The Infinite Storm"
- storms.1.desc: "The planet's storms seems to have begun millions of years ago when the planet was still very young. Lead scientist §G[Root.GetLeaderName]§! theorizes that there will be no end to this storm until something drastic changes this planet. \n\n§G[Root.GetLeaderName]§! says we do have the power to stop the storm and suggests we do so if we ever plan to colonize the planet."
+ storms.1.desc: "The planet's storms seems to have begun millions of years ago when the planet was still very young. Lead scientist §G[Root.GetLeaderName]§! theorizes that there will be no end to this storm until something drastic changes this planet. §G[Root.GetLeaderName]§! says we do have the power to stop the storm and suggests we do so if we ever plan to colonize the planet."
  storms.1.a: "It's too expensive."
  storms.1.b: "Stop the storm."
 
@@ -129,7 +127,7 @@
  ai_factory_category: "Underground Building"
  ai_factory_category_desc: "Scans of §Y[Root.GetName]§! show an unnatural underground building of sorts."
  ai_factory.1.name: "AI Factory"
- ai_factory.1.desc: "The underground building was in fact a factory with the sole purpose of mass producing AI robots which was built by an unknown race. \n\nThe factory is still working as we speak, using and depleting the planets resources. \n\nThe robots are currently inactive but §G[Root.GetLeaderName]§! explains how these robots could be a threat if we let the factory finish."
+ ai_factory.1.desc: "As it turns out, the subterranean structure is not merely a building but a sprawling factory, meticulously engineered for the mass production of AI robots. Its creators, an unidentified race, fashioned it with the singular goal of churning out these artificial entities. Astonishingly, the factory continues to operate, relentlessly consuming the planet's resources. The robots within are presently dormant, but §G[Root.GetLeaderName]§! cautions that allowing the factory to complete its production could pose a significant threat."
  ai_factory.1.a: "Let the factory be."
  ai_factory.1.b: "Destroy the factory!"
  ai_factory.1.c: "Let the factory be and learn from it." 
@@ -242,10 +240,10 @@
  supernova.1.name: "Unusual fluctuations"
  supernova.1.desc: "§B[Root.GetFleetName]§!'s instruments has detected internal fluctuations of plasma on a massive scale. The crew is having a hard time getting detailed readings due to the gravimetric interference emitted by these fluctuations and they will have to get closer to the star to know what's going on."
  supernova.2.name: "A Supernova!"
- supernova.2.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A Supernova was taking place. But they knew attempting to escape would be pointless so the crew accepted their fate and recorded the event. \n\nBecause of their deaths we now know more about supernovas. They will be remembered."
+ supernova.2.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A supernova was taking place. But they knew attempting to escape would be pointless so the crew accepted their fate and recorded the event. Thanks to their sacrifice, we now know more about supernovas. They will be remembered."
  supernova.2.a: "Indeed."
  supernova.3.name: "A Supernova!"
- supernova.3.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A Supernova was taking place. But Science Officer §G[Root.GetLeaderName]§! was extremely cautious and had ordered the ship to stay at maximum scanner range. \n\nIt was very close, but he punched the emergency hyperpropulsion's commands just in time."
+ supernova.3.desc: "While researching the sun the §B[Root.GetFleetName]§! crew realized what was happening. A supernova was taking place. But Science Officer §G[Root.GetLeaderName]§! was extremely cautious and had ordered the ship to stay at maximum scanner range. It was very close, but he punched the emergency hyperpropulsion's commands just in time."
  supernova.3.a: "That was too close."
  
  boom_asteroid_category: "Metallic Structure"
@@ -330,18 +328,12 @@
   
  ########## COUNTRY EVENTS ##########
  
- eev_popup.1.name: "Illegal Aliens"
- eev_popup.1.desc.d: "Aliens have trespassed on one of our planets without permission! We could send them away, or perhaps we could let them stay?"
- eev_popup.1.a: "Jail them up and send them away."		
- eev_popup.1.b: "They may stay." 
- eev_popup.1.c: "Let them stay for now... I'll decide what to do with them at a later date."
- #
  eev_popup.2.name: "Terrorist Attacks"
- eev_popup.2.desc: "An important building on our capital planet responsible for inter-galactic trade was recently bombed by terrorists whose ideals are not the same as ours. \n\nOur top government officials assure us that the building will be rebuilt shortly."
+ eev_popup.2.desc: "An important building on our capital planet responsible for interstellar trade was recently bombed by terrorists whose ideals are not the same as ours. Our top government officials assure us that the building will be rebuilt shortly."
  eev_popup.2.a: "Find them!"
  #
  eev_popup.3.name: "Leader Assassinated!"
- eev_popup.3.desc: "At an annual conference meeting concerning the empire and its people an idealist fool shot and injured our leader! He was jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma where he soon met death. \n\nHe will be missed..."
+ eev_popup.3.desc: "At an annual conference meeting concerning the empire and its people an idealist fool shot and injured our leader! He was jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma where he soon met death. He will be missed..."
  eev_popup.3.default: "A shame..."
  eev_popup.3.militarist: "What's wrong with our army!?"
  eev_popup.3.phobe: "An alien, no doubt?"
@@ -354,12 +346,12 @@
  eev_popup.4.b: "This will not be tolerated! Jail her!"
  #
  eev_popup.5.name: "Local Celebrity Dead!"
- eev_popup.5.desc: "A very famous celebrity died today. \n\nShe touched our hearts with her songs, and moved us with her movies. There aren't many people like her. She will be missed dearly."
+ eev_popup.5.desc: "A very famous celebrity died today. She touched our hearts with her songs, and moved us with her holomovies. There aren't many people like her. She will be missed dearly."
  eev_popup.5.a: "A shame..."
  eev_popup.5.b: "I didn't even get an autograph."
  #1.6
  eev_popup.6.name: "Scientist Sick!"
- eev_popup.6.desc: "One of our lead scientists is sick with a deadly incurable disease that seems to have come from a xeno species! \n\nLuckily the disease isn't contagious so the other scientists will be fine but this may halt progress."
+ eev_popup.6.desc: "One of our lead scientists is sick with a deadly incurable disease that seems to have come from a xeno species! Luckily the disease isn't very contagious so the other scientists will be fine but this may halt progress."
  eev_popup.6.a: "Rest in peace..."
  eev_popup.6.b: "He served well."
  eev_popup.6.c: "Damn xeno-scum!"
@@ -379,7 +371,7 @@
  eev_popup.8.b: "Better to play it safe and let that thing be..."
  #
  eev_popup.9.name: "Rich Man Dead"
- eev_popup.9.desc: "One of our nations richest people died today, but that isn't the reason it's such a big deal. He died heirless, meaning it's up to us to decide where the money goes. \n\nThere are a couple options we have. We could split it among the people, which would make them very happy, or we could take the money."
+ eev_popup.9.desc: "One of our empire's richest people died today, but that isn't the reason it's such a big deal. He died heirless, meaning it's up to us to decide where the money goes. \n\nThere are a couple options we have. We could split it among the people, which would make them very happy, or we could take the money."
  eev_popup.9.b: "I will take the money."
  #1.7
  eev_popup.10.name: "Sick Pops"
@@ -388,12 +380,12 @@
  eev_popup.10.b: "We don't have the money."
  #1.8
  eev_popup.11.name: "Quality Crops"
- eev_popup.11.desc: "On rare occasions, and with the right conditions, it's possible that crops can grow to be extraordinary. And this is just that occasion! \n\nThis year's harvest has been plenty and of the highest quality."
+ eev_popup.11.desc: "On rare occasions, and with the right conditions, it's possible that crops can grow to be extraordinary. And this is just that occasion! This year's harvest has been plenty and of the highest quality."
  eev_popup.11.b: "Reap the rewards."
  eev_popup.11.c: "Keep the crops."
  #
  eev_popup.12.name: "Large Fish"
- eev_popup.12.desc: "As our fishermen went to search for more fish to harvest they came across an amazing discovery - A massive school of large fish and of course caught as many as they could."
+ eev_popup.12.desc: "As our fishermen went to search for more fish to harvest they came across an amazing discovery: a massive school of large fish, and of course caught as many as they could."
  eev_popup.12.b: "Sell the fish."
  eev_popup.12.c: "Keep the fish."
  #

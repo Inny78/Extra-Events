@@ -104,10 +104,7 @@
  space_knights.1.a: "有意思。"
  
  world_war_category: "战斗的残骸"
- world_war_category_desc: "船员们相信在§Y[Root.GetName]§!上发生了一场世界战争，摧毁了他们的种族。"
  world_war.1.name: "世界战争"
- world_war.1.desc: "船员们是正确的，§G[Root.GetLeaderName]§!和他的科学家们认为，一个科技不发达的文明是不能毁灭他们自己的。当事情发生时，他们几乎达到了我们的技术水平。\n\n§G[Root.GetLeaderName]§!相信有某个国家有一个好战的法西斯思想领导人，他的目标是统治世界。他不断的发动战争，用核弹等大规模毁灭性武器轰炸，最终导致了星球的毁灭。"
- world_war.1.a: "引人入胜的故事。"
  
  #1.4
  asteroid_attack_category: "小行星洞穴"
@@ -347,13 +344,7 @@ artifact_sun.1.a: "有趣。"
  ########## END STAR STUFF ##########
   
  ########## COUNTRY EVENTS ##########
- 
- eev_popup.1.name: "非法外星人"
- eev_popup.1.desc.d: "外星人未经许可侵入了我们的行星之一！我们可以把他们送走，或者我们可以让他们留下来？"
- eev_popup.1.a: "把他们关起来送走。"
- eev_popup.1.b: "他们可能会留下。"
- eev_popup.1.c: "让他们暂时留下来……我会在以后决定如何处理他们。"
- #
+
  eev_popup.2.name: "恐怖袭击"
  eev_popup.2.desc: "我们首都星球上负责星际贸易的一座重要建筑最近遭到了与我们不同理想的恐怖分子的轰炸。\n\n我们的高级政府官员向我们保证该建筑将被重建不久。:
  eev_popup.2.a: "找到他们！"

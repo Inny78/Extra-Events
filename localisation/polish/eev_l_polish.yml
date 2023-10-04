@@ -114,9 +114,7 @@
  space_knights.1.desc: "Ta planeta była niegdyś zamieszkana przez inteligentny gatunek, jednak wymarł on w epoce podobnej do naszego średniowiecza. Co ciekawe wymarł w spektakularny sposób! \n\nPlanetą rządziły dwie frakcje, walcząc ze sobą o terytorium w niekończących się bitwach, które według [Root.GetLeaderName] zaczęły się na 5000 lat przed wymarciem gatunku. \n\nOstatnia bitwa zwaśnionych frakcji doprowadziła do zniszczeń, po których planeta nie była w stanie się zregenerować. \n\nNaukowcy twierdzą że podstawą tej wojny były różnice wyznaniowe."
 
  world_war_category: "Gruzy po Bitwie"
- world_war_category_desc: "Załoga uważa, że na [Root.GetName] doszło do wojny światowej, która zniszczyła rasę ją zamieszkującą."
  world_war.1.name: "Wojna Światowa"
- world_war.1.desc: "Załoga miała rację, ale [Root.GetLeaderName] i jego naukowcy uważali że ta cywilizacja nie była aż tak zaawansowana, jak była w rzeczywistości, gdy doprowadziła do swojej zagłady. Gdy doszło do Wojny Światowej osiągneli oni niemal poziom rozwoju technologicznego, równy naszemu. \n\n[Root.GetLeaderName] zakłada, że przyczyną wojny był faszystowski lider, wierzący w zasadę: §SCel uświęca środki§!. Co więcej, ten przywódca zbombardował tak wielu wrogów jak tylko mógł,co spowodowało zniszczenie planety."
 
  #1.4
  asteroid_attack_category: "Jaskinie na Asteroidzie"
@@ -347,15 +345,6 @@
  ########## END STAR STUFF ##########
 
  ########## COUNTRY EVENTS ##########
-
- eev_popup.1.name: "Nielegalni Imigranci z Kosmosu"
-
- eev_popup.1.desc.d: "Nielegalni imigranci wylądowali na naszym ojczystym świecie bez wymaganej zgody. Mieszkańcy planety nie są z tego zadowoleni..."
- eev_popup.1.desc.c: "Otrzymaliśmy raport o nielegalnym lądowaniu obcych na naszym ojczystym świecie. \n\nMoże powinniśmy uczynić z nich niewolników?"
- eev_popup.1.desc.x: "Otrzymaliśmy raport o nielegalnym lądowaniu obcych na naszej rodzimej planecie! \n\nCo powinniśmy teraz zrobić?"
- eev_popup.1.desc.xp: "Wygląda na to, że mamy nieproszonych gości na naszej rodzimej planecie. \n\nPowinniśmy zalegalizować ich pobyt, czy ich wygnać?"
- eev_popup.1.desc.m: "Obcy wylądowali na naszym ojczystym świecie bez wymaganych pozwoleń. \n\nCo powinniśmy teraz zrobić?"
- eev_popup.1.desc.sp: "Nielegalni imigranci wylądowali na naszej rodzimej planecie bez wymaganej zgody. \n\nCo powinniśmy teraz zrobić?"
 
  eev_popup.1.a: "Zatrzymać ich, i wysłać tam, skąd przybyli."
  eev_popup.1.b: "Wszystko wskazuje na to, że mamy nowych niewolników!"

@@ -102,7 +102,7 @@ ship_event = {
 			add_resource = {
 				unity = 500
 			}
-			save_event_target_as = owner_country
+			# save_event_target_as = owner_country
 			create_fleet = {
 				name = eevfleet
 				effect = {
@@ -168,7 +168,7 @@ ship_event = {
 		name = space_nomads.1.i
 		trigger = {
 			owner = {
-				is_authoritarian = yes
+				has_policy_flag = slavery_allowed
 			}
 		}
 		leader = {
@@ -177,6 +177,25 @@ ship_event = {
 		owner = {
 			add_resource = {
 				unity = 500
+			}
+			hidden_effect = {
+				create_species = {
+					name = random
+					class = random_non_machine
+					portrait = random
+					traits = {
+						trait = trait_nomadic
+						trait = random_traits
+					}
+				}
+			}
+			while = {
+				count = 3
+				random_owned_planet = {
+					create_pop = {
+						species = last_created_species
+					}
+				}
 			}
 		}
 	}

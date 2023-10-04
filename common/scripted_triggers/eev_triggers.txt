@@ -75,12 +75,12 @@ eev_is_gas_giant = {
 
 eev_is_scientist_cautious = {
 	OR = {
-		has_trait_tier1or2 = { TRAIT = leader_trait_paranoid }
 		has_trait = leader_trait_roamer
 		has_trait = leader_trait_chosen
-		has_trait_tier1or2or3 = { TRAIT = leader_trait_expertise_particles }
 		has_trait = leader_trait_curator
-		has_trait = leader_trait_frontier_adventurer
+		has_trait_tier1or2 = { TRAIT = leader_trait_paranoid }
+		has_trait_tier1or2or3 = { TRAIT = leader_trait_slippery }
+		has_trait_tier1or2or3 = { TRAIT = leader_trait_observant }
 	}
 }
 

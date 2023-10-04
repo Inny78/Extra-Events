@@ -235,6 +235,7 @@
  eev_mossy_planet.1.name: "Cushion world"
  eev_mossy_planet.1.desc: "The flora of this planet evolved to grow as comfortable cushions. Animals gather to sleep on them, providing heat and nutriments. This mutually beneficial relationship has proved quite efficient and the crew spots some cat-like animals living their best life on these plants."
 
+# 3.9 starts here
 # Crazy Scientist rewrite
  crazy_scientist_category: "The strange flora"
  crazy_scientist_category_desc: "While scanning §Y[Root.GetName]§! the crew has detected some weird flora and wans to investigate."
@@ -247,3 +248,27 @@
  crazy_scientist.2.name: "Capture failed"
  crazy_scientist.2.desc: "We explored the cave in search of our lost scientist. Sadly, in his panic, he fell into a chasm and perished. We noticed though that this cave is full of interesting crystals and decided to take some samples."
  crazy_scientist.2.a: "悲惨的命运。"
+
+# Illegal Aliens rewrite
+ eev_illegal_aliens.2.name: "Uninvited Guests"
+ eev_illegal_aliens.2.desc: "Reports have reached us that a group of aliens has trespassed onto one of our planets without prior authorization. Our security forces quickly arrested them. They will be soon put to work for their crime."
+ eev_illegal_aliens.3.name: "Illegal Aliens"
+ eev_illegal_aliens.3.desc: "Reports have reached us that a group of aliens has trespassed onto one of our planets! Our security forces forcefully removed them."
+ eev_illegal_aliens.4.desc: "Reports have reached us that a group of aliens has trespassed onto one of our planets without prior authorization. After studying their situation, they were fined and sent into the proper admission procedure."
+ eev_illegal_aliens.2.a: "New workforce will strengthen our empire."
+ eev_illegal_aliens.3.a: "Good riddance."
+ eev_illegal_aliens.4.a: "Keep an eye on them." 
+
+# World War rewrite
+ world_war_category_desc: "The crew detects many debris on the surface of §Y[Root.GetName]§! and belives that a global conflict destroyed its inhabitants."
+ world_war.1.desc: "While scanning the desolate surface of this forsaken planet, our vigilant science crew discerns subtle, haunting remnants of a bygone era. The prevailing evidence suggests that a cataclysmic event, caused by a world-engulfing conflict of immense proportions, happened here eons ago, culminating in the tragic extinction of the planet's once-thriving civilization. The scars of this conflict can be seen etched into the very landscape, with the remains of colossal war machines and crumbling fortifications scattered across the terrain."
+ world_war.1.a: "Explore the planet."
+ world_war.1.b: "Honor the dead."
+ world_war.1.c: "Bring back some artifacts."
+ world_war.2.name: "A tragic end"
+ world_war.2.desc: "We deployed a team of researchers to delve deeper into the planet's history, unearthing artifacts and deciphering ancient records to piece together the details of this catastrophic event. They came back with interesting insights on the devastating war for global domination that ravaged this planet."
+ world_war.3.name: "A moment of silence"
+ world_war.3.desc: "We choose to honor the memory of the fallen civilization by leaving the planet undisturbed, allowing their remains to stay undisturbed by our interference."
+ world_war.3.a: "Rest in peace, warriors."
+ world_war.4.name: "Artifacts collected"
+ world_war.4.desc: "The war machines were broken beyond repair, but our team came out with a number of artifacts and metal pieces that will prove useful."

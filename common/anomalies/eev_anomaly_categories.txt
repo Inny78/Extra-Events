@@ -478,6 +478,16 @@ frozen_civilization_category = {
 			add = 1
 			eev_is_frozen = yes
 		}
+		modifier = {
+			factor = 0
+			from.owner = {
+				OR = {
+					is_xenophobe = yes
+					is_homicidal = yes
+					is_gestalt = yes
+				}
+			}
+		}
 	}
 	on_success = frozen_civilization.1
 }
@@ -591,11 +601,13 @@ murder_category = {
 		modifier = {
 			add = 1
 			habitable_planet = yes
+			mid_game_years_passed > 10
 			from.owner = {
 				NOR = {
 					eev_is_heavy_metal = yes
 					is_hive_empire = yes
 					is_gestalt = yes
+					is_xenophobe = yes
 				}
 			}
 		}

@@ -98,9 +98,7 @@
  space_knights.1.desc: "Une société de type médiévale peuplait cette planète avant de connaître une fin spectaculaire. \n\nDeux factions rivales guerroyant sans cesse entre elles régnaient sur cette planète avant leur annihilation datant de 5000 ans selon la théorie de §G[Root.GetLeaderName]§!. \n\nLa dernière bataille entre ces deux factions a entraîné la destruction à jamais de toute forme de vie avancée sur cette planète. \n\nNous croyons que ces factions se combattaient pour faire prévaloir leurs idées religieuses respectives."
  
  world_war_category: "Débris d'une bataille"
- world_war_category_desc: "L'équipage croit qu'une guerre mondiale sur §Y[Root.GetName]§! a détruit leur civilisation."
  world_war.1.name: "Guerre mondiale"
- world_war.1.desc: "L'équipage avait vu juste et §G[Root.GetLeaderName]§! estime que cette civilisation avait atteint un niveau technologique légèrement inférieur au nôtre.  \n\n§G[Root.GetLeaderName]§! croit qu'un chef fasciste belliqueux désirait conquérir le monde et il avait fini par bombarder tous ses ennemies au point d'annihiler toute l'espèce."
  
  #1.4
  asteroid_attack_category: "Grottes"
@@ -336,12 +334,6 @@
  
  ########## COUNTRY EVENTS ##########
  
- eev_popup.1.name: "Des émigrants illégaux"
- eev_popup.1.desc.d: "Des émigrants d'une autre espèce ont transgressé illégalement la frontière d'une de nos planètes! Devrions-nous les renvoyer ou leur permettre de rester?"
- eev_popup.1.a: "Retournez-les hors de nos frontières."		
- eev_popup.1.b: "Ils peuvent rester." 
- eev_popup.1.c: "Ils peuvent rester pour l'instant... Je déciderai plus tard ce que nous devrons faire d'eux."
- #
  eev_popup.2.name: "Un attentat terroriste"
  eev_popup.2.desc: "Une bombe a explosé et a détruit un important immeuble abritant des services de commerce intergalactique sur notre planète capitale. L'attentat a été revendiqué par des terroristes ayant des idéaux différents des nôtres. \n\nDes hauts fonctionnaires assurent que l'immeuble sera reconstruit sans délai."
  eev_popup.2.a: "Trouvez-les !"

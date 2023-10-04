@@ -119,9 +119,7 @@
  space_knights.1.desc: "Uma espécie medieval vagou por esse lugar, porém ela teve uma morte especatular! \n\nDuas facções governaram esse planeta, guerreando uma a outra por território numa batalha sem fim que §G[Root.GetLeaderName]§! teoriza que aconteceu 5000 anos antes deles conhecerem seu destino. \n\n\A última batalha entre as duas facções acabou com o planeta e este nunca se recuperou. \n\n Ainda mais acredita-se que essas guerras aconteceram pela crença religiosa."
  
  world_war_category: "Escombro da anomalia de batalha"
- world_war_category_desc: "A tripulação acredita que uma guerra mundial em §Y[Root.GetName]§! que destruiu a raça habitante."
  world_war.1.name: "Guerra mundial"
- world_war.1.desc: "A tripulação estava certa, porém §G[Root.GetLeaderName]§!  e seus cientistas não achavam que a civilização não era tão avançada quando se autodestruiu. Eles tinham quase nosso nível tecnológico quando isso aconteceu \n\n§G[Root.GetLeaderName]§! acredita que havia um líder fascista e belicista cuja meta era dominação mundial. Esse líder bombardeou quantos inimigos ele pode e isso causou a destruição do planeta."
  
  #1.4
  asteroid_attack_category: "Anomalia das cavernas de asteroides"
@@ -363,12 +361,6 @@
  
  ########## COUNTRY EVENTS ##########
  
- eev_popup.1.name: "Aliens Ilegais"
- eev_popup.1.desc.d: "Aliens ultrapassaram nossas fronteiras sem permissão! Podemos mandá-los embora, ou talvez devessemos deixá-los?"
- eev_popup.1.a: "Prendam-nos e mandem-nos embora."		
- eev_popup.1.b: "Eles podem ficar." 
- eev_popup.1.c: "Deixem eles ficar por hora... Eu decidirei o que fazer com eles num momento futuro."
- #
  eev_popup.2.name: "Ataques terroristas"
  eev_popup.2.desc: "Uma construçã importante no nosso planeta capital responsável pelo comércio intergalático foi bombardeada por terristas de ideais divergentes. \n\nNosso alto escalão garante que será reconstruída rapidamente."
  eev_popup.2.a: "Eoncontrem-nos!"

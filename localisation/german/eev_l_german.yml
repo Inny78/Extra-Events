@@ -101,9 +101,7 @@
  space_knights.1.desc: "Eine ausgestorbene Mittelaterliche Spezies durchstrich einst diesen Planeten, aber sie sind auf einer sehr spektakulären Weise ausgestorben! \n\nZwei Fraktionen bekämpften sich um Gebiete in endlosen Schlachten welcher [Root.GetLeaderName] glaubt, dass sie vor 5000 Jahren begann, bevor sie ihr Ende erwartete. \n\nIn ihrem letzten Kampf der Zwei streitenden Reiche, ging es um alles oder nichts, sie schienen sich fast alle in einer Schlacht getötet zu haben, von welcher sich der Planet nicht mehr erholte. \n\nSie glauben auch das der Grund für diesen Krieg, der glaube an einen Gott war."
 
  world_war_category: "Trümmer eines Kampfes Anomalie"
- world_war_category_desc: "Die Crew klaubt ein Welt Krieg passierte auf [Root.GetName] die ihre Rasse auschlöschte."
  world_war.1.name: "Welt Krieg"
- world_war.1.desc: "Die Crew hatte Recht, aber [Root.GetLeaderName] und seine Wissenschaftler glauben das die Zivilisation nicht so fortschrittlich wie wir waren, als sie sich selbst vernichteten. \n\n[Root.GetLeaderName] glaubt das ein faschischtischer Kriegstreiber zum Ziel hatte die Welt zu erobern. Dieser Anführer bombardierte soviele Feinde wie er konnte, was letzten Endes zur Zerstörung der Welt führte."
 
 #1.4
  asteroid_attack_category: "Asteroiden Höhle Anomalie"
@@ -334,14 +332,6 @@
 ########## END STAR STUFF ##########
 
 ########## COUNTRY EVENTS ##########
-
- eev_popup.1.name: "Illegale Aliens"
- eev_popup.1.desc.d: "Aliens haben unseren Hauptplanet betreten ohne die Erlaubniss zu haben, unsere Bevölkerung ist nicht sehr glücklich darüber..."
- eev_popup.1.desc.c: "Berichte kamen rein, das illegale Aliens unseren Hauptplaneten betreten haben!. \n\nSollen wir sie versklaven?"
- eev_popup.1.desc.x: "Berichte kamen rein das illegale Aliens unseren Hauptplaneten betreten haben! \n\nWas sollen wir mit ihnen tun?"
- eev_popup.1.desc.xp: "Es scheint als haben wir uneingeladene Aliens auf unserem Hauptplaneten. \n\nSollen wir sie willkommen heißen oder wegschicken?"
- eev_popup.1.desc.m: "Aliens haben illegal unseren Hauptplaneten betreten. \n\nWas sollen wir deswegen tun?"
- eev_popup.1.desc.sp: "Uneingeladene Aliens haben unseren Hauptplaneten betreten. \n\nWas sollen wir tun?"
 
  eev_popup.1.a: "Sperrt sie ein und schickt sie weg."
  eev_popup.1.b: "Es scheint als haben wir neue Sklaven!"

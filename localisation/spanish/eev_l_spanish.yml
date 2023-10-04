@@ -107,9 +107,7 @@
  space_knights.1.desc: "Una especie medieval una vez vivió en este planeta, pero por sus escritos murieron de una manera espectacular! \n\nDos facciones gobernaron el planeta, luchando entre sí por el territorio en una batalla interminable, según §G[Root.GetLeaderName]§!, esto comenzó 5000 años antes de que finalmente terminaran en su anililación. \n\nLa última batalla de estas dos facciones en guerra fue destruir su planeta que nunca mas se recuperó. \n\nEntonces, se cree que la causa de esta guerra fue la creencia en un dios."
  
  world_war_category: "Anomalía encontrada: Escombros de una batalla"
- world_war_category_desc: "La tripulación cree que una guerra mundial ocurrió en §Y[Root.GetName]§! que destruyó su raza."
  world_war.1.name: "Guerra Mundial"
- world_war.1.desc: "La tripulación estaba en lo correcto, pero §G[Root.GetLeaderName]§! y sus científicos creían que la civilización no sería tan avanzada como lo eran cuando se destruyeron a sí mismos. Estaban casi a nuestro nivel tecnológico cuando sucedió. \n\n§G[Root.GetLeaderName]§! cree que hubo un líder fascista belicoso cuyo objetivo era dominar el mundo. A este líder lo atacaron todas las demás facciones al parecer de forma nuclear, lo que fue la causa de la destrucción del planeta."
 
  #1.4
  asteroid_attack_category: "Anomalía encontrada... cuevas de asteroides"
@@ -343,12 +341,6 @@
  
  ########## COUNTRY EVENTS ##########
  
- eev_popup.1.name: "Aliens Ilegales"
- eev_popup.1.desc.d: "¡Los alienígenas han invadido uno de nuestros planetas sin permiso! Podríamos enviarlos lejos, o tal vez podríamos dejarlos quedarse?"
- eev_popup.1.a: "Encarcelarlos y enviarlos lejos."		
- eev_popup.1.b: "Pueden quedarse." 
- eev_popup.1.c: "Deja que se queden por ahora ... Voy a decidir qué hacer con ellos despúes."
- #
  eev_popup.2.name: "Ataques terroristas"
  eev_popup.2.desc: "Un edificio importante en nuestro planeta capital responsable del comercio intergaláctico fue bombardeado recientemente por terroristas cuyos ideales no son los mismos que los nuestros. \n\nNuestros altos funcionarios del gobierno nos aseguran que el edificio será reconstruido en breve."
  eev_popup.2.a: "¡Encuéntralos!"

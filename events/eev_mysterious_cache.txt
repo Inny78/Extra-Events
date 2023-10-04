@@ -30,7 +30,7 @@ ship_event = {
 					}
 				}
 				add_trait = leader_trait_meticulous
-				add_experience = 75
+				add_experience = 100
 			}
 			else = {
 				add_experience = 300

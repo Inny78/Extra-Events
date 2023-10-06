@@ -434,17 +434,6 @@
  eev_popup.18.b: "Ich werde anderswo gebraucht."
  
  #
- eev_popup.19.name: "Ein Haufen Geld"
- eev_popup.19.desc: "Im Laufe der vielen Jahre haben wir eine Summe von §YEnergy§! angespart - ein beeindruckendes Vermögen. \n\nVielleicht sollten wir etwas für die Hungernden spenden? Die Kranken? Oder vielleicht könnten wir in die Suche nach einem Heilmittel für Weltraumkrebs investieren?"
- eev_popup.19.a: "Spendet an die Hungernden"
- eev_popup.19.b: "Spendet an die Kranken"
- eev_popup.19.c: "Spendet, um eine Heilung für Weltraumkrebs zu finden."
- eev_popup.19.d: "Ich behalte mein Geld lieber."
- 
- eev_popup.20.name: "Weltraumkrebs geheilt"
- eev_popup.20.desc: "Es scheint, dass unsere großzügige Spende vor Monaten zur Heilung von Weltraumkrebs beigetragen hat! \n\nAls die Nachricht publik wurde jubelte die gesamte Hauptstadt!"
- eev_popup.20.a: "Wundervoll"
- 
  eev_popup.22.name: "Primitive Alien Infektion"
  eev_popup.22.desc: "Einer unserer Beobachtungsposten hat einen rapiden Rückgang der Bevölkerung auf §Y[From.GetName]§! entdeckt. Es scheint, als ob der Planet von einer schwerwiegenden Pandemie heimgesucht wird. \n\nWir könnten sie in Ruhe lassen und hoffen, dass sie eine Immunität entwickeln. Oder wir beenden ihr Leid und atomisieren den Planeten."
  eev_popup.22.a: "Lasst sie in Ruhe."

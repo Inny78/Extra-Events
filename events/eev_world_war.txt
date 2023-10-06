@@ -61,7 +61,7 @@ country_event = {
 
 country_event = {
 	id = world_war.3
-	title = world_war.3.name
+	title = last_words.1.a
 	desc = world_war.3.desc
 	picture = GFX_evt_ground_combat
 	show_sound = event_ship_bridge

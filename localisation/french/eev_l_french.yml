@@ -427,17 +427,6 @@
  eev_popup.18.b: "D'accord. Au suivant !"
  
  #1.9
- eev_popup.19.name: "Prospérité"
- eev_popup.19.desc: "Au cours des années, nous avons amassé la somme de §YEnergy§!, ce qui est considérable. \n\nPeut-être pourrions-nous donner aux pauvres, aux malades, ou investir dans la recherche médicale contre le cancer de l'espace ?"
- eev_popup.19.a: "Donnons aux pauvres."
- eev_popup.19.b: "Donnons aux malades."
- eev_popup.19.c: "Donnons à la recherche contre le cancer de l'espace."
- eev_popup.19.d: "Gardons plutôt notre argent."
- 
- eev_popup.20.name: "Thérapie contre le cancer de l'espace"
- eev_popup.20.desc: "C'est incroyable ! Il semble que notre généreux don ait permis une percée dans la recherche et nous avons enfin trouvé une thérapie permettant de guérir du cancer de l'espace! \n\nLa population de notre planète capitale est en liesse après avoir entendu cette réjouissante nouvelle !"
- eev_popup.20.a: "Merveilleux"
- 
  eev_popup.22.name: "Épidémie mortelle chez une espèce primitive"
  eev_popup.22.desc: "Un de nos postes de veille a observé un déclin rapide de la population primitive sur §Y[From.GetName]§! Il semble y avoir une maladie infectieuse qui décime la population de cette planète. \n\nNous pouvons espérer qu'ils développeront une immunité ou nous pouvons mettre fin à tous dangers de propagation en détruisant cette planète."
  eev_popup.22.a: "Ne faites rien."

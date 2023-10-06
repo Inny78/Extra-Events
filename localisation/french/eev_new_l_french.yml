@@ -263,8 +263,17 @@
  world_war.1.c: "Bring back some artifacts."
  world_war.2.name: "A tragic end"
  world_war.2.desc: "We deployed a team of researchers to delve deeper into the planet's history, unearthing artifacts and deciphering ancient records to piece together the details of this catastrophic event. They came back with interesting insights on the devastating war for global domination that ravaged this planet."
- world_war.3.name: "A moment of silence"
  world_war.3.desc: "We choose to honor the memory of the fallen civilization by leaving the planet undisturbed, allowing their remains to stay undisturbed by our interference."
  world_war.3.a: "Rest in peace, warriors."
  world_war.4.name: "Artifacts collected"
  world_war.4.desc: "The war machines were broken beyond repair, but our team came out with a number of artifacts and metal pieces that will prove useful."
+
+# Lots of Money rewrite
+ eev_lotsofmoney.1.name: "Lots of Money"
+ eev_lotsofmoney.1.desc: "Over the years, we have amassed a substantial sum of §YEnergy Credits§! This wealth allows us the opportunity to make lasting improvements to our empire that will leave a mark on history."
+ eev_lotsofmoney.1.a: "Build a monument"
+ eev_lotsofmoney.1.b: "Launch a cultural initiative"
+ eev_lotsofmoney.1.c: "Fund a scientific project"
+ eev_lotsofmoney.1.d: "I would rather keep my money."
+ eev_lotsofmoney.2.name: "Frixian plage cured"
+ eev_lotsofmoney.2.desc: "It seems our generous donation months ago has aided in the cure for a previously incurable disease known as the Frixian plague! Last night our capital planet rejoiced when they heard the news!"

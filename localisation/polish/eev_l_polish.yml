@@ -448,17 +448,6 @@
  eev_popup.18.b: "Potrzebujemy tych środków gdzie indziej."
 
  #1.9
- eev_popup.19.name: "Wolne fundusze"
- eev_popup.19.desc: "Na przestrzeni ostatnich lat zgromadziliśmy znaczną sumę §YEnergy§!. \n\nMoże powinniśmy pomyśleć o przeznaczeniu tych środków na darmowe posiłki dla głodujących? Albo leczenie chorych? Albo zainwestować w badania nad leczeniem kosmicznego raka?"
- eev_popup.19.a: "Przekażmy pieniądze głodującym."
- eev_popup.19.b: "Należy wesprzeć chorych."
- eev_popup.19.c: "Zainwestujmy w badania nad kosmicznym rakiem."
- eev_popup.19.d: "Potrzebujemy tych środków gdzie indziej."
-
- eev_popup.20.name: "Przełom w badaniach kosmicznego raka"
- eev_popup.20.desc: "Wygląda na to, że nasza hojna darowizna kilka miesięcy temu pomogła w leczeniu kosmicznego raka!\n\nZeszłej nocy cała planeta stołeczna nie posiadała się z radości, kiedy dotarły do nas te wieści!"
- eev_popup.20.a: "Niesamowite!"
-  
  eev_popup.22.name: "Śmiertelna infekcja"
  eev_popup.22.desc: "Jeden z naszych posterunków obserwacyjnych zauważył nagły spadek ludności na §Y[From.GetName]§!. Wygląda na to, że śmiertelna w skutkach infekcjach przetrzebia populację planety. \n\nMożemy zaczekać i pozwolić aż układy immunologiczne populacji same uporają się z problemem...albo zbombardować glob i zakończyć ich cierpienia."
  eev_popup.22.a: "Poczekajmy na rozwój sytuacji."

@@ -13,6 +13,7 @@ is_pd_arctic = { always = no }
 is_pd_tundra = { always = no }
 is_pd_toxic = { always = no }
 is_pd_barren = { always = no }
+atw_is_arctic = { always = no }
 atw_is_continental = { always = no }
 atw_is_desert = { always = no }
 atw_is_ocean_basic = { always = no }

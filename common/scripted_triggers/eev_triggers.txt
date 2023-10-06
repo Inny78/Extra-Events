@@ -165,3 +165,24 @@ eev_is_modern_age = {
 		has_pre_ftl_age = machine_age
 	}
 }
+
+eev_is_barren = {
+	OR = {
+		is_planet_class = pc_barren
+		# Planetary Diversity
+		is_pd_barren = yes
+		# All These Worlds
+		atw_is_barren = yes
+	}
+}
+
+eev_is_arctic = {
+	OR = {
+		is_planet_class = pc_arctic
+		# Planetary Diversity
+		is_pd_barren = yes
+		pd_is_arctic = yes
+		# All These Worlds
+		atw_is_arctic = yes
+	}
+}

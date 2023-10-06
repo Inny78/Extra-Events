@@ -434,17 +434,6 @@
  eev_popup.18.b: "Estoy necesitado en otro lugar..."
  
  #1.9
- eev_popup.19.name: "Mucho dinero"
- eev_popup.19.desc: "Durante los muchos años hemos recolectado una suma de §YEnergía§!, eso no es para reírse. \n\nTal vez deberíamos donar algo a los hambrientos? ¿Los enfermos? ¿O tal vez podríamos invertir en encontrar la cura para el cáncer del espacio?"
- eev_popup.19.a: "Donar a los hambrientos"
- eev_popup.19.b: "Donar a los enfermos"
- eev_popup.19.c: "Donar para encontrar una cura para el cáncer espacial"
- eev_popup.19.d: "Prefiero mantener mi dinero."
- 
- eev_popup.20.name: "Cáncer Espacial Curado"
- eev_popup.20.desc: "¡Parece que nuestra generosa donación meses atrás ha ayudado en la curación para el Cáncer Espacial! \n\nAnoche nuestro planeta capital se regocijó cuando oyeron las noticias!"
- eev_popup.20.a: "Maravilloso"
- 
  eev_popup.22.name: "Infección Primitiva alienigena"
  eev_popup.22.desc: "Uno de nuestros puestos de observación ha detectado una pandemia en §Y[From.GetName]§!. Parece una infección de nivel de extinción que ha barrido el planeta. \n\nPodríamos dejarlos estar y esperar que construyan una inmunidad. O podríamos terminar ahora y bombardear el planeta."
  eev_popup.22.a: "Déjalos ser."

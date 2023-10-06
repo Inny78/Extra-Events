@@ -9,7 +9,8 @@ ancient_flag_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
-			eev_is_uninhabitable = yes
+			is_moon = yes
+			eev_is_barren = yes
 		}
 	}
 	on_success = ancient_flag.1
@@ -476,7 +477,7 @@ frozen_civilization_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
-			eev_is_frozen = yes
+			eev_is_arctic = yes
 		}
 		modifier = {
 			factor = 0

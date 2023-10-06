@@ -6,19 +6,19 @@
 ###########################################################################
 
  ancient_flag_category: "The Forgotten Flag"
- ancient_flag_category_desc: "The crew has found a strange metallic cylinder with stained cloth attached to it, presumably some sort of flag on §Y[From.GetName]§!."
+ ancient_flag_category_desc: "The crew of the §B[Root.GetFleetName]§! has found a strange metallic cylinder with stained cloth attached to it, presumably some sort of flag on §Y[From.GetName]§!."
  ancient_flag.1.name: "Ancient Civilizations Flag"
- ancient_flag.1.desc: "Science Officer §G[Root.GetLeaderName]§! commander of the §B[Root.GetFleetName]§! has completed its detailed scan of §Y[From.GetName]§!. The object appears to have been placed by an ancient civilization, roughly 3000 years ago. In their culture, placing flags on celestial objects was a way to claim areas in space. \n\nSince there is little to no wind on §Y[From.GetName]§!, the flag has not eroded over the past 3000 years. What happened to the ancient civilization is still a mystery. "
+ ancient_flag.1.desc: "It appears that this object was placed here by an ancient civilization approximately 3,000 years ago. In their culture, marking celestial objects with flags may have been a way to lay claim to regions in space. Since there is little to no wind on §Y[From.GetName]§!, the flag remains remarkably intact, albeit with its colors faded by the relentless, unfiltered sun. The fate of this civilization, however, remains a mystery."
 
  space_grave_category: "The Outer Space Skeletal Remains"
  space_grave_category_desc: "The crew and its leader have spotted something very odd, about a dozen skeletal remains in orbit around §Y[From.GetName]§!. \n\nThe crew hasn't been this excited about something in a very long time, they are begging to study the anomaly."
  space_grave.1.name: "Space Grave"
- space_grave.1.desc: "Not only did the crew just find skeletal remains in orbit but have also found hundreds of thousands of skeletal remains on the surface of §Y[From.GetName]§! as well. It appears that the remains on the surface were a result of a cataclysmic event that occurred a few thousand years ago. Some tried to escape whatever occurred on the surface, but their ship somehow exploded while attempting to escape the gravity well of §Y[From.GetName]§!. \n\nThe cataclysmic event that happened on the surface remains a mystery, as many theories such as an asteroid impact or volcanic eruption are ruled out."
+ space_grave.1.desc: "The crew not only discovered mummified bodies in orbit around §Y[From.GetName]§! but also encountered countless skeletal remains on the planet's surface. This mass extinction event appears to be the outcome of a cataclysmic incident that transpired several millennia ago. Some individuals seemingly attempted to escape the surface's calamity, but their ships met a tragic fate, exploding during their attempted departure from their homeworld. The exact nature of this catastrophic event remains shrouded in mystery, as numerous theories, such as asteroid impacts or volcanic eruptions, have been ruled out."
  
  mineral_monolith_category: "A Valuable Rock"
- mineral_monolith_category_desc: "Scientists have spotted what appears to be an abnormally massive sized rock, on the surface of §Y[From.GetName]§!. Scans have shown it is highly mineral rich and has some carvings on its outer layer."
+ mineral_monolith_category_desc: "Scientists have identified an unusually massive rock on the surface of §Y[From.GetName]§!. Scans reveal high mineral content and intricate carvings on its outer layer."
  mineral_monolith.1.name: "A Mineral Monolith"
- mineral_monolith.1.desc: "§G[Root.GetLeaderName]§! and the crew of the §B[Root.GetFleetName]§! has finished studying the rock and it is indeed fascinating. \n\n§G[Root.GetLeaderName]§! estimates that a primitive civilization roughly 10,000 years ago worshipped this rock as some sort of deity or symbol of peace and notes that there are markings covering the rock in some ancient language. The rock seems to be slowly eroding. \n\n§G[Root.GetLeaderName]§! suggests preserving it in one of our geology museums for the public to see, or we could just scrap it for minerals, or sell to some collectors."
+ mineral_monolith.1.desc: "§G[Root.GetLeaderName]§! and the crew of the §B[Root.GetFleetName]§! have completed their study of the rock, and the findings are indeed intriguing. According to §G[Root.GetLeaderName]§!, this massive stone was likely venerated as a deity or symbol of peace by a primitive civilization approximately 10,000 years ago. The rock's surface is adorned with markings inscribed in an ancient language. However, it's evident that the rock is slowly deteriorating. §G[Root.GetLeaderName]§! proposes three options: preserving it in one of our geology museums for public display, extracting valuable minerals from it, or offering it for sale to collectors."
  mineral_monolith.1.a: "Scrap it."
  mineral_monolith.1.b: "Keep it."
  mineral_monolith.1.c: "Sell it."
@@ -27,7 +27,7 @@
  last_words_category: "A Lost Signal"
  last_words_category_desc: "The crew has picked up a strong ping coming from §Y[Root.GetName]§!."
  last_words.1.name: "An Adventurers Last Words"
- last_words.1.desc: "The §B[Root.GetFleetName]§! crew has found the device emitting the pings we previously picked up and it appears to be the last words of an alien adventurer. They have translated the language, this is what it says: \n\n§SLeader! Leader!? Come in Leader! I found it! After all these years I've actually found it! This will change the universe as we know it. We'll be able to do anyth- ... wait. It's... moving? It's moving! It's still alive! ... It spotted me. In case I don't make it my coordinates are AGH-.§! \n\nThat's all we have. We may never know who or what she found as this leader seems to have bombed the planet. Nothing alive is on this planet but us."
+ last_words.1.desc: "The crew of the §B[Root.GetFleetName]§! has located the device responsible for emitting the previously detected pings. Upon examination, it appears to contain the final communication of an alien adventurer. Our scientists have successfully translated the alien language, revealing the following message: \n\n§SCommander! Commander!? Can you hear me, Commander? I've found it! After all these years, I've actually found it! I just need to take its... wait. It's... moving? It's still alive! ... It's seen me! In case I don't make it, my coordinates are AGH-§! \n\nThat's all we have. We may never know who or what she found as this commander seems to have bombed the planet. Nothing alive is on this planet but us."
  last_words.1.a: "A moment of silence."
  
  mineral_core_category: "Incorrect Mass"
@@ -39,7 +39,7 @@
  bad_fate_category: "Alien Extinction"
  bad_fate_category_desc: "Closer examination has revealed fossils scattered across multiple layers of rock. What is even more unusual, is that the planet is completely barren."
  bad_fate.1.name: "A Devastating Fate"
- bad_fate.1.desc: "Upon even closer examinations §Y[From.GetName]§! seems to be the aftermath of two planets colliding which the §B[Root.GetFleetName]§! crew are calling §SFate§! and §SDestiny§!. \n\nProbably the most intriguing part of this is that one of the planets had a sprawling civilization! \n\nA truly interesting find."
+ bad_fate.1.desc: ""Upon even closer examination, it appears that §Y[From.GetName]§! is the result of a collision between two planets, which the crew of the §B[Root.GetFleetName]§! has dubbed §SFate§! and §SDestiny§!.  Perhaps the most intriguing aspect of this discovery is the revelation that one of these planets once hosted a thriving civilization — a truly remarkable find."
  bad_fate.1.b: "Rest in peace."
  
  rocky_egg_category: "A Strange Planet"
@@ -55,7 +55,7 @@
  doomed_civ_category: "The Crashed Ship"
  doomed_civ_category_desc: "The crew has spotted what appears to be a crashed space shuttle."
  doomed_civ.1.name: "Escape Trajectory"
- doomed_civ.1.desc: "While scanning the remains of the crashed space shuttle, the §B[Root.GetFleetName]§! crew came across something unsettling. \n\nThe ship appears to be more of an escape pod, on an escape trajectory from their home planet which according to what salvageable data was left in the ship's database was a dying planet. The disaster that occurred on their home planet must have been extremely devastating as whoever launched it, missed its target."
+ doomed_civ.1.desc: "While scanning the remnants of the crashed space shuttle, the crew of the §B[Root.GetFleetName]§! stumbled upon something unsettling. The ship appears to be more of an escape pod, following an escape trajectory from their home planet. According to the salvageable data found in the ship's database, their home planet was facing a dire catastrophe. The disaster that befell their homeworld must have been incredibly devastating, as the escape pod missed its intended target."
  
  lost_treasure_category: "The Weak Signal"
  lost_treasure_category_desc: "We have picked up a weak signal around §Y[Root.GetName]§!."
@@ -66,7 +66,7 @@
  diamond_core_category: "Old planet"
  diamond_core_category_desc: "The first analysis of this planet shows that it is ancient. The readings from its core suggests that its density is not what it should be."
  diamond_core.1.name: "A Diamond Core"
- diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that this old planet's extinct core is partially made of diamond! \n\nMining this planet will prove very beneficial for our industry."
+ diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that this old planet's extinct core is partially made of diamond! Mining this planet will prove very beneficial for our industry."
  diamond_core.1.a: "Get to mining!"
  
  #1.3
@@ -85,7 +85,7 @@
  perfect_planet_category: "Extraordinary Readings"
  perfect_planet_category_desc: "Upon closer scans of §Y[Root.GetName]§! the planet is showing extraordinary readings!"
  perfect_planet.1.name: "A Perfect Planet"
- perfect_planet.1.desc: "This planet is truly remarkable! \n\nGolden rivers and mountains of minerals! There is so much we can learn from this planet."
+ perfect_planet.1.desc: "This planet is truly remarkable! Golden rivers and mountains of minerals! There is so much we can obtain from this planet."
  
  ancient_fossils_category: "Advanced and Ancient Ruins"
  ancient_fossils_category_desc: "Scientists have spotted what appears to be ancient - yet advanced - civilization ruins."
@@ -399,7 +399,7 @@
  eev_popup.14.a: "The economy is great!"
  #
  eev_popup.15.name: "I Am Known"
- eev_popup.15.desc: "From the furthest corners of the galaxy I am known as a great leader. My victories and way of ruling my people have gotten me prestige!"
+ eev_popup.15.desc: "Under our rule, we have expanded our borders to other star systems, conquered our enemies, and secured our place in the galaxy. We have built wonders of science and technology. We have faced many challenges and threats, but we have always overcome them with courage and determination, and we have always emerged stronger and more resilient than before. We are the masters of our own destiny. And we owe it all to our vision and leadership."
  eev_popup.15.a: "I am great."
  #
  eev_popup.16.name: "A Gifted Pet"
@@ -420,19 +420,7 @@
  eev_popup.18.desc: "Our scientists have had some troubles recently. Specifically faulty equipment, and the lack of new recruits. They say with some monetary aid they can get back on their feet in no time at all."
  eev_popup.18.a: "They have my assistance."
  eev_popup.18.b: "I'm needed elsewhere..."
- 
  #
- eev_popup.19.name: "Lots of Money"
- eev_popup.19.desc: "Over the many years we have collected a sum of §YEnergy Credits§! that is nothing to laugh at. \n\nPerhaps we should donate some to the hungry? The sick? Or maybe we could invest in finding the cure to space cancer?"
- eev_popup.19.a: "Donate to the hungry"
- eev_popup.19.b: "Donate to the sick"
- eev_popup.19.c: "Donate to find a cure for space cancer"
- eev_popup.19.d: "I would rather keep my money."
- 
- eev_popup.20.name: "Space cancer cured"
- eev_popup.20.desc: "It seems our generous donation months ago has aided in the cure for space cancer! \n\nLast night our capital planet rejoiced when they heard the news!"
- eev_popup.20.a: "Wonderful"
- 
  eev_popup.22.name: "Primitive Alien Infection"
  eev_popup.22.desc: "One of our observation posts has spotted a rapid decline in population on §Y[From.GetName]§!. It seems an extinction level infection has swept the planet. \n\nWe could let them be and hope for them to build an immunity. Or we could end it now and nuke the planet."
  eev_popup.22.a: "Let them be."

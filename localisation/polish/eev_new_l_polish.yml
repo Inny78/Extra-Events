@@ -282,3 +282,15 @@
  eev_lotsofmoney.1.d: "I would rather keep my money."
  eev_lotsofmoney.2.name: "Frixian plage cured"
  eev_lotsofmoney.2.desc: "It seems our generous donation months ago has aided in the cure for a previously incurable disease known as the Frixian plague! Last night our capital planet rejoiced when they heard the news!"
+
+# Haven
+ eev_lone_ship.cat.title: "Lone ship"
+ eev_lone_ship.cat.desc: "Our sensors have detected a small spaceship on the surface of this planet. We can't detect any energy reading or sign of life from it, so it should be safe to investigate."
+ eev_lone_ship.1.name: "Haven"
+ eev_lone_ship.1.desc: "A small spaceship did indeed land here a century ago. It served as the home for a couple of young xenos who had fled their oppressive homeland in search of refuge. They spent their lives in solitude but found peace and happiness until they passed away in old age."
+
+# Dirty civ
+ eev_dirty_civ.cat.title: "Space congestion"
+ eev_dirty_civ.cat.desc: "A massive cloud of debris is orbiting this planet. They seem to be artificial and §G[Root.GetLeaderName]§! is eager to investigate."
+ eev_dirty_civ.1.name: "Fun times"
+ eev_dirty_civ.1.desc: "The crew of the §B[Root.GetFleetName]§! was taken aback by the peculiar nature of this debris field. Terrestrial vehicles, assorted objects, and even entire buildings are drifting through the void around §Y[From.GetName]§!. It appears that the now-extinct civilization had a penchant for launching the strangest items into orbit, to the extent that it rendered any attempts at space travel from their world virtually impossible."

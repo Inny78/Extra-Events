@@ -272,10 +272,44 @@
 
 # Lots of Money rewrite
  eev_lotsofmoney.1.name: "Lots of Money"
- eev_lotsofmoney.1.desc: "Over the years, we have amassed a substantial sum of §YEnergy Credits§! This wealth allows us the opportunity to make lasting improvements to our empire that will leave a mark on history."
+ eev_lotsofmoney.1.desc: "Over the years, we have amassed a substantial sum of §YEnergy Credits§!. This wealth allows us the opportunity to make lasting improvements to our empire that will leave a mark on history."
  eev_lotsofmoney.1.a: "Build a monument"
  eev_lotsofmoney.1.b: "Launch a cultural initiative"
  eev_lotsofmoney.1.c: "Fund a scientific project"
  eev_lotsofmoney.1.d: "I would rather keep my money."
  eev_lotsofmoney.2.name: "Frixian plage cured"
- eev_lotsofmoney.2.desc: "It seems our generous donation months ago has aided in the cure for a previously incurable disease known as the Frixian plague! Last night our capital planet rejoiced when they heard the news!"
+ eev_lotsofmoney.2.desc: "It appears that our generous donation months ago has played a pivotal role in finding a cure for the once-incurable Frixian plague! Last night our capital planet celebrated when they heard the news!"
+
+# Haven
+ eev_lone_ship_category: "Lone ship"
+ eev_lone_ship.desc: "Our sensors have detected a small spaceship on the surface of this planet. We can't detect any energy reading or sign of life from it, so it should be safe to investigate."
+ eev_lone_ship.1.name: "Haven"
+ eev_lone_ship.1.desc: "A small spaceship did indeed land here a century ago. It served as the home for a couple of young xenos who had fled their oppressive homeland in search of refuge. They spent their lives in solitude but found peace and happiness until they passed away in old age."
+
+# Dirty civ
+ eev_dirty_civ_category: "Space congestion"
+ eev_dirty_civ.desc: "A massive cloud of debris is orbiting this planet. They seem to be artificial and §G[Root.GetLeaderName]§! is eager to investigate."
+ eev_dirty_civ.1.name: "Fun times"
+ eev_dirty_civ.1.desc: "The crew of the §B[Root.GetFleetName]§! was taken aback by the peculiar nature of this debris field. Terrestrial vehicles, assorted objects, and even entire buildings are drifting through the void around §Y[From.GetName]§!. It appears that the now-extinct civilization had a penchant for launching the strangest items into orbit, to the extent that it rendered any attempts at space travel from their world virtually impossible."
+
+# Belltower
+ eev_belltower_category: "Desert signal"
+ eev_belltower_desc: "Scans found some energy readings coming from what seems to be a lone building on this desert planet. The crew is preparing an expedition to investigate it."
+ eev_belltower.1.name: "Desert tower"
+ eev_belltower.1.desc: "Landing near the building turned out to be more complicated than predicted, as it is at the center of a massive area of shifting sands. The crew used the ship's sampling lasers to glass a large area to allow us to land. Unfortunately, the building is all but submerged by the sand, with only its conical top emerging from it. §G[Root.GetLeaderName]§! wants to set up a camp to excavate the building and explore it."
+ eev_belltower_dig: "The Belltower"
+ eev_belltower_dig_desc: "Landing near the building turned out to be more complicated than predicted, as it is at the center of a massive area of shifting sands. The crew used the ship's sampling lasers to glass a large area to allow us to land. Unfortunately, the building is all but submerged by the sand, with only its conical top emerging from it."
+ eev_belltower_dig.1.name: "Camp set"
+ eev_belltower_dig.1.desc: "Now that we have set up camp and created pathways above the sand, we examined the top of the building. It seems to be vibrating in harmony with the energy source that we can detect inside it. This seems to work like a force field that prevents us from even scratching the surface. We will have to dig towards a large entrance our sensors are detecting 70 meters below us."
+ eev_belltower_dig.2.name: "The door"
+ eev_belltower_dig.2.desc: "After stabilizing the sand, we managed to dig our way down to the entrance, revealing little by little the ornate facade of the tower. We finally reached, in the middle of the night, a large metallic door with many engravings showing many distinct alien races praising a stylized sun. We're now trying to figure out how to open these doors, as they're as unaffected by our tools than the rest of the tower."
+ eev_belltower_dig.3.name: "The belltower"
+ eev_belltower_dig.3.desc: "As soon as the sun rose, its light illuminated the door and the engraving of the sun carved upon it flashed in response, triggering its opening. The crew entered the tower with caution, not knowing what to expect. And they certainly didn't expect the building to hold a complex machinery buzzing with energy, going all the way up to what seems to be a massive bell. §G[Root.GetLeaderName]§! immediately ordered a study of the strange device."
+ eev_belltower_dig.4.name: "Signal tower"
+ eev_belltower_dig.4.desc: "Our scientists couldn't find any data or recording inside the building. The machinery seems to be a communication tower not unlike ours, but on a massive scale. It seems to be connecting the bell to the hyperlane system of our galaxy, but it's not sending any signal: while the rest of the tower has been working for countless millennia, the emitter has been shut down."
+ eev_belltower_dig.5.name: "Ding"
+ eev_belltower_dig.5.desc: "After a careful examination, §G[Root.GetLeaderName]§! concluded that the only way to understand what that tower is for is to activate the emitter. §G[Root.Leader.GetSheHeCap]§! flipped the switch, and a beam of energy immediately hit the bell, releasing an harmonious §RDING§! that filled the building, coursed along the sand outside, and pulsed out of the transmitter towards the galaxy. The device then totally shut down, including the force field that maintained its integrity. The tower immediately started to crumble, and our crew ran outside just in time."
+ eev_belltower_dig.5.a: "What have we done?"
+ eev_belltower.2.name: "Dong"
+ eev_belltower.2.desc: "Soon after, on all our colonies, stations and ships, all our communication devices suddenly played the bell's beautiful sound, and for a few seconds, everyone stopped to listen to it as it touched our very souls. It then disappeared forever. No recording device could keep a trace of it, and it now only lives in the memory of our people."
+ eev_belltower.3.desc: "Suddenly, on all our colonies, stations and ships, all our communication devices suddenly played a beautiful bell sound, and for a few seconds, everyone stopped to listen to it as it touched our very souls. It then disappeared forever. No recording device could keep a trace of it, and it now only lives in the memory of our people."

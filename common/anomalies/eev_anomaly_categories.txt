@@ -499,7 +499,7 @@ supernova_category = {
 	picture = GFX_evt_ship_in_orbit
 	max_once_global = yes
 	level = 3
-	null_spawn_chance = 0.5
+	null_spawn_chance = 0.6
 	spawn_chance = {
 		modifier = {
 			factor = 0
@@ -636,6 +636,7 @@ eev_houston_category = {
 eev_tower_city_category = {
 	desc = eev_tower_city_category_desc
 	picture = GFX_evt_gas_giant
+	max_once_global = yes
 	level = 6
 	spawn_chance = {
 		modifier = {
@@ -788,4 +789,55 @@ eev_cushion_world = {
 		}
 	}
 	on_success = eev_mossy_planet.1
+}
+
+# Belltower
+eev_belltower_category = {
+	desc = eev_belltower_desc
+	picture = GFX_evt_desert
+	level = 5
+	max_once_global = yes
+	spawn_chance = {
+		modifier = {
+			add = 1
+			solar_system = {
+				any_system_planet = {
+					NOT = { exists = archaeological_site }
+				}
+			}
+			eev_is_desertic = yes
+		}
+	}
+	on_success = eev_belltower.1
+}
+
+# Haven
+eev_lone_ship_category = {
+	desc = eev_lone_ship_desc
+	picture = GFX_evt_gaia
+	level = 3
+	spawn_chance = {
+		modifier = {
+			add = 1
+			OR = {
+				is_planet_class = pc_gaia
+				eev_is_continental = yes
+			}
+		}
+	}
+	on_success = eev_lone_ship.1
+}
+
+# Dirty civ
+eev_dirty_civ_category = {
+	desc = eev_dirty_civ_desc
+	picture = GFX_evt_debris
+	level = 3
+	spawn_chance = {
+		modifier = {
+			add = 1
+			habitable_planet = yes
+		}
+	}
+	on_success = eev_dirty_civ.1
 }

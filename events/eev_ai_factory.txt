@@ -9,22 +9,22 @@
 namespace = ai_factory		
 
 ship_event = {
-	id = ai_factory.1				
-	title = ai_factory.1.name			
-	desc = ai_factory.1.desc		
-	picture = GFX_evt_robot_assembly_plant	
-	show_sound = event_ship_bridge	
-	location = FROM				
+	id = ai_factory.1
+	title = ai_factory.1.name
+	desc = ai_factory.1.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
-	immediate = {	
+	immediate = {
 		owner = { country_event = { id = story.5 days = 30 } }
 	}
 
 	option = {
-		name = ai_factory.1.a 	
-		leader = {			
+		name = ai_factory.1.a
+		leader = {
 			add_experience = 150
 		}
 		

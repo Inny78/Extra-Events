@@ -1,6 +1,3 @@
-# root = ship scope
-# from = planet scope
-
 # Afraid of the Stars
 namespace = eev_afraid
 
@@ -9,7 +6,7 @@ ship_event = {
 	id = eev_afraid.1
 	title = eev_afraid.1.name
 	desc = eev_afraid.1.desc
-	picture = GFX_evt_fleet_from_surface
+	picture = GFX_evt_death_from_above
 	show_sound = event_ship_bridge
 	location = FROM
 

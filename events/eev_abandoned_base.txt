@@ -2,23 +2,20 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Deserters
 namespace = abandoned_base
 
-ship_event = {				
-	id = abandoned_base.1				
-	title = abandoned_base.1.name			
-	desc = abandoned_base.1.desc		
-	picture = GFX_evt_medieval_alien_civilization	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = abandoned_base.1
+	title = abandoned_base.1.name
+	desc = abandoned_base.1.desc
+	picture = GFX_evt_medieval_alien_civilization
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
-	immediate = {	
+	immediate = {
 		owner = { country_event = { id = story.5 days = 30 } }
 	}
 
@@ -26,11 +23,11 @@ ship_event = {
 		name = abandoned_base.1.a
 		custom_tooltip = "abandoned_base.2.tooltip"
 		hidden_effect = { ship_event = { id = abandoned_base.2 days = 10 } }		
-	}			
+	}
 	
 	option = {
-		name = abandoned_base.1.b 	
-		leader = {			
+		name = abandoned_base.1.b
+		leader = {
 			add_experience = 150
 		}
 		owner = {
@@ -41,8 +38,8 @@ ship_event = {
 	}
 	
 	option = {
-		name = abandoned_base.1.c 	
-		leader = {			
+		name = abandoned_base.1.c
+		leader = {
 			add_experience = 150
 		}
 		owner = {
@@ -73,7 +70,7 @@ ship_event = {
     
     option = {
         name = "abandoned_base.2.a"
-        leader = { 
+        leader = {
             add_experience = 150
         }
 		owner = {

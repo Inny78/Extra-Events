@@ -2,11 +2,8 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Ai Factory Anomaly
-namespace = ai_factory		
+namespace = ai_factory
 
 ship_event = {
 	id = ai_factory.1
@@ -44,8 +41,8 @@ ship_event = {
 	}
 	
 	option = {
-		name = ai_factory.1.b 	
-		leader = {			
+		name = ai_factory.1.b
+		leader = {
 			add_experience = 150
 		}
 		
@@ -69,7 +66,7 @@ ship_event = {
 		name = ai_factory.1.c
 		trigger = { owner = {
 		is_materialist = yes } }
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
 		

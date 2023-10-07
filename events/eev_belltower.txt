@@ -196,6 +196,8 @@ fleet_event = {
 	}
 	after = {
 		from = { set_site_progress_locked = no }
+		owner = { country_event = { id = eev_belltower.2 days = 5 } }
+		every_playable_country = { limit = { NOT = { is_same_empire = prev } } country_event = { id = eev_belltower.3 days = 5 } }
 	}
 	option = {
 		name = eev_belltower_dig.5.a

@@ -64,6 +64,28 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = eev_belltower.4
+	title = eev_belltower.2.name
+	desc = eev_belltower.4.desc
+	picture = GFX_evt_mysterious_signal
+	show_sound = event_ship_bridge
+	location = ROOT
+
+	is_triggered_only = yes
+	immediate = {
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier2unityreward
+			min = @tier2unitymin
+			max = @tier2unitymax
+		}
+	}
+	option = {
+		name = CURIOUS
+	}
+}
+
 namespace = eev_belltower_dig
 
 fleet_event = {
@@ -197,7 +219,25 @@ fleet_event = {
 	after = {
 		from = { set_site_progress_locked = no }
 		owner = { country_event = { id = eev_belltower.2 days = 5 } }
-		every_playable_country = { limit = { NOT = { is_same_empire = prev.owner } is_ai = no } country_event = { id = eev_belltower.3 days = 5 } }
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_empire = prev.owner }
+				is_ai = no
+				is_gestalt = no
+				eev_is_heavy_metal = no
+				is_hive_empire = no
+			}
+			country_event = { id = eev_belltower.3 days = 5 }
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_empire = prev.owner }
+				is_ai = no
+				is_gestalt = no
+				is_machine_empire = yes
+			}
+			country_event = { id = eev_belltower.4 days = 5 }
+		}
 	}
 	option = {
 		name = eev_belltower_dig.5.a

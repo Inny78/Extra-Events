@@ -800,6 +800,10 @@ eev_belltower_category = {
 	spawn_chance = {
 		modifier = {
 			add = 1
+			from.owner = {
+				eev_is_heavy_metal = no
+				is_gestalt = no
+			}
 			solar_system = {
 				any_system_planet = {
 					NOT = { exists = archaeological_site }

@@ -35,6 +35,7 @@ country_event = {
 		NOR = {
 			has_global_flag = has_real_space_mod
 			has_global_flag = mem_more_events_mod
+			has_origin = origin_incohesive
 		}
 		years_passed > 10
 	}

@@ -93,7 +93,7 @@
  ancient_fossils.1.desc: "The crew of the §B[Root.GetFleetName]§! was right. Millions of years ago a civilization lived on this planet, and it appears to have been very advanced. \n\n§G[Root.GetLeaderName]§! does not know what killed off this civilization. Perhaps it was an asteroid or super volcano. \n\nWhatever happened does not matter, what does matter is that there is much to learn from their remains!"
  
  space_knights_category: "Stone Home"
- space_knights_category_desc: "While scanning §Y[Root.GetName]§! the crew spotted houses made of rock."
+ space_knights_category_desc: "While scanning §Y[From.GetName]§! the crew spotted houses made of rock."
  space_knights.1.name: "Space Knights"
  space_knights.1.desc: "A medieval species once roamed this planet, but they died in a spectacular way! Two factions ruled the planet, warring each other for territory in an endless battle that §G[Root.GetLeaderName]§! theorizes began 5000 years before they eventually met their demise. The last battle these two warring factions were a part of destroyed their planet and it never recovered. Even more so they believe the cause of this war was the belief in a god."
  
@@ -258,7 +258,7 @@
  star_stuff.1.name: "The Star Search Project"
  star_stuff.1.desc: "Since our people came to be we have always been looking up in awe at the stars. Now we can actually visit them. \n\nAll of our scientists agree that we should gather information on all the different types of stars to see what secrets they hold."
  star_stuff.1.a: "Agreed. To infinity and beyond."
- star_stuff.1001.desc: "The crew of §B[Root.GetName]§! reported that they observed several new kinds of stars, and suggested that information of these stars should be gathered as well."
+ star_stuff.1001.desc: "The crew of §B[Root.GetFleetName]§! reported that they observed several new kinds of stars, and suggested that information of these stars should be gathered as well."
  
  star_stuff.2.name: "An A-Type Star"
  star_stuff.2.desc: "This light blue star is relatively young compared to the other stars, yet among the most brightest. They are large and rotate very quickly and will eventually slow down and turn into a red giant given a few million years."

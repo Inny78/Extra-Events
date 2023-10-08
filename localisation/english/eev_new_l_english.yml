@@ -236,7 +236,7 @@
 # 3.9 stuff here
 # Crazy Scientist rewrite
  crazy_scientist_category: "The strange flora"
- crazy_scientist_category_desc: "While scanning §Y[Root.GetName]§! the crew has detected some weird flora and wans to investigate."
+ crazy_scientist_category_desc: "While scanning §Y[From.GetName]§! the crew has detected some weird flora and wans to investigate."
  crazy_scientist.1.name: "Weird pheromones"
  crazy_scientist.1.desc: "As we studied the flora, our sensors picked up an interesting discovery — the emission of a potent, albeit unidentified, pheromone. One of our scientists inadvertently tore his suit, exposing himself to these mysterious pheromones. The effects on him were immediate: he began to scream, rambling about ethereal voices that filled him with fear. After a time, he sought refuge within a natural cave. For all we know, he's still in here."
  crazy_scientist.1.a: "He's a threat to the whole crew. Leave him there"
@@ -258,7 +258,7 @@
  eev_illegal_aliens.4.a: "Keep an eye on them." 
 
 # World War rewrite
- world_war_category_desc: "The crew detects many debris on the surface of §Y[Root.GetName]§! and belives that a global conflict destroyed its inhabitants."
+ world_war_category_desc: "The crew detects many debris on the surface of §Y[From.GetName]§! and belives that a global conflict destroyed its inhabitants."
  world_war.1.desc: "While scanning the desolate surface of this forsaken planet, our vigilant science crew discerns subtle, haunting remnants of a bygone era. The prevailing evidence suggests that a cataclysmic event, caused by a world-engulfing conflict of immense proportions, happened here eons ago, culminating in the tragic extinction of the planet's once-thriving civilization. The scars of this conflict can be seen etched into the very landscape, with the remains of colossal war machines and crumbling fortifications scattered across the terrain."
  world_war.1.a: "Explore the planet."
  world_war.1.b: "Honor the dead."

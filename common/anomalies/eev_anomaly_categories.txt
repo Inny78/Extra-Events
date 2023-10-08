@@ -472,7 +472,7 @@ sand_creature_category = {
 # Frozen Civilization
 frozen_civilization_category = {
 	desc = "frozen_civilization_category_desc"
-	picture = GFX_evt_arctic
+	picture = GFX_evt_icelocked_settlement
 	level = 3
 	spawn_chance = {
 		modifier = {

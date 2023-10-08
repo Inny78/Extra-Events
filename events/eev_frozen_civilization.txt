@@ -2,9 +2,6 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Frozen Civilization
 namespace = frozen_civilization
 
@@ -12,7 +9,7 @@ ship_event = {
 	id = frozen_civilization.1				
 	title = frozen_civilization.1.name			
 	desc = frozen_civilization.1.desc		
-	picture = GFX_evt_arctic	
+	picture = GFX_evt_icelocked_settlement	
 	show_sound = event_ship_bridge	
 	location = FROM				
 
@@ -20,7 +17,7 @@ ship_event = {
 
 	immediate = {
 		from = {
-			change_pc = pc_ocean
+			change_pc = pc_tundra
 			reset_planet = yes
 			generate_early_pre_ftls_on_planet = yes
 			set_name = random

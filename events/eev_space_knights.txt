@@ -2,9 +2,6 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Space Knights Anomaly
 namespace = space_knights
 

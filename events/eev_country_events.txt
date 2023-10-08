@@ -405,8 +405,8 @@ country_event = {
 	}
 	
 	option = {
-		name = eev_popup.10.b
-		add_resource = { unity = -1000 }
+		name = TOOPOOR
+		add_resource = { unity = -100 }
 		
 		random_owned_pop = {
 			kill_pop = yes
@@ -643,9 +643,9 @@ country_event = {
 	}
 	
 	option = {
-		name = eev_popup.17.b
+		name = TOOPOOR
 		add_resource = {
-			unity = -1000
+			unity = -100
 		}
 	}
 }
@@ -676,9 +676,9 @@ country_event = {
 	}
 	
 	option = {
-		name = eev_popup.18.b
+		name = TOOPOOR
 		add_resource = {
-			unity = -1000
+			unity = -100
 		}
 	}
 }

@@ -382,7 +382,6 @@
  eev_popup.10.name: "Épidémie virale"
  eev_popup.10.desc: "Une partie de notre population semble infectée par une maladie virale inconnue et potentiellement mortelle. Ce virus serait arrivé ici suite aux voyages dans l'espace. \n\nNous ne savons pas comment combattre ce virus pour le moment, mais la situation est urgente et nous devons agir rapidement. \n\nNos savants estiment que ce virus est très contagieux et que nous devons mettre toute la population atteinte en quarantaine et les laisser mourir. Cela serait toutefois très coûteux. "
  eev_popup.10.a: "Vite! Mettez-les en quarantaine !"
- eev_popup.10.b: "Nous n'avons pas cet argent."
  #1.8
  eev_popup.11.name: "Récolte abondante"
  eev_popup.11.desc: "À de rares occasions, un ensemble de conditions optimales convergent pour nous procurer des récoltes abondantes et d'une grande qualité.Cela est arrivé ! \n\nLes récoltes de cette année sont spectaculaires."
@@ -419,12 +418,10 @@
  eev_popup.17.name: "Nos marchands ont besoin d'aide"
  eev_popup.17.desc: "Nos loyaux marchands traversent actuellement une période difficile. Les affaires ont été mauvaises dernièrement et ils nous demandent de l'aide pour améliorer les conditions commerciales ."
  eev_popup.17.a: "Aidez-les."
- eev_popup.17.b: "Qu'ils se débrouillent."
  #
  eev_popup.18.name: "Notre science en difficulté"
  eev_popup.18.desc: "Notre industrie de la recherche traverse une période difficile.  Elle dispose d'un équipement dépassé et la relève manque à l'appel. Ils affirment qu'une aide financière permettrait de revigorer notre industrie de la science."
  eev_popup.18.a: "Aidez-les."
- eev_popup.18.b: "D'accord. Au suivant !"
  
  #1.9
  eev_popup.22.name: "Épidémie mortelle chez une espèce primitive"

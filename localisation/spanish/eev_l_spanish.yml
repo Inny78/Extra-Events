@@ -426,12 +426,10 @@
  eev_popup.17.name: "Los comerciantes necesitan ayuda"
  eev_popup.17.desc: "Nuestros leales comerciantes han estado en un punto difícil últimamente. Este año no ha ido tan bien y están pidiendo nuestra ayuda para ponerse de pie."
  eev_popup.17.a: "Ayúdelos a salir."
- eev_popup.17.b: "Negarles la ayuda."
  #
  eev_popup.18.name: "Los científicos necesitan ayuda"
  eev_popup.18.desc: "Nuestros científicos han tenido algunos problemas recientemente. Equipo específicamente defectuoso, y la falta de nuevos reclutas. Dicen que con alguna ayuda monetaria pueden volver a ponerse en pie en poco tiempo."
  eev_popup.18.a: "Tienen mi ayuda."
- eev_popup.18.b: "Estoy necesitado en otro lugar..."
  
  #1.9
  eev_popup.22.name: "Infección Primitiva alienigena"

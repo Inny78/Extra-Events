@@ -402,7 +402,6 @@
  opup.10.name: "Wirus"
  eev_popup.10.desc: "Niektórzy z nas wykazują objawy choroby wywołanej nieznanym nam wirusem. Dalekie podróże kosmiczne są najbardziej prawdopodobną przyczyną jego pojawienia się.\n\nObecnie nie znamy żadnego lekarstwa i zapewne przez jakiś czas nie będziemy go znać, ale sytuacja jest pilna i musimy szybko coś wymyślić.\n\nNasi naukowcy twierdzą, że wirus ten jest niezwykle zaraźliwy i sugerują poddanie kwarantannie wszystkich chorych - w praktyce skazując ich na śmierć. Niemniej jednak - objęcie kwarantanną tak dużej populacji wymaga znacznych nakładów finansowych."
  eev_popup.10.a: "Jak najszybciej poddać ich kwarantannie!"
- eev_popup.10.b: "Nie mamy na to środków."
  #1.8
  eev_popup.11.name: "Plony wysokiej jakości"
  eev_popup.11.desc: "W rzadkich przypadkach i przy sprzyjających okolicznościach, plony mogą prześcignąć czyjekolwiek oczekiwania. I to właśnie jedno z takich zdarzeń!\n\nTegoroczne zbiory są niesamowitej jakości oraz niezwykle obfite."
@@ -440,12 +439,10 @@
  eev_popup.17.name: "Kupcy w potrzebie"
  eev_popup.17.desc: "Nasi lojalni handlowcy znaleźli się ostatnio w trudnej sytuacji. Ten rok odbiega od prognoz, co sprawiło, że wysłano do nas petycję, w której zawarto prośbę o wsparcie celem kompensacji bessy."
  eev_popup.17.a: "Trzeba im pomóc."
- eev_popup.17.b: "Poradzą sobie sami."
 
  eev_popup.18.name: "Naukowcy w potrzebie"
  eev_popup.18.desc: "Nasi naukowcy mieli ostatnio pewne problemy. W szczególności odpowiada za nie wadliwy sprzęt i brak nowych rekrutów. Otrzymaliśmy również informację, że dzięki pewnej pomocy pieniężnej z naszej strony mogą stanąć na nogi w mgnieniu oka."
  eev_popup.18.a: "Należy im pomóc."
- eev_popup.18.b: "Potrzebujemy tych środków gdzie indziej."
 
  #1.9
  eev_popup.22.name: "Śmiertelna infekcja"

@@ -410,7 +410,6 @@
  eev_popup.10.name: "Populares doentes"
  eev_popup.10.desc: "Algumas populações nossas aparentam ter contraído um vírus desconhecido. O vírus provavelmente foi contraído em viagens espaciais exteriores. \n\nAtualmente nós não conhecemos nenhuma cura e talvez não descubramos nenhuma a curto prazo, mas a situação é urgente e precisamos tomar uma medida logo. \n\nNossos cientistas dizem que este é um vírus extremamente contagioso e sugere que coloquemos os infectados em quarentena e os deixemos morrer. Porém isso custaria um pouco para ser feito."
  eev_popup.10.a: "Rápido! Ponha-nos na quarentena!"
- eev_popup.10.b: "Nós não temos o dinheiro."
  #1.8
  eev_popup.11.name: "Colheitas de Qualidade"
  eev_popup.11.desc: "Em raras ocasioões, e com as condições certas , é possível conseguir colheitas extraordinárias. E esta é uma dessas ocasiões! \n\nA colheita desse ano foi enorme e de ótima qualidade."
@@ -447,12 +446,10 @@
  eev_popup.17.name: "Comerciantes precisam de nossa ajuda"
  eev_popup.17.desc: "Nossos leais comerciantes estão em maus bocados ultimamente. Esse ano não foi muito bom e eles pedem ajuda para reerguerem-se."
  eev_popup.17.a: "Ajudem-nos."
- eev_popup.17.b: "Neguem a ajuda."
  #
  eev_popup.18.name: "Cientistas precisam de ajuda"
  eev_popup.18.desc: "Nossos cientistas tiveram alguns problemas recentemente. Especificamente, falta de equipamento e falta de novos recrutas. Eles dizem que com uma ajuda financeira conseguirão voltar a funcionar dentro da normalidade imediatamente."
  eev_popup.18.a: "Eles terão minha assistência."
- eev_popup.18.b: "Tenho mais o que fazer..."
  
  #1.9
  eev_popup.22.name: "Infecção Alien Primitiva"

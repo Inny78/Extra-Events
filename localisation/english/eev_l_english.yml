@@ -371,31 +371,30 @@
  eev_popup.8.b: "Better to play it safe and let that thing be..."
  #
  eev_popup.9.name: "Rich Man Dead"
- eev_popup.9.desc: "One of our empire's richest people died today, but that isn't the reason it's such a big deal. He died heirless, meaning it's up to us to decide where the money goes. \n\nThere are a couple options we have. We could split it among the people, which would make them very happy, or we could take the money."
+ eev_popup.9.desc: "One of the wealthiest individuals within our empire has passed away without leaving an heir. This leaves us with a choice regarding the disposition of their considerable fortune. We have two options: distribute the wealth among the populace, which would undoubtedly bring great happiness, or retain the funds for our own use."
  eev_popup.9.b: "I will take the money."
  #1.7
  eev_popup.10.name: "Sick Pops"
  eev_popup.10.desc: "Some of our pops seem to have a virus unknown to us. The virus was most likely contracted from our outer space travels. \n\nCurrently we do not know of a cure and wont know of one for some time, but the situation is urgent and we need to figure out something fast. \n\nOur scientists say this virus is extremely contagious and suggests to quarantine all of the sick pops and let them die. Although this would cost quite a bit to do."
  eev_popup.10.a: "Quickly! Quarantine them!"
- eev_popup.10.b: "We don't have the money."
  #1.8
  eev_popup.11.name: "Quality Crops"
- eev_popup.11.desc: "On rare occasions, and with the right conditions, it's possible that crops can grow to be extraordinary. And this is just that occasion! This year's harvest has been plenty and of the highest quality."
+ eev_popup.11.desc: "On rare occasions, under just the right conditions, crops have the potential to grow to remarkable proportions. This year, those perfect conditions have aligned, resulting in an abundant and exceptionally high-quality harvest."
  eev_popup.11.b: "Reap the rewards."
  eev_popup.11.c: "Keep the crops."
  #
  eev_popup.12.name: "Large Fish"
- eev_popup.12.desc: "As our fishermen went to search for more fish to harvest they came across an amazing discovery: a massive school of large fish, and of course caught as many as they could."
+ eev_popup.12.desc: "As our fishermen ventured out in search of more fish to harvest, they stumbled upon a remarkable find: a colossal school of large fish, and naturally, they seized the opportunity to catch as many as they could."
  eev_popup.12.b: "Sell the fish."
  eev_popup.12.c: "Keep the fish."
  #
  eev_popup.13.name: "Many Minerals"
- eev_popup.13.desc: "As our mining drones were doing their endless search for minerals one such drone stumbled upon a very large cave system filled with minerals!"
+ eev_popup.13.desc: "As our mining drones tirelessly scoured for minerals, one of them chanced upon an expansive cave system teeming with valuable resources!"
  eev_popup.13.a: "Good for us."
  eev_popup.13.b: "Sell the extra ore."
  #
  eev_popup.14.name: "Extra Profit"
- eev_popup.14.desc: "It was a great economical year for our empire. Our companies, traders and citizens alike all earned a good amount of money and we get a share of that profit!"
+ eev_popup.14.desc: "This past year has been exceptionally prosperous for our empire. Our companies, traders, and citizens have all enjoyed substantial earnings, and we, as a result, receive a share of these profits!"
  eev_popup.14.a: "The economy is great!"
  #
  eev_popup.15.name: "I Am Known"
@@ -414,24 +413,22 @@
  eev_popup.17.name: "Traders Need Aid"
  eev_popup.17.desc: "Our loyal traders have been in a rough spot lately. This year has not been going so well and they are asking for our assistance to get back on their feet."
  eev_popup.17.a: "Help them out."
- eev_popup.17.b: "Deny them help."
  #
  eev_popup.18.name: "Scientists Need Assistance"
  eev_popup.18.desc: "Our scientists have had some troubles recently. Specifically faulty equipment, and the lack of new recruits. They say with some monetary aid they can get back on their feet in no time at all."
  eev_popup.18.a: "They have my assistance."
- eev_popup.18.b: "I'm needed elsewhere..."
  #
  eev_popup.22.name: "Primitive Alien Infection"
- eev_popup.22.desc: "One of our observation posts has spotted a rapid decline in population on §Y[From.GetName]§!. It seems an extinction level infection has swept the planet. \n\nWe could let them be and hope for them to build an immunity. Or we could end it now and nuke the planet."
+ eev_popup.22.desc: "One of our observation posts has detected a sudden and severe population decline on §Y[From.GetName]§!. It appears that an extinction-level infection has ravaged the planet. We have three choices: allow them to develop immunity naturally, discreetly distribute a cure, or initiate a planet-wide cleansing."
  eev_popup.22.a: "Let them be."
  eev_popup.22.b: "Nuke the planet!"
   
  eev_popup.30.name: "New Primitive Species Awakens"
- eev_popup.30.desc: "As our observation post and its scientists were studying §Y[From.GetName]§!, they noticed something very rare and interesting. \n\nA new sentient species has evolved alongside the current sentient species already there which have been named §SXiblibi§!. Two different sentient races now inhabit §Y[From.GetName]§!."
+ eev_popup.30.desc: "As our observation post and its scientists were studying §Y[From.GetName]§!, they noticed something very rare and interesting. A new sentient species has evolved alongside the current sentient species already there which have been named §SXiblibi§!. Two different sentient races now inhabit §Y[From.GetName]§!."
  eev_popup.30.b: "It's better to have one ruling species. Exterminate these §SXiblibi§!."
  
  eev_popup.31.name: "New Sentience Evolving"
- eev_popup.31.desc: "One of our planet's native mammals has begun showing signs of evolving sentience. \n\nWith this news we can begin uplifting them to complete sentience so they can become full citizens."
+ eev_popup.31.desc: "One of our colony's native mammal species is displaying early signs of sentience evolution. We have the opportunity to initiate the process of uplifting them to full sentience, eventually granting them full citizenship."
  eev_popup.31.a: "It would probably be a bad idea."
  eev_popup.31.b: "The more the better."
 

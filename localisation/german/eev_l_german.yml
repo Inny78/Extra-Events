@@ -389,7 +389,6 @@
  eev_popup.10.name: "Kranke Bürger"
  eev_popup.10.desc: "Manche unserer Bürger scheinen sich mit einem unbekannten Virus infiziert zu haben. Das Virus wurde sehr wahrscheinlich von Weltraum-Reisenden eingeschleppt. \n\nNoch ist keine Heilung bekannt und auch nicht in Sicht, doch die Situation ist ernst. Es braucht eine schnelle Lösung. \n\nUnsere Wissenschaftler sagen, dass der Virus sehr ansteckend und definitiv tödlich ist. Sie schlagen daher vor die Infizierten von den anderen zu isolieren und sie ihrem Schicksal zu überlassen. Dies jedoch ist mit einigen Kosten verbunden."
  eev_popup.10.a: "Schnell! Isoliert die Kranken!"
- eev_popup.10.b: "Wir können uns das nicht leisten."
  #1.8
  eev_popup.11.name: "Hochwertige Ernte"
  eev_popup.11.desc: "In seltenen Fällen und unter den richtigen Bedingungen ist es möglich, dass unsere Saat sich ganz außergewöhnlich entwickelt. Dies ist genau der Fall! \n\nDie diesjährige Ernte war reichlich und von höchster Qualität."
@@ -426,12 +425,10 @@
  eev_popup.17.name: "Händler in Not"
  eev_popup.17.desc: "Unsere treuen Händler waren in letzter Zeit in einer schwierigen Lage. Dieses Jahr ist nicht so gut gelaufen, und sie bitten uns um Unterstützung, um wieder auf die Beine zu kommen."
  eev_popup.17.a: "Helft ihnen."
- eev_popup.17.b: "Verweigert die Hilfe."
  #
  eev_popup.18.name: "Wissenschaftler brauchen Unterstützung"
  eev_popup.18.desc: "Unsere Wissenschaftler haben in letzter Zeit einige Probleme gehabt. Insbesondere veraltete Ausrüstung und einen Mangel an neuen Rekruten. Sie sagen, dass sie mit etwas finanzieller Hilfe in kürzester Zeit wieder auf die Beine kommen können."
  eev_popup.18.a: "Sie haben meine Unterstützung."
- eev_popup.18.b: "Ich werde anderswo gebraucht."
  
  #
  eev_popup.22.name: "Primitive Alien Infektion"

@@ -126,13 +126,13 @@
  murder_event.9a: ""Scheut keine Mühen!"
  
 # seriously beta version cause i never played hives and have no idea how the terms are named at all. Sorry.
- murder_event.10.name: „Beunruhigende Entdeckung“
+ murder_event.10.name: "Beunruhigende Entdeckung“
  murder_event.10.desc: "Unser Wissenschaftsteam hat bei der Analyse der Rüstung des Mörders eine Entdeckung gemacht. Seine Energiequelle sendet eine schwache Strahlung aus, die sich jeder Analyse widersetzt, aber sie ist uns nicht völlig unbekannt. Es ist dieselbe Strahlung, die unsere Flotten entdeckt haben von den rätselhaften außerirdischen Schiffen, denen sie begegneten. Aber diese waren nicht feindselig..."
  murder_event.10a: "Seltsam ... Analysiert weiter die Daten, wir müssen etwas übersehen haben."
  murder_event.10b: "Ich wusste, dass sie gefährlich sind! Analysiert weiter die Daten, wir müssen ihre Schwäche finden."
 
  eev_new_queen.1.name: "Eine Störung im Netzwerk"
- eev_new_queen.1.desc: „Der Schwarm fühlt sich zurzeit unwohl. Irgendetwas ist seltsam in dem schwarm Geflecht, die dich mit deinen Drohnen verbinden, aber du kannst nicht entdecken, was nicht stimmt. Und mit der Zeit wird das Gefühl stärker.“
+ eev_new_queen.1.desc: "Der Schwarm fühlt sich zurzeit unwohl. Irgendetwas ist seltsam in dem schwarm Geflecht, die dich mit deinen Drohnen verbinden, aber du kannst nicht entdecken, was nicht stimmt. Und mit der Zeit wird das Gefühl stärker.“
  eev_new_queen.1a: "Ablenkung darf nicht sein"
  eev_new_queen.1tt: "Wir werden uns auf das Netzwerk foskussieren, um die Quelle der Störungen zu finden."
 
@@ -143,7 +143,7 @@
  eev_new_queen.2c: "Abweichung ist Nahrung."
 
  eev_new_queen.3.name: "Netzwerk löschen"
- eev_new_queen.3.desc: „Die mutierte Drohne aufzuhalten war keine leichte Aufgabe, da einige deiner Drohnen die Seiten wechselten, als sie sich ihr näherten. Indem wir unser Bewusstsein so fokussiert haben, wie wir es noch nie getan haben, gelang es uns, ihren Verstand zu überwinden und die Kontrolle über sie zurückzugewinnen. Sie wird wie geplant Entsorgt, aber etwas hat die Drohnen alarmiert, als sie einige seltsame Fläschchen mit einer wirbelnden Flüssigkeit gefunden haben. Alle wissen, was zu ihrem Schwarm gehört, und dies tut es nicht.“
+ eev_new_queen.3.desc: "Die mutierte Drohne aufzuhalten war keine leichte Aufgabe, da einige deiner Drohnen die Seiten wechselten, als sie sich ihr näherten. Indem wir unser Bewusstsein so fokussiert haben, wie wir es noch nie getan haben, gelang es uns, ihren Verstand zu überwinden und die Kontrolle über sie zurückzugewinnen. Sie wird wie geplant Entsorgt, aber etwas hat die Drohnen alarmiert, als sie einige seltsame Fläschchen mit einer wirbelnden Flüssigkeit gefunden haben. Alle wissen, was zu ihrem Schwarm gehört, und dies tut es nicht.“
  eev_new_queen.3a: "Wer mischt sich bei uns ein?"
 
 # Localisation - 3.4 stuff

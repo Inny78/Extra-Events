@@ -2,28 +2,22 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Ayy Anomaly
-namespace = ayy		
+namespace = ayy
 
-ship_event = {	
-	id = ayy.1		
-	title = ayy.1.name			
-	desc = ayy.1.desc		
+ship_event = {
+	id = ayy.1
+	title = ayy.1.name
+	desc = ayy.1.desc
 	picture = GFX_evt_colony_settlement
-	show_sound = event_ship_bridge	
-	location = FROM				
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
-
-	immediate = {	
-	}
+	is_triggered_only = yes
 
 	option = {
-		name = ayy.1.a 	
-		leader = {			
+		name = ayy.1.a
+		leader = {
 			add_experience = 175
 		}
 		
@@ -38,8 +32,8 @@ ship_event = {
 	}
 	
 	option = {
-		name = ayy.1.b 	
-		leader = {			
+		name = ayy.1.b
+		leader = {
 			add_experience = 175
 		}
 		
@@ -56,7 +50,7 @@ ship_event = {
 	option = {
 		name = ayy.1.c 
 		trigger = { owner = { OR = { is_militarist = yes is_authoritarian = yes } } }
-		leader = {			
+		leader = {
 			add_experience = 175
 		}
 		custom_tooltip = space_nomads.1.t
@@ -81,8 +75,8 @@ ship_event = {
 	option = {
 		name = ayy.1.d 	
 		trigger = { owner = {
-		is_xenophobe = yes } }	
-		leader = {			
+		is_xenophobe = yes } }
+		leader = {
 			add_experience = 175
 		}
 		

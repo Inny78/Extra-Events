@@ -22,8 +22,10 @@ special_project = {
 			target = root
 		}
 	}
-	
+	on_cancel = {
+		country_event = { id = murder_event.3 }
+	}
 	on_fail = {
-        	country_event = { id = murder_event.3 }
+        country_event = { id = murder_event.3 }
 	}
 }

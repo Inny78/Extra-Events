@@ -1,7 +1,6 @@
 # Afraid of the Stars
 namespace = eev_afraid
 
-
 ship_event = {
 	id = eev_afraid.1
 	title = eev_afraid.1.name

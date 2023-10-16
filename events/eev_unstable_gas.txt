@@ -2,10 +2,7 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
-# Unstable Gas                          		
+# Unstable Gas
 namespace = unstable_gas
 
 ship_event = {

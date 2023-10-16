@@ -5,15 +5,15 @@
 # Frozen Civilization
 namespace = frozen_civilization
 
-ship_event = {				
-	id = frozen_civilization.1				
-	title = frozen_civilization.1.name			
-	desc = frozen_civilization.1.desc		
-	picture = GFX_evt_icelocked_settlement	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = frozen_civilization.1
+	title = frozen_civilization.1.name
+	desc = frozen_civilization.1.desc
+	picture = GFX_evt_icelocked_settlement
+	show_sound = event_ghost_town
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		from = {
@@ -32,7 +32,7 @@ ship_event = {
 	option = {
 		name = AMAZING
 		
-		leader = {			
+		leader = {
 			add_experience = 200
 		}
 		

@@ -2,30 +2,27 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Black Hole Life
 namespace = blackhole_life
 
-ship_event = {				
-	id = blackhole_life.1				
-	title = blackhole_life.1.name			
-	desc = blackhole_life.1.desc		
-	picture = GFX_evt_black_hole	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = blackhole_life.1
+	title = blackhole_life.1.name
+	desc = blackhole_life.1.desc
+	picture = GFX_evt_black_hole
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
-	immediate = {	
+	immediate = {
 		owner = { country_event = { id = story.1 days = 30 } }
 	}
 
 	option = {
-		name = blackhole_life.1.a 
+		name = blackhole_life.1.a
 		
-		leader = {			
+		leader = {
 			add_experience = 200
 		}
 		owner = {
@@ -42,5 +39,5 @@ ship_event = {
 				max = @tier3researchmax
 			}
 		}
-	}				
+	}
 }

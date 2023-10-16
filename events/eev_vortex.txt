@@ -1,6 +1,3 @@
-# root = ship scope
-# from = planet scope
-
 # Energy Vortex Anomaly
 namespace = eev_houston
 

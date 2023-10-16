@@ -233,14 +233,6 @@ artifact_sun.1.a: "有趣。"
  blackhole_life.1.name: "黑洞生态系统"
  blackhole_life.1.desc: "黑洞里面确实有生命形式！\n\n这些生命形式以某种方式能够随意穿过事件视界，而不会超过光速。事实上，它们相当 缓慢。\n\n它们似乎生活在黑洞内，只出来吃附近的太空尘埃。我们无法看到事件视界之外的东西，因为我们的技术并不先进。"
  blackhole_life.1.a: "卓越的见识！"
- 
-
- sand_creature_category: "流沙"
- sand_creature_category_desc: "§Y[Root.GetName]§! 表面的沙子似乎以一种非常不自然的方式移动。"
- sand_creature.1.name: "恐怖的沙生物"
- sand_creature.1.desc: "当 §B[Root.GetFleetName]§! 船员降落在行星上时，他们注意到沙子正在向他们移动。§G[Root.GetLeaderName]§! 很好奇所以他决定离开科学 船仔细观察。其他船员建议不要这样做，但 §G[Root.GetLeaderName]§! 忽略了他们。\n\n当船员们看着沙子越来越近时，沙子也开始变大。它 就在那一刻，他们意识到沙子下面的任何东西都是活的，并看到船员和它的领导者作为食物。\n\n船员别无选择，只能离开§G[Root.GetLeaderName]§! 去死，因为没有时间 去救他。"
- sand_creature.1.a: "他的服务很好。"
- 
 
  frozen_civilization_category: "万里冰封" 
  frozen_civilization_category_desc: "§Y[Root.GetName]§! 表面的巨大结构似乎整个表面都被冰包裹着。"

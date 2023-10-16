@@ -2,9 +2,6 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Crushed Anomaly
 namespace = crushed
 
@@ -129,7 +126,7 @@ ship_event = {
 			owner = {
 				OR = {
 					is_spiritualist = yes
-					is_xenophile = yes					
+					is_xenophile = yes
 				}
 			}
 		}

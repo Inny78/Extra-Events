@@ -4,11 +4,11 @@ country_event = {
 	id = eev_losing_nerves.1
 	title = eev_losing_nerves.1.name
 	desc = eev_losing_nerves.1.desc
-	picture = GFX_evt_ship_in_orbit	
-	show_sound = event_ship_bridge	
-	location = FROM			
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	immediate = {
 		event_target:eev_lostnerves_owner = { add_awareness = 5 }
@@ -45,13 +45,11 @@ country_event = {
 			}
 		}
 	}
-	picture = GFX_evt_ship_in_orbit	
-	show_sound = event_ship_bridge	
-	location = FROM			
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
-
-	immediate = { }
+	is_triggered_only = yes
 
 	option = {
 		name =  eev_losing_nerves.2.a

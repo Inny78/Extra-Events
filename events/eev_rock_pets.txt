@@ -1,0 +1,35 @@
+namespace = eev_rock_pets
+
+country_event = {
+	id = eev_rock_pets.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_planet_within_border = {
+			limit = { eev_is_valid_colony = yes }
+			planet_event = { id = eev_rock_pets.2 days = 50 random = 100 }
+		}
+	}
+}
+
+planet_event = {
+	id = eev_rock_pets.2
+	title = eev_rock_pets.2.name
+	desc = eev_rock_pets.2.desc
+	picture = GFX_evt_animal_wildlife
+	show_sound = event_alien_nature
+	is_triggered_only = yes
+
+	immediate = {
+		add_deposit = d_alien_pets_deposit
+		owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier1researchreward
+				min = @tier1researchmin
+				max = @tier1researchmax
+			}
+		}
+	}
+}

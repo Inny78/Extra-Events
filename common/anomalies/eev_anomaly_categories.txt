@@ -458,9 +458,6 @@ sand_creature_category = {
 		modifier = {
 			add = 1
 			eev_is_desertic = yes
-			from.fleet.leader = {
-				eev_is_scientist_cautious = no
-			}
 			from.owner = {
 				is_gestalt = no
 			}
@@ -815,7 +812,7 @@ eev_belltower_category = {
 	on_success = eev_belltower.1
 }
 
-# Haven
+# Lone Ship (Haven)
 eev_lone_ship_category = {
 	desc = eev_lone_ship_desc
 	picture = GFX_evt_gaia

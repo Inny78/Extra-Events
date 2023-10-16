@@ -6,17 +6,14 @@
 namespace = gassy_planet
 
 ship_event = {
-	id = gassy_planet.1	
-	title = gassy_planet.1.name	
-	desc = gassy_planet.1.desc	
-	picture = GFX_evt_gas_giant	
+	id = gassy_planet.1
+	title = gassy_planet.1.name
+	desc = gassy_planet.1.desc
+	picture = GFX_evt_gas_giant
 	show_sound = event_ship_bridge
 	location = FROM
 
 	is_triggered_only = yes
-
-	immediate = {
-	}
 
 	option = {
 		name = INTERESTING

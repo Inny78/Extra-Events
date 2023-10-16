@@ -226,13 +226,7 @@
  blackhole_life.1.name: "Des schwarzen Lochs Ökosystem"
  blackhole_life.1.desc: "Es gibt tatsächlich Lebensformen im Inneren des Schwarzen Lochs! \n\nDiese Lebensformen sind irgendwie in der Lage, den Ereignishorizont nach Belieben zu durchqueren, ohne dabei die Lichtgeschwindigkeit zu überschreiten. Sie sind sogar recht langsam. \n\nSie scheinen im Schwarzen Loch zu leben und nur zum essen des nahegelegenen Weltraumstaubes herauszukommen. Wir können nicht sagen, was hinter dem Event Horizont liegt, da unsere Technologien dafür nicht weit genug sind."
  blackhole_life.1.a: "Außergewöhnlich!"
- 
- sand_creature_category: "Beweglicher Sand"
- sand_creature_category_desc: "Der Sand auf der Oberfläche von §Y[Root.GetName]§! scheint sich unnatürlich zu bewegen."
- sand_creature.1.name: "Schrecklicke Sandkreatur"
- sand_creature.1.desc: "Als die §B[Root.GetFleetName]§! Crew auf dem Planeten gelandet ist bemerkte Sie, dass sich etwas durch den Sand auf sie zubewegte. §G[Root.GetLeaderName]§! war neugierig und entschied sich das Schiff zu verlassen um sich das genauer anzusehen. Der Rest der Crew riet davon ab, aber §G[Root.GetLeaderName]§! ignorierte ihre Bedenken. \n\nWährend die Crew die Sandbewegung immer näher kommen und anwachsen sah, begriff sie, dass es nur etwas Lebendiges sein konnte, dass auf sie zukam. In diesem Moment wurde ihnen klar, dass was auch immer unter dem Sand war in ihnen und ihrem Anführer eine Mahlzeit sah. \n\nDie Crew hatte keine Wahl: Sie ließ §G[Root.GetLeaderName]§! zum sterben zurück, da keine Zeit war ihn zu retten."
- sand_creature.1.a: "Er hat gut gedient."
- 
+
  frozen_civilization_category: "Umhüllt von Eis" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Massive Strukturen aus Eis auf der Oberfläche von §Y[Root.GetName]§! scheinen den Planeten zu umspannen."
  frozen_civilization.1.name: "Eine gefrorene Zivilisation"

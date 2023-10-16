@@ -1,7 +1,4 @@
-# root = ship scope
-# from = planet scope
-
-# Ancient Civilian Flag Anomaly
+# Mysterious Cache
 namespace = eev_mysterious_cache
 
 ship_event = {

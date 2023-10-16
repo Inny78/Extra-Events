@@ -2,17 +2,14 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Lost Treasure Anomaly
 namespace = lost_treasure
 
 ship_event = {
-	id = lost_treasure.1	
-	title = lost_treasure.1.name	
-	desc = lost_treasure.1.desc	
-	picture = GFX_evt_fleet_good	
+	id = lost_treasure.1
+	title = lost_treasure.1.name
+	desc = lost_treasure.1.desc
+	picture = GFX_evt_fleet_good
 	show_sound = event_ship_bridge
 	location = FROM
 

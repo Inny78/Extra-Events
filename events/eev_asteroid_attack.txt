@@ -2,13 +2,10 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Asteroid Attack Anomaly
-namespace = asteroid_attack		
+namespace = asteroid_attack
 
-ship_event = {				
+ship_event = {
 	id = asteroid_attack.1
 	title = asteroid_attack.1.name
 	desc = asteroid_attack.1.desc
@@ -23,8 +20,8 @@ ship_event = {
 	}
 
 	option = {
-		name = asteroid_attack.1.a 	
-		leader = {			
+		name = asteroid_attack.1.a
+		leader = {
 			add_experience = 200
 		}
 		

@@ -262,8 +262,4 @@ special_project = {
 	on_success = {
 		ship_event = { id = star_stuff.10 }
 	}
-	
-	on_fail = {
-	}
 }
-

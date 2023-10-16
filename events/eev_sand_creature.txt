@@ -2,31 +2,27 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Sand Creature
 namespace = sand_creature
 
 ship_event = {				
-	id = sand_creature.1				
-	title = sand_creature.1.name			
-	desc = sand_creature.1.desc		
-	picture = GFX_evt_drilling_for_gas	
-	show_sound = event_ship_bridge	
-	location = root				
+	id = sand_creature.1
+	title = sand_creature.1.name
+	desc = sand_creature.1.desc
+	picture = GFX_evt_eev_dunes
+	show_sound = event_dangerous_animals
+	location = root
 
 	is_triggered_only = yes
 
-	immediate = {	
+	immediate = {
 		owner = { country_event = { id = story.1 days = 30 } }
 	}
 
 	option = {
-		name = sand_creature.1.a 
-		kill_leader = { type = scientist show_notification = yes }
+		name = UNFORTUNATE
 		
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
 		

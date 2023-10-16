@@ -4,7 +4,7 @@ country_event = {
 	id = eev_new_queen.1
 	title = eev_new_queen.1.name
 	desc = eev_new_queen.1.desc
-	picture = GFX_evt_metropolis
+	picture = GFX_evt_hive_mind
 	is_triggered_only = yes
 
 	immediate = { set_country_flag = eev_new_queen }
@@ -35,7 +35,7 @@ country_event = {
 	id = eev_new_queen.2
 	title = eev_new_queen.2.name
 	desc = eev_new_queen.2.desc
-	picture = GFX_evt_metropolis
+	picture = GFX_evt_hive_mind
 	is_triggered_only = yes
 	immediate = {
 	}
@@ -93,7 +93,7 @@ country_event = {
 	id = eev_new_queen.3
 	title = eev_new_queen.3.name
 	desc = eev_new_queen.3.desc
-	picture = GFX_evt_metropolis
+	picture = GFX_evt_hive_mind
 	is_triggered_only = yes
 	immediate = {
 	}

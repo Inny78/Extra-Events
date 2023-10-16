@@ -28,7 +28,7 @@ country_event = {
 					limit = {
 						is_planet_class = pc_a_star
 					} 
-					save_event_target_as = eem_astar							 
+					save_event_target_as = eem_astar
 				}	
 			}
 			if = {
@@ -53,7 +53,7 @@ country_event = {
 					limit = {
 						is_planet_class = pc_b_star
 					}
-					save_event_target_as = eem_bstar	 
+					save_event_target_as = eem_bstar
 				}	
 			}
 			if = {
@@ -78,7 +78,7 @@ country_event = {
 					limit = {
 						is_planet_class = pc_f_star
 					} 					
-					save_event_target_as = eem_fstar	 
+					save_event_target_as = eem_fstar
 						 
 				}	
 			}
@@ -104,7 +104,7 @@ country_event = {
 					limit = {
 						is_planet_class = pc_g_star
 					} 
-					save_event_target_as = eem_gstar		 
+					save_event_target_as = eem_gstar
 				}
 			}			
 			if = {
@@ -178,7 +178,7 @@ country_event = {
 				random_system_planet = {
 					limit = {
 						is_planet_class = pc_black_hole
-					} 					
+					}
 					save_event_target_as = eem_blackhole
 				}	
 			}
@@ -305,7 +305,7 @@ ship_event = {
 					limit = {
 						is_planet_class = pc_a_star
 					} 
-					save_event_target_as = eem_astar							 
+					save_event_target_as = eem_astar
 				}	
 			}
 			if = {
@@ -335,7 +335,7 @@ ship_event = {
 					limit = {
 						is_planet_class = pc_b_star
 					}
-					save_event_target_as = eem_bstar	 
+					save_event_target_as = eem_bstar
 				}	
 			}
 			if = {
@@ -347,7 +347,7 @@ ship_event = {
 					location = event_target:eem_bstar
 					owner = root
 				}
-				owner = {					
+				owner = {
 					remove_country_flag = eem_bstar_notfound
 					set_country_flag = eem_temp1
 				}
@@ -364,7 +364,7 @@ ship_event = {
 				random_system_planet = {
 					limit = {
 						is_planet_class = pc_f_star
-					} 					
+					}
 					save_event_target_as = eem_fstar	 
 							
 				}	
@@ -396,13 +396,13 @@ ship_event = {
 					limit = {
 						is_planet_class = pc_g_star
 					} 
-					save_event_target_as = eem_gstar		 
+					save_event_target_as = eem_gstar
 				}
 			}			
 			if = {
 				limit = {
 					exists = event_target:eem_gstar
-				}				
+				}
 				enable_special_project = {
 					name = "G_SURVEY"
 					location = event_target:eem_gstar
@@ -425,14 +425,14 @@ ship_event = {
 				random_system_planet = {
 					limit = {
 						is_planet_class = pc_k_star
-					} 					
+					}
 					save_event_target_as = eem_kstar
 				}		
 			}
 			if = {
 				limit = {
 					exists = event_target:eem_kstar
-				}				
+				}
 				enable_special_project = {
 					name = "K_SURVEY"
 					location = event_target:eem_kstar
@@ -442,7 +442,7 @@ ship_event = {
 					remove_country_flag = eem_kstar_notfound
 					set_country_flag = eem_temp1
 				}
-			}			
+			}
 		}
 		if = {
 			limit = {
@@ -485,7 +485,7 @@ ship_event = {
 				random_system_planet = {
 					limit = {
 						is_planet_class = pc_black_hole
-					} 					
+					}
 					save_event_target_as = eem_blackhole
 				}	
 			}
@@ -498,7 +498,7 @@ ship_event = {
 					location = event_target:eem_blackhole
 					owner = root
 				}
-				owner = {	
+				owner = {
 					remove_country_flag = eem_blackhole_notfound
 					set_country_flag = eem_temp1
 				}
@@ -515,7 +515,7 @@ ship_event = {
 				random_system_planet = {
 					limit = {
 						is_planet_class = pc_pulsar
-					} 
+					}
 					save_event_target_as = eem_pulsar 
 				}	
 			}
@@ -558,7 +558,7 @@ ship_event = {
 					location = event_target:eem_neutron
 					owner = root
 				}
-				owner = {	
+				owner = {
 					remove_country_flag = eem_neutron_notfound
 					set_country_flag = eem_temp1
 				}

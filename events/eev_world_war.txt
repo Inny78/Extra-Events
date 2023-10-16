@@ -2,11 +2,8 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # World War Anomaly
-namespace = world_war		
+namespace = world_war
 
 ship_event = {
 	id = world_war.1

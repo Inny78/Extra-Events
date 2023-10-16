@@ -2,29 +2,23 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Artificial Sun
 namespace = artificial_sun
 
-ship_event = {				
-	id = artificial_sun.1				
-	title = artificial_sun.1.name			
-	desc = artificial_sun.1.desc		
-	picture = GFX_evt_star_yellow	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = artificial_sun.1
+	title = artificial_sun.1.name
+	desc = artificial_sun.1.desc
+	picture = GFX_evt_star_yellow
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
-
-	immediate = {	
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = INTRIGUING
 		
-		leader = {			
+		leader = {
 			add_experience = 200
 		}
 		owner = {
@@ -41,5 +35,5 @@ ship_event = {
 				max = @tier3researchmax
 			}
 		}
-	}				
+	}
 }

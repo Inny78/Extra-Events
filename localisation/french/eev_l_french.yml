@@ -224,12 +224,6 @@
  blackhole_life.1.desc: "Oui!  Il y a de la vie dans un trou noir! \n\nCette forme de vie peut franchir le seuil gravitationnel du trou noir à volonté à une vitesse inférieure à la vitesse de la lumière. En fait, ils se déplacent assez lentement. \n\nIls semblent vivre à l'intérieur du trou noir et en ressortent seulement pour se nourrir de poussières spatiales à proximité. Nous sommes incapables de voir comment ils vivent à l'intérieur."
  blackhole_life.1.a: "Bouleversant !"
  
- sand_creature_category: "Sable mouvant"
- sand_creature_category_desc: "Le sable à la surface de §Y[Root.GetName]§! semble se mouvoir d'une bien curieuse façon."
- sand_creature.1.name: "Horrible créature des sables"
- sand_creature.1.desc: "Comme l'équipage du §B[Root.GetFleetName]§! atterrissait sur la planète, ils ont observé que le sable bougeait dans leur direction.  §G[Root.GetLeaderName]§! a décidé d'étancher sa curiosité en allant voir cela de plus près malgré l'avis contraire du reste de l'équipe. \n\nL'équipage resté à bord a observé que le sable s'approchait de plus en plus du commandant et semblait aussi prendre du volume. C'est alors qu'ils ont réalisé qu'il y avait une créature vivante sous ce sable qui voyait le commandant comme de la nourriture. \n\nL'équipage n'a eu d'autres choix que de laisser §G[Root.GetLeaderName]§! connaître une fin horrible, car il était trop tard pour lui venir en aide."
- sand_creature.1.a: "[Root.Leader.GetSheHeCap] aurait dû agir avec prudence..."
- 
  frozen_civilization_category: "Figés dans les glaces" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Des structures imposantes sur §Y[Root.GetName]§! semble être figées dans les glaces qui recouvrent sa surface."
  frozen_civilization.1.name: "Une civilisation gelée"

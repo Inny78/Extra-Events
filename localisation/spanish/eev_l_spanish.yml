@@ -233,12 +233,6 @@
  blackhole_life.1.desc: "¡De hecho hay formas de vida dentro del agujero negro! \n\nEstas formas de vida son de alguna manera capaces de pasar a través del horizonte de eventos a voluntad sin ir más rápido que la velocidad de la luz. De hecho, son bastante lentos. \n\nParece que viven dentro del agujero negro y sólo salen a alimentarse en el polvo del espacio cerca. No podemos ver lo que hay más allá del horizonte de eventos ya que nuestra tecnología no es tan avanzada."
  blackhole_life.1.a: "¡Excepcional!"
  
- sand_creature_category: "Anomalía encontrada... Arena en movimiento"
- sand_creature_category_desc: "La arena en la superficie de §Y[Root.GetName]§! parece estar moviéndose de una manera muy poco natural."
- sand_creature.1.name: "Criatura horrible de la arena"
- sand_creature.1.desc: "La tripulación de §B[Root.GetFleetName]§! aterrizó en el planeta y se dieron cuenta que un cúmulo arena venía moviéndose hacia ellos. §G[Root.GetLeaderName]§! fue mas curioso por lo que decidió dejar la nave de la ciencia unos metros para verla más de cerca. El resto de la tripulación le aconsejó no pero §G[Root.GetLeaderName]§! los ignoró. \n\nMientras la tripulación observaba cómo el cúmulo de arena se acercaba cada vez más, empezó a crecer en tamaño también. Fue en ese momento que se dieron cuenta de lo que estaba debajo de esa arena estaba vivo y esa cosa vió a la tripulación y su líder como alimento. \n\nLa tripulación no tuvo más remedio que irse. §G[Root.GetLeaderName]§! murió en la arena y no se pudo salvarlo."
- sand_creature.1.a: "Él sirvió bien."
- 
  frozen_civilization_category: "Anomalía encontrada... Revestimiento de hielo" 
  frozen_civilization_category_desc: "Estructuras masivas en la superficie de §Y[Root.GetName]§! Parecen estar encerradas en hielo en toda la superficie."
  frozen_civilization.1.name: "Civilización congelada"

@@ -240,12 +240,6 @@
  blackhole_life.1.name: "Ekosystem czarnej dziury"
  blackhole_life.1.desc: "Wewnątrz czarnej dziury naprawdę odnaleźliśmy ślady życia! \n\nObecne tu formy życia potrafią w jakiś sposób przekraczać horyzont zdarzeń, nie osiągając jednocześnie szybkości światła. W rzeczywistości, są dosyć powolne.\n\nWydaje się, iż te byty żyją wewnątrz czarnej dziury i wychodzą poza jej obręb tylko po to, żeby pożywić się gwiezdnym pyłem. Nie jesteśmy jednak w stanie określić co znajduje się poza horyzontem zdarzeń, będąc ograniczeni naszą własną technologią."
   
- sand_creature_category: "Ruchome piaski"
- sand_creature_category_desc: "Piasek na powierzchni §Y[Root.GetName]§! zdaje się poruszać w nienaturalny sposób."
- sand_creature.1.name: "Przerażający stwór piaskowy"
- sand_creature.1.desc: "Gdy tylko załoga §B[Root.GetFleetName]§! wylądowała na powierzchni planety, piasek zaczął poruszać się w ich kierunku. §G[Root.GetLeaderName]§! zostawił swój zespół i będąc zafascynowany zjawiskiem wyruszył samotnie celem bliższego przyjrzenia się mu. Reszta załogi została poinstruowana, żeby zostać na miejscu. \n\nGdy załoga przyglądała się zbliżającym się piaskom, zwrócili oni uwagę na to, że wraz z odległością, zwiekszają one swoją wielkość. W tym momencie zrozumieli, że cokolwiek kryło się pod piaskiem, było jak najbardziej żywe i uważało cały zespół badawczy za pożywienie.\n\nZałoga, będąc pod presją zbliżającego się zagrożenia, nie miała innego wyjścia jak porzucić §G[Root.GetLeaderName]§! na planecie."
- sand_creature.1.a: "Jego służba była wzorem."
-  
  frozen_civilization_category: "Lodowa pułapka" 
  frozen_civilization_category_desc: "Massive structures on the surface of §Y[Root.GetName]§! appear to be encased in ice all across the surface."
  frozen_civilization.1.name: "Zamarznięta cywilizacja"

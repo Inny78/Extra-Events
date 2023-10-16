@@ -39,7 +39,7 @@
  bad_fate_category: "Alien Extinction"
  bad_fate_category_desc: "Closer examination has revealed fossils scattered across multiple layers of rock. What is even more unusual, is that the planet is completely barren."
  bad_fate.1.name: "A Devastating Fate"
- bad_fate.1.desc: ""Upon even closer examination, it appears that §Y[From.GetName]§! is the result of a collision between two planets, which the crew of the §B[Root.GetFleetName]§! has dubbed §SFate§! and §SDestiny§!.  Perhaps the most intriguing aspect of this discovery is the revelation that one of these planets once hosted a thriving civilization — a truly remarkable find."
+ bad_fate.1.desc: ""Upon even closer examination, it appears that §Y[From.GetName]§! is the result of a collision between two planets, which the crew of the §B[Root.GetFleetName]§! has dubbed §SFate§! and §SDestiny§!.  Perhaps the most intriguing aspect of this discovery is the revelation that one of these planets once hosted a thriving civilization - a truly remarkable find."
  bad_fate.1.b: "Rest in peace."
  
  rocky_egg_category: "A Strange Planet"
@@ -223,12 +223,6 @@
  blackhole_life.1.name: "A Black Hole Ecosystem"
  blackhole_life.1.desc: "There are indeed lifeforms inside the black hole! \n\nThese lifeforms are somehow able to to pass through the event horizon at will without going faster than the speed of light. In fact, they are quite slow. \n\nThey seem to live inside the black hole and only come out to feed on the spacedust nearby. We're unable to see what lies beyond the event horizon as our technology isn't that advanced."
  blackhole_life.1.a: "Outstanding!"
- 
- sand_creature_category: "Moving Sand"
- sand_creature_category_desc: "The sand on the surface of §Y[From.GetName]§! appears to be moving in a very unnatural way."
- sand_creature.1.name: "Horrific Sand Creature"
- sand_creature.1.desc: "As the §B[Root.GetFleetName]§! crew landed on the planet they noticed the sand moving towards them. §G[Root.GetLeaderName]§! was curious, so he decided to leave the science ship for a closer look. The rest of the crew advised not to but §G[Root.GetLeaderName]§! ignored them. \n\nAs the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment they realized whatever was under that sand was alive and saw the crew and its leader as food. \n\nThe crew had no choice but to leave §G[Root.GetLeaderName]§! to die as there was no time to save [Root.Leader.GetHerHim]."
- sand_creature.1.a: "[Root.Leader.GetSheHeCap] served well."
  
  frozen_civilization_category: "Encased in Ice" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Massive structures on the surface of §Y[From.GetName]§! appear to be encased in ice all across the surface."

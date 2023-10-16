@@ -2,24 +2,18 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Crazy Scientist Anomaly
 namespace = crazy_scientist
 
 ship_event = {
-	id = crazy_scientist.1	
-	title = crazy_scientist.1.name	
-	desc = crazy_scientist.1.desc	
-	picture = GFX_evt_interior_battle	
+	id = crazy_scientist.1
+	title = crazy_scientist.1.name
+	desc = crazy_scientist.1.desc
+	picture = GFX_evt_interior_battle
 	show_sound = event_ship_bridge
 	location = FROM
 
 	is_triggered_only = yes
-
-	immediate = {
-	}
 
 	option = {
 		name = crazy_scientist.1.a
@@ -53,16 +47,13 @@ ship_event = {
 
 ship_event = {
 	id = crazy_scientist.2
-	title = crazy_scientist.2.name	
-	desc = crazy_scientist.2.desc	
-	picture = GFX_evt_interior_battle	
+	title = crazy_scientist.2.name
+	desc = crazy_scientist.2.desc
+	picture = GFX_evt_interior_battle
 	show_sound = event_ship_bridge
 	location = FROM
 
 	is_triggered_only = yes
-
-	immediate = {
-	}
 
 	option = {
 		name = crazy_scientist.2.a

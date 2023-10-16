@@ -266,13 +266,7 @@
  blackhole_life.1.name: "블랙홀 생태계"
  blackhole_life.1.desc: "실제로 블랙홀 안에 생명체가 있습니다! \n\n이 생명체들은 어떻게든 빛의 속도를 초과하지 않으면서 사건의 지평선을 통과할 수 있습니다. 사실, 그들은 아주 느리지만요. \n\n그들은 블랙홀 안에 살고 있는 것으로 보이고 근처의 우주 먼지를 먹을때만 나옵니다. 우리의 기술이 그다지 진보하지 않았기 때문에 우린 사건의 지평선 너머에 무엇이 펼쳐져 있는지 알 도리가 없습니다."
  blackhole_life.1.a: "훌륭하다!"
- 
- sand_creature_category: "움직이는 모래"
- sand_creature_category_desc: "§Y[Root.GetName]§!의 표면에 있는 모래는 매우 비정상적인 방식으로 움직이는 것으로 보입니다."
- sand_creature.1.name: "끔찍한 모래 생물"
- sand_creature.1.desc: "§B[Root.GetFleetName]§!의 승무원들이 행성에 착륙하자 모래가 승무원들 쪽으로 이동한다는 걸 알아차렸습니다. §G[Root.GetLeaderName]§!은(는) 호기심이 많았기 때문에 과학선에서 벗어나 더 가까이서 관찰하기로 결정했습니다. 나머지 승무원들은 그러지 말라고 조언했지만 §G[Root.GetLeaderName]§!은(는) 그들을 무시했습니다. \n\n승무원들이 그 모래를 더 가까이서 관찰하면 할수록 크기가 꽤 커지기 시작했습니다. 그 순간 그들은 뭔진 몰라도 살아있는 게 모래 밑에 있다는걸 알아차렸고 그들의 지도자가 먹잇감이 되는걸 목격했습니다. \n\n승무원들은 선택의 여지가 없어 §G[Root.GetLeaderName]§!을(를) 두고 도망쳐야 했고 그를 구할 시간이 없어 죽을 수 밖에 없었습니다."
- sand_creature.1.a: "안타깝지만 그는 희생되었다."
- 
+
  frozen_civilization_category: "얼음에 싸여지다"
  frozen_civilization_category_desc: "§Y[Root.GetName]§!의 표면에 있는 거대한 구조물은 표면 전체가 얼음에 덮여있는 것으로 보입니다."
  frozen_civilization.1.name: "얼어붙은 문명"

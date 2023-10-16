@@ -222,13 +222,16 @@ country_event = {
 	trigger = {
 		is_ai = no
 		country_uses_food = yes
-		years_passed > 15
+		years_passed > 20
 		num_owned_planets > 1
 		any_owned_planet = {
-			is_capital = no
-			is_colony = yes
+			eev_is_valid_colony = yes
 			districts_good_food = yes
 			eev_is_continental = yes
+		}
+		resource_stockpile_compare = {
+			resource = food
+			value < 200
 		}
 	}
 
@@ -250,13 +253,16 @@ country_event = {
 	trigger = {
 		is_ai = no
 		country_uses_food = yes
-		years_passed > 15
+		years_passed > 20
 		num_owned_planets > 1
 		any_owned_planet = {
-			is_capital = no
-			is_colony = yes
+			eev_is_valid_colony = yes
 			districts_good_food = yes
 			eev_is_aquatic = yes
+		}
+		resource_stockpile_compare = {
+			resource = food
+			value < 200
 		}
 	}
 
@@ -277,12 +283,15 @@ country_event = {
 
 	trigger = {
 		is_ai = no
-		years_passed > 15
+		years_passed > 20
 		num_owned_planets > 1
 		any_owned_planet = {
-			is_capital = no
-			is_colony = yes
+			eev_is_valid_colony = yes
 			districts_good_minerals = yes
+		}
+		resource_stockpile_compare = {
+			resource = minerals
+			value < 200
 		}
 	}
 
@@ -303,12 +312,16 @@ country_event = {
 
 	trigger = {
 		is_ai = no
-		years_passed > 15
+		years_passed > 20
 		num_owned_planets > 1
 		any_owned_planet = {
 			is_capital = no
 			is_colony = yes
 			districts_good_energy = yes
+		}
+		resource_stockpile_compare = {
+			resource = energy
+			value < 200
 		}
 	}
 
@@ -403,8 +416,7 @@ country_event = {
 		is_gestalt = no
 		num_owned_planets > 1
 		any_owned_planet = {
-			is_capital = no
-			is_colony = yes
+			eev_is_valid_colony = yes
 		}
 	}
 
@@ -570,7 +582,7 @@ country_event = {
 		is_ai = no
 		is_gestalt = no
 		is_machine_empire = no
-		has_country_flag = first_contact_event
+		has_comms_with_alien_empire = yes
 		years_passed > 30
 		NOT = { has_global_flag = eev_had_alien }
 	}
@@ -579,5 +591,66 @@ country_event = {
 			40 = { country_event = { id = eev_illegal_aliens.1 days = 300 random = 200 } }
 			60 = { }
 		}
+	}
+}
+
+# Galactic Wanderers
+country_event = {
+	id = eev_engine.25
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		is_ai = no
+		is_gestalt = no
+		has_comms_with_alien_empire = yes
+		years_passed > 50
+		NOT = { has_global_flag = eev_had_galwand }
+		any_planet_within_border = {
+			eev_is_valid_moon = yes
+		}
+	}
+	immediate = {
+		random_list = {
+			100 = { country_event = { id = eev_galactic_wanderers.1 } }
+			#60 = { }
+		}
+	}
+}
+
+# Faint Asteroid
+country_event = {
+	id = eev_engine.26
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		years_passed > 50
+		is_ai = no
+		is_gestalt = no
+		NOT = { has_global_flag = eev_had_faint }
+		any_planet_within_border = {
+			eev_is_valid_habitat = yes
+		}
+	}
+	immediate = {
+		country_event = { id = eev_faint_asteroid.1 }
+	}
+}
+
+country_event = {
+	id = eev_engine.27
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		years_passed > 30
+		is_ai = no
+		any_owned_planet = {
+			eev_is_valid_colony = yes
+		}
+	}
+	immediate = {
+		country_event = { id = eev_rock_pets.1 }
 	}
 }

@@ -60,7 +60,7 @@
  eev_tower_city_dig_desc: "我们的科学团队正在忙着建立一个大本营。由于到处都是破败的建筑物，要取得进展需要大量的钻探和巩固，但这个地方的奥秘让团队渴望开始。"
 
  eev_tower_city_dig.1.name: "探索城市"
- eev_tower_city_dig.1.desc: "我们的团队现在准备探索这个奇怪的地方。塔的上半部分位于舒适区的中间，那里的大气压力和温度使它适合居住。城市废墟覆盖了大部分圆柱体的顶部，当然是他们会找到最有价值数据的地方——没有人愿意下去探索柱子两侧的垂直村庄之一。"
+ eev_tower_city_dig.1.desc: "我们的团队现在准备探索这个奇怪的地方。塔的上半部分位于舒适区的中间，那里的大气压力和温度使它适合居住。城市废墟覆盖了大部分圆柱体的顶部，当然是他们会找到最有价值数据的地方--没有人愿意下去探索柱子两侧的垂直村庄之一。"
 
  eev_tower_city_dig.2.name: "过去的奥秘"
  eev_tower_city_dig.2.desc: "我们的第一次发现相当混乱。这座城市的居民显然处于前空间技术水平，由于他们不可能的家园完全缺乏资源，他们显然被困在这个水平上。这提出了更多的问题。他们不可能建造柱子，那么是谁建造的，如何建造的？原始人是如何来到这里生活的？"
@@ -69,7 +69,7 @@
  eev_tower_city_dig.3.desc: "科学小组来到一座宏伟的建筑前，虽然部分毁坏，但仍然气势磅礴。闯入后，他们发现了第一批人形居民的遗骸，并留下了一些成员进行采样分析他们。继续前进，§G[Root.GetLeaderName]§!进入了某种限制区域。扫描表明内部仍然完好无损，但在破碎的天花板和加固的墙壁之间，这需要一些工作才能进入."
 
  eev_tower_city_dig.4.name: "被战争破坏"
- eev_tower_city_dig.4.desc: "我们终于进入了内部掩体，发现了一台与整个圆柱体相连的巨大计算机——第一个收集到的数据足以让我们头晕目眩。它不是一个巨大的柱子，而是一个泰坦尼克号的摩天大楼。在一场彻底破坏他们社会的残酷内战之后，内部很久以前就被遗弃了。他们变得越来越原始，装备年久失修。最后在地表漫游的部落已经无法理解他们的旧技术了，当最后的合成器停止工作时，它们很快就结束了。"
+ eev_tower_city_dig.4.desc: "我们终于进入了内部掩体，发现了一台与整个圆柱体相连的巨大计算机--第一个收集到的数据足以让我们头晕目眩。它不是一个巨大的柱子，而是一个泰坦尼克号的摩天大楼。在一场彻底破坏他们社会的残酷内战之后，内部很久以前就被遗弃了。他们变得越来越原始，装备年久失修。最后在地表漫游的部落已经无法理解他们的旧技术了，当最后的合成器停止工作时，它们很快就结束了。"
  eev_tower_city_dig.4a: "一个悲惨的故事。"
  eev_tower_city_dig.4t: "这座古老的建筑是一项工程壮举，它将让我们的科学家忙上几个世纪。"
  eev_tower_city_dig.4b: "我们坐在一大堆合金上。"
@@ -240,7 +240,7 @@
  crazy_scientist_category: "The strange flora"
  crazy_scientist_category_desc: "While scanning §Y[Root.GetName]§! the crew has detected some weird flora and wans to investigate."
  crazy_scientist.1.name: "Weird pheromones"
- crazy_scientist.1.desc: "As we studied the flora, our sensors picked up an interesting discovery — the emission of a potent, albeit unidentified, pheromone. One of our scientists inadvertently tore his suit, exposing himself to these mysterious pheromones. The effects on him were immediate: he began to scream, rambling about ethereal voices that filled him with fear. After a time, he sought refuge within a natural cave. For all we know, he's still in here."
+ crazy_scientist.1.desc: "As we studied the flora, our sensors picked up an interesting discovery - the emission of a potent, albeit unidentified, pheromone. One of our scientists inadvertently tore his suit, exposing himself to these mysterious pheromones. The effects on him were immediate: he began to scream, rambling about ethereal voices that filled him with fear. After a time, he sought refuge within a natural cave. For all we know, he's still in here."
  crazy_scientist.1.a: "He's a threat to the whole crew. Leave him there"
  crazy_scientist.1.b: "Try to capture him"
  crazy_scientist.1.c: "Get some samples of the flora"
@@ -306,7 +306,7 @@
  eev_belltower_dig.2.name: "The door"
  eev_belltower_dig.2.desc: "After successfully stabilizing the sand, we meticulously excavated our way downward, gradually unveiling the intricate facade of the tower. In the dead of night, we finally arrived at a massive metallic door adorned with numerous engravings depicting a variety of alien races paying homage to a stylized sun. Currently, our challenge lies in deciphering the means to open these doors, as they remain impervious to our tools, much like the rest of the tower."
  eev_belltower_dig.3.name: "The belltower"
- eev_belltower_dig.3.desc: "As the first rays of dawn graced the desert, the sunlight bathed the door, causing the sun engraving to flash in response and initiating its opening. The crew proceeded with caution, stepping into the tower with a sense of uncertainty. What they encountered within was far from their expectations—a labyrinthine complex of machinery humming with pulsating energy, extending upward toward what appeared to be a colossal bell. Without hesitation, §G[Root.GetLeaderName]§! issued orders for an immediate study of this enigmatic device."
+ eev_belltower_dig.3.desc: "As the first rays of dawn graced the desert, the sunlight bathed the door, causing the sun engraving to flash in response and initiating its opening. The crew proceeded with caution, stepping into the tower with a sense of uncertainty. What they encountered within was far from their expectations-a labyrinthine complex of machinery humming with pulsating energy, extending upward toward what appeared to be a colossal bell. Without hesitation, §G[Root.GetLeaderName]§! issued orders for an immediate study of this enigmatic device."
  eev_belltower_dig.4.name: "Signal tower"
  eev_belltower_dig.4.desc: "Our scientists conducted a thorough examination of the building's interior but found no data or recordings. The machinery within resembles a communication tower, much like our own but on a colossal scale. It appears to be connected to the hyperlane system of our galaxy. However, the intriguing aspect is that it's currently dormant, not transmitting any signals. While the rest of the tower has been in operation for countless millennia, the emitter remains deactivated."
  eev_belltower_dig.5.name: "Ding"
@@ -318,3 +318,38 @@
  eev_belltower.4.desc: "Shortly after the tower's activation, a remarkable phenomenon unfolded across all our colonies, stations, and ships. Every communication device suddenly resonated with an unexpected yet profoundly harmonious sound, captivating everyone for a few precious seconds. Its mathematical perfection intrigued and fascinated all who perceived it. Then, just as swiftly as it had appeared, it vanished without a trace. No recording device could capture any data from it, leaving behind only the lingering sense that we were on the brink of grasping something of profound importance, only to see it slip away forever."
 # Gigas compatibility
  origin_incohesive: "Away on an Island"
+
+# 3.9.3 starts here
+# Galactic Wanderers
+ eev_galactic_wanderers.2.name: "Lunar Monument"
+ eev_galactic_wanderers.2.desc: "A remote moon on the outskirts of your empire has suddenly gained the attention of your scientists. A peculiar anomaly detection has revealed the existence of an isolated monument, untouched by time, sitting amidst the desolation of the lunar landscape. Your science team, intrigued by this discovery, has decided to mount an expedition to investigate this enigmatic structure."
+ EEV_MONUMENT_PROJECT: "Lunar Monument Investigation"
+ EEV_MONUMENT_PROJECT_DESC: "$eev_galactic_wanderers.2.desc$"
+ eev_galactic_wanderers.3.name: "First results"
+ eev_galactic_wanderers.3.desc: "As your scientists approach, they marvel at the monument's intricate design, adorned with inscriptions that they immediately started to decipher. These carvings, neatly etched into the monument's surface, reveal the story of an advanced alien civilization known as the §SGalactic Wanderers§!. These beings, it appears, had traversed every corner of this galaxy, seen its wonders, and experienced its mysteries. Having explored to their heart's content, they made a solemn decision - to leave this galaxy to continue their eternal journey among the stars."
+ eev_galactic_wanderers.4.name: "The message"
+ eev_galactic_wanderers.4.desc: "The inscriptions continue to recount their preparations, their hopes, and their aspirations for any future civilization that might stumble upon their memorial. They wanted to leave a message of hope and inspiration:\n\n§lTo those who follow in our cosmic footsteps, know that the stars hold infinite wonders. We leave behind this testament of our journey, a monument to remind you that even in the face of the unknown, you can rise to the same heights as we did. Never give up, for the universe is your playground, and your destiny among the stars is boundless.§!\n\nThe significance of this discovery weighs heavily on your science team. The monument's existence could inspire your own civilization to reach for the stars with renewed vigor, or perhaps it could serve as a beacon of hope for others in the galaxy."
+ eev_galactic_wanderers.4.a: "We should keep it for ourselves."
+ eev_galactic_wanderers.4.b: "Let's share this inspiring message."
+ eev_galactic_wanderers.5.name: "Communication from §H[eev_monument_country.GetName]§!"
+ eev_galactic_wanderers.5.desc: "In the uncharted depths of space, we stumbled upon a monument, an ancient testament to the ambitions and dreams of a civilization that once roamed the stars. This monument is a beacon of hope, a reminder that even in the vastness of the universe, our potential knows no bounds."
+ eev_galactic_wanderers.6.desc: "The inscriptions on this monument recount the trials and triumphs of this ancient civilization. Their message is clear: \n\n§l"To those who follow in our cosmic footsteps, know that the stars hold infinite wonders. We leave behind this testament of our journey, a monument to remind you that even in the face of the unknown, you can rise to the same heights as we did. Never give up, for the universe is your playground, and your destiny among the stars is boundless.§!\n\nWe believe that the significance of this discovery extends beyond the boundaries of our own civilization. It is a message that resonates with all who aspire to explore, learn, and expand their horizons among the stars."
+
+# Faint Asteroid
+ eev_faint_asteroid.2.name: "Catastrophic breach"
+ eev_faint_asteroid.2.desc: "The alarms began sounding far too late, as an unusually faint asteroid managed to slip through our early detecton systems and breach into §Y[From.GetName]§!, causing substantial damage to the habitat's infrastructure. Although the emergency systems swiftly initiated containment protocols, the incident resulted in significant casualties among the population."
+ eev_faint_asteroid.2.a: "Send help immediately!"
+ eev_faint_asteroid.4.name: "Faint asteroid"
+ eev_faint_asteroid.4.desc: "The faint asteroid that breached our habitat, now secured within our research facilities, has revealed a remarkable secret. To our scientists' surprise, it contains a significant quantity of dark matter, a substance of immense cosmic significance. This discovery has left our scientists in awe, this has been so far a mysterious and elusive substance."
+ eev_faint_asteroid.5.desc: "The faint asteroid that breached our habitat, now secured within our research facilities, has revealed a remarkable secret. To our scientists' surprise, it contains a significant quantity of dark matter. This elusive matter has been carefully collected and stored."
+
+# Rock Pets
+ eev_rock_pets.2.name: "Rock pets"
+ eev_rock_pets.2.desc: "As the inhabitants of our colony on §Y[From.GetName]§! explore their new world, reports emerge of some colonists being followed by small rocks. The local scientists have confirmed these reports, revealing a new species of lithoid animals that have taken a liking to us."
+ 
+# Sand Creature rewrite
+ sand_creature_category: "流沙"
+ sand_creature_category_desc: "§Y[Root.GetName]§! 表面的沙子似乎以一种非常不自然的方式移动。"
+ sand_creature.1.name: "恐怖的沙生物"
+ sand_creature.1.desc: "As the crew of the §B[Root.GetFleetName]§! touched down on the planet, they immediately noticed the sand shifting ominously toward them. A member of our team couldn't resist their curiosity, deciding to disembark from the science vessel for a closer examination. Despite §G[Root.GetLeaderName]§!'s cautious advice, their warnings fell on deaf ears. As the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment that the unsettling truth became apparent - something lurked beneath that sand, something alive and perceiving the crew and their leader as potential prey. The creature swiftly and silently maneuvered beneath our crew member and abruptly engulfed them, leaving the rest of the crew with no choice but to retreat hastily, abandoning their comrade to a tragic fate."
+

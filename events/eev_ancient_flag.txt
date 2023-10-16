@@ -2,9 +2,6 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Ancient Civilian Flag Anomaly
 namespace = ancient_flag
 

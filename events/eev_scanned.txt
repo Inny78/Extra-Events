@@ -1,25 +1,20 @@
-# root = ship scope
-# from = planet scope
-
 # Scanned Anomaly
 namespace = eev_scanned
 
-ship_event = {				
-	id = eev_scanned.1				
-	title = eev_scanned.1.name			
-	desc = eev_scanned.1.desc		
-	picture = GFX_evt_ship_in_orbit	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = eev_scanned.1
+	title = eev_scanned.1.name
+	desc = eev_scanned.1.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
+	is_triggered_only = yes
 
 	option = {
 		name = eev_scanned.1a
 		trigger = {
-			owner = {
-				is_xenophobe = no
-			}
+			owner = { is_xenophobe = no }
 		}
 		owner = {
 			add_monthly_resource_mult = {

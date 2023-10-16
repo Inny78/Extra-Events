@@ -1,8 +1,7 @@
 ###########################################################################
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
-# root = ship scope
-# from = planet scope
+
 # Space Nomads Anomaly
 namespace = space_nomads
 ship_event = {

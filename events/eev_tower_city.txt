@@ -1,6 +1,3 @@
-# root = ship scope
-# from = planet scope
-
 # Unexpected Tower
 namespace = eev_tower_city
 
@@ -162,9 +159,7 @@ fleet_event = {
 			}
 		}
 		from = {
-			planet = {
-				add_deposit = d_alloys_5
-			}
+			planet = { add_deposit = d_alloys_5 }
 		}
 	}
 }

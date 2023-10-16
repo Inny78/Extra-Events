@@ -1,6 +1,3 @@
-# root = ship scope
-# from = planet scope
-
 # Ancient Civilian Flag Anomaly
 namespace = eev_ancient_echoes
 
@@ -13,9 +10,6 @@ ship_event = {
 	location = FROM
 
 	is_triggered_only = yes
-
-	immediate = {
-	}
 
 	option = {
 		name = FASCINATING

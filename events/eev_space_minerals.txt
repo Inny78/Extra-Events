@@ -2,30 +2,22 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Minerals
 namespace = space_minerals
 
-ship_event = {				
-	id = space_minerals.1				
-	title = space_minerals.1.name			
-	desc = space_minerals.1.desc		
-	picture = GFX_evt_ship_under_attack	
-	show_sound = event_ship_bridge	
-	location = FROM				
+ship_event = {
+	id = space_minerals.1
+	title = space_minerals.1.name
+	desc = space_minerals.1.desc
+	picture = GFX_evt_ship_under_attack
+	show_sound = event_ship_bridge
+	location = FROM
 
-	is_triggered_only = yes		
-
-	immediate = {	
-	}
+	is_triggered_only = yes
 
 	option = {
-		name = space_minerals.1.a 	
-		leader = {
-			add_experience = 150
-		}
+		name = space_minerals.1.a
+		leader = { add_experience = 150 }
 		
 		owner = {
 			add_monthly_resource_mult = {
@@ -35,12 +27,10 @@ ship_event = {
 				max = @tier3materialmax
 			}
 		}
-	}			
+	}
 	
 	option = {
-		name = space_minerals.1.b 	
-		leader = {			
-			add_experience = 200
-		}
+		name = space_minerals.1.b
+		leader = { add_experience = 200 }
 	}
 }

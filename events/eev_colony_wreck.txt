@@ -2,11 +2,8 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # World War Anomaly
-namespace = eev_crashcol		
+namespace = eev_crashcol
 
 ship_event = {
 	id = eev_crashcol.1

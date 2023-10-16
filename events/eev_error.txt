@@ -2,14 +2,11 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
-# root = ship scope
-# from = planet scope
-
 # Error
 namespace = error
 
-ship_event = {				
-	id = error.1				
+ship_event = {
+	id = error.1
 	title = error.1.name
 	desc = error.1.desc
 	picture = GFX_evt_satellite_in_orbit
@@ -18,14 +15,11 @@ ship_event = {
 
 	is_triggered_only = yes
 
-	immediate = {
-	}
-
 	option = {
 		name = error.1.a
 		custom_tooltip = "error.2.tooltip"
 		hidden_effect = { ship_event = { id = error.2 days = 35 } }
-	}			
+	}
 	
 	option = {
 		name = error.1.b
@@ -58,7 +52,7 @@ ship_event = {
 		}
 	}
 	option = {
-		name = error.1.d 	
+		name = error.1.d
 		
 		owner = {
 			add_resource = {
@@ -69,22 +63,19 @@ ship_event = {
 }
 
 # Error 2
-ship_event = {				
-	id = error.2				
-	title = error.2.name			
-	desc = error.2.desc		
-	picture = GFX_evt_cybernetics	
-	show_sound = event_ship_bridge	
-	location = root				
+ship_event = {
+	id = error.2
+	title = error.2.name
+	desc = error.2.desc
+	picture = GFX_evt_cybernetics
+	show_sound = event_ship_bridge
+	location = root
 
-	is_triggered_only = yes		
-
-	immediate = {	
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = INTERESTING
-		leader = {			
+		leader = {
 			add_experience = 150
 		}
 		owner = {

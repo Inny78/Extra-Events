@@ -245,13 +245,7 @@
  blackhole_life.1.name: "Um ecossistema de buraco negro"
  blackhole_life.1.desc: "São certamente formas de vida dentro de um buraco negro! \n\nEssas formas de vida são de alguma forma capazes de passar pelo horizonte de eventos intencionalmente sem irem mais rápido do que a velocidade da luz. Na verdade, são um tanto lentas. \n\nAparentam viver dentro do buraco negro, saindo apenas para se alimentar da poeira espacial ao redor. Somos incapazes de ver além do horizonte de eventos pois nossa tecnologia não tem esse é tão avançada como precisaria ser."
  blackhole_life.1.a: "Excepcional!"
- 
- sand_creature_category: "Anomalia da Areia Movediça"
- sand_creature_category_desc: "A areia na superfície de §Y[Root.GetName]§! aparenta mover-se de um jeito não natural."
- sand_creature.1.name: "Criatura Horrível de Areia"
- sand_creature.1.desc: "Conforme a tripulação do §B[Root.GetFleetName]§! pousava, eles notaram a areia movendo em sua direção. §G[Root.GetLeaderName]§! ficou curioso e decidiu descer da nave científica para observações mais de perto. O resto da tripulação advertiu para não fazê-lo mas §G[Root.GetLeaderName]§! os ignorou. \n\nConforme a tripulação assistia as areias chegarem cada vez mais perto, viram também elas aumentarem de tamanho. Foi nesse momento que eles perceberam que o que estava sob a areia estava viva e viu o líder e sua equipe como comida \n\nA equipe não teve escolha e precisou deixar §G[Root.GetLeaderName]§! para a morrer pois não havia tempo de salvá-lo."
- sand_creature.1.a: "Ele serviu bem à causa."
- 
+
  frozen_civilization_category: "Coberta no Gelo" ##### IDEA AND WRITING BY APPARESON
  frozen_civilization_category_desc: "Estruturas massivas na superfície de §Y[Root.GetName]§! parecem estar cobertas de gelo por toda a terra."
  frozen_civilization.1.name: "Uma civilização congelada"

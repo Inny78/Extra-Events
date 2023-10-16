@@ -33,15 +33,13 @@ planet_event = {
 			}
 		}
 		owner = {
-			add_resource = {
-				energy = -2000
-			}
-			add_planet_devastation = 20
-			while = {
-				count = 2
-				random_owned_pop = {
-					kill_pop = yes
-				}
+			add_resource = { energy = -2000 }
+		}
+		add_planet_devastation = 20
+		while = {
+			count = 2
+			random_owned_pop = {
+				kill_pop = yes
 			}
 		}
 	}
@@ -57,8 +55,10 @@ planet_event = {
 	}
 
 	after = {
-		country_event = {
-			id = eev_faint_asteroid.3 days = 30
+		owner = {
+			country_event = {
+				id = eev_faint_asteroid.3 days = 30
+			}
 		}
 	}
 }

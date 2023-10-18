@@ -612,8 +612,8 @@ country_event = {
 	}
 	immediate = {
 		random_list = {
-			100 = { country_event = { id = eev_galactic_wanderers.1 } }
-			#60 = { }
+			40 = { country_event = { id = eev_galactic_wanderers.1 } }
+			60 = { }
 		}
 	}
 }
@@ -634,7 +634,10 @@ country_event = {
 		}
 	}
 	immediate = {
-		country_event = { id = eev_faint_asteroid.1 }
+		random_list = {
+			40 = { country_event = { id = eev_faint_asteroid.1 } }
+			60 = { }
+		}
 	}
 }
 

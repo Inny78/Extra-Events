@@ -350,7 +350,7 @@
  sand_creature.1.name: "Horrific Sand Creature"
  sand_creature.1.desc: "As the crew of the §B[Root.GetFleetName]§! touched down on the planet, they immediately noticed the sand shifting ominously toward them. A member of our team couldn't resist their curiosity, deciding to disembark from the science vessel for a closer examination. Despite §G[Root.GetLeaderName]§!'s cautious advice, their warnings fell on deaf ears. As the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment that the unsettling truth became apparent - something lurked beneath that sand, something alive and perceiving the crew and their leader as potential prey. The creature swiftly and silently maneuvered beneath our crew member and abruptly engulfed them, leaving the rest of the crew with no choice but to retreat hastily, abandoning their comrade to a tragic fate."
 
-# 3.10 starts here
+# Molten Cataclysm
  eev_molten_cataclysm_category: "Molten Cataclysm"
  eev_molten_cataclysm_desc: "We noticed a dense cloud of debris around §Y[From.GetName]§!. It seems that a recent cataclysm occured here."
  eev_molten_cataclysm.1.name: "Molten Cataclysm"

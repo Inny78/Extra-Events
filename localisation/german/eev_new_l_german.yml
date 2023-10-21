@@ -349,3 +349,12 @@
  sand_creature_category_desc: "Der Sand auf der Oberfläche von §Y[Root.GetName]§! scheint sich unnatürlich zu bewegen."
  sand_creature.1.name: "Schrecklicke Sandkreatur"
  sand_creature.1.desc: "As the crew of the §B[Root.GetFleetName]§! touched down on the planet, they immediately noticed the sand shifting ominously toward them. A member of our team couldn't resist their curiosity, deciding to disembark from the science vessel for a closer examination. Despite §G[Root.GetLeaderName]§!'s cautious advice, their warnings fell on deaf ears. As the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment that the unsettling truth became apparent - something lurked beneath that sand, something alive and perceiving the crew and their leader as potential prey. The creature swiftly and silently maneuvered beneath our crew member and abruptly engulfed them, leaving the rest of the crew with no choice but to retreat hastily, abandoning their comrade to a tragic fate."
+
+ # Molten Cataclysm
+ eev_molten_cataclysm_category: "Molten Cataclysm"
+ eev_molten_cataclysm_desc: "We noticed a dense cloud of debris around §Y[From.GetName]§!. It seems that a recent cataclysm occured here."
+ eev_molten_cataclysm.1.name: "Molten Cataclysm"
+ eev_molten_cataclysm.1.desc: "Our scans lead to a surprising discovery. Among the immense debris field orbiting §Y[From.GetName]§!, the crew identifies fragments of destroyed satellites, unmistakable signs of a past civilization. As your crew analyzes the data, a realization strikes - a small planet appears to have recently collided with this previously inhabited world, creating a cataclysmic impact. The remnants of this collision are still fresh, suggesting that this event occurred mere days before our arrival."
+ eev_molten_cataclysm.1.a: "Scan the satellites."
+ eev_molten_cataclysm.1.b: "Study the impact."
+ eev_molten_cataclysm.1.c: "There's nothing more to see."

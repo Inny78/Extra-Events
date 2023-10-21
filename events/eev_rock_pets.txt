@@ -21,7 +21,8 @@ planet_event = {
 	show_sound = event_alien_nature
 	is_triggered_only = yes
 
-	immediate = {
+	option = {
+		name = CURIOUS
 		add_deposit = d_alien_pets_deposit
 		owner = {
 			add_monthly_resource_mult = {

@@ -26,6 +26,8 @@ country_event = {
 	id = eev_illegal_aliens.2
 	title = eev_illegal_aliens.2.name
 	desc = eev_illegal_aliens.2.desc
+	picture = GFX_evt_slaver_empire
+	show_sound = event_ship_bridge
 	is_triggered_only = yes
 
 	option = {
@@ -53,6 +55,8 @@ country_event = {
 	id = eev_illegal_aliens.3
 	title = eev_illegal_aliens.3.name
 	desc = eev_illegal_aliens.3.desc
+	picture = GFX_evt_surrender
+	show_sound = event_ship_bridge
 	is_triggered_only = yes
 
 	option = {
@@ -71,6 +75,8 @@ country_event = {
 	id = eev_illegal_aliens.4
 	title = eev_illegal_aliens.2.name
 	desc = eev_illegal_aliens.4.desc
+	picture = GFX_evt_hand_shake
+	show_sound = event_ship_bridge
 	is_triggered_only = yes
 	option = {
 		name = eev_illegal_aliens.4.a

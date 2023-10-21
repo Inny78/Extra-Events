@@ -20,15 +20,15 @@ ship_event = {
 
 	option = {
 		name = world_war.1.a
-		country_event = { id = world_war.2 days = 10 }
+		owner = { country_event = { id = world_war.2 days = 10 } }
 	}
 	option = {
 		name = world_war.1.b
-		country_event = { id = world_war.3 days = 10 }
+		owner = { country_event = { id = world_war.3 days = 10 } }
 	}
 	option = {
 		name = world_war.1.c
-		country_event = { id = world_war.4 days = 10 }
+		owner = { country_event = { id = world_war.4 days = 10 } }
 	}
 }
 

@@ -34,7 +34,7 @@ country_event = {
 					ethic_fanatic_xenophobe = { text = eev_losing_nerves.2.desc_phobe }
 					ethic_xenophile = { text = eev_losing_nerves.2.desc_phile }
 					ethic_fanatic_xenophile = { text = eev_losing_nerves.2.desc_phile }
-					ethic_spiritualist = { text = eev_losing_nerves.2.desc_desc_spirit }
+					ethic_spiritualist = { text = eev_losing_nerves.2.desc_spirit }
 					ethic_fanatic_spiritualist = { text = eev_losing_nerves.2.desc_spirit }
 					ethic_materialist = { text = eev_losing_nerves.2.desc_mat }
 					ethic_fanatic_materialist = { text = eev_losing_nerves.2.desc_mat }

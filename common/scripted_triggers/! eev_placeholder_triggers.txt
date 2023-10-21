@@ -54,3 +54,4 @@ is_planet_class_pc_k_giant_star = { always = no }
 is_planet_class_pc_o_star = { always = no }
 is_planet_class_pc_o_super_star = { always = no }
 is_planet_class_pc_o_hyper_star = { always = no }
+giga_is_superpower_star = { always = no }

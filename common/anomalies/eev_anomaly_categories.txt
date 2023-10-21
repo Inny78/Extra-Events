@@ -499,13 +499,6 @@ supernova_category = {
 	null_spawn_chance = 0.6
 	spawn_chance = {
 		modifier = {
-			factor = 0
-			OR = {
-				has_deposit_for = shipclass_mining_station
-				has_deposit_for = shipclass_research_station
-			}
-		}
-		modifier = {
 			add = 1
 			mid_game_years_passed < 0
 			AND = {
@@ -520,6 +513,8 @@ supernova_category = {
 					is_planet_class_pc_o_star = yes
 					is_planet_class_pc_o_super_star = yes
 					is_planet_class_pc_o_hyper_star = yes
+					# Gigastructural Engineering & More
+					giga_is_superpower_star = yes
 				}
 				is_binary_star = no
 				is_trinary_star = no

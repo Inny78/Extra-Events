@@ -1,44 +1,34 @@
 ﻿l_english:
+# Scopes:
+# Event : root = ship, from = planet
 # Energy Vortex, alias « Houston, we have a problem »
- eev_houston_category: "Energy Vortex"
- eev_houston_category_desc: "§B[Root.GetFleetName]§! has encountered a formidable energetic anomaly in close orbit of §Y[From.GetName]§!. §G[Root.GetLeaderName]§! decided to to initiate an investigation into this enigmatic energy vortex."
  eev_houston.1.name: "[Root.owner.Capital.GetName], we have a problem."
  eev_houston.1.desc: "Unfortunately, the scan has had dire consequences. It agitated the vortex, unleashing a potent energy surge that disrupted the ship's engines. As a result, the §B[Root.GetFleetName]§! now drifts inexorably toward the planet's gravitational pull. Without repairs, it will crash into §Y[From.GetName]§!."
  eev_houston.1a: "Send a construction ship at once!"
-
  eev_houston.2.name: "Rescuing the science ship"
  eev_houston.2.desc: "Our constructor was working hard to repair §B[Root.GetFleetName]§! when the vortex erupted again, disabling the ships! Both crews are working frantically to repair their systems while their ships are getting closer to the planet. Our military ships have reinforced systems and better shields, they should be able to handle this, but if they don't, we will lose another ship."
  eev_houston.2a: "Have a military ship haul them to safety."
  eev_houston.2b: "We can't take the risk."
-
  eev_houston.3.name: "Left without repairs"
  eev_houston.3.desc: "The crew of §B[Root.GetFleetName]§! acknowledged the bad news and use their remaining time to gather as much data as they can. They were about to send a report when the anomaly erupts again. We would clearly have lost our construction ship too if we had sent one to help."
-
  eev_houston.4.name: "Military to the rescue"
  eev_houston.4.desc: "Our military vessels met with §B[eev_vortex_sci.GetFleetName]§! and our constructor and started to swiftly drag them away from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our fleet only suffered some minor malfunctions, and their redundant systems seamlessly kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex ultimately collapsed, unleashing an colossal surge of energy - a final, blinding burst that was the last bit of information we recieved before losing all communications from [From.System.GetName]."
  eev_houston.4a: "This is bad..."
-
  eev_houston.5.name: "Military to the rescue"
  eev_houston.5.desc: "Our military vessels met with §B[eev_vortex_sci.GetFleetName]§! and started hauling it far from the orbit of §Y[eev_vortex_pla.GetName]§!. The vortex exploded again but our guess was right: our ships only suffered some minor malfunctions, and their redundant systems seamlessly kicked in. But a few minutes later, §G[eev_vortex_sci.GetLeaderName]§! warned that the anomaly's instability was now critical and urged the fleet to speed up, but before they could escape, the vortex ultimately collapsed, unleashing an colossal surge of energy - a final, blinding burst that was the last bit of information we recieved before losing all communications from [From.System.GetName]."
-
  eev_houston.6.name: "No rescue"
  eev_houston.6.desc: "The last transmission we received from §B[Root.GetFleetName]§! was the final gigantic destruction of the energy vortex as the ship started to enter the atmosphere of §Y[From.GetName]§!. There's no way they could have survived that."
  eev_houston.6a: "The universe is a dangerous place."
-
  eev_houston.7.name: "Rescue from out there"
  eev_houston.7.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They are all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§!'s systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
  eev_houston.7a: "Concerning..."
  eev_houston.7b: "We have friends out there."
-
  eev_houston.8.name: "Rescue from out there"
  eev_houston.8.desc: "To the surprise of [Root.owner.Capital.GetName] control center, we received a transmission from our lost ships! They are all safe and excitedly reported an incredible story.\n\nAs they thought to be doomed, an alien ship of unknown design emerged from nowhere and shielded them from the full strength of the explosion. Then it used some energy beams to repair the damaged ships before disappearing at an incredible speed.\n\n§B[Root.GetFleetName]§!'s systems could only scan it for a few seconds, revealing that the strange ship wasn't using any known means of propulsion."
-
  eev_houston.9.name: "A parting gift"
  eev_houston.9.desc: "While conducting an evaluation of §B[Root.GetFleetName]§!'s systems after the recent events, §G[Root.GetLeaderName]§! stumbled upon a concealed cache of scientific data within the ship's computer. He is certain that it wasn't present prior to the incident and suspects it may have originated from the enigmatic ship. After a comprehensive analysis, he confirmed that the data is entirely safe and subsequently made it publicly accessible."
-
  eev_houston.11.name: "Scientist lost"
  eev_houston.11.desc: "We've just learned that our scientist §G[eev_vortex_sci.GetLeaderName]§! has suddenly died despite [eev_vortex_sci.Leader.GetHerHis] perfect condition. Our medical team detected strange radiations emanating from [eev_vortex_sci.Leader.GetHerHis] body, but they quickly faded."
-
  EEV_SCI_REPAIR: "Repairing the science ship"
  EEV_SCI_REPAIR_DESC: "Send a construction ship to repair our drifting science ship before it crashes on the nearby planet."
  EEV_MIL_REPAIR1: "Rescuing the science ship"
@@ -47,24 +37,17 @@
  EEV_MIL_REPAIR2_DESC: "Send a military fleet with at least two ships to haul the science and construction ships to safety."
 
 # Unexpected tower, alias Farewell Horizontal
- eev_tower_city_category: "Unexpected tower"
- eev_tower_city_category_desc: "Our sensors have picked up something unexpected in this gas giant: a monumental tower is emerging from the clouds."
  eev_tower_city.1.name: "Giant tower"
  eev_tower_city.1.desc: "From the depths of the gas giant, where even our most robust shields would falter amidst the swirling mists of an unending magnetic storm, emerges a colossal cylinder crafted from metal and concrete. What's even more captivating is the city ruins perched atop this towering spire, with villages clinging precariously to its sides. To embark on an expedition into this enigmatic realm, we recognized the need for substantial resources. It was thus decided to establish a base camp within an open expanse of the city, serving as our launching point for exploration."
-
  # Archaeology site starts here
  eev_tower_city_dig: "The impossible city"
  eev_tower_city_dig_desc: "Our science team is currently hard at work establishing a base camp. Given the widespread debris and dilapidated structures throughout, advancing our operations will demand extensive drilling and consolidation efforts. Nevertheless, the intriguing mysteries concealed within this locale have fueled the team's enthusiasm, driving us to commence our endeavors."
-
  eev_tower_city_dig.1.name: "Exploring the city"
  eev_tower_city_dig.1.desc: "Our team is now ready to explore this strange place. The upper half of the tower is at the middle of the comfort zone where the pressure and temperature of the atmosphere makes it habitable. The city ruins sprawl across the majority of the cylinder's peak, undoubtedly harboring the most valuable data we seek. Few are inclined to venture downward and investigate the vertical villages clinging to the pillar's sides."
-
  eev_tower_city_dig.2.name: "Mysteries of the past"
  eev_tower_city_dig.2.desc: "Our initial discoveries have left us perplexed. The city's inhabitants were evidently confined to a pre-spatial technology stage, hindered by the absolute scarcity of resources of their impossible home. This raises even more questions. These findings give rise to a multitude of questions. The construction of the pillar couldn't have been their doing, so who were its architects, and by what means was it erected? And how did these primitives came to live here?"
-
  eev_tower_city_dig.3.name: "Breaking in"
  eev_tower_city_dig.3.desc: "The science team arrived in front of a grand edifice, still imposing despite its partial state of ruin. After breaking in, they uncovered the first remains of the humanoid inhabitants and stationed a few members to collect samples and conduct analyses. Progressing further, §G[Root.GetLeaderName]§! entered what appeared to be a restricted zone. Scans indicate that the interior remains largely intact, but given the compromised ceilings and reinforced walls, gaining access will undoubtedly necessitate significant effort."
-
  eev_tower_city_dig.4.name: "Broken by war"
  eev_tower_city_dig.4.desc: "We finally gained access to the interior of the bunker and found a huge computer that is intricately linked to the entire cylinder. The initial dataset we acquired is enough to leave one's head spinning. It turns out this structure isn't merely a massive pillar but a colossal skyscraper. Its interior was abandoned eons ago, following a brutal civil war that shattered their society. Over time, they regressed into primitiveness as their once-advanced equipment fell into disrepair. The last tribes to roam the surface found themselves unable to comprehend their ancient technology. With the final synthesizers ceasing to function, their demise swiftly followed."
  eev_tower_city_dig.4a: "A tragic tale."
@@ -72,28 +55,20 @@
  eev_tower_city_dig.4b: "We're sitting on a huge pile of alloys."
 
  # Scanned
- eev_scanned_category: "Scanned"
- eev_scanned_category_desc: "Our ship has arrived in orbit of a promising planet and has started scanning it. We expect to have some interesting results very soon."
  eev_scanned.1.name: "Alien probe"
  eev_scanned.1.desc: "A probe of unknown origin suddenly appeared from nowhere and started to scan our ship. §G[Root.GetLeaderName]§! pointed the §B[Root.GetFleetName]§!'s scanners on the probe but it disappeared at an impossible speed. The analysis of the mere seconds of data we could gather shows that it uses the same technology than the unknown ship that saved our fleets from the collapsing energy vortex."
  eev_scanned.1a: "Their technology is far beyond anything we know."
  eev_scanned.1b: "Their technology is an unacceptable threat."
 
 # Ancient Echoes
- eev_ancient_echoes_category: "Ancient Echoes"
- eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimensional rift above §Y[From.GetName]§!. §G[Root.GetLeaderName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
  eev_ancient_echoes.1.name: "Battle from the past"
  eev_ancient_echoes.1.desc: "Our probe captured a harrowing spectacle beyond the rift: two colossal alien fleets locked in a relentless and brutal conflict, using weapons of unparalleled strength. Brilliant eruptions of energy bathed the entire system in blinding radiance as they dispersed against seemingly impenetrable shields. Then, a concentrated barrage breached the defenses of a capital ship, striking its reactor. The ensuing explosion momentarily blinded our probe, and when our instruments regained clarity, the rift had vanished. Subsequent analysis of star positions and tachyon energy signatures pinpointed the battle's occurrence as over a million years in the past."
 
 # Mysterious Cache
- eev_mysterious_cache_category: "Mysterious Cache"
- eev_mysterious_cache_category_desc: "Our sensors have spotted a faint signal emanating from §Y[From.GetName]§!. Moving closer, the crew of §B[Root.GetFleetName]§! discovered that it's emanating from an old building that stands alone on this desolate world."
  eev_mysterious_cache.1.name: "A gift from the past"
  eev_mysterious_cache.1.desc: "Gaining entry into the building proved a formidable challenge due to its thick, impregnable walls and a conspicuous absence of any visible entrance.  These robust fortifications concealed a small room that harbored a central altar adorned with an intricately designed box. Scans indicate the building and the box are eleven thousands years old. However, the most perplexing revelation was the presence of inscriptions on the altar, inscribed in our modern language! Even more disconcerting is that they precisely name §G[Root.GetLeaderName]§!, claiming the box as a gift for [Root.Leader.GetHerHim]. The box itself, crafted from an unknown alloy, exhibited an astonishing heft - a treasure trove of untold potential for our scientists to dissect and analyze. But who made this remarkable gift, and  how did they possess such prescient knowledge of our arrival?"
 
 # Crashed colony ship
- eev_crashcol_category: "Metallic debris"
- eev_crashcol_category_desc: "Our ship's sensors have detected some metallic debris on the surface of §Y[From.GetName]§!. The team is preparing an expedition to investigate."
  eev_crashcol.1.name: "Crashed colony ship"
  eev_crashcol.1.desc: "The scientific expedition discovered the remains of an ancient colony ship of unknown origin dwarfing our own designs in size, this colossal vessel met its catastrophic end on a plateau several millennia ago, claiming the lives of all who were aboard. Regrettably, the onboard computers lay in complete ruin, rendering any attempt to ascertain its point of origin futile. Nonetheless, the hulking wreckage boasts a wealth of valuable alloys. In anticipation of a future recovery mission, our team placed a beacon to mark its location."
  eev_crashcol.2.name: "Recovery completed"
@@ -159,8 +134,6 @@
 # It's 3.6 time! New events start here
  eevfreefolks: "The Free Folk"
  # Quantum God
- eev_quantum_god_category: "Deserted ruins"
- eev_quantum_god_category_desc: "Our science ship has detected some ruins on §Y[From.GetName]§! and the crew wants to investigate them."
  eev_quantum_god.1.name: "The Quantum God"
  eev_quantum_god.1.desc: "An ancient civilization once flourished here until a cataclysmic solar flare sterilized their world. Remarkably, they maintained a delicate balance between their religious and scientific inclinations. They were resolute in their belief that their god both existed and didn't exist until they could arrive at a definitive answer to that profound question. Tragically, before they could reach that elusive conclusion, their entire civilization perished in the cataclysmic eruption of their sun."
  # Murder chain
@@ -168,8 +141,6 @@
  murder_chain_title: "$murder_event.1.name$"
  murder_chain_desc: "$MURDER_PROJECT_DESC$"
  # Afraid of the Stars
- eev_afraid_category: "Bombed planet"
- eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors are picking up faint traces of civilization and the crew wants to investigate."
  eev_afraid.1.name: "Afraid of the Stars"
  eev_afraid.1.desc: "Among the scant remnants of the once-thriving civilization that once graced this planet, we unearthed a buried vault containing their historical records. It turns out that these people lived in constant fear of their own sky, harboring the belief that death could descend from the stars at any given moment. They never ventured beyond their planet's boundaries into space, meeting their ultimate demise as a hostile alien force relentlessly bombarded their surface."
  eev_afraid.1a: "They were right."
@@ -181,26 +152,19 @@
  crushed.1a.phile: "This will be an eternal shame for us."
  crushed.1a.mega: "Can we sell them as pets?"
  # Sci-Fi
- eev_scifi_category: "Massive ruins"
- eev_scifi_category_desc: "Our ship is currently scanning a planet that hosts some massive city ruins. Détecting some remaining energy signals, the crew decides to land."
  eev_scifi.1.name: "Impossible designs"
  eev_scifi.1.desc: "The mere survival of a computer system on this desolate world for such an extended duration is nothing short of miraculous. Regrettably, there exists no information regarding the fate of the vanished civilization. Yet, the computer's archives are replete with designs for unbelievably colossal megastructures, some spanning entire solar systems. Our scientists are becoming extremely excited as they transmit these profoundly advanced schematics back to our empire. However, after weeks of arduous labor, a crew member made a bewildering discovery - the computer merely housed a database dedicated to a widely popular science-fiction series."
  # Unsavory Scientist
- eev_unsavory_scientist: "Emerging structures"
- eev_unsavory_scientist_desc: "Our science ship has detected some artificial structures emerging from a large swamp on this planet, and §G[Root.GetLeaderName]§! decided to investigate."
  eev_unsavory_scientist.1.name: "An unappetizing scientist"
  eev_unsavory_scientist.1.desc: "As our team diligently analyzed the ancient structures, a colossal creature suddenly lunged forth from the swamp, engulfing §G[Root.GetLeaderName]§!! In a matter of minutes, to our immense relief, the creature regurgitated [Root.Leader.GetHerHim], seemingly uninterested. Although visibly shaken, §G[Root.GetLeaderName]§! emerged from the encounter unscathed."
 
  # 3.7 starts here
-
  # Misplaced equipment (rewrite of eev_popup.24,26,28)
  eev_misplaced.1.name: "Misplaced Equipment"
  eev_misplaced.1.desc: "As part of our standard procedure, our scientists have very carefully landed on §Y[From.GetName]§! in a very remote location to gather some samples for future research on the indigenous alien population and their way of life. One scientist inadvertently misplaced some equipment, including a firearm, on the planet's surface. The team's principal scientist reassured us that all would be well, and they planned to retrieve the misplaced weapon during our next visit to §Y[From.GetName]§!."
-
  eev_misplaced.3.name: "Misplaced Equipment: Part II"
  eev_misplaced.3.desc: "Our scientists have returned on §Y[From.GetName]§!. Only this time with hopes that they could find some missing equipment. However, their search yielded no results. Instead, they stumbled upon a peculiar sight: natives' footprints scattered throughout the area, as if they had congregated for a celebration or were engaged in some form of fervent reverence toward our scientists' equipment."
  eev_misplaced.3.a: "We should stop landing here."
-
  eev_misplaced.5.name: "Misplaced Equipment: Part III"
  eev_misplaced.5.desc: "Once more, our scientists touched down on §Y[From.GetName]§!, but this time, they were met with a surprising reception. The local natives swiftly encircled them, and among them, one figure stood out, holding the lost firearm. This individual bore an air of regality that set them apart from the rest, perhaps having ascended to a form of kingship on the planet through newfound power. In unison, the natives began to fervently speak and scream in their native tongue, their message unmistakable - our return was unwelcome. The team quickly retreated, departing the planet with all due haste."
  eev_misplaced.5.a: "Perhaps it's better to study them from afar."
@@ -212,7 +176,6 @@
  eev_losing_nerves.1.desc: "One of the scientists stationed at the observation post above §Y[eev_lostnerves.GetName]§! found himself observing the primitive species' savants as they formulated theories about the nature of the universe. Their grossly erroneous deductions had a profoundly unsettling effect on him, eventually driving him to madness. Before his colleagues could intervene, he impulsively boarded an escape pod, vociferating his intent to rectify their flawed theories. Helplessly, the rest of the team followed his descent onto the planet's surface."
  eev_losing_nerves.1.a: "This is catastrophic!"
  eev_losing_nerves.1.t: "Anything can happen now..."
-
  eev_losing_nerves.2.name: "New report"
  eev_losing_nerves.2.desc_mil: "Despite their primitive technology, the natives of §Y[eev_lostnerves.GetName]§! destroyed the life pod before our scientist could even get out of it. They will gain a limited insight from the remaining debris, but the damage is still important."
  eev_losing_nerves.2.desc_phobe: "The natives of §Y[eev_lostnerves.GetName]§! were quite horrified by our scientist's appearance and opened fire by pure instinct. They brought back the lifepod to a scientific compound. This will have a huge impact on this society."
@@ -227,15 +190,11 @@
  eev_losing_nerves.2.td: "The planet will be nuked and the observation post dismantled."
 
 # Mossy Planet
- eev_cushion_world: "Comfortable tundra"
- eev_cushion_world_desc: "Our sensors are detecting a surprisingly high density of flora on this tundra world. Our scientists are preparing an investigation to find out why."
  eev_mossy_planet.1.name: "Cushion world"
  eev_mossy_planet.1.desc: "The flora of this planet evolved to grow as comfortable cushions. Animals are drawn to them, sharing their warmth and receiving nourishment in return. This mutually beneficial relationship has proven highly efficient, and the crew has spotted some cat-like animals living their best life on these plants."
 
 # 3.9 stuff here
 # Crazy Scientist rewrite
- crazy_scientist_category: "The strange flora"
- crazy_scientist_category_desc: "While scanning §Y[From.GetName]§! the crew has detected some weird flora and wans to investigate."
  crazy_scientist.1.name: "Weird pheromones"
  crazy_scientist.1.desc: "As we studied the flora, our sensors picked up an interesting discovery - the emission of a potent, albeit unidentified, pheromone. One of our scientists inadvertently tore his suit, exposing himself to these mysterious pheromones. The effects on him were immediate: he began to scream, rambling about ethereal voices that filled him with fear. After a time, he sought refuge within a natural cave. For all we know, he's still in here."
  crazy_scientist.1.a: "He's a threat to the whole crew. Leave him there"
@@ -257,7 +216,7 @@
  eev_illegal_aliens.4.a: "Keep an eye on them." 
 
 # World War rewrite
- world_war_category_desc: "The crew detects many debris on the surface of §Y[From.GetName]§! and belives that a global conflict destroyed its inhabitants."
+ world_war.1.name: "World War"
  world_war.1.desc: "While scanning the desolate surface of this forsaken planet, our vigilant science crew discerns subtle, haunting remnants of a bygone era. The prevailing evidence suggests that a cataclysmic event, caused by a world-engulfing conflict of immense proportions, happened here eons ago, culminating in the tragic extinction of the planet's once-thriving civilization. The scars of this conflict can be seen etched into the very landscape, with the remains of colossal war machines and crumbling fortifications scattered across the terrain."
  world_war.1.a: "Explore the planet."
  world_war.1.b: "Honor the dead."
@@ -280,20 +239,14 @@
  eev_lotsofmoney.2.desc: "It appears that our generous donation months ago has played a pivotal role in finding a cure for the once-incurable Frixian plague! Last night our capital planet celebrated when they heard the news!"
 
 # Haven
- eev_lone_ship_category: "Lone ship"
- eev_lone_ship_desc: "Our sensors have detected a small spaceship on the surface of this planet. We can't detect any energy reading or sign of life from it, so it should be safe to investigate."
  eev_lone_ship.1.name: "Haven"
  eev_lone_ship.1.desc: "A small spaceship did indeed land here a century ago. It served as the home for a couple of young xenos who had fled their oppressive homeland in search of refuge. They spent their lives in solitude but found peace and happiness until they passed away in old age."
 
 # Dirty civ
- eev_dirty_civ_category: "Space congestion"
- eev_dirty_civ_desc: "A massive cloud of debris is orbiting this planet. They seem to be artificial and §G[Root.GetLeaderName]§! is eager to investigate."
  eev_dirty_civ.1.name: "Fun times"
  eev_dirty_civ.1.desc: "The crew of the §B[Root.GetFleetName]§! was taken aback by the peculiar nature of this debris field. Terrestrial vehicles, assorted objects, and even entire buildings are drifting through the void around §Y[From.GetName]§!. It appears that the now-extinct civilization had a penchant for launching the strangest items into orbit, to the extent that it rendered any attempts at space travel from their world virtually impossible."
 
 # Belltower
- eev_belltower_category: "Desert signal"
- eev_belltower_desc: "Scans found some energy readings coming from what seems to be a lone building on this desert planet. The crew is preparing an expedition to investigate it."
  eev_belltower.1.name: "Desert tower"
  eev_belltower.1.desc: "Landing near the building proved to be more challenging than anticipated, given its location at the heart of an expansive region of shifting sands. The crew resorted to employing the ship's sampling lasers to vitrify a substantial area, creating a suitable landing zone. Regrettably, the building now lies mostly buried beneath the sand, with only its conical peak visible above the surface. §G[Root.GetLeaderName]§! suggests establishing a camp for excavation and exploration of the structure."
  eev_belltower_dig: "The Belltower"
@@ -345,16 +298,15 @@
  eev_rock_pets.2.desc: "As the inhabitants of our colony on §Y[From.GetName]§! explore their new world, reports emerge of some colonists being followed by small rocks. The local scientists have confirmed these reports, revealing a new species of lithoid animals that have taken a liking to us."
 
 # Sand Creature Rewrite
- sand_creature_category: "Moving Sand"
- sand_creature_category_desc: "The sand on the surface of §Y[From.GetName]§! appears to be moving in a very unnatural way."
  sand_creature.1.name: "Horrific Sand Creature"
  sand_creature.1.desc: "As the crew of the §B[Root.GetFleetName]§! touched down on the planet, they immediately noticed the sand shifting ominously toward them. A member of our team couldn't resist their curiosity, deciding to disembark from the science vessel for a closer examination. Despite §G[Root.GetLeaderName]§!'s cautious advice, their warnings fell on deaf ears. As the crew watched the sand get closer and closer it began to grow in size as well. It was at that moment that the unsettling truth became apparent - something lurked beneath that sand, something alive and perceiving the crew and their leader as potential prey. The creature swiftly and silently maneuvered beneath our crew member and abruptly engulfed them, leaving the rest of the crew with no choice but to retreat hastily, abandoning their comrade to a tragic fate."
 
 # Molten Cataclysm
- eev_molten_cataclysm_category: "Molten Cataclysm"
- eev_molten_cataclysm_desc: "We noticed a dense cloud of debris around §Y[From.GetName]§!. It seems that a recent cataclysm occured here."
  eev_molten_cataclysm.1.name: "Molten Cataclysm"
  eev_molten_cataclysm.1.desc: "Our scans lead to a surprising discovery. Among the immense debris field orbiting §Y[From.GetName]§!, the crew identifies fragments of destroyed satellites, unmistakable signs of a past civilization. As your crew analyzes the data, a realization strikes - a small planet appears to have recently collided with this previously inhabited world, creating a cataclysmic impact. The remnants of this collision are still fresh, suggesting that this event occurred mere days before our arrival."
  eev_molten_cataclysm.1.a: "Scan the satellites."
  eev_molten_cataclysm.1.b: "Study the impact."
  eev_molten_cataclysm.1.c: "There's nothing more to see."
+
+# 3.10 stuff
+# The Failed Hive

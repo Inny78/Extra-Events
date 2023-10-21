@@ -97,6 +97,8 @@ eev_is_uninhabitable = {
 		# Planetary Diversity
 		is_pd_toxic = yes
 		is_pd_barren = yes
+		is_pd_molten = yes
+		is_pd_barren_cold = yes
 		# All These Worlds
 		atw_is_barren = yes
 		atw_is_barren_cold = yes
@@ -201,5 +203,26 @@ eev_is_valid_colony = {
 		is_colony = yes
 		is_capital = no
 		is_artificial = no
+	}
+}
+
+eev_is_gaia = {
+	OR = {
+		is_planet_class = pc_gaia
+		# All These Worlds
+		atw_is_gaia = yes
+		# Planetary Diversity
+		is_pd_gaia = yes
+		pd_is_planet_class_gaia = yes
+	}
+}
+
+eev_is_molten = {
+	OR = {
+		is_planet_class = pc_molten
+		# All These Worlds
+		atw_is_molten = yes
+		# Planetary Diversity
+		is_pd_molten = yes
 	}
 }

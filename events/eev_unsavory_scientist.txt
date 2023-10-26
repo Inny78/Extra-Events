@@ -4,8 +4,8 @@ ship_event = {
 	id = eev_unsavory_scientist.1
 	title = eev_unsavory_scientist.1.name
 	desc = eev_unsavory_scientist.1.desc
-	picture = GFX_evt_fleet_good
-	show_sound = event_ship_bridge
+	picture = GFX_evt_eev_mangrove
+	show_sound = event_default
 	location = FROM
 
 	is_triggered_only = yes

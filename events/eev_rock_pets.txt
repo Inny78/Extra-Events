@@ -6,9 +6,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		random_planet_within_border = {
+		random_owned_planet = {
 			limit = { eev_is_valid_colony = yes }
-			planet_event = { id = eev_rock_pets.2 days = 50 random = 100 }
+			planet_event = { id = eev_rock_pets.2 }
 		}
 	}
 }

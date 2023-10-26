@@ -13,7 +13,6 @@ ship_event = {
 		from = {
 			create_archaeological_site = eev_belltower_dig
 		}
-		owner = { country_event = { id = story.5 days = 30 } }
 	}
 	option = {
 		name = INTERESTING

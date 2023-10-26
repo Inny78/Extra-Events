@@ -4,7 +4,7 @@ planet_event = {
 	id = eev_misplaced.1
 	title = "eev_misplaced.1.name"
 	desc = eev_misplaced.1.desc
-	picture = GFX_evt_asteroid_approaching_planet
+	picture = GFX_evt_landing_ship
 	show_sound = event_default
 	location = event_target:eev_misplaced
 
@@ -38,7 +38,7 @@ country_event = {
 	id = eev_misplaced.3
 	title = "eev_misplaced.3.name"
 	desc = "eev_misplaced.3.desc"
-	picture = GFX_evt_asteroid_approaching_planet
+	picture = GFX_evt_alien_cavemen
 	show_sound = event_default
 	location = event_target:eev_misplaced
 
@@ -84,7 +84,7 @@ country_event = {
 	id = eev_misplaced.5
 	title = "eev_misplaced.5.name"
 	desc = "eev_misplaced.5.desc"
-	picture = GFX_evt_asteroid_approaching_planet
+	picture = GFX_evt_alien_cavemen
 	show_sound = event_default
 	location = event_target:eev_misplaced
 

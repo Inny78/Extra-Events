@@ -641,6 +641,7 @@ country_event = {
 	}
 }
 
+# Rock Pets
 country_event = {
 	id = eev_engine.27
 	hide_window = yes
@@ -654,6 +655,6 @@ country_event = {
 		}
 	}
 	immediate = {
-		country_event = { id = eev_rock_pets.1 }
+		country_event = { id = eev_rock_pets.1 days = 50 random = 100 }
 	}
 }

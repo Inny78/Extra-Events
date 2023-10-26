@@ -5,6 +5,7 @@ country_event = {
 	title = eev_new_queen.1.name
 	desc = eev_new_queen.1.desc
 	picture = GFX_evt_hive_mind
+	show_sound = event_whispering
 	is_triggered_only = yes
 
 	immediate = { set_country_flag = eev_new_queen }
@@ -36,9 +37,9 @@ country_event = {
 	title = eev_new_queen.2.name
 	desc = eev_new_queen.2.desc
 	picture = GFX_evt_hive_mind
+	show_sound = event_whispering
 	is_triggered_only = yes
-	immediate = {
-	}
+
 	option = {
 		name = eev_new_queen.2.a
 		hidden_effect = {
@@ -94,9 +95,9 @@ country_event = {
 	title = eev_new_queen.3.name
 	desc = eev_new_queen.3.desc
 	picture = GFX_evt_hive_mind
+	show_sound = event_planetary_riot
 	is_triggered_only = yes
-	immediate = {
-	}
+
 	option = {
 		name = eev_new_queen.3.a
 		hidden_effect = {

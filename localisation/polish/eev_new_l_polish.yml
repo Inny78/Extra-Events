@@ -1,6 +1,8 @@
 ﻿l_polish:
+
 # Scopes:
 # Event : root = ship, from = planet
+
 # Energy Vortex, alias « Houston, we have a problem »
  eev_houston.1.name: "[Root.owner.Capital.GetName], we have a problem."
  eev_houston.1.desc: "Unfortunately, the scan has had dire consequences. It agitated the vortex, unleashing a potent energy surge that disrupted the ship's engines. As a result, the §B[Root.GetFleetName]§! now drifts inexorably toward the planet's gravitational pull. Without repairs, it will crash into §Y[From.GetName]§!."
@@ -66,7 +68,7 @@
 
 # Mysterious Cache
  eev_mysterious_cache.1.name: "A gift from the past"
- eev_mysterious_cache.1.desc: "Gaining entry into the building proved a formidable challenge due to its thick, impregnable walls and a conspicuous absence of any visible entrance.  These robust fortifications concealed a small room that harbored a central altar adorned with an intricately designed box. Scans indicate the building and the box are eleven thousands years old. However, the most perplexing revelation was the presence of inscriptions on the altar, inscribed in our modern language! Even more disconcerting is that they precisely name §G[Root.GetLeaderName]§!, claiming the box as a gift for [Root.Leader.GetHerHim]. The box itself, crafted from an unknown alloy, exhibited an astonishing heft - a treasure trove of untold potential for our scientists to dissect and analyze. But who made this remarkable gift, and  how did they possess such prescient knowledge of our arrival?"
+ eev_mysterious_cache.1.desc: "Gaining entry into the building proved a formidable challenge due to its thick, impregnable walls and a conspicuous absence of any visible entrance. These robust fortifications concealed a small room that harbored a central altar adorned with an intricately designed box. Scans indicate the building and the box are eleven thousands years old. However, the most perplexing revelation was the presence of inscriptions on the altar, inscribed in our modern language! Even more disconcerting is that they precisely name §G[Root.GetLeaderName]§!, claiming the box as a gift for [Root.Leader.GetHerHim]. The box itself, crafted from an unknown alloy, exhibited an astonishing heft - a treasure trove of untold potential for our scientists to dissect and analyze. But who made this remarkable gift, and  how did they possess such prescient knowledge of our arrival?"
 
 # Crashed colony ship
  eev_crashcol.1.name: "Crashed colony ship"
@@ -260,7 +262,7 @@
  eev_belltower_dig.4.name: "Signal tower"
  eev_belltower_dig.4.desc: "Our scientists conducted a thorough examination of the building's interior but found no data or recordings. The machinery within resembles a communication tower, much like our own but on a colossal scale. It appears to be connected to the hyperlane system of our galaxy. However, the intriguing aspect is that it's currently dormant, not transmitting any signals. While the rest of the tower has been in operation for countless millennia, the emitter remains deactivated."
  eev_belltower_dig.5.name: "Ding"
- eev_belltower_dig.5.desc: "After a meticulous examination, §G[Root.GetLeaderName]§! concluded that the only way to unravel the tower's purpose was to activate the emitter. With a decisive flip of the switch, §G[Root.Leader.GetSheHeCap]§! initiated the process. A beam of energy immediately hit the bell, releasing an harmonious §RDING§! that filled the building, coursed along the sand outside, and pulsed out of the transmitter towards the galaxy. The device then totally shut down, including the force field that had maintained its integrity. The tower immediately started to crumble, prompting our crew to make a hasty escape just in the nick of time."
+ eev_belltower_dig.5.desc: "After a meticulous examination, §G[Root.GetLeaderName]§! concluded that the only way to unravel the tower's purpose was to activate the emitter. With a decisive flip of the switch, [Root.Leader.GetSheHeCap] initiated the process. A beam of energy immediately hit the bell, releasing an harmonious §RDING§! that filled the building, coursed along the sand outside, and pulsed out of the transmitter towards the galaxy. The device then totally shut down, including the force field that had maintained its integrity. The tower immediately started to crumble, prompting our crew to make a hasty escape just in the nick of time."
  eev_belltower_dig.5.a: "What have we done?"
  eev_belltower.2.name: "Dong"
  eev_belltower.2.desc: "Shortly after the tower's activation, a remarkable phenomenon occurred across all our colonies, stations, and ships. Every communication device suddenly resonated with the bell's exquisite sound, captivating everyone for a few precious seconds as it touched the very depths of our souls. Then, as swiftly as it had appeared, it vanished forever. No recording device could capture a trace of it, leaving it to exist solely in the collective memory of our people."
@@ -307,6 +309,3 @@
  eev_molten_cataclysm.1.a: "Scan the satellites."
  eev_molten_cataclysm.1.b: "Study the impact."
  eev_molten_cataclysm.1.c: "There's nothing more to see."
-
-# 3.10 stuff
-# The Failed Hive

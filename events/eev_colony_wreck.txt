@@ -1,15 +1,11 @@
-###########################################################################
-##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
-###########################################################################
-
-# World War Anomaly
+# Crashed Colony Ship
 namespace = eev_crashcol
 
 ship_event = {
 	id = eev_crashcol.1
 	title = eev_crashcol.1.name
 	desc = eev_crashcol.1.desc
-	picture = GFX_evt_ground_combat
+	picture = GFX_evt_crashed_station
 	show_sound = event_ship_bridge
 	location = FROM
 

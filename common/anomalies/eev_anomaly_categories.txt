@@ -2,6 +2,8 @@
 ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
 ###########################################################################
 
+# Scope: planet, from = ship
+
 # Afraid of the Stars
 eev_afraid_category = {
 	desc = eev_afraid_category_desc

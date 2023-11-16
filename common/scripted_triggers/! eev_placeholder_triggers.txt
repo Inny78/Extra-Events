@@ -1,6 +1,7 @@
 # Irony this is a placeholder file please ignore it
 annihilator_system = { always = no }
 atw_is_arctic = { always = no }
+atw_is_alpine = { always = no }
 atw_is_barren = { always = no }
 atw_is_barren_cold = { always = no }
 atw_is_continental = { always = no }
@@ -16,12 +17,19 @@ atw_is_tundra = { always = no }
 cohesive_system = { always = no }
 everchanging_system = { always = no }
 giga_is_superpower_star = { always = no }
+has_bug_branch = { always = no }
 has_diagraphers_trait_mod = { always = no }
 is_aot_habitat = { always = no }
+is_anthropocentric = { always = no }
+is_cooperative = { always = no }
+is_competitive = { always = no }
 is_ds_skycatcher = { always = no }
+is_ecocentric = { always = no }
+is_elitist = { always = no }
 is_giga_habitat = { always = no }
 is_multihive_drone = { always = no }
 is_pc_mem_vazuran_habitat = { always = no }
+is_pd_alpine = { always = no }
 is_pd_aquatics = { always = no }
 is_pd_arctic = { always = no }
 is_pd_barren = { always = no }
@@ -42,6 +50,7 @@ is_planet_class_pc_k_giant_star = { always = no }
 is_planet_class_pc_o_hyper_star = { always = no }
 is_planet_class_pc_o_star = { always = no }
 is_planet_class_pc_o_super_star = { always = no }
+is_pluralist = { always = no }
 is_td_multi_hiveminded = { always = no }
 katzen_jump_blocked_system = { always = no }
 pd_is_alpine = { always = no }

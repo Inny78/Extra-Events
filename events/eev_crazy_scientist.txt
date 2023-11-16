@@ -11,7 +11,7 @@ ship_event = {
 	desc = crazy_scientist.1.desc
 	picture = GFX_evt_aggressive_flora
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 
@@ -51,7 +51,7 @@ ship_event = {
 	desc = crazy_scientist.2.desc
 	picture = GFX_evt_interior_battle
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

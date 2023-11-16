@@ -546,6 +546,7 @@ planet_event = {
 		years_passed = 35
 		owner = {
 			is_country_type = primitive
+			is_gestalt = no
 			eev_is_modern_age = yes
 			is_regular_pre_ftl = yes
 			current_awareness_level < high
@@ -567,7 +568,7 @@ planet_event = {
 					country_event = { id = eev_losing_nerves.1 days = 100 random = 100 }
 				}
 			}
-			50 = { }
+			60 = { }
 		}
 	}
 }
@@ -594,33 +595,9 @@ country_event = {
 	}
 }
 
-# Galactic Wanderers
-country_event = {
-	id = eev_engine.25
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = {
-		is_ai = no
-		is_gestalt = no
-		has_comms_with_alien_empire = yes
-		years_passed > 50
-		NOT = { has_global_flag = eev_had_galwand }
-		any_planet_within_border = {
-			eev_is_valid_moon = yes
-		}
-	}
-	immediate = {
-		random_list = {
-			40 = { country_event = { id = eev_galactic_wanderers.1 } }
-			60 = { }
-		}
-	}
-}
-
 # Faint Asteroid
 country_event = {
-	id = eev_engine.26
+	id = eev_engine.25
 	hide_window = yes
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -643,7 +620,7 @@ country_event = {
 
 # Rock Pets
 country_event = {
-	id = eev_engine.27
+	id = eev_engine.26
 	hide_window = yes
 	is_triggered_only = yes
 	fire_only_once = yes

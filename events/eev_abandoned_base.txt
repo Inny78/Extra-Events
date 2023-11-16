@@ -11,7 +11,7 @@ ship_event = {
 	desc = abandoned_base.1.desc
 	picture = GFX_evt_medieval_alien_civilization
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 
@@ -64,7 +64,7 @@ ship_event = {
     title = "abandoned_base.2.name"
 	desc = "abandoned_base.2.desc"
 	picture = GFX_evt_hangar_bay
-	location = FROM
+	location = root
 	
 	is_triggered_only = yes
     
@@ -84,7 +84,7 @@ ship_event = {
 						name = ostrich
 						design = "NAME_Dagger"
 					}
-					set_location = from
+					set_location = root
 				}
 			}
 		}

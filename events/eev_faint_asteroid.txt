@@ -21,6 +21,7 @@ planet_event = {
 	picture = GFX_evt_asteroid_approaching_planet
 	show_sound = event_red_alert
 	is_triggered_only = yes
+	location = from
 
 	option = {
 		name = eev_faint_asteroid.2.a
@@ -97,7 +98,7 @@ country_event = {
 		add_research_option = tech_mine_dark_matter
 		add_tech_progress = {
 			tech = tech_mine_dark_matter
-			progress = 0.05
+			progress = 0.1
 		}
 	}
 }

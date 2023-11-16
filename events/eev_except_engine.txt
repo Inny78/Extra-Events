@@ -11,7 +11,7 @@ ship_event = {
 	desc = except_engine.1.desc
 	picture = GFX_evt_sapient_AI
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

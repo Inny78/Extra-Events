@@ -7,7 +7,7 @@ ship_event = {
 	desc = eev_crashcol.1.desc
 	picture = GFX_evt_crashed_station
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

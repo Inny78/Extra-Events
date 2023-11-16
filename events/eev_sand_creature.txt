@@ -21,20 +21,15 @@ ship_event = {
 
 	option = {
 		name = UNFORTUNATE
-		
 		leader = {
 			add_experience = 150
 		}
-		
 		owner = {
-			add_resource = {
-				unity = 250
-			}
 			add_monthly_resource_mult = {
 				resource = society_research
-				value = @tier3researchreward
-				min = @tier3researchmin
-				max = @tier3researchmax
+				value = @tier1researchreward
+				min = @tier1researchmin
+				max = @tier1researchmax
 			}
 		}
 	}

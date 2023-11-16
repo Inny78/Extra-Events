@@ -83,6 +83,7 @@ eev_is_scientist_cautious = {
 		has_trait_tier1or2 = { TRAIT = leader_trait_paranoid }
 		has_trait_tier1or2or3 = { TRAIT = leader_trait_slippery }
 		has_trait_tier1or2or3 = { TRAIT = leader_trait_observant }
+		has_leader_flag = leader_death_events_blocked
 	}
 }
 
@@ -120,8 +121,14 @@ eev_is_valid_system = {
 			}
 			has_special_star_flag_trigger = yes
 			has_star_flag = empire_cluster
+			has_star_flag = precursor_system
 			is_fe_cluster = yes
 			has_star_flag = drone_home_system
+			has_star_flag = chosen_system
+			has_star_flag = outercluster
+			cohesive_system = yes
+			urmazin_system = yes
+			everchanging_system = yes
 		}
 	}
 }
@@ -244,5 +251,27 @@ eev_is_tropical = {
 		# Planetary Diversity
 		is_pd_tropical = yes
 		pd_is_tropical = yes
+	}
+}
+
+eev_is_alpine = {
+	OR = {
+		is_planet_class = pc_alpine
+		# All These Worlds
+		atw_is_alpine = yes
+		# Planetary Diversity
+		is_pd_alpine = yes
+		pd_is_alpine = yes
+	}
+}
+
+eev_has_bugged_ethic = {
+	OR = {
+		is_anthropocentric = yes
+		is_ecocentric = yes
+		is_cooperative = yes
+		is_competitive = yes
+		is_elitist = yes
+		is_pluralist = yes
 	}
 }

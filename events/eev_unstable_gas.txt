@@ -6,9 +6,9 @@
 namespace = unstable_gas
 
 ship_event = {
-	id = unstable_gas.2
-	title = unstable_gas.2.name
-	desc = unstable_gas.2.desc
+	id = unstable_gas.1
+	title = unstable_gas.1.name
+	desc = unstable_gas.1.desc
 	picture = GFX_evt_gas_giant
 	show_sound = event_ship_bridge
 	location = FROM

@@ -11,7 +11,7 @@ ship_event = {
 	desc = error.1.desc
 	picture = GFX_evt_satellite_in_orbit
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

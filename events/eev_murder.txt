@@ -314,7 +314,7 @@ country_event = {
 	}
 	option = {
 		name = murder_event.10.b
-		trigger = {
+		exclusive_trigger = {
 			owner = {
 				OR = {
 					is_xenophobe = yes

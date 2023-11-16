@@ -11,7 +11,7 @@ ship_event = {
 	desc = frozen_civilization.1.desc
 	picture = GFX_evt_icelocked_settlement
 	show_sound = event_ghost_town
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

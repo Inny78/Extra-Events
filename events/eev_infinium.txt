@@ -11,7 +11,7 @@ ship_event = {
 	desc = infinium.1.desc
 	picture = GFX_evt_in_the_dark
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

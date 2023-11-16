@@ -11,7 +11,7 @@ ship_event = {
 	desc = asteroid_attack.1.desc
 	picture = GFX_evt_mining_operations
 	show_sound = event_ship_bridge
-	location = FROM
+	location = root
 
 	is_triggered_only = yes
 

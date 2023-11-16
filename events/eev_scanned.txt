@@ -13,6 +13,7 @@ ship_event = {
 
 	option = {
 		name = eev_scanned.1a
+		custom_tooltip = eev_scanned.1.t
 		trigger = {
 			owner = { is_xenophobe = no }
 		}
@@ -24,11 +25,17 @@ ship_event = {
 				max = @tier1researchmax
 			}
 			remove_country_flag = eev_sphere_encountered
-			set_country_flag = eev_scanned
+			hidden_effect = {
+				country_event = {
+					id = eev_scan_back.1 days = 50 random = 50
+				}
+			}
 		}
 	}
 	option = {
 		name = eev_scanned.1b
+		custom_tooltip = eev_scanned.1.t
+
 		trigger = {
 			owner = {
 				OR = { 
@@ -45,7 +52,11 @@ ship_event = {
 				max = @tier1researchmax
 			}
 			remove_country_flag = eev_sphere_encountered
-			set_country_flag = eev_scanned
+			hidden_effect = {
+				country_event = {
+					id = eev_scan_back.1 days = 50 random = 50
+				}
+			}
 		}
 	}
 }

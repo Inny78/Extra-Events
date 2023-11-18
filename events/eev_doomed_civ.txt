@@ -9,7 +9,7 @@ ship_event = {
 	id = doomed_civ.1
 	title = doomed_civ.1.name
 	desc = doomed_civ.1.desc
-	picture = GFX_evt_society_research
+	picture = GFX_evt_eev_crashed_ship
 	show_sound = event_ship_bridge
 	location = root
 

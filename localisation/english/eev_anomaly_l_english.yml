@@ -107,9 +107,9 @@
 
 # 3.10 starts here
  eev_peak_intensity_category: "Mountain Trek"
- eev_peak_intensity_category_desc: "This world features impressive mountain ranges. §G[From.GetLeaderName]§! wants to investigate its mineral potential."
+ eev_peak_intensity_category_desc: "This world features impressive mountain ranges. Our crew wants to investigate its mineral potential."
  eev_volcanic_demise_category: "Supervolcano Spotted"
- eev_volcanic_demise_category_desc: "This planet has a massive supervolcano that picked the interest of §G[From.GetLeaderName]§!."
+ eev_volcanic_demise_category_desc: "This planet has a massive supervolcano that picked the interest of our science team."
  eev_lights_in_dark_category: "Frozen Light"
  eev_lights_in_dark_category_desc: "As our science ship pass by a belt of ice asteroids, our scanners detect a faint glow emanating from the biggest one. What could possibly be there?"
  eev_asteroid_pet_category: "Close Encounter"

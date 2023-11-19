@@ -17,7 +17,6 @@ on_game_start_country = {
 
 on_press_begin = {
 	events = {
-		eev_start_menu.1
 	}
 }
 

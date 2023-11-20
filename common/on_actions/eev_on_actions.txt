@@ -25,3 +25,33 @@ on_entering_system_first_time = {
 		star_stuff.1000
 	}
 }
+
+on_decade_pulse_country = {
+	events = {
+		eev_engine.1
+		eev_engine.2
+		eev_engine.3
+		eev_engine.4
+		eev_engine.5
+		eev_engine.7
+		eev_engine.8
+		eev_engine.9
+		eev_engine.10
+		eev_engine.11
+		eev_engine.12
+		eev_engine.13
+		eev_engine.14
+		eev_engine.15
+		eev_engine.16
+		eev_engine.17
+		eev_engine.18
+		eev_engine.19
+		eev_engine.20
+		eev_engine.21
+		eev_engine.22
+		eev_engine.23
+		eev_engine.24
+		eev_engine.25
+		eev_engine.26
+	}
+}

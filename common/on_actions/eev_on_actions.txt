@@ -26,7 +26,7 @@ on_entering_system_first_time = {
 	}
 }
 
-on_decade_pulse_country = {
+on_bi_yearly_pulse_country = {
 	events = {
 		eev_engine.1
 		eev_engine.2
@@ -46,10 +46,6 @@ on_decade_pulse_country = {
 		eev_engine.17
 		eev_engine.18
 		eev_engine.19
-		eev_engine.20
-		eev_engine.21
-		eev_engine.22
-		eev_engine.23
 		eev_engine.24
 		eev_engine.25
 		eev_engine.26

@@ -299,7 +299,8 @@ abandoned_base_category = {
 diamond_core_category = {
 	desc = "diamond_core_category_desc"
 	picture = GFX_evt_mining_station
-	level = 2
+	level = 3
+	max_once = yes
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -312,7 +313,10 @@ diamond_core_category = {
 			}
 		}
 	}
-	on_success = diamond_core.1
+	on_success = {
+		1 = diamond_core.1
+		1 = diamond_core.2
+	}
 }
 
 # Dirty civ
@@ -402,6 +406,7 @@ except_engine_category = {
 	desc = "except_engine_category_desc"
 	picture = GFX_evt_mining_station
 	level = 2
+	max_once = yes
 	spawn_chance = {
 		modifier = {
 			add = 1
@@ -414,7 +419,10 @@ except_engine_category = {
 			}
 		}
 	}
-	on_success = except_engine.1
+	on_success = {
+		1 = except_engine.1
+		1 = except_engine.2
+	}
 }
 
 # Frozen Civilization
@@ -980,31 +988,23 @@ storms_category = {
 supernova_category = {
 	desc = "supernova_category_desc"
 	picture = GFX_evt_ship_in_orbit
-	max_once_global = yes
 	level = 3
-	null_spawn_chance = 0.6
 	spawn_chance = {
 		modifier = {
 			add = 1
-			mid_game_years_passed > 0
-			AND = {
-				OR = {
-					is_planet_class = pc_a_star
-					is_planet_class = pc_b_star
-					is_planet_class = pc_m_giant_star
-					# Real Space
-					is_planet_class_pc_a_super_star = yes
-					is_planet_class_pc_k_giant_star = yes
-					is_planet_class_pc_g_giant_star = yes
-					is_planet_class_pc_o_star = yes
-					is_planet_class_pc_o_super_star = yes
-					is_planet_class_pc_o_hyper_star = yes
-					# Gigastructural Engineering & More
-					giga_is_superpower_star = yes
-				}
-				is_binary_star = no
-				is_trinary_star = no
-				eev_is_valid_system = yes
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+				is_planet_class = pc_m_giant_star
+				# Real Space
+				is_planet_class_pc_a_super_star = yes
+				is_planet_class_pc_k_giant_star = yes
+				is_planet_class_pc_g_giant_star = yes
+				is_planet_class_pc_o_star = yes
+				is_planet_class_pc_o_super_star = yes
+				is_planet_class_pc_o_hyper_star = yes
+				# Gigastructural Engineering & More
+				giga_is_superpower_star = yes
 			}
 		}
 		modifier = {
@@ -1014,30 +1014,7 @@ supernova_category = {
 			}
 		}
 	}
-	on_success = {
-		0 = {
-			modifier = {
-				add = 1
-				has_nemesis = yes
-				has_global_flag = eev_kaboom
-			}
-			anomaly_event = supernova.1
-		}
-		0 = {
-			modifier = {
-				add = 1
-				has_nemesis = no
-				has_global_flag = eev_kaboom
-			}
-			anomaly_event = supernova.4
-		}
-		3 = {
-			anomaly_event = supernova.5
-		}
-	}
-	on_spawn = {
-		clear_deposits = yes
-	}
+	on_success = supernova.1
 }
 
 # The Quantum God

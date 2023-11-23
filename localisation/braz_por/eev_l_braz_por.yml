@@ -1,11 +1,11 @@
 ﻿l_braz_por:
-# Scopes:
-# Event : root = ship, from = planet
+ # Scopes:
+ # Event : root = ship, from = planet
 
-###########################################################################
-##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
-#####               Edited by SBlack and Metallichydra                #####
-###########################################################################
+ ###########################################################################
+ ##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
+ #####               Edited by SBlack and Metallichydra                #####
+ ###########################################################################
 
  ancient_flag.1.name: "Ancient Civilizations Flag"
  ancient_flag.1.desc: "It appears that this object was placed here by an ancient civilization approximately 3,000 years ago. In their culture, marking celestial objects with flags may have been a way to lay claim to regions in space. Since there is little to no wind on §Y[From.GetName]§!, the flag remains remarkably intact, albeit with its colors faded by the relentless, unfiltered sun. The fate of this civilization, however, remains a mystery."
@@ -35,15 +35,8 @@
  lost_treasure.1.name: "A Lost Treasure"
  lost_treasure.1.desc: "The crew of the §B[Root.GetFleetName]§! has successfully traced the origin of the signal, revealing an automated freighter brimming with invaluable and rare treasures. §G[Root.GetLeaderName]§! postulates that the freighter fell prey to the planet's gravitational pull while on its designated course. It appears to have been governed by a rudimentary AI system that malfunctioned, which explains why it got caught up so easily."
  lost_treasure.1.a: "Sell it. We can always use more £energy£ Energy."
- diamond_core.1.name: "A Diamond Core"
- diamond_core.1.desc: "The crew of the §B[Root.GetFleetName]§! and its lead scientist §G[Root.GetLeaderName]§! have discovered that this old planet's extinct core is partially made of diamond! Mining this planet will prove very beneficial for our industry."
- diamond_core.1.a: "£energy£ Get to mining!"
 
  #1.3
- except_engine.1.name: "Exceptional Engineering"
- except_engine.1.desc: "§B[Root.GetFleetName]§! has discovered that these machines are more advanced than what we have! \n\n§G[Root.GetLeaderName]§! suggests that we should bring them to our home planet to study these machines more closely. Or we could just sell them to the highest bidder."
- except_engine.1.a: "We must learn from these machines!"
- except_engine.1.b: "Sell them, nothing beats our technology."
  crushed.1.name: "Crushed Civilization"
  crushed.1.desc: "While exploring the planet, the crew of the §B[Root.GetFleetName]§! encountered a remarkably small, yet somewhat intelligent civilization. Our ship landed directly on them, inadvertently killing 90% of the population, leaving those who survived understandably displeased. The survivors expressed their discontent by pelting the scientists' feet with small rocks. Nevertheless, the allure of that valuable, shiny object was too enticing to resist!"
  perfect_planet.1.name: "A Perfect Planet"

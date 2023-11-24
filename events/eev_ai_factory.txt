@@ -21,6 +21,7 @@ ship_event = {
 
 	option = {
 		name = ai_factory.1.a
+		trigger = { owner = { has_policy_flag = robots_allowed } }
 		leader = {
 			add_experience = 150
 		}
@@ -33,19 +34,18 @@ ship_event = {
 				max = @tier2researchmax
 				
 			}
-			add_resource = {
-				energy = -250
-				unity = -100
-			}
 		}
 	}
 	
 	option = {
 		name = ai_factory.1.b
+		exclusive_trigger = { owner = { has_policy_flag = robots_outlawed } }
 		leader = {
 			add_experience = 150
 		}
-		
+		from = {
+			set_deposit = d_alloys_3
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = engineering_research
@@ -64,27 +64,16 @@ ship_event = {
 	
 	option = {
 		name = ai_factory.1.c
-		trigger = { owner = {
-		is_materialist = yes } }
+		exclusive_trigger = { owner = { is_materialist = yes } }
 		leader = {
 			add_experience = 150
 		}
-		
+		from = {
+			set_deposit = d_engineering_3
+		}
 		owner = {
 			add_monthly_resource_mult = {
 				resource = engineering_research
-				value = @tier2researchreward
-				min = @tier2researchmin
-				max = @tier2researchmax
-			}
-			add_monthly_resource_mult = {
-				resource = society_research
-				value = @tier2researchreward
-				min = @tier2researchmin
-				max = @tier2researchmax
-			}
-			add_monthly_resource_mult = {
-				resource = physics_research
 				value = @tier2researchreward
 				min = @tier2researchmin
 				max = @tier2researchmax

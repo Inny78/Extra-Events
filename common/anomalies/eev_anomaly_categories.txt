@@ -33,7 +33,7 @@ ai_factory_category = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
-			mid_game_years_passed > 1
+			years_passed > 15
 		}
 		modifier = {
 			factor = 0

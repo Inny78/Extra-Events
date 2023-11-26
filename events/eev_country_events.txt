@@ -38,7 +38,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		ruler = { kill_leader = { show_notification = yes } }
+		# ruler = { kill_leader = { show_notification = yes } }
 	}
 
 	option = {

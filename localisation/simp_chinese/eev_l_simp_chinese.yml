@@ -220,7 +220,7 @@
  eev_popup.2.a: "Find them!"
  #
  eev_popup.3.name: "Leader Assassinated!"
- eev_popup.3.desc: "At an annual conference meeting concerning the empire and its people an idealist fool shot and injured our leader! He was jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma where he soon met death. He will be missed..."
+ eev_popup.3.desc: "At an annual conference meeting concerning the empire and its people an idealist fool shot and injured our leader! He was jailed shortly after. \n\nOur leader spent two weeks at the best hospital on the planet in a medically induced coma before the medical team finally managed to save [Root.Ruler.GetHimHer]..."
  eev_popup.3.default: "A shame..."
  eev_popup.3.militarist: "What's wrong with our army!?"
  eev_popup.3.phobe: "An alien, no doubt?"

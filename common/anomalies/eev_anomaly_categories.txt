@@ -697,6 +697,12 @@ mutiny_category = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			from.leader = {
+				is_councilor = yes
+			}
+		}
 	}
 	on_success = mutiny.1
 }

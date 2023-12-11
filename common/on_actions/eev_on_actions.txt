@@ -29,7 +29,6 @@ on_entering_system_first_time = {
 on_bi_yearly_pulse_country = {
 	events = {
 		eev_engine.1
-		eev_engine.2
 		eev_engine.3
 		eev_engine.4
 		eev_engine.5

@@ -21,7 +21,7 @@
  last_words.1.desc: "The crew of the §B[Root.GetFleetName]§! has located the device responsible for emitting the previously detected pings. Upon examination, it appears to contain the final communication of an alien adventurer. Our scientists have successfully translated the alien language, revealing the following message: \n\n§SCommander! Commander!? Can you hear me, Commander? I've found it! After all these years, I've actually found it! I just need to take its... wait. It's... moving? It's still alive! ... It's seen me! In case I don't make it, my coordinates are AGH-§! \n\nThat's all we have. We may never know who or what she found as this commander seems to have bombed the planet. Nothing alive is on this planet but us."
  last_words.1.a: "A moment of silence."
  mineral_core.1.name: "A Mineral Core"
- mineral_core.1.desc: "§G[Root.GetLeaderName]§! is reporting that the §B[Root.GetFleetName]§! crew has pinpointed the reason why the planet has more mass than previously recorded. \n\nIt turns out that the core of the planet has started to stop spinning.this planet's core has experienced a rapid decline in the speed of its rotationary momentum. This will allow us to safely mine deeper into the planet's core, providing an extensive amount of resources for our empire."
+ mineral_core.1.desc: "§G[Root.GetLeaderName]§! is reporting that the §B[Root.GetFleetName]§! crew has pinpointed the reason why the planet has more mass than previously recorded. \n\nIt turns out that the core of the planet has started to stop spinning. This planet's core has experienced a rapid decline in the speed of its rotationary momentum. This will allow us to safely mine deeper into the planet's core, providing an extensive amount of resources for our empire."
  mineral_core.1.a: "£minerals£ A glorious day for us!"
  bad_fate.1.name: "A Devastating Fate"
  bad_fate.1.desc: "Upon even closer examination, it appears that §Y[From.GetName]§! is the result of a collision between two planets, which the crew of the §B[Root.GetFleetName]§! has dubbed §SFate§! and §SDestiny§!.  Perhaps the most intriguing aspect of this discovery is the revelation that one of these planets once hosted a thriving civilization - a truly remarkable find."
@@ -137,81 +137,6 @@
  frozen_civilization.1.name: "A Frozen Civilization"
  frozen_civilization.1.desc: "After further research the crew of the §B[Root.GetFleetName]§! has discovered that not only are the buildings encased in ice, but frozen sentient organisms too. \n\nBiometric scans reveal that they are in fact still alive. Their technology seems to be far more primitive than our own. \n\nIt appears that a sudden change in orbit occurred, causing the planet to almost instantly freeze. Multiple theories have been suggested by the science community, yet none have any proof. Regardless, Science Officer §G[Root.GetLeaderName]§! has begun artificially unfreezing the planet. \n\nWhile the planet was being thawed a facility was constructed to study the aliens going back to their pre-frozen lives. It took a few days before their bodies completely thawed. Sadly, only a few hundred of them survived the process. \n\nSome of our scientists were caught off guard by the creatures once they awakened. Luckily, security measures were taken to prevent some of them from going on a rampage. They were put on anesthetics and a small transport ship carried them to what to us seems like an important landmark. \n\nOnce they fully awakened from the anesthetics they seemed very confused. A few of them started to attack, but one of them rose up and convinced the rest to calm down. The crew was fascinated by the primitive creatures."
 
- #1.8
- 
- ########## STAR STUFF ##########
- 
- star_stuff.1.name: "The Star Search Project"
- star_stuff.1.desc: "Since our people came to be we have always been looking up in awe at the stars. Now we can actually visit them. \n\nAll of our scientists agree that we should gather information on all the different types of stars to see what secrets they hold."
- star_stuff.1.a: "Agreed. To infinity and beyond."
- star_stuff.1001.desc: "The crew of §B[Root.GetFleetName]§! reported that they observed several new kinds of stars, and suggested that information of these stars should be gathered as well."
- 
- star_stuff.2.name: "An A-Type Star"
- star_stuff.2.desc: "This light blue star is relatively young compared to the other stars, yet among the most brightest. They are large and rotate very quickly and will eventually slow down and turn into a red giant given a few million years."
- star_stuff.2.a: "Interesting." #Should get physics research
- 
- star_stuff.3.name: "A B-Type Star"
- star_stuff.3.desc: "This blue star is relatively rare, and while this star is very bright, it pales in comparison to the A-Type star."
- star_stuff.3.a: "Interesting."
- 
- star_stuff.4.name: "An F-Type Star"
- star_stuff.4.desc: "An F-Type star, or more widely known as a White Dwarf Star, is fairly large, and emit a significant amount of UV radiation and have wide habitable zones which have a good chance of supporting life."
- star_stuff.4.a: "Interesting."
- 
- star_stuff.5.name: "A G-Type Star"
- star_stuff.5.desc: "This yellow dwarf is known as a G-Type star. These stars fuse hydrogen for roughly 10 billion years before they expand and become red giants. \n\nAlthough the G-Type star's lifespan is shorter than a K-Type star, worlds inside the habitable zone of a G-Type star enjoy optimal conditions for the development of life."
- star_stuff.5.a: "Amazing."
- 
- star_stuff.6.name: "A K-Type Star"
- star_stuff.6.desc: "K-Type stars are often referred to as Orange Dwarf stars and are a common sight. K-Type stars live for a very long time, meaning life has a long time to develop."
- star_stuff.6.a: "Interesting."
- 
- star_stuff.7.name: "An M-Type Star"
- star_stuff.7.desc: "M-Type stars are among the most common in the universe and are often referred to as Red Dwarf stars. Their low luminosity mean they are difficult to observe with the naked eye from afar but up close it is an amazing sight. \n\nAlthough they live for an extremely long time they emit almost no UV light resulting in unfavorable conditions for life to exist."
- star_stuff.7.a: "Incredible."
- 
- star_stuff.8.name: "A Neutron Star"
- star_stuff.8.desc: "This incredibly dense star is known as a Neutron Star and is often created when a massive star suffers a rapid collapse and explodes in a supernova. \n\nAlthough their diameter is as a little as ten kilometers their mass is even greater than an average G-Type star!"
- star_stuff.8.a: "Incredible!"
- 
- star_stuff.9.name: "A Black Hole"
- star_stuff.9.desc: "This is known as a Black Hole and is formed as a result of the collapse of a very massive star at the end of its life cycle. \n\nBlack Holes have an extremely strong gravitational field that prevent anything - even light - from escaping once it enters the event horizon. \n\nThe crew had to be very careful when studying this monster of a star."
- star_stuff.9.a: "Amazing!"
- 
- star_stuff.10.name: "A Pulsar"
- star_stuff.10.desc: "Pulsars are highly magnetized neutron stars that emit beams of electromagnetic radiation. \n\nA Pulsar is only visible when the radiation beam is pointing directly at the observer which results in a very precise interval of pulses that can sometimes be so exact that it can be used to measure the passage of time with extreme accuracy."
- star_stuff.10.a: "Incredible!"
- 
- star_stuff.11.name: "Studies Complete"
- star_stuff.11.desc: "After all these years we have completed our studies of all known star types in the universe. It was a bumpy ride but there's no doubt in anyone's mind that nothing but good can come of this! \n\nOur lead scientist suggests that keeping a close eye on these stars would be best, but did mention something about using the knowlege we have learned to gather more energy..."
- star_stuff.11.a: "We now know more about the universe."
- star_stuff.11.b: "£energy£ Energy it is!"
- 
- star_stuff_chain_title: "The Star Search Project"
- star_stuff_chain_desc: "Since our people came to be we have always been looking up in awe at the stars. Now we can actually visit them. \n\nAll of our scientists agree that we should gather information on all the different types of stars to see what secrets they hold."
- star_stuff_surveyed: "Stars Studied"
- 
- BLACK_HOLE_SURVEY: "A Black Hole"
- BLACK_HOLE_SURVEY_DESC: "Study a Black Hole"
- PULSAR_SURVEY: "A Pulsar"
- PULSAR_SURVEY_DESC: "Study a Pulsar"
- NEUTRON_SURVEY: "A Neutron Star"
- NEUTRON_SURVEY_DESC: "Study a Neutron Star"
- A_SURVEY: "An A-Class Star"
- A_SURVEY_DESC: "Study a Light Blue Star."
- B_SURVEY: "A B-Class Star"
- B_SURVEY_DESC: "Study a Blue Star"
- F_SURVEY: "An F-Class Star"
- F_SURVEY_DESC: "Study a White Star"
- G_SURVEY: "A G-Class Star"
- G_SURVEY_DESC: "Study a Yellow Star"
- K_SURVEY: "A K-Class Star"
- K_SURVEY_DESC: "Study an Orange Star"
- M_SURVEY: "An M-Class Star"
- M_SURVEY_DESC: "Study a Red Star"
-
- ########## END STAR STUFF ##########
-  
  ########## COUNTRY EVENTS ##########
  
  eev_popup.2.name: "Terrorist Attacks"

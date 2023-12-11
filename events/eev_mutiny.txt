@@ -22,19 +22,19 @@ ship_event = {
 		owner = {
 			add_resource = { unity = 250 }
 		}
-	}	
+	}
 	
 	option = {
 		name = mutiny.1.b
 		custom_tooltip = "mutiny.1.tooltip"	
 		hidden_effect = { ship_event = { id = mutiny.3 days = 30 } }
-	}	
+	}
 	option = {
 		name = mutiny.1.c 	
 		custom_tooltip = "mutiny.2.tooltip"	
 		
 		fleet = { set_event_locked = no }
-        kill_leader = { type = scientist show_notification = no }
+        kill_leader = { class = scientist show_notification = no }
 		fleet = { destroy_fleet = this }
 		
 		owner = {
@@ -66,7 +66,7 @@ ship_event = {
 				value = @tier2materialreward
 				min = @tier2materialmin
 				max = @tier3materialmax
-			}	
+			}
 			add_resource = { energy = 200 }
 		}
 	}
@@ -84,7 +84,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-        kill_leader = { type = scientist show_notification = no }
+        kill_leader = { class = scientist show_notification = no }
 	}
 
 	option = {
@@ -94,5 +94,5 @@ ship_event = {
 		owner = {
 			add_resource = { unity = 250 }
 		}
-	}				
+	}
 }

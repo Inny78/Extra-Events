@@ -23,25 +23,6 @@ country_event = {
 	}
 }
 
-# Star stuff
-country_event = {
-	id = eev_engine.2
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	trigger = {
-		is_ai = no
-		NOR = {
-			has_global_flag = has_real_space_mod
-			has_global_flag = mem_more_events_mod
-			has_origin = origin_incohesive
-		}
-		years_passed > 10
-	}
-	immediate = { country_event = { id = star_stuff.1 days = 100 random = 100 } }
-}
-
 # Terrorist Attack
 country_event = {
 	id = eev_engine.3

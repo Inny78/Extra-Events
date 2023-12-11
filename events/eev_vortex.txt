@@ -183,7 +183,7 @@ ship_event = {
 		name = eev_houston.6a
 		hidden_effect = {
 			event_target:eev_vortex_sci = {
-				kill_leader = { type = scientist show_notification = yes }
+				kill_leader = { class = scientist show_notification = yes }
 				fleet = { destroy_fleet = this }
 			} 
 		}

@@ -1080,7 +1080,6 @@ unstable_gas_category = {
 		modifier = {
 			add = 1
 			AND = {
-				has_global_flag = eev_kaboom
 				eev_is_gas_giant = yes
 				eev_is_valid_system = yes
 			}

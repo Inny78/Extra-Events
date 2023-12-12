@@ -43,7 +43,7 @@ country_event = {
 	}
 }
 
-# Assassinated
+# Assassination Attempt
 country_event = {
 	id = eev_engine.4
 	hide_window = yes
@@ -228,7 +228,7 @@ country_event = {
 	}
 }
 
-# Large Fish / Underwater
+# Large Fish
 country_event = {
 	id = eev_engine.13
 	hide_window = yes
@@ -413,6 +413,69 @@ country_event = {
 	}
 }
 
+# Illegal Aliens
+country_event = {
+	id = eev_engine.24
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		is_ai = no
+		is_gestalt = no
+		is_machine_empire = no
+		has_comms_with_alien_empire = yes
+		years_passed > 30
+		NOT = { has_global_flag = eev_had_alien }
+	}
+	immediate = {
+		random_list = {
+			40 = { country_event = { id = eev_illegal_aliens.1 days = 300 random = 200 } }
+			60 = { }
+		}
+	}
+}
+
+# Faint Asteroid
+country_event = {
+	id = eev_engine.25
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		years_passed > 50
+		is_ai = no
+		is_gestalt = no
+		NOT = { has_global_flag = eev_had_faint }
+		any_planet_within_border = {
+			eev_is_valid_habitat = yes
+		}
+	}
+	immediate = {
+		random_list = {
+			40 = { country_event = { id = eev_faint_asteroid.1 } }
+			60 = { }
+		}
+	}
+}
+
+# Rock Pets
+country_event = {
+	id = eev_engine.26
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		years_passed > 30
+		is_ai = no
+		any_owned_planet = {
+			eev_is_valid_colony = yes
+		}
+	}
+	immediate = {
+		country_event = { id = eev_rock_pets.1 days = 50 random = 100 }
+	}
+}
+
 # Primitives stuff start here
 
 # Infected Aliens
@@ -555,68 +618,5 @@ planet_event = {
 			}
 			60 = { }
 		}
-	}
-}
-
-# Illegal Aliens
-country_event = {
-	id = eev_engine.24
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = {
-		is_ai = no
-		is_gestalt = no
-		is_machine_empire = no
-		has_comms_with_alien_empire = yes
-		years_passed > 30
-		NOT = { has_global_flag = eev_had_alien }
-	}
-	immediate = {
-		random_list = {
-			40 = { country_event = { id = eev_illegal_aliens.1 days = 300 random = 200 } }
-			60 = { }
-		}
-	}
-}
-
-# Faint Asteroid
-country_event = {
-	id = eev_engine.25
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = {
-		years_passed > 50
-		is_ai = no
-		is_gestalt = no
-		NOT = { has_global_flag = eev_had_faint }
-		any_planet_within_border = {
-			eev_is_valid_habitat = yes
-		}
-	}
-	immediate = {
-		random_list = {
-			40 = { country_event = { id = eev_faint_asteroid.1 } }
-			60 = { }
-		}
-	}
-}
-
-# Rock Pets
-country_event = {
-	id = eev_engine.26
-	hide_window = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = {
-		years_passed > 30
-		is_ai = no
-		any_owned_planet = {
-			eev_is_valid_colony = yes
-		}
-	}
-	immediate = {
-		country_event = { id = eev_rock_pets.1 days = 50 random = 100 }
 	}
 }

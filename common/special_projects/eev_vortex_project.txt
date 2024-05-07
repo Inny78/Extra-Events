@@ -47,7 +47,9 @@ special_project = {
 	}
 	
 	on_success = {
-		ship_event = { id =  eev_houston.5 }
+		event_target:eev_vortex_sci = {
+			ship_event = { id = eev_houston.5 }
+		}
 	}
 	
 	on_cancel = {
@@ -78,7 +80,9 @@ special_project = {
 	}
 	
 	on_success = {
-		ship_event = { id =  eev_houston.4 }
+		event_target:eev_vortex_sci = {
+			ship_event = { id = eev_houston.4 }
+		}
 	}
 	
 	on_cancel = {

@@ -20,12 +20,6 @@ on_press_begin = {
 	}
 }
 
-on_entering_system_first_time = {
-	events = {
-		star_stuff.1000
-	}
-}
-
 on_bi_yearly_pulse_country = {
 	events = {
 		eev_engine.1

@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+# Translators, the mutiny event has been removed from eev_l_english.yml, rewritten and moved to eev_new_l_english.yml
+ # You can neutralize this temp file with an empty file, it will be removed with the next update once you have updated your translation mod.
+
+# 3.12 stuff start here
+# Mutiny Rewrite
+ EEV_MUTINY_RESCUE: "Boarding Operation"
+ EEV_MUTINY_RESCUE_DESC: "Our Commander has decided that a single, well-equipped transport ship will conduct the boarding operation. This force is tasked with subduing the mutineers swiftly and securing control of the vessel."
+ eev_mutiny.1.name: "Mutiny!"
+ eev_mutiny.1.desc: "Our exploratory team aboard the §B[Root.GetFleetName]§! has uncovered a substantial deposit of a previously unidentified, green-glowing mineral. Reports suggest that exposure to this mineral imbues the crew with an overwhelming sensation of boundless might and authority. Regrettably, this newfound power has seduced a faction of our scientists into greed. They have declared mutiny, seeking to hoard the mineral for their own gain, and are now confronting their commanding science officer and his staunchest allies. How shall we address this crisis?"
+ eev_mutiny.1.a: "Attempt to negotiate with them."
+ eev_mutiny.1.b: "Let them sort it out by themselves."
+ eev_mutiny.1.c: "Make an example out of those fools and blow the ship up!"
+ eev_mutiny.1.d: "Send troops to secure the ship."
+ eev_mutiny.3.name: "Mutineers' Escape"
+ eev_mutiny.3.desc: "Disturbing news has reached us. After we allowed the scientists on the §B[Root.GetFleetName]§! to resolve their dispute internally, the situation escalated tragically. Our lead scientist and those who remained loyal have been murdered in cold blood. The mutineers, now in control of the ship and its precious cargo of the mysterious green-glowing mineral, executed an emergency jump, vanishing from our sensors."
+ eev_mutiny.2.tooltip: "The science ship will be blown up."
+ eev_mutiny.4.desc: "After hearing us out, the crew of the §B[Root.GetFleetName]§! rejected our offer. Our lead scientist and those who remained loyal have been murdered in cold blood. The mutineers, now in control of the ship and its precious cargo of the mysterious green-glowing mineral, executed an emergency jump, vanishing from our sensors."
+ eev_mutiny.5.name: "Situation Neutralized"
+ eev_mutiny.5.desc: "Following a decisive operation, our security forces successfully boarded the ISS Celestial and subdued the mutineers. In a final act of defiance, the rebels destroyed the mysterious green-glowing mineral before they could be apprehended, ensuring that its secrets and power would elude us forever. Fortunately, §G[Root.GetLeaderName]§! and [Root.Leader.GetHisHer] loyal crew members survived the ordeal and are now safe."
+ eev_mutiny.5.a: "That turned out well."
+ eev_mutiny.6.name: "Mutineer's Response"
+ eev_mutiny.6.desc: "After intense negotiations, a settlement has been reached with the mutineers aboard the §B[Root.GetFleetName]§!. In exchange for a 10-year sentence in a medium-security facility and a collective fine of 500 Energy Credits, the mutineers have agreed to release all hostages and surrender themselves - except for their leader, who they insist must be allowed to escape with the minerals. Faced with the dire alternative of potentially losing §G[Root.GetLeaderName]§! and his loyal crew members, we reluctantly accepted these terms."

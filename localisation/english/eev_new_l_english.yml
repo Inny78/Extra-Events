@@ -254,7 +254,7 @@
 
 # Rock Pets
  eev_rock_pets.2.name: "Rock pets"
- eev_rock_pets.2.desc: "As the inhabitants of our colony on §Y[From.GetName]§! explore their new world, reports emerge of some colonists being followed by small rocks. The local scientists have confirmed these reports, revealing a new species of lithoid animals that have taken a liking to us."
+ eev_rock_pets.2.desc: "As the inhabitants of our colony on §Y[eev_rock_pets_planet.GetName]§! explore their new world, reports emerge of some colonists being followed by small rocks. The local scientists have confirmed these reports, revealing a new species of lithoid animals that have taken a liking to us."
 
 # Sand Creature Rewrite
  sand_creature.1.name: "Horrific Sand Creature"
@@ -306,9 +306,29 @@
 
 # Exceptional Engines
  except_engine.1.name: "Exceptional Engineering"
- except_engine.1.desc: ""Upon landing, the science team uncovered an advanced mining and engineering facility, remarkably sophisticated in design. This facility, it seems, was the creation of a stranded alien, long ago. Isolated on this world, the alien ingeniously harnessed the planet's resources to construct a spacecraft, a testament to survival and technological prowess. The facility, with its intricate machinery and unfamiliar technology, offers unique research opportunities."
+ except_engine.1.desc: "Upon landing, the science team uncovered an advanced mining and engineering facility, remarkably sophisticated in design. This facility, it seems, was the creation of a stranded alien, long ago. Isolated on this world, the alien ingeniously harnessed the planet's resources to construct a spacecraft, a testament to survival and technological prowess. The facility, with its intricate machinery and unfamiliar technology, offers unique research opportunities."
  except_engine.1.a: "£engineering£ We must learn from these machines!"
  except_engine.1.b: "£energy£ Sell that junk, nothing beats our technology."
  except_engine.2.name: "Discarded machinery"
  except_engine.2.desc: "Contrary to our initial hopes, the site was not a hub of advanced alien technology, but rather a graveyard of discarded machinery. It appears these machines were abandoned here, already in a state of disrepair, and the ravages of time have only further degraded their condition. What we found was not a treasure trove of scientific knowledge, but a sprawling mass of metal, devoid of functional technology. However, this discovery is not without merit. The vast quantities of metal present a valuable opportunity for our industry. We will deploy a beacon at the site, signaling a salvage operation to repurpose the metal into valuable alloys."
  except_engine.2.a: "£alloys£ We might build a new ship from these."
+
+# 3.12 stuff start here
+# Mutiny Rewrite
+ EEV_MUTINY_RESCUE: "Boarding Operation"
+ EEV_MUTINY_RESCUE_DESC: "Our Commander has decided that a single, well-equipped transport ship will conduct the boarding operation. This force is tasked with subduing the mutineers swiftly and securing control of the vessel."
+ eev_mutiny.1.name: "Mutiny!"
+ eev_mutiny.1.desc: "Our exploratory team aboard the §B[Root.GetFleetName]§! has uncovered a substantial deposit of a previously unidentified, green-glowing mineral. Reports suggest that exposure to this mineral imbues the crew with an overwhelming sensation of boundless might and authority. Regrettably, this newfound power has seduced a faction of our scientists into greed. They have declared mutiny, seeking to hoard the mineral for their own gain, and are now confronting their commanding science officer and his staunchest allies. How shall we address this crisis?"
+ eev_mutiny.1.a: "Attempt to negotiate with them."
+ eev_mutiny.1.b: "Let them sort it out by themselves."
+ eev_mutiny.1.c: "Make an example out of those fools and blow the ship up!"
+ eev_mutiny.1.d: "Send troops to secure the ship."
+ eev_mutiny.3.name: "Mutineers' Escape"
+ eev_mutiny.3.desc: "Disturbing news has reached us. After we allowed the scientists on the §B[Root.GetFleetName]§! to resolve their dispute internally, the situation escalated tragically. Our lead scientist and those who remained loyal have been murdered in cold blood. The mutineers, now in control of the ship and its precious cargo of the mysterious green-glowing mineral, executed an emergency jump, vanishing from our sensors."
+ eev_mutiny.2.tooltip: "The science ship will be blown up."
+ eev_mutiny.4.desc: "After hearing us out, the crew of the §B[Root.GetFleetName]§! rejected our offer. Our lead scientist and those who remained loyal have been murdered in cold blood. The mutineers, now in control of the ship and its precious cargo of the mysterious green-glowing mineral, executed an emergency jump, vanishing from our sensors."
+ eev_mutiny.5.name: "Situation Neutralized"
+ eev_mutiny.5.desc: "Following a decisive operation, our security forces successfully boarded the ISS Celestial and subdued the mutineers. In a final act of defiance, the rebels destroyed the mysterious green-glowing mineral before they could be apprehended, ensuring that its secrets and power would elude us forever. Fortunately, §G[Root.GetLeaderName]§! and [Root.Leader.GetHisHer] loyal crew members survived the ordeal and are now safe."
+ eev_mutiny.5.a: "That turned out well."
+ eev_mutiny.6.name: "Mutineer's Response"
+ eev_mutiny.6.desc: "After intense negotiations, a settlement has been reached with the mutineers aboard the §B[Root.GetFleetName]§!. In exchange for a 10-year sentence in a medium-security facility and a collective fine of 500 Energy Credits, the mutineers have agreed to release all hostages and surrender themselves - except for their leader, who they insist must be allowed to escape with the minerals. Faced with the dire alternative of potentially losing §G[Root.GetLeaderName]§! and his loyal crew members, we reluctantly accepted these terms."

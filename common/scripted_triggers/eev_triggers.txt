@@ -275,3 +275,21 @@ eev_has_bugged_ethic = {
 		is_pluralist = yes
 	}
 }
+
+eev_is_hostile_country = {
+	any_playable_country = {
+		has_communications = root
+		OR = {
+			is_rival = root
+			is_dismissive_to = root
+			is_arrogant_to = root
+			is_unfriendly_to = root
+			is_disloyal_to = root
+			is_threatened_to = root
+			is_angry_to = root
+			is_hostile_to = root
+			is_belligerent_to = root
+			is_berserker_to = root
+		}
+	}
+}

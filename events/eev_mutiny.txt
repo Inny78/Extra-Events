@@ -1,98 +1,139 @@
-###########################################################################
-##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
-###########################################################################
-
 # Mutiny
-namespace = mutiny
+namespace = eev_mutiny
 
 ship_event = {
-	id = mutiny.1
-	title = mutiny.1.name
-	desc = mutiny.1.desc
+	id = eev_mutiny.1
+	title = eev_mutiny.1.name
+	desc = eev_mutiny.1.desc
 	picture = GFX_evt_satellite_in_orbit
 	show_sound = event_ship_bridge
 	location = root
 
 	is_triggered_only = yes
 
-	option = {
-		name = mutiny.1.a
-		custom_tooltip = "mutiny.1.tooltip"
-		hidden_effect = { ship_event = { id = mutiny.2 days = 10 } }
-		owner = {
-			add_resource = { unity = 250 }
-		}
+	immediate = {
+		fleet = { set_event_locked = yes }
 	}
-	
+
 	option = {
-		name = mutiny.1.b
-		custom_tooltip = "mutiny.1.tooltip"	
-		hidden_effect = { ship_event = { id = mutiny.3 days = 30 } }
+		name = eev_mutiny.1.a
+		trigger = { is_authoritarian = no }
+		ship_event = { id = eev_mutiny.2 days = 10 }
 	}
 	option = {
-		name = mutiny.1.c 	
-		custom_tooltip = "mutiny.2.tooltip"	
-		
+		name = eev_mutiny.1.b
+		trigger = { is_militarist = no }
+		ship_event = { id = eev_mutiny.3 days = 30 }
+	}
+	option = {
+		name = eev_mutiny.1.c
+		trigger = { is_pacifist = no }
+		custom_tooltip = "eev_mutiny.2.tooltip"
 		fleet = { set_event_locked = no }
-        kill_leader = { class = scientist show_notification = no }
+        kill_leader = { class = scientist show_notification = yes }
 		fleet = { destroy_fleet = this }
-		
-		owner = {
-			add_resource = {
-				unity = -500
-			}
+	}
+	option = {
+		name = eev_mutiny.1.d
+		hidden_effect = { save_global_event_target_as = eev_mutiny_ship }
+		enable_special_project = {
+			name = EEV_MUTINY_RESCUE
+			location = root
+			owner = root.owner
 		}
-	}	
+	}
 }
 
-# Mutiny 2
 ship_event = {
-	id = mutiny.2
-	title = mutiny.2.name
-	desc = mutiny.2.desc
-	picture = GFX_evt_fleet_neutral
-	show_sound = event_ship_bridge
-	location = root
+	id = eev_mutiny.2
+	hide_window = yes
 
 	is_triggered_only = yes
 
-	option = {
-		name = mutiny.2.a
-		leader = { add_experience = 200 }
-		owner = {
-			add_resource = { unity = 500 }
-			add_monthly_resource_mult = {
-				resource = minerals
-				value = @tier2materialreward
-				min = @tier2materialmin
-				max = @tier3materialmax
-			}
-			add_resource = { energy = 200 }
+	immediate = {
+		random_list = {
+			50 = { ship_event = { id = eev_mutiny.4 } }
+			50 = { ship_event = { id = eev_mutiny.6 } }
 		}
 	}
 }
 
-# Mutiny 3
 ship_event = {
-	id = mutiny.3
-	title = mutiny.3.name
-	desc = mutiny.3.desc
-	picture = GFX_evt_fleet_neutral
+	id = eev_mutiny.3
+	title = eev_mutiny.3.name
+	desc = eev_mutiny.3.desc
+	picture = GFX_evt_face_off_in_space
 	show_sound = event_ship_bridge
 	location = root
 
 	is_triggered_only = yes
 
 	immediate = {
-        kill_leader = { class = scientist show_notification = no }
+        kill_leader = { class = scientist show_notification = yes }
 	}
 
 	option = {
-		name = progress.7.a
-		
-		leader = { add_experience = 200 }
+		name = CURSES
+	}
+	after = {
+		if = {
+			limit = { exists = event_target:eev_mutiny_ship }
+			clear_global_event_target = eev_mutiny_ship
+		}
+	}
+}
+
+ship_event = {
+	id = eev_mutiny.4
+	title = eev_mutiny.3.name
+	desc = eev_mutiny.4.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_faceoff_in_space
+	is_triggered_only = yes
+
+	option = {
+		name = CURSES
+        kill_leader = { class = scientist show_notification = yes }
+		hidden_effect = {
+			fleet = {
+				set_event_locked = no
+				destroy_fleet = this
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = eev_mutiny.5
+	title = eev_mutiny.5.name
+	desc = eev_mutiny.5.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_faceoff_in_space
+	is_triggered_only = yes
+
+	option = {
+		name = eev_mutiny.5.a
+	}
+	after = {
+		clear_global_event_target = eev_mutiny_ship
+	}
+}
+
+ship_event = {
+	id = eev_mutiny.6
+	title = eev_mutiny.5.name
+	desc = eev_mutiny.6.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_faceoff_in_space
+	is_triggered_only = yes
+
+	option = {
+		name = eev_mutiny.5.a
 		owner = {
-			add_resource = { unity = 250 }
+			add_resource = { energy = 500 }
+		}
+		hidden_effect = {
+			fleet = { set_event_locked = no }
 		}
 	}
 }

@@ -8,6 +8,7 @@ country_event = {
 	immediate = {
 		random_owned_planet = {
 			limit = { eev_is_valid_colony = yes }
+			save_event_target_as = eev_rock_pets_planet
 			planet_event = { id = eev_rock_pets.2 }
 		}
 	}

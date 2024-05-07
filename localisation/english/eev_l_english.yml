@@ -117,18 +117,6 @@
  error.2.tooltip: "Continues the Story"
  
  #1.7
- mutiny.1.name: "Mutiny!"
- mutiny.1.desc: "Our scientists have found a large quantity of minerals inside the cargo ship! Unfortunately some of our scientists decided they would rather keep them for their own personal benefit and formed a mutiny against §G[Root.GetLeaderName]§! and [Root.Leader.GetHerHis] most loyal scientists. \n\nHow should we proceed?"
- mutiny.1.a: "Attempt to negotiate with them."
- mutiny.1.b: "Let them sort it out by themselves."
- mutiny.1.c: "Make an example out of those fools and blow the ship up!"
- mutiny.1.tooltip: "Continues the Story"
- mutiny.2.name: "Situation Neutralized"
- mutiny.2.desc: "After hearing us out, everyone who formed the mutiny agreed to 10 years in medium security prison and a combined payment of 500 Energy Credits."
- mutiny.2.a: "That turned out well."
- mutiny.3.name: "Situation Neutralized"
- mutiny.3.desc: "We were just informed of the events that have taken place after we let the scientists sort it out by themselves. It appears our lead scientist and those most loyal to [Root.Leader.GetHerHim] were killed. However those who lead the mutiny have agreed to continue to work for us as long as they can take the minerals they wanted."
- mutiny.2.tooltip: "The science ship will be blown up."
  artificial_sun.1.name: "An Artificial Sun"
  artificial_sun.1.desc: "The §Y[From.GetName]§! sun is outstanding! Not because its shape was off, but because it was built by some alien species long ago! \n\nFrom what §G[Root.GetLeaderName]§! has gathered the reasoning behind building this sun was that their old one was about to die in the near future. However it didn't work out for them as they have been extinct for thousands of years now."
  blackhole_life.1.name: "A Black Hole Ecosystem"

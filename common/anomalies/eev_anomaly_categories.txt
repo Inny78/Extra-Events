@@ -677,7 +677,7 @@ eev_cushion_world = {
 	on_success = eev_mossy_planet.1
 }
 
-# Mutiny
+# Mutiny - will be a country event later and this one will be a standard anomaly
 mutiny_category = {
 	desc = "mutiny_category_desc"
 	picture = GFX_evt_ship_in_orbit
@@ -687,6 +687,7 @@ mutiny_category = {
 		modifier = {
 			add = 1
 			eev_is_uninhabitable = yes
+			from.owner = { has_country_flag = eev_mutiny_set }
 		}
 		modifier = {
 			factor = 0
@@ -704,7 +705,7 @@ mutiny_category = {
 			}
 		}
 	}
-	on_success = mutiny.1
+	on_success = eev_mutiny.1
 }
 
 # Mysterious Cache

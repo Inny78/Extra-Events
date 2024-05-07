@@ -120,7 +120,9 @@ country_event = {
 	trigger = {
 		is_ai = no
 		is_gestalt = no
-		years_passed > 15
+		eev_is_heavy_metal = no
+		NOT = { has_country_flag = eev_frixian_plague_cured }
+		years_passed > 25
 		num_owned_planets > 1
 	}
 
@@ -187,6 +189,7 @@ country_event = {
 		is_gestalt = no
 		eev_is_heavy_metal = no
 		years_passed > 16
+		NOT = { has_country_flag = eev_frixian_plague_cured }
 	}
 
 	immediate = {
@@ -617,6 +620,72 @@ planet_event = {
 				}
 			}
 			60 = { }
+		}
+	}
+}
+
+# Mutiny
+
+country_event = {
+	id = eev_engine.24
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		is_gestalt = no
+		years_passed > 40
+	}
+
+	immediate = {
+		random_list = {
+			60 = { }
+			10 = {
+				modifier = {
+					add = 20
+					OR = {
+						has_deficit = minerals
+						has_deficit = energy
+					}
+				}
+				modifier = {
+					add = 10
+					eev_is_hostile_country = yes
+				}
+				country_event = { id = eev_engine.25 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eev_engine.25
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				OR = {
+					has_deficit = minerals
+					has_deficit = energy
+				}
+			}
+			set_country_flag = eev_mutiny_set
+			set_country_flag = eev_mutiny_scarcity
+		}
+		else_if = {
+			limit = {
+				has_comms_with_alien_empire = yes
+				eev_is_hostile_country = yes
+			}
+			set_country_flag = eev_mutiny_set
+			set_country_flag = eev_mutiny_enemy
+		}
+		else = {
+			set_country_flag = eev_mutiny_set
+			set_country_flag = eev_mutiny_relic
 		}
 	}
 }

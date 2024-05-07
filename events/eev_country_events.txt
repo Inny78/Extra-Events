@@ -183,7 +183,7 @@ country_event = {
 	show_sound = event_life_support_fail
 
 	is_triggered_only = yes
-	
+
 	immediate = { }
 
 	option = {
@@ -634,7 +634,7 @@ country_event = {
 		trigger = {
 			resource_stockpile_compare = {
 				resource = energy
-				value = 200
+				value = 400
 			}
 		}
 		add_resource = {

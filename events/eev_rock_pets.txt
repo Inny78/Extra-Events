@@ -8,7 +8,6 @@ country_event = {
 	immediate = {
 		random_owned_planet = {
 			limit = { eev_is_valid_colony = yes }
-			save_event_target_as = eev_rock_pets_planet
 			planet_event = { id = eev_rock_pets.2 }
 		}
 	}
@@ -21,6 +20,7 @@ planet_event = {
 	picture = GFX_evt_animal_wildlife
 	show_sound = event_alien_nature
 	is_triggered_only = yes
+	location = this
 
 	option = {
 		name = CURIOUS
@@ -33,5 +33,6 @@ planet_event = {
 				max = @tier1researchmax
 			}
 		}
+		hidden_effect = { set_planet_flag = colony_event }
 	}
 }

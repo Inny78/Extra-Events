@@ -29,7 +29,7 @@ planet_event = {
 			owner = {
 				resource_stockpile_compare = {
 					resource = energy
-					value = 2000
+					value >= 2000
 				}
 			}
 		}

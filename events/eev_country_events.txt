@@ -242,7 +242,7 @@ country_event = {
 		}
 		create_species = {
 			name = thefist
-			class = random
+			class = random_non_machine
 			portrait = random
 			traits = random
 		}
@@ -298,7 +298,7 @@ country_event = {
 		}
 		create_species = {
 			name = thefist
-			class = random
+			class = random_non_machine
 			portrait = random
 			traits = random
 		}
@@ -634,7 +634,7 @@ country_event = {
 		trigger = {
 			resource_stockpile_compare = {
 				resource = energy
-				value = 400
+				value >= 400
 			}
 		}
 		add_resource = {
@@ -673,7 +673,7 @@ country_event = {
 		trigger = {
 			resource_stockpile_compare = {
 				resource = energy
-				value = 200
+				value >= 200
 			}
 		}
 		add_resource = {
@@ -743,7 +743,7 @@ country_event = {
 		trigger = {
 			resource_stockpile_compare = {
 				resource = energy
-				value = 200
+				value >= 200
 			}
 			OR = {
 				is_xenophobe = yes
@@ -784,7 +784,7 @@ country_event = {
 		from = {
 			create_species = {
 				name = xibilispecies
-				class = random
+				class = random_non_machine
 				portrait = random
 				traits = random
 			}
@@ -825,7 +825,7 @@ country_event = {
 		name = eev_popup.31.b
 		create_species = {
 			name = xebospecies
-			class = random
+			class = random_non_machine
 			portrait = random
 			traits = random
 		}

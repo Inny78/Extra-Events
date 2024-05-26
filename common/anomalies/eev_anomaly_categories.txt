@@ -683,6 +683,7 @@ mutiny_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 3
 	null_spawn_chance = 0.5
+	max_once_global = yes
 	spawn_chance = {
 		modifier = {
 			add = 1

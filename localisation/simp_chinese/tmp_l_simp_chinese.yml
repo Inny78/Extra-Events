@@ -38,3 +38,6 @@
  eev_mutiny.4.desc.food: "$eev_mutiny.4.base$ $eev_mutiny.3.desc.food.base$"
  eev_mutiny.5.desc.food: "$eev_mutiny.5.base$ food before they could be apprehended. $eev_mutiny.5.base1$"
  eev_mutiny.6.desc.food: "$eev_mutiny.6.base$ food. $eev_mutiny.6.base1$"
+
+# This line has been changed
+ alientrespas: "Blikkri"

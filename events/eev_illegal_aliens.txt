@@ -5,6 +5,10 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	trigger = {
+		NOT = { has_global_flag = eev_had_alien }
+	}
+
 	immediate = {
 		set_global_flag = eev_had_alien
 		if = {

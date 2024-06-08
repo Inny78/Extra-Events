@@ -12,7 +12,6 @@ eev_is_continental = {
 	OR = {
 		is_planet_class = pc_continental
 		# Planetary Diversity
-		is_pd_continental = yes
 		pd_is_continental = yes
 		# All These Worlds
 		atw_is_continental = yes
@@ -24,7 +23,6 @@ eev_is_desertic = {
 	OR = {
 		is_planet_class = pc_desert
 		# Planetary Diversity
-		is_pd_desert = yes
 		pd_is_desert = yes
 		# All These Worlds
 		atw_is_desert = yes
@@ -38,8 +36,6 @@ eev_is_aquatic = {
 		# All These Worlds
 		atw_is_ocean_basic = yes
 		# Planetary Diversity
-		is_pd_ocean = yes
-		is_pd_aquatics = yes
 		pd_is_ocean = yes
 		is_pd_planet_for_aqua_trait = yes
 	}
@@ -52,7 +48,7 @@ eev_is_frozen = {
 		# All These Worlds
 		atw_is_frozen = yes
 		# Planetary Diversity
-		is_pd_arctic = yes
+		pd_is_arctic = yes
 	}
 }
 
@@ -60,7 +56,6 @@ eev_is_tundra = {
 	OR = {
 		is_planet_class = pc_tundra
 		# Planetary Diversity
-		is_pd_tundra = yes
 		pd_is_tundra = yes
 		# All These Worlds
 		atw_is_tundra = yes
@@ -101,8 +96,6 @@ eev_is_uninhabitable = {
 		eev_is_barren = yes
 		eev_is_molten = yes
 		eev_is_barren_cold = yes
-		# Planetary Diversity
-		is_pd_toxic = yes
 		# All These Worlds
 		atw_is_toxic = yes
 	}
@@ -167,8 +160,6 @@ eev_is_modern_age = {
 eev_is_barren = {
 	OR = {
 		is_planet_class = pc_barren
-		# Planetary Diversity
-		is_pd_barren = yes
 		# All These Worlds
 		atw_is_barren = yes
 	}
@@ -177,8 +168,6 @@ eev_is_barren = {
 eev_is_barren_cold = {
 	OR = {
 		is_planet_class = pc_barren_cold
-		# Planetary Diversity
-		is_pd_barren_cold = yes
 		# All These Worlds
 		atw_is_barren_cold = yes
 	}
@@ -188,7 +177,6 @@ eev_is_arctic = {
 	OR = {
 		is_planet_class = pc_arctic
 		# Planetary Diversity
-		is_pd_barren = yes
 		pd_is_arctic = yes
 		# All These Worlds
 		atw_is_arctic = yes
@@ -228,7 +216,6 @@ eev_is_gaia = {
 		# All These Worlds
 		atw_is_gaia = yes
 		# Planetary Diversity
-		is_pd_gaia = yes
 		pd_is_planet_class_gaia = yes
 	}
 }
@@ -238,8 +225,6 @@ eev_is_molten = {
 		is_planet_class = pc_molten
 		# All These Worlds
 		atw_is_molten = yes
-		# Planetary Diversity
-		is_pd_molten = yes
 	}
 }
 
@@ -249,7 +234,6 @@ eev_is_tropical = {
 		# All These Worlds
 		atw_is_tropical = yes
 		# Planetary Diversity
-		is_pd_tropical = yes
 		pd_is_tropical = yes
 	}
 }
@@ -260,7 +244,6 @@ eev_is_alpine = {
 		# All These Worlds
 		atw_is_alpine = yes
 		# Planetary Diversity
-		is_pd_alpine = yes
 		pd_is_alpine = yes
 	}
 }

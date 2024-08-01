@@ -252,6 +252,7 @@ country_event = {
 				ethos = { ethic = "ethic_fanatic_spiritualist" }
 			}	
 		}
+		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
 	
 	option = {
@@ -308,6 +309,7 @@ country_event = {
 				ethos = { ethic = "ethic_fanatic_spiritualist" }
 			}	
 		}
+		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
 }
 
@@ -792,6 +794,7 @@ country_event = {
 				species = last_created_species
 			}
 		}
+		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
 	
 	option = {
@@ -829,11 +832,11 @@ country_event = {
 			portrait = random
 			traits = random
 		}
-		
 		random_owned_planet = {
 			create_pop = {
 				species = last_created_species
 			}	
 		}
+		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
 }

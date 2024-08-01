@@ -427,7 +427,7 @@ country_event = {
 		is_gestalt = no
 		is_machine_empire = no
 		has_comms_with_alien_empire = yes
-		years_passed > 30
+		years_passed > 35
 		NOT = { has_global_flag = eev_had_alien }
 	}
 	immediate = {

@@ -150,7 +150,7 @@
  eev_popup.5.b: "I didn't even get an autograph."
  #1.6
  eev_popup.6.name: "Scientist Sick!"
- eev_popup.6.desc: "One of our lead scientists is sick with a deadly incurable disease that seems to have come from a xeno species! Luckily the disease isn't very contagious so the other scientists will be fine but this may halt progress."
+ eev_popup.6.desc: "One of our lead scientists is sick with the Frixian plague, a deadly incurable disease that seems to have come from a xeno species! Luckily the disease isn't very contagious so the other scientists will be fine but this may halt progress."
  eev_popup.6.a: "Rest in peace..."
  eev_popup.6.b: "He served well."
  eev_popup.6.c: "Damn xeno-scum!"
@@ -160,7 +160,6 @@
  eev_popup.7.a: "Let them in"
  eev_popup.7.b: "Deny them"
  eev_popup.7.c: "Who let these xenos in?"
- #eev_popup.7.d: "Sign them up for training!"
  eev_popup.7.e: "Looks like new slaves to me."
  eev_popup.7.f: "Of course they can stay."
  #
@@ -172,10 +171,6 @@
  eev_popup.9.name: "Rich Man Dead"
  eev_popup.9.desc: "One of the wealthiest individuals within our empire has passed away without leaving an heir. This leaves us with a choice regarding the disposition of their considerable fortune. We have two options: distribute the wealth among the populace, which would undoubtedly bring great happiness, or retain the funds for our own use."
  eev_popup.9.b: "£energy£ I will take the money."
- #1.7
- eev_popup.10.name: "Sick Pops"
- eev_popup.10.desc: "Some of our pops seem to have a virus unknown to us. The virus was most likely contracted from our outer space travels. \n\nCurrently we do not know of a cure and wont know of one for some time, but the situation is urgent and we need to figure out something fast. \n\nOur scientists say this virus is extremely contagious and suggests to quarantine all of the sick pops and let them die. Although this would cost quite a bit to do."
- eev_popup.10.a: "Quickly! Quarantine them!"
  #1.8
  eev_popup.11.name: "Quality Crops"
  eev_popup.11.desc: "On rare occasions, under just the right conditions, crops have the potential to grow to remarkable proportions. This year, those perfect conditions have aligned, resulting in an abundant and exceptionally high-quality harvest."
@@ -236,7 +231,7 @@
  ########## MURDER ##########
 
  murder_category: "Unnatural Ping"
- murder_category_desc: "Our scientists have picked up one of our distress signal coming from §Y[From.GetName]§!."
+ murder_category_desc: "Our scientists have picked up one of our distress signals coming from §Y[From.GetName]§!."
 
  MURDER_PROJECT: "The Serial Killer"
  MURDER_PROJECT_DESC: "While scanning the planet we found the location of the ping which was an open container. Inside we found a letter with the words 'READ ME' written in red on the front. After debating if we should open it or not we decided it would be best if we did. \n\nIts contents read: 'Good, you found my safe. Now that I've got your attention I should tell you that I'm tired of the way government officials like you rule over us like slaves. So, I will kill five people important to you, better catch me before I do. Oh, and don't be late. -D'."

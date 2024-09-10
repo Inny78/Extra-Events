@@ -1175,3 +1175,24 @@ eev_asteroid_pet_category = {
 	}
 	on_success = eev_asteroid_pet.1
 }
+
+# Icy Cruise
+eev_icy_cruise_category = {
+	desc = "eev_icy_cruise_category_desc"
+	picture = GFX_evt_ice_asteroids
+	level = 4
+	spawn_chance = {
+		modifier = {
+			add = 1
+			is_planet_class = pc_ice_asteroid
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_deposit_for = shipclass_mining_station
+				has_deposit_for = shipclass_research_station
+			}
+		}
+	}
+	on_success = eev_icy_cruise.1
+}

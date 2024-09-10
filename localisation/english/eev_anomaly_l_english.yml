@@ -114,3 +114,7 @@
  eev_lights_in_dark_category_desc: "As our science ship pass by a belt of ice asteroids, our scanners detect a faint glow emanating from the biggest one. What could possibly be there?"
  eev_asteroid_pet_category: "Close Encounter"
  eev_asteroid_pet_category_desc: "The scanners on our science ship have picked up on a small asteroid heading in its direction. Evading it will be straightforward, and it presents an opportunity for a thorough, close-range analysis."
+
+# 3.13 starts here
+ eev_icy_cruise_category: "Stuck in the ice"
+ eev_icy_cruise_category_desc: "Scanners have shown an anomaly in this large ice asteroid. We will need to do a closer examination to determine what it is."

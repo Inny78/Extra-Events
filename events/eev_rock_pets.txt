@@ -7,7 +7,11 @@ country_event = {
 
 	immediate = {
 		random_owned_planet = {
-			limit = { eev_is_valid_colony = yes }
+			limit = {
+				eev_is_valid_colony = yes
+				colony_age >= 60
+				NOT = { has_planet_flag = colony_event }
+			}
 			planet_event = { id = eev_rock_pets.2 }
 		}
 	}

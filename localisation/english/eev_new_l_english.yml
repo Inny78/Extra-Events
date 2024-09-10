@@ -343,9 +343,17 @@
  eev_mutiny.6.base1: "Faced with the dire alternative of potentially losing §G[Root.GetLeaderName]§! and his loyal crew members, we reluctantly accepted these terms."
  eev_mutiny.6.desc: "$eev_mutiny.6.base$ minerals. $eev_mutiny.6.base1$"
  # Food version
- eev_mutiny.1.desc.food: "Amidst a severe food crisis affecting our empire, the §B[Root.GetFleetName]§! has stumbled upon a significant cache of nutrient-rich food rations inside the cargo. However, news of this discovery has not brought unity but division. Several crew members, driven by desperation and concern for their starving families, have initiated a mutiny. They intend to divert the shipment directly to their homeworlds, bypassing official distribution channels."
+ eev_mutiny.1.desc.food: "Amidst a severe food crisis affecting our empire, the §B[Root.GetFleetName]§! has stumbled upon a significant cache of nutrient-rich food rations inside the cargo. However, news of this discovery has not brought unity but division. Several crew members, driven by desperation and concern for their starving families, have initiated a mutiny. They intend to divert the shipment directly to their homeworld, bypassing official distribution channels."
  eev_mutiny.3.desc.food.base: "$eev_mutiny.3.base1$ food, $eev_mutiny.3.base2$"
  eev_mutiny.3.desc.food: "$eev_mutiny.3.base$ $eev_mutiny.3.desc.food.base$"
  eev_mutiny.4.desc.food: "$eev_mutiny.4.base$ $eev_mutiny.3.desc.food.base$"
  eev_mutiny.5.desc.food: "$eev_mutiny.5.base$ food before they could be apprehended. $eev_mutiny.5.base1$"
  eev_mutiny.6.desc.food: "$eev_mutiny.6.base$ food. $eev_mutiny.6.base1$"
+
+# 3.13 starts here
+ eev_last_signal.1.name: "Strange Signals Detected"
+ eev_last_signal.1.desc: "One of our colonies has begun receiving peculiar radio signals. After extensive analysis, it has been determined that these signals originated thousands of years ago from a distant alien civilization. What we are hearing now are the faint remnants of their communications. This could be all that remains of them..."
+ eev_icy_cruise.1.name: "Icy Cruise"
+ eev_icy_cruise.1.desc: "To our astonishment, a massive cruise ship has been discovered encased within this ice asteroid. Once, it likely ferried passengers across the galaxy, showcasing breathtaking sights to those aboard. How it became entombed in this asteroid remains an unsolved mystery."
+ eev_icy_cruise.1.a: "Study its conception."
+ eev_icy_cruise.1.b: "We need its alloys."

@@ -405,10 +405,11 @@ planet_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	pre_triggers = { has_owner = yes }
-	
+
 	trigger = {
+		NOT = { has_global_flag = eev_new_primitives_check }
 		is_artificial = no
-		years_passed = 20
+		years_passed = 25
 		owner = {
 			is_country_type = primitive
 			current_awareness_level < high
@@ -421,6 +422,7 @@ planet_event = {
 		}
 	}
 	immediate = {
+		set_global_flag = eev_new_primitives_check
 		random_list = {
 			70 = { observation_outpost_owner = { country_event = { id = eev_popup.30 days = 100 random = 100 } } }
 			30 = { }

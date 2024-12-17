@@ -132,6 +132,7 @@ eev_new_sentience_trigger = {
     years_passed >= 60
     any_owned_planet = {
         eev_is_valid_colony = yes
+        is_artificial = no
         colony_age >= 50
     }
 }

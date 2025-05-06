@@ -775,32 +775,32 @@ boom_asteroid_category = {
 }
 
 # Murder
-murder_category = {
-	desc = murder_category_desc
-	picture = GFX_evt_metropolis
-	level = 2
-	null_spawn_chance = 0.5
-	spawn_chance = {
-		modifier = {
-			add = 1
-			habitable_planet = yes
-			mid_game_years_passed > 10
-		}
-		modifier = {
-			factor = 0
-			from.owner = {
-				OR = {
-					is_ai = yes
-					eev_is_heavy_metal = yes
-					is_hive_empire = yes
-					is_gestalt = yes
-					is_xenophobe = yes
-				}
-			}
-		}
-	}
-	on_success = murder_event.1
-}
+# murder_category = {
+# 	desc = murder_category_desc
+# 	picture = GFX_evt_metropolis
+# 	level = 2
+# 	null_spawn_chance = 0.5
+# 	spawn_chance = {
+# 		modifier = {
+# 			add = 1
+# 			habitable_planet = yes
+# 			mid_game_years_passed > 10
+# 		}
+# 		modifier = {
+# 			factor = 0
+# 			from.owner = {
+# 				OR = {
+# 					is_ai = yes
+# 					eev_is_heavy_metal = yes
+# 					is_hive_empire = yes
+# 					is_gestalt = yes
+# 					is_xenophobe = yes
+# 				}
+# 			}
+# 		}
+# 	}
+# 	on_success = murder_event.1
+# }
 
 # Peak Intensity
 eev_peak_intensity_category = {

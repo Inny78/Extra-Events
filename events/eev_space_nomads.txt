@@ -192,7 +192,7 @@ ship_event = {
 			while = {
 				count = 3
 				random_owned_planet = {
-					create_pop = {
+					create_pop_group = {
 						species = last_created_species
 					}
 				}
@@ -241,7 +241,7 @@ ship_event = {
 			while = {
 				count = 3
 				random_owned_planet = {
-					create_pop = {
+					create_pop_group = {
 						species = last_created_species
 					}
 				}

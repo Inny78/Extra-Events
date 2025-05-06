@@ -24,7 +24,7 @@ namespace = murder_event
 # 		name = murder_event.1.b
 # 		owner = {
 # 			add_resource = { unity = -1000 }
-# 			random_owned_pop = { kill_pop = yes }
+# 			weighted_random_owned_pop_group = { kill_single_pop = yes }
 # 		}
 # 	}
 # }
@@ -71,7 +71,7 @@ namespace = murder_event
 # 		name = murder_event.3.a
 # 		owner = {
 # 			add_resource = { unity = -1000 }
-# 			random_owned_pop = { kill_pop = yes }
+# 			weighted_random_owned_pop_group = { kill_single_pop = yes }
 # 		}
 # 	}
 # }

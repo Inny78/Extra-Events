@@ -49,7 +49,7 @@ country_event = {
 			traits = random
 		}
 		random_owned_planet = {
-			create_pop = { species = last_created_species }
+			create_pop_group = { species = last_created_species }
 		}
 	}
 }
@@ -97,7 +97,7 @@ country_event = {
 			traits = random
 		}
 		random_owned_planet = {
-			create_pop = { species = last_created_species }
+			create_pop_group = { species = last_created_species }
 		}
 	}
 }

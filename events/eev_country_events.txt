@@ -10,7 +10,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	immediate =	{ 
+	immediate =	{
 		random_owned_pop = {
 			kill_pop = yes
 		}
@@ -36,14 +36,14 @@ country_event = {
 	show_sound = event_criminal_activity
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		# ruler = { kill_leader = { show_notification = yes } }
 	}
 
 	option = {
 		name = eev_popup.3.default
-		trigger = { 
+		trigger = {
 			is_authoritarian = no
 		}
 		add_monthly_resource_mult = {
@@ -53,7 +53,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.3.militarist
 		trigger = {
@@ -66,10 +66,10 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.3.peace
-		trigger = { 
+		trigger = {
 			OR = {
 				is_pacifist = yes
 				is_materialist = yes
@@ -83,7 +83,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.3.phobe
 		trigger = {
@@ -96,7 +96,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.3.authoritarian
 		trigger = {
@@ -117,7 +117,7 @@ country_event = {
 	show_sound = event_criminal_activity
 
 	is_triggered_only = yes
-	
+
 	immediate = { }
 
 	option = {
@@ -129,7 +129,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.4.b
 		add_monthly_resource_mult = {
@@ -150,7 +150,7 @@ country_event = {
 	show_sound = event_default
 
 	is_triggered_only = yes
-	
+
 	immediate = { }
 
 	option = {
@@ -162,7 +162,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.5.b
 		add_monthly_resource_mult = {
@@ -194,7 +194,7 @@ country_event = {
 			society_research = -75
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.6.b
 		add_resource = {
@@ -203,7 +203,7 @@ country_event = {
 			society_research = -75
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.6.c
 		trigger = {
@@ -226,7 +226,7 @@ country_event = {
 	show_sound = event_faceoff_in_space
 
 	is_triggered_only = yes
-	
+
 	immediate = { }
 
 	option = {
@@ -247,14 +247,14 @@ country_event = {
 			traits = random
 		}
 		random_owned_planet = {
-			create_pop = {
+			create_pop_group = {
 				species = last_created_species
 				ethos = { ethic = "ethic_fanatic_spiritualist" }
-			}	
+			}
 		}
 		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
-	
+
 	option = {
 		name = eev_popup.7.b
 		add_resource = {
@@ -267,7 +267,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.7.c
 		trigger = {
@@ -304,10 +304,10 @@ country_event = {
 			traits = random
 		}
 		random_owned_planet = {
-			create_pop = {
+			create_pop_group = {
 				species = last_created_species
 				ethos = { ethic = "ethic_fanatic_spiritualist" }
-			}	
+			}
 		}
 		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
@@ -338,7 +338,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.8.b
 		add_resource = {
@@ -374,7 +374,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.9.b
 		add_resource = {
@@ -420,7 +420,7 @@ country_event = {
 	desc = "eev_popup.12.desc"
 	picture = GFX_evt_unspeakable_horror
 	show_sound = event_dangerous_animals
-	
+
 	is_triggered_only = yes
 
 	immediate = { }
@@ -433,7 +433,7 @@ country_event = {
 			min = @tier1materialmin
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.12.c
 		add_monthly_resource_mult = {
@@ -459,7 +459,7 @@ country_event = {
 		name = eev_popup.13.a
 		add_resource = { minerals = 100 }
 	}
-	
+
 	option = {
 		name = eev_popup.13.b
 		add_resource = { energy = 325 }
@@ -538,7 +538,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.16.b
 		add_monthly_resource_mult = {
@@ -548,7 +548,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.16.c
 		add_monthly_resource_mult = {
@@ -558,7 +558,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.16.d
 		add_monthly_resource_mult = {
@@ -568,7 +568,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.16.e
 		add_monthly_resource_mult = {
@@ -578,7 +578,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = eev_popup.16.f
 		add_resource = {
@@ -617,7 +617,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = TOOPOOR
 		add_resource = {
@@ -656,7 +656,7 @@ country_event = {
 			max = @tier1unitymax
 		}
 	}
-	
+
 	option = {
 		name = TOOPOOR
 		add_resource = {
@@ -707,7 +707,7 @@ country_event = {
 			add_awareness = 5
 		}
 	}
-	
+
 	option = {
 		name = "eev_popup.22.b"
 		trigger = {
@@ -748,7 +748,7 @@ country_event = {
 	location = from
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = INTERESTING
 		from = {
@@ -758,13 +758,13 @@ country_event = {
 				portrait = random
 				traits = random
 			}
-			create_pop = {
+			create_pop_group = {
 				species = last_created_species
 			}
 		}
 		hidden_effect = { pd_remove_dummy_traits = yes }
 	}
-	
+
 	option = {
 		name = "eev_popup.30.b"
 		observation_breach_effect = {
@@ -800,9 +800,9 @@ country_event = {
 			traits = random
 		}
 		random_owned_planet = {
-			create_pop = {
+			create_pop_group = {
 				species = last_created_species
-			}	
+			}
 		}
 		hidden_effect = { pd_remove_dummy_traits = yes }
 	}

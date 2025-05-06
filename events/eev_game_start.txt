@@ -47,9 +47,9 @@ country_event = {
 			limit = {
 				NAND = {
 					has_diagraphers_trait_mod = yes
-					any_owned_pop = { is_multihive_drone = yes }
+					any_owned_pop_group = { is_multihive_drone = yes }
 				}
-				NOT = { any_owned_pop = { is_td_multi_hiveminded = yes } }
+				NOT = { any_owned_pop_group = { is_td_multi_hiveminded = yes } }
 			}
 			set_country_flag = eev_vanilla_hive
 		}

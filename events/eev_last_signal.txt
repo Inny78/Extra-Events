@@ -26,7 +26,7 @@ country_event = {
     option = {
         exclusive_trigger = {
             is_xenophobe = no
-            is_xenophile = yes
+            is_xenophile = no
         }
         name = PECULIAR
         add_resource = {

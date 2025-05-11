@@ -2,7 +2,7 @@ tags={
 	"Events"
 	"Gameplay"
 }
-name="Extra Events 3.12 Continued"
+name="Extra Events 4.0 Continued"
 picture="thumbnail.png"
-supported_version="3.12.*"
+supported_version="4.0.*"
 remote_file_id="2807778592"

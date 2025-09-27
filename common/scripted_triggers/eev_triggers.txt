@@ -194,7 +194,6 @@ eev_is_valid_habitat = {
 	AND = {
 		eev_is_habitat = yes
 		is_capital = no
-		num_pops >= 10
 	}
 }
 

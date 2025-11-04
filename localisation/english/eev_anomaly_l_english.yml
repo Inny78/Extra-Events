@@ -81,7 +81,7 @@
  eev_afraid_category: "Bombed planet"
  eev_afraid_category_desc: "Our ship uncovered a planet that suffered an intense bombardment that rendered it nearly unhinabitable. The sensors of our science ship are picking up faint traces of civilization and the crew wants to investigate."
  eev_ancient_echoes_category: "Ancient Echoes"
- eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimensional rift above §Y[Root.GetName]§!. §G[From.GetLeaderName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
+ eev_ancient_echoes_category_desc: "Our ship's instruments have detected an influx of tachyons emanating from a dimensional rift above §Y[Root.GetName]§!. §G[From.Leader.GetName]§! has decided to launch a probe from a safe distance to gather as much data as possible."
  eev_crashcol_category: "Metallic debris"
  eev_crashcol_category_desc: "The scanners of our science ship have detected some metallic debris on the surface of §Y[Root.GetName]§!. The team is preparing an expedition to investigate."
  eev_cushion_world: "Comfortable tundra"
